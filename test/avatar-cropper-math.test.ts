@@ -33,12 +33,11 @@ it.each(FIXTURES.results)("matches upstream geometry %#", (example) => {
     x: expect.closeTo(example.present.x, 10),
     y: expect.closeTo(example.present.y, 10),
   });
-  const settled = settle(state, bounds, frame);
-  expect({
-    ...settled,
-    x: settled.x === 0 ? 0 : settled.x,
-    y: settled.y === 0 ? 0 : settled.y,
-  }).toEqual(example.settle);
+  expect(settle(state, bounds, frame)).toEqual({
+    ...example.settle,
+    x: expect.closeTo(example.settle.x, 10),
+    y: expect.closeTo(example.settle.y, 10),
+  });
   expect(sourceCrop(example.settle, frame, source)).toEqual(example.crop);
   expect(minScale(bounds, frame, state.rotation)).toEqual(example.min);
   expect(coversMask(state, bounds.shape, frame)).toEqual(example.covers);
