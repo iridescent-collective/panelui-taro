@@ -87,20 +87,23 @@ jobs:
           assert.equal(pkg.repository.url, 'git+https://github.com/iridescent-collective/panelui-taro.git');
           JS
       - run: mise exec -- pnpm install --frozen-lockfile
-      - name: Check library and example
+      - name: Build and check library and example
         run: |
+          mise exec -- pnpm test:package
+          mise exec -- pnpm build
+          mise exec -- pnpm verify:package
           mise exec -- pnpm typecheck
           mise exec -- pnpm typecheck:example
           mise exec -- pnpm test
           mise exec -- pnpm test:panelui-example
           mise exec -- pnpm build:weapp:panelui
-      - name: Pack the release once
+      - name: Pack the checked release
         id: pack
         env:
           SOURCE_SHA: ${{ steps.source.outputs.sha }}
         run: |
           mkdir -p "$RUNNER_TEMP/npm-package"
-          mise exec -- pnpm pack --pack-destination "$RUNNER_TEMP/npm-package"
+          mise exec -- pnpm pack --ignore-scripts --pack-destination "$RUNNER_TEMP/npm-package"
           mise exec -- node --input-type=module <<'JS'
           import assert from 'node:assert/strict';
           import { execFileSync } from 'node:child_process';
@@ -129,7 +132,9 @@ jobs:
       - name: Build an independent consumer from this exact tarball
         env:
           PANELUI_PACKAGE_ARCHIVE: ${{ steps.pack.outputs.archive }}
-        run: mise exec -- pnpm verify:consumer
+        run: |
+          mise exec -- pnpm verify:package
+          mise exec -- pnpm verify:consumer
       - uses: actions/upload-artifact@v7.0.2
         with:
           name: npm-package

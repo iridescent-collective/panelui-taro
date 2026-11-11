@@ -133,6 +133,7 @@ assert.ok(
   !realpathSync(installed).startsWith(library),
   "Package must not link to workspace source"
 );
+assert.match(consumer.resolve("panelui-taro/button"), /[/\\]dist[/\\].*\.js$/u);
 assert.equal(
   consumer.resolve("@tarojs/runtime"),
   createRequire(consumer.resolve("panelui-taro/button")).resolve(

@@ -3,7 +3,7 @@ import path from "node:path";
 import tailwindcss from "@tailwindcss/postcss";
 import { defineConfig } from "@tarojs/cli";
 import type { UserConfigExport } from "@tarojs/cli";
-import type { UserConfig } from "vite";
+import type { Plugin, UserConfig } from "vite";
 import { UnifiedViteWeappTailwindcssPlugin } from "weapp-tailwindcss/vite";
 
 import { vitePluginWorkspaceWeappComponents } from "./vite-plugin-workspace-weapp";
@@ -22,6 +22,23 @@ export default defineConfig<"vite">(() => {
       type: "vite",
       vitePlugins: [
         vitePluginWorkspaceWeappComponents(path.resolve(__dirname, "..")),
+        {
+          name: "panelui-example-source-boundary",
+          config() {
+            return { resolve: { conditions: ["source"] } };
+          },
+          configResolved(config) {
+            if (!config.resolve.conditions.includes("source")) {
+              throw new Error("Example source export condition was not applied");
+            }
+          },
+          moduleParsed(module) {
+            const compiled = path.resolve(__dirname, "../../dist") + path.sep;
+            if (module.id.startsWith(compiled) && module.id.endsWith(".js")) {
+              this.error(`Example loaded a second, compiled library graph: ${module.id}`);
+            }
+          },
+        } satisfies Plugin,
         {
           config(config: UserConfig) {
             const postcss = config.css?.postcss;

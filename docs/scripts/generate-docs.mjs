@@ -72,7 +72,7 @@ for (const entry of entries) {
     throw new Error(`Missing public component: ${entry.slug}`);
   }
   const exported = pkg.exports[`./${entry.slug}`];
-  const sourcePath = typeof exported === "string" ? exported : exported.default;
+  const sourcePath = typeof exported === "string" ? exported : exported.source ?? exported.default;
   const symbols = record.targetApi.exports.filter(
     (name) =>
       !/(?:Props|Ref|Handle|Options|Variant|Size|Value|Context|State|Direction|Mode|Type|Data)$/u.test(

@@ -2,6 +2,12 @@
 
 The workflow is `.github/workflows/release-npm.yml`, named **Publish npm Package**. It accepts an existing GitHub Release or a manual run; it does not calculate versions or create releases. The repository can stay private while the npm package is public.
 
+## Package build
+
+`pnpm build` compiles `src/` to `dist/` as individual JavaScript modules with adjacent declarations. Relative imports are completed for ESM, and SCSS, JSON, CommonJS Taro plugins and vendored files/notices are copied. Public default/type exports resolve to `dist/`; `src/` remains available for Tailwind scanning and the explicit `source` condition used by the repository example and tests. The docs generator reads that source condition directly, so installation can generate docs before the library has been built.
+
+Run `pnpm build` before typechecking a fresh checkout. `pnpm test:package` covers import resolution and package entry contracts. `pnpm pack` automatically runs build and actual archive verification through `prepack`. The OIDC workflow performs those checks explicitly, packs with lifecycle scripts disabled, and verifies that exact archive again before testing the independent consumer. The OIDC-enabled publish job still never rebuilds or executes lifecycle scripts.
+
 ## One-time npm setup
 
 The npm package must already exist before a Trusted Publisher can be configured. If this is the first release, publish the initial version locally using `mise exec -- npm login` followed by `mise exec -- pnpm publish --access public`. Do not publish the same version again from Actions; use a new version for the first OIDC release.

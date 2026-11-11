@@ -9,7 +9,7 @@ export const comboboxPosition = (
   offset: number,
   flip: boolean,
   contentWidth: ComboboxProps["contentWidth"]
-) => {
+): CSSProperties => {
   const below =
     screenHeight - keyboardHeight - (anchor.y + anchor.height) - offset;
   let width: CSSProperties = { minWidth: `${anchor.width * 2}rpx` };

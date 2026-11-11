@@ -5,6 +5,7 @@
   "license": "MIT",
   "files": [
     "src",
+    "dist",
     "docs/README.md",
     "LICENSE",
     "LICENSE.weapp-core-escape",
@@ -20,1026 +21,1455 @@
   "typesVersions": {
     "*": {
       "card": [
-        "src/components/Card/index.tsx"
+        "dist/components/Card/index.d.ts"
       ],
       "button-group": [
-        "src/components/ButtonGroup/index.tsx"
+        "dist/components/ButtonGroup/index.d.ts"
       ],
       "progress": [
-        "src/components/Progress/index.tsx"
+        "dist/components/Progress/index.d.ts"
       ],
       "skeleton": [
-        "src/components/Skeleton/index.tsx"
+        "dist/components/Skeleton/index.d.ts"
       ],
       "separator": [
-        "src/components/Separator/index.tsx"
+        "dist/components/Separator/index.d.ts"
       ],
       "provider": [
-        "src/components/Provider/index.tsx"
+        "dist/components/Provider/index.d.ts"
       ],
       "label": [
-        "src/components/Label/index.tsx"
+        "dist/components/Label/index.d.ts"
       ],
       "surface": [
-        "src/components/Surface/index.tsx"
+        "dist/components/Surface/index.d.ts"
       ],
       "spinner": [
-        "src/components/Spinner/index.tsx"
+        "dist/components/Spinner/index.d.ts"
       ],
       "button": [
-        "src/components/Button/index.tsx"
+        "dist/components/Button/index.d.ts"
       ],
       "typography": [
-        "src/components/Typography/index.tsx"
+        "dist/components/Typography/index.d.ts"
       ],
       "badge": [
-        "src/components/Badge/index.tsx"
+        "dist/components/Badge/index.d.ts"
       ],
       "primitives/text": [
-        "src/components/primitives/Text/index.tsx"
+        "dist/components/primitives/Text/index.d.ts"
       ],
       "checkbox": [
-        "src/components/Checkbox/index.tsx"
+        "dist/components/Checkbox/index.d.ts"
       ],
       "field": [
-        "src/components/Field/index.tsx"
+        "dist/components/Field/index.d.ts"
       ],
       "switch": [
-        "src/components/Switch/index.tsx"
+        "dist/components/Switch/index.d.ts"
       ],
       "toggle-button": [
-        "src/components/ToggleButton/index.tsx"
+        "dist/components/ToggleButton/index.d.ts"
       ],
       "direction": [
-        "src/components/Direction/index.tsx"
+        "dist/components/Direction/index.d.ts"
       ],
       "icons": [
-        "src/icons/index.tsx"
+        "dist/icons/index.d.ts"
       ],
       "theme": [
-        "src/theme/use-theme.ts"
+        "dist/theme/use-theme.d.ts"
       ],
       "hooks/use-disclosure": [
-        "src/hooks/use-disclosure.ts"
+        "dist/hooks/use-disclosure.d.ts"
       ],
       "hooks/use-debounced-value": [
-        "src/hooks/use-debounced-value.ts"
+        "dist/hooks/use-debounced-value.d.ts"
       ],
       "hooks/use-previous": [
-        "src/hooks/use-previous.ts"
+        "dist/hooks/use-previous.d.ts"
       ],
       "primitives/controllable-state": [
-        "src/primitives/controllable-state.ts"
+        "dist/primitives/controllable-state.d.ts"
       ],
       "primitives/animated-pressable": [
-        "src/primitives/animated-pressable.tsx"
+        "dist/primitives/animated-pressable.d.ts"
       ],
       "platform/weapp-accessibility.json": [
-        "src/platform/weapp-accessibility.json"
+        "dist/platform/weapp-accessibility.json"
       ],
       "alert": [
-        "src/components/Alert/index.tsx"
+        "dist/components/Alert/index.d.ts"
       ],
       "radio-group": [
-        "src/components/RadioGroup/index.tsx"
+        "dist/components/RadioGroup/index.d.ts"
       ],
       "file-upload": [
-        "src/components/FileUpload/index.tsx"
+        "dist/components/FileUpload/index.d.ts"
       ],
       "input": [
-        "src/components/Input/index.tsx"
+        "dist/components/Input/index.d.ts"
       ],
       "textarea": [
-        "src/components/Textarea/index.tsx"
+        "dist/components/Textarea/index.d.ts"
       ],
       "collapsible": [
-        "src/components/Collapsible/index.tsx"
+        "dist/components/Collapsible/index.d.ts"
       ],
       "accordion": [
-        "src/components/Accordion/index.tsx"
+        "dist/components/Accordion/index.d.ts"
       ],
       "input-group": [
-        "src/components/InputGroup/index.tsx"
+        "dist/components/InputGroup/index.d.ts"
       ],
       "primitives/collapse": [
-        "src/primitives/collapse.tsx"
+        "dist/primitives/collapse.d.ts"
       ],
       "theme-selector": [
-        "src/components/ThemeSelector/index.tsx"
+        "dist/components/ThemeSelector/index.d.ts"
       ],
       "breadcrumb": [
-        "src/components/Breadcrumb/index.tsx"
+        "dist/components/Breadcrumb/index.d.ts"
       ],
       "empty-state": [
-        "src/components/EmptyState/index.tsx"
+        "dist/components/EmptyState/index.d.ts"
       ],
       "item": [
-        "src/components/Item/index.tsx"
+        "dist/components/Item/index.d.ts"
       ],
       "countdown": [
-        "src/components/Countdown/index.tsx"
+        "dist/components/Countdown/index.d.ts"
       ],
       "chip": [
-        "src/components/Chip/index.tsx"
+        "dist/components/Chip/index.d.ts"
       ],
       "avatar": [
-        "src/components/Avatar/index.tsx"
+        "dist/components/Avatar/index.d.ts"
       ],
       "form": [
-        "src/components/Form/index.tsx"
+        "dist/components/Form/index.d.ts"
       ],
       "pagination": [
-        "src/components/Pagination/index.tsx"
+        "dist/components/Pagination/index.d.ts"
       ],
       "grid-item": [
-        "src/components/GridItem/index.tsx"
+        "dist/components/GridItem/index.d.ts"
       ],
       "dialog": [
-        "src/components/Dialog/index.tsx"
+        "dist/components/Dialog/index.d.ts"
       ],
       "frame": [
-        "src/components/Frame/index.tsx"
+        "dist/components/Frame/index.d.ts"
       ],
       "number-input": [
-        "src/components/NumberInput/index.tsx"
+        "dist/components/NumberInput/index.d.ts"
       ],
       "meter": [
-        "src/components/Meter/index.tsx"
+        "dist/components/Meter/index.d.ts"
       ],
       "message": [
-        "src/components/Message/index.tsx"
+        "dist/components/Message/index.d.ts"
       ],
       "code-block": [
-        "src/components/CodeBlock/index.tsx"
+        "dist/components/CodeBlock/index.d.ts"
       ],
       "hooks/use-copy-to-clipboard": [
-        "src/hooks/use-copy-to-clipboard.ts"
+        "dist/hooks/use-copy-to-clipboard.d.ts"
       ],
       "table": [
-        "src/components/Table/index.tsx"
+        "dist/components/Table/index.d.ts"
       ],
       "response": [
-        "src/components/Response/index.tsx"
+        "dist/components/Response/index.d.ts"
       ],
       "bottom-sheet": [
-        "src/components/BottomSheet/index.tsx"
+        "dist/components/BottomSheet/index.d.ts"
       ],
       "popover": [
-        "src/components/Popover/index.tsx"
+        "dist/components/Popover/index.d.ts"
       ],
       "calendar": [
-        "src/components/Calendar/index.tsx"
+        "dist/components/Calendar/index.d.ts"
       ],
       "date-picker": [
-        "src/components/DatePicker/index.tsx"
+        "dist/components/DatePicker/index.d.ts"
       ],
       "steps": [
-        "src/components/Steps/index.tsx"
+        "dist/components/Steps/index.d.ts"
       ],
       "sources": [
-        "src/components/Sources/index.tsx"
+        "dist/components/Sources/index.d.ts"
       ],
       "rating": [
-        "src/components/Rating/index.tsx"
+        "dist/components/Rating/index.d.ts"
       ],
       "tooltip": [
-        "src/components/Tooltip/index.tsx"
+        "dist/components/Tooltip/index.d.ts"
       ],
       "tabs": [
-        "src/components/Tabs/index.tsx"
+        "dist/components/Tabs/index.d.ts"
       ],
       "select": [
-        "src/components/Select/index.tsx"
+        "dist/components/Select/index.d.ts"
       ],
       "scroll-canvas": [
-        "src/components/ScrollCanvas/index.tsx"
+        "dist/components/ScrollCanvas/index.d.ts"
       ],
       "primitives/scroll-progress": [
-        "src/primitives/scroll-progress.tsx"
+        "dist/primitives/scroll-progress.d.ts"
       ],
       "primitives/observable-number": [
-        "src/primitives/observable-number.ts"
+        "dist/primitives/observable-number.d.ts"
       ],
       "hooks/use-reveal-progress": [
-        "src/hooks/use-reveal-progress.ts"
+        "dist/hooks/use-reveal-progress.d.ts"
       ],
       "scroll-text": [
-        "src/components/ScrollText/index.tsx"
+        "dist/components/ScrollText/index.d.ts"
       ],
       "support": [
-        "src/components/Support/index.tsx"
+        "dist/components/Support/index.d.ts"
       ],
       "tree": [
-        "src/components/Tree/index.tsx"
+        "dist/components/Tree/index.d.ts"
       ],
       "feedback": [
-        "src/components/Feedback/index.tsx"
+        "dist/components/Feedback/index.d.ts"
       ],
       "primitives/keyboard-avoider": [
-        "src/primitives/keyboard-avoider.tsx"
+        "dist/primitives/keyboard-avoider.d.ts"
       ],
       "hooks/use-keyboard": [
-        "src/hooks/use-keyboard.ts"
+        "dist/hooks/use-keyboard.d.ts"
       ],
       "hooks/use-keyboard-avoidance": [
-        "src/hooks/use-keyboard-avoidance.ts"
+        "dist/hooks/use-keyboard-avoidance.d.ts"
       ],
       "shimmer": [
-        "src/components/Shimmer/index.tsx"
+        "dist/components/Shimmer/index.d.ts"
       ],
       "attachment": [
-        "src/components/Attachment/index.tsx"
+        "dist/components/Attachment/index.d.ts"
       ],
       "reasoning": [
-        "src/components/Reasoning/index.tsx"
+        "dist/components/Reasoning/index.d.ts"
       ],
       "task": [
-        "src/components/Task/index.tsx"
+        "dist/components/Task/index.d.ts"
       ],
       "marker": [
-        "src/components/Marker/index.tsx"
+        "dist/components/Marker/index.d.ts"
       ],
       "page-header": [
-        "src/components/PageHeader/index.tsx"
+        "dist/components/PageHeader/index.d.ts"
       ],
       "plan": [
-        "src/components/Plan/index.tsx"
+        "dist/components/Plan/index.d.ts"
       ],
       "image-generation": [
-        "src/components/ImageGeneration/index.tsx"
+        "dist/components/ImageGeneration/index.d.ts"
       ],
       "animated-badge": [
-        "src/components/AnimatedBadge/index.tsx"
+        "dist/components/AnimatedBadge/index.d.ts"
       ],
       "scroll-fade": [
-        "src/components/ScrollFade/index.tsx"
+        "dist/components/ScrollFade/index.d.ts"
       ],
       "circular-text": [
-        "src/components/CircularText/index.tsx"
+        "dist/components/CircularText/index.d.ts"
       ],
       "flip-card": [
-        "src/components/FlipCard/index.tsx"
+        "dist/components/FlipCard/index.d.ts"
       ],
       "scroll-blur": [
-        "src/components/ScrollBlur/index.tsx"
+        "dist/components/ScrollBlur/index.d.ts"
       ],
       "qr-code": [
-        "src/components/QRCode/index.tsx"
+        "dist/components/QRCode/index.d.ts"
       ],
       "marquee": [
-        "src/components/Marquee/index.tsx"
+        "dist/components/Marquee/index.d.ts"
       ],
       "otp-input": [
-        "src/components/OtpInput/index.tsx"
+        "dist/components/OtpInput/index.d.ts"
       ],
       "leaderboard": [
-        "src/components/Leaderboard/index.tsx"
+        "dist/components/Leaderboard/index.d.ts"
       ],
       "splitter": [
-        "src/components/Splitter/index.tsx"
+        "dist/components/Splitter/index.d.ts"
       ],
       "split-view": [
-        "src/components/SplitView/index.tsx"
+        "dist/components/SplitView/index.d.ts"
       ],
       "primitives/observable-value": [
-        "src/primitives/observable-value.ts"
+        "dist/primitives/observable-value.d.ts"
       ],
       "compare": [
-        "src/components/Compare/index.tsx"
+        "dist/components/Compare/index.d.ts"
       ],
       "loader": [
-        "src/components/Loader/index.tsx"
+        "dist/components/Loader/index.d.ts"
       ],
       "tag-input": [
-        "src/components/TagInput/index.tsx"
+        "dist/components/TagInput/index.d.ts"
       ],
       "section-rail": [
-        "src/components/SectionRail/index.tsx"
+        "dist/components/SectionRail/index.d.ts"
       ],
       "progress-button": [
-        "src/components/ProgressButton/index.tsx"
+        "dist/components/ProgressButton/index.d.ts"
       ],
       "section-progress": [
-        "src/components/SectionProgress/index.tsx"
+        "dist/components/SectionProgress/index.d.ts"
       ],
       "slider": [
-        "src/components/Slider/index.tsx"
+        "dist/components/Slider/index.d.ts"
       ],
       "toast": [
-        "src/components/Toast/index.tsx"
+        "dist/components/Toast/index.d.ts"
       ],
       "slide-button": [
-        "src/components/SlideButton/index.tsx"
+        "dist/components/SlideButton/index.d.ts"
       ],
       "thinking-orb": [
-        "src/components/ThinkingOrb/index.tsx"
+        "dist/components/ThinkingOrb/index.d.ts"
       ],
       "scroll-header": [
-        "src/components/ScrollHeader/index.tsx"
+        "dist/components/ScrollHeader/index.d.ts"
       ],
       "soundwave": [
-        "src/components/Soundwave/index.tsx"
+        "dist/components/Soundwave/index.d.ts"
       ],
       "selection-mode": [
-        "src/components/SelectionMode/index.tsx"
+        "dist/components/SelectionMode/index.d.ts"
       ],
       "search-bar": [
-        "src/components/SearchBar/index.tsx"
+        "dist/components/SearchBar/index.d.ts"
       ],
       "primitives/input-focus": [
-        "src/primitives/input-focus.ts"
+        "dist/primitives/input-focus.d.ts"
       ],
       "time-picker": [
-        "src/components/TimePicker/index.tsx"
+        "dist/components/TimePicker/index.d.ts"
       ],
       "utils/time": [
-        "src/lib/time.ts"
+        "dist/lib/time.d.ts"
       ],
       "date-time-picker": [
-        "src/components/DateTimePicker/index.tsx"
+        "dist/components/DateTimePicker/index.d.ts"
       ],
       "menu": [
-        "src/components/Menu/index.tsx"
+        "dist/components/Menu/index.d.ts"
       ],
       "context-menu": [
-        "src/components/ContextMenu/index.tsx"
+        "dist/components/ContextMenu/index.d.ts"
       ],
       "carousel": [
-        "src/components/Carousel/index.tsx"
+        "dist/components/Carousel/index.d.ts"
       ],
       "line-chart": [
-        "src/components/LineChart/index.tsx"
+        "dist/components/LineChart/index.d.ts"
       ],
       "kpi": [
-        "src/components/Kpi/index.tsx"
+        "dist/components/Kpi/index.d.ts"
       ],
       "area-chart": [
-        "src/components/AreaChart/index.tsx"
+        "dist/components/AreaChart/index.d.ts"
       ],
       "bar-chart": [
-        "src/components/BarChart/index.tsx"
+        "dist/components/BarChart/index.d.ts"
       ],
       "ring-chart": [
-        "src/components/RingChart/index.tsx"
+        "dist/components/RingChart/index.d.ts"
       ],
       "pie-chart": [
-        "src/components/PieChart/index.tsx"
+        "dist/components/PieChart/index.d.ts"
       ],
       "polar-area-chart": [
-        "src/components/PolarAreaChart/index.tsx"
+        "dist/components/PolarAreaChart/index.d.ts"
       ],
       "radar-chart": [
-        "src/components/RadarChart/index.tsx"
+        "dist/components/RadarChart/index.d.ts"
       ],
       "drawer": [
-        "src/components/Drawer/index.tsx"
+        "dist/components/Drawer/index.d.ts"
       ],
       "signature": [
-        "src/components/Signature/index.tsx"
+        "dist/components/Signature/index.d.ts"
       ],
       "swipe": [
-        "src/components/Swipe/index.tsx"
+        "dist/components/Swipe/index.d.ts"
       ],
       "funnel-chart": [
-        "src/components/FunnelChart/index.tsx"
+        "dist/components/FunnelChart/index.d.ts"
       ],
       "fab": [
-        "src/components/Fab/index.tsx"
+        "dist/components/Fab/index.d.ts"
       ],
       "pyramid-chart": [
-        "src/components/PyramidChart/index.tsx"
+        "dist/components/PyramidChart/index.d.ts"
       ],
       "text-animation": [
-        "src/components/TextAnimation/index.tsx"
+        "dist/components/TextAnimation/index.d.ts"
       ],
       "timeline": [
-        "src/components/Timeline/index.tsx"
+        "dist/components/Timeline/index.d.ts"
       ],
       "waterfall-chart": [
-        "src/components/WaterfallChart/index.tsx"
+        "dist/components/WaterfallChart/index.d.ts"
       ],
       "stack-card": [
-        "src/components/StackCard/index.tsx"
+        "dist/components/StackCard/index.d.ts"
       ],
       "color-picker": [
-        "src/components/ColorPicker/index.tsx"
+        "dist/components/ColorPicker/index.d.ts"
       ],
       "post": [
-        "src/components/Post/index.tsx"
+        "dist/components/Post/index.d.ts"
       ],
       "bubble-chart": [
-        "src/components/BubbleChart/index.tsx"
+        "dist/components/BubbleChart/index.d.ts"
       ],
       "scatter-chart": [
-        "src/components/ScatterChart/index.tsx"
+        "dist/components/ScatterChart/index.d.ts"
       ],
       "combobox": [
-        "src/components/Combobox/index.tsx"
+        "dist/components/Combobox/index.d.ts"
       ],
       "ai-input": [
-        "src/components/AIInput/index.tsx"
+        "dist/components/AIInput/index.d.ts"
       ],
       "image-viewer": [
-        "src/components/ImageViewer/index.tsx"
+        "dist/components/ImageViewer/index.d.ts"
       ],
       "heatmap-chart": [
-        "src/components/HeatmapChart/index.tsx"
+        "dist/components/HeatmapChart/index.d.ts"
       ],
       "planner": [
-        "src/components/Planner/index.tsx"
+        "dist/components/Planner/index.d.ts"
       ],
       "sortable": [
-        "src/components/Sortable/index.tsx"
+        "dist/components/Sortable/index.d.ts"
       ],
       "hex-chart": [
-        "src/components/HexChart/index.tsx"
+        "dist/components/HexChart/index.d.ts"
       ],
       "questionnaire": [
-        "src/components/Questionnaire/index.tsx"
+        "dist/components/Questionnaire/index.d.ts"
       ],
       "tour": [
-        "src/components/Tour/index.tsx"
+        "dist/components/Tour/index.d.ts"
       ],
       "message-scroller": [
-        "src/components/MessageScroller/index.tsx"
+        "dist/components/MessageScroller/index.d.ts"
       ],
       "candlestick-chart": [
-        "src/components/CandlestickChart/index.tsx"
+        "dist/components/CandlestickChart/index.d.ts"
       ],
       "bump-chart": [
-        "src/components/BumpChart/index.tsx"
+        "dist/components/BumpChart/index.d.ts"
       ],
       "live-line-chart": [
-        "src/components/LiveLineChart/index.tsx"
+        "dist/components/LiveLineChart/index.d.ts"
       ],
       "markdown-editor": [
-        "src/components/MarkdownEditor/index.tsx"
+        "dist/components/MarkdownEditor/index.d.ts"
       ],
       "sketch": [
-        "src/components/Sketch/index.tsx"
+        "dist/components/Sketch/index.d.ts"
       ],
       "panelside": [
-        "src/components/Panelside/index.tsx"
+        "dist/components/Panelside/index.d.ts"
       ],
       "mirror-area-chart": [
-        "src/components/MirrorAreaChart/index.tsx"
+        "dist/components/MirrorAreaChart/index.d.ts"
       ],
       "treemap-chart": [
-        "src/components/TreemapChart/index.tsx"
+        "dist/components/TreemapChart/index.d.ts"
       ],
       "flow": [
-        "src/components/Flow/index.tsx"
+        "dist/components/Flow/index.d.ts"
       ],
       "sankey-chart": [
-        "src/components/SankeyChart/index.tsx"
+        "dist/components/SankeyChart/index.d.ts"
       ],
       "map": [
-        "src/components/Map/index.tsx"
+        "dist/components/Map/index.d.ts"
       ],
       "plot": [
-        "src/components/Plot/index.tsx"
+        "dist/components/Plot/index.d.ts"
       ],
       "avatar-cropper": [
-        "src/components/AvatarCropper/index.tsx"
+        "dist/components/AvatarCropper/index.d.ts"
       ],
       "scroll-area": [
-        "src/components/ScrollArea/index.tsx"
+        "dist/components/ScrollArea/index.d.ts"
       ],
       "image": [
-        "src/components/Image/index.tsx"
+        "dist/components/Image/index.d.ts"
       ],
       "profile-identity": [
-        "src/components/ProfileIdentity/index.tsx"
+        "dist/components/ProfileIdentity/index.d.ts"
       ],
       "setup-progress-header": [
-        "src/components/SetupProgressHeader/index.tsx"
+        "dist/components/SetupProgressHeader/index.d.ts"
       ],
       "weapp-hosts": [
-        "src/primitives/weapp-hosts.tsx"
+        "dist/primitives/weapp-hosts.d.ts"
       ],
       "icons/drawing": [
-        "src/icons/Drawing/index.tsx"
+        "dist/icons/Drawing/index.d.ts"
       ],
       "weapp-chart": [
-        "src/primitives/weapp-chart.tsx"
+        "dist/primitives/weapp-chart.d.ts"
       ],
       "camera": [
-        "src/components/Camera/index.tsx"
+        "dist/components/Camera/index.d.ts"
       ],
       "hooks/use-breakpoint": [
-        "src/hooks/use-breakpoint.ts"
+        "dist/hooks/use-breakpoint.d.ts"
       ],
       "hooks/use-scroll-sections": [
-        "src/hooks/use-scroll-sections.ts"
+        "dist/hooks/use-scroll-sections.d.ts"
       ],
       "hooks/use-skeleton-handoff": [
-        "src/hooks/use-skeleton-handoff.ts"
+        "dist/hooks/use-skeleton-handoff.d.ts"
       ],
       "hooks/use-back-handler": [
-        "src/hooks/use-back-handler.ts"
+        "dist/hooks/use-back-handler.d.ts"
       ],
       "hooks/use-direction": [
-        "src/hooks/use-direction.ts"
+        "dist/hooks/use-direction.d.ts"
       ],
       "primitives/glass": [
-        "src/primitives/glass.tsx"
+        "dist/primitives/glass.d.ts"
       ],
       "primitives/portal": [
-        "src/primitives/portal.tsx"
+        "dist/primitives/portal.d.ts"
       ],
       "primitives/scrim": [
-        "src/primitives/scrim.tsx"
+        "dist/primitives/scrim.d.ts"
       ],
       "primitives/chart-accessibility": [
-        "src/primitives/chart-accessibility.tsx"
+        "dist/primitives/chart-accessibility.d.ts"
       ],
       "utils/cn": [
-        "src/lib/utils.ts"
+        "dist/lib/utils.d.ts"
       ],
       "utils/color": [
-        "src/lib/color.ts"
+        "dist/lib/color.d.ts"
       ],
       "primitives/refs": [
-        "src/primitives/refs.ts"
+        "dist/primitives/refs.d.ts"
       ]
     }
   },
   "exports": {
     "./card": {
-      "types": "./src/components/Card/index.tsx",
-      "default": "./src/components/Card/index.tsx"
+      "types": "./dist/components/Card/index.d.ts",
+      "source": "./src/components/Card/index.tsx",
+      "default": "./dist/components/Card/index.js"
     },
     "./button-group": {
-      "types": "./src/components/ButtonGroup/index.tsx",
-      "default": "./src/components/ButtonGroup/index.tsx"
+      "types": "./dist/components/ButtonGroup/index.d.ts",
+      "source": "./src/components/ButtonGroup/index.tsx",
+      "default": "./dist/components/ButtonGroup/index.js"
     },
     "./progress": {
-      "types": "./src/components/Progress/index.tsx",
-      "default": "./src/components/Progress/index.tsx"
+      "types": "./dist/components/Progress/index.d.ts",
+      "source": "./src/components/Progress/index.tsx",
+      "default": "./dist/components/Progress/index.js"
     },
     "./skeleton": {
-      "types": "./src/components/Skeleton/index.tsx",
-      "default": "./src/components/Skeleton/index.tsx"
+      "types": "./dist/components/Skeleton/index.d.ts",
+      "source": "./src/components/Skeleton/index.tsx",
+      "default": "./dist/components/Skeleton/index.js"
     },
     "./separator": {
-      "types": "./src/components/Separator/index.tsx",
-      "default": "./src/components/Separator/index.tsx"
+      "types": "./dist/components/Separator/index.d.ts",
+      "source": "./src/components/Separator/index.tsx",
+      "default": "./dist/components/Separator/index.js"
     },
     "./provider": {
-      "types": "./src/components/Provider/index.tsx",
-      "default": "./src/components/Provider/index.tsx"
+      "types": "./dist/components/Provider/index.d.ts",
+      "source": "./src/components/Provider/index.tsx",
+      "default": "./dist/components/Provider/index.js"
     },
     "./label": {
-      "types": "./src/components/Label/index.tsx",
-      "default": "./src/components/Label/index.tsx"
+      "types": "./dist/components/Label/index.d.ts",
+      "source": "./src/components/Label/index.tsx",
+      "default": "./dist/components/Label/index.js"
     },
     "./surface": {
-      "types": "./src/components/Surface/index.tsx",
-      "default": "./src/components/Surface/index.tsx"
+      "types": "./dist/components/Surface/index.d.ts",
+      "source": "./src/components/Surface/index.tsx",
+      "default": "./dist/components/Surface/index.js"
     },
     "./spinner": {
-      "types": "./src/components/Spinner/index.tsx",
-      "default": "./src/components/Spinner/index.tsx"
+      "types": "./dist/components/Spinner/index.d.ts",
+      "source": "./src/components/Spinner/index.tsx",
+      "default": "./dist/components/Spinner/index.js"
     },
     "./button": {
-      "types": "./src/components/Button/index.tsx",
-      "default": "./src/components/Button/index.tsx"
+      "types": "./dist/components/Button/index.d.ts",
+      "source": "./src/components/Button/index.tsx",
+      "default": "./dist/components/Button/index.js"
     },
     "./typography": {
-      "types": "./src/components/Typography/index.tsx",
-      "default": "./src/components/Typography/index.tsx"
+      "types": "./dist/components/Typography/index.d.ts",
+      "source": "./src/components/Typography/index.tsx",
+      "default": "./dist/components/Typography/index.js"
     },
     "./badge": {
-      "types": "./src/components/Badge/index.tsx",
-      "default": "./src/components/Badge/index.tsx"
+      "types": "./dist/components/Badge/index.d.ts",
+      "source": "./src/components/Badge/index.tsx",
+      "default": "./dist/components/Badge/index.js"
     },
     "./primitives/text": {
-      "types": "./src/components/primitives/Text/index.tsx",
-      "default": "./src/components/primitives/Text/index.tsx"
+      "types": "./dist/components/primitives/Text/index.d.ts",
+      "source": "./src/components/primitives/Text/index.tsx",
+      "default": "./dist/components/primitives/Text/index.js"
     },
-    "./styles": "./src/styles/panel.scss",
+    "./styles": "./dist/styles/panel.scss",
     "./package.json": "./package.json",
     "./checkbox": {
-      "types": "./src/components/Checkbox/index.tsx",
-      "default": "./src/components/Checkbox/index.tsx"
+      "types": "./dist/components/Checkbox/index.d.ts",
+      "source": "./src/components/Checkbox/index.tsx",
+      "default": "./dist/components/Checkbox/index.js"
     },
     "./field": {
-      "types": "./src/components/Field/index.tsx",
-      "default": "./src/components/Field/index.tsx"
+      "types": "./dist/components/Field/index.d.ts",
+      "source": "./src/components/Field/index.tsx",
+      "default": "./dist/components/Field/index.js"
     },
     "./switch": {
-      "types": "./src/components/Switch/index.tsx",
-      "default": "./src/components/Switch/index.tsx"
+      "types": "./dist/components/Switch/index.d.ts",
+      "source": "./src/components/Switch/index.tsx",
+      "default": "./dist/components/Switch/index.js"
     },
     "./toggle-button": {
-      "types": "./src/components/ToggleButton/index.tsx",
-      "default": "./src/components/ToggleButton/index.tsx"
+      "types": "./dist/components/ToggleButton/index.d.ts",
+      "source": "./src/components/ToggleButton/index.tsx",
+      "default": "./dist/components/ToggleButton/index.js"
     },
     "./direction": {
-      "types": "./src/components/Direction/index.tsx",
-      "default": "./src/components/Direction/index.tsx"
+      "types": "./dist/components/Direction/index.d.ts",
+      "source": "./src/components/Direction/index.tsx",
+      "default": "./dist/components/Direction/index.js"
     },
     "./icons": {
-      "types": "./src/icons/index.tsx",
-      "default": "./src/icons/index.tsx"
+      "types": "./dist/icons/index.d.ts",
+      "source": "./src/icons/index.tsx",
+      "default": "./dist/icons/index.js"
     },
     "./theme": {
-      "types": "./src/theme/use-theme.ts",
-      "default": "./src/theme/use-theme.ts"
+      "types": "./dist/theme/use-theme.d.ts",
+      "source": "./src/theme/use-theme.ts",
+      "default": "./dist/theme/use-theme.js"
     },
     "./hooks/use-disclosure": {
-      "types": "./src/hooks/use-disclosure.ts",
-      "default": "./src/hooks/use-disclosure.ts"
+      "types": "./dist/hooks/use-disclosure.d.ts",
+      "source": "./src/hooks/use-disclosure.ts",
+      "default": "./dist/hooks/use-disclosure.js"
     },
     "./hooks/use-debounced-value": {
-      "types": "./src/hooks/use-debounced-value.ts",
-      "default": "./src/hooks/use-debounced-value.ts"
+      "types": "./dist/hooks/use-debounced-value.d.ts",
+      "source": "./src/hooks/use-debounced-value.ts",
+      "default": "./dist/hooks/use-debounced-value.js"
     },
     "./hooks/use-previous": {
-      "types": "./src/hooks/use-previous.ts",
-      "default": "./src/hooks/use-previous.ts"
+      "types": "./dist/hooks/use-previous.d.ts",
+      "source": "./src/hooks/use-previous.ts",
+      "default": "./dist/hooks/use-previous.js"
     },
     "./primitives/controllable-state": {
-      "types": "./src/primitives/controllable-state.ts",
-      "default": "./src/primitives/controllable-state.ts"
+      "types": "./dist/primitives/controllable-state.d.ts",
+      "source": "./src/primitives/controllable-state.ts",
+      "default": "./dist/primitives/controllable-state.js"
     },
     "./primitives/animated-pressable": {
-      "types": "./src/primitives/animated-pressable.tsx",
-      "default": "./src/primitives/animated-pressable.tsx"
+      "types": "./dist/primitives/animated-pressable.d.ts",
+      "source": "./src/primitives/animated-pressable.tsx",
+      "default": "./dist/primitives/animated-pressable.js"
     },
-    "./platform/weapp-accessibility.json": "./src/platform/weapp-accessibility.json",
+    "./platform/weapp-accessibility.json": "./dist/platform/weapp-accessibility.json",
     "./alert": {
-      "types": "./src/components/Alert/index.tsx",
-      "default": "./src/components/Alert/index.tsx"
+      "types": "./dist/components/Alert/index.d.ts",
+      "source": "./src/components/Alert/index.tsx",
+      "default": "./dist/components/Alert/index.js"
     },
     "./radio-group": {
-      "types": "./src/components/RadioGroup/index.tsx",
-      "default": "./src/components/RadioGroup/index.tsx"
+      "types": "./dist/components/RadioGroup/index.d.ts",
+      "source": "./src/components/RadioGroup/index.tsx",
+      "default": "./dist/components/RadioGroup/index.js"
     },
     "./input": {
-      "types": "./src/components/Input/index.tsx",
-      "default": "./src/components/Input/index.tsx"
+      "types": "./dist/components/Input/index.d.ts",
+      "source": "./src/components/Input/index.tsx",
+      "default": "./dist/components/Input/index.js"
     },
     "./textarea": {
-      "types": "./src/components/Textarea/index.tsx",
-      "default": "./src/components/Textarea/index.tsx"
+      "types": "./dist/components/Textarea/index.d.ts",
+      "source": "./src/components/Textarea/index.tsx",
+      "default": "./dist/components/Textarea/index.js"
     },
     "./collapsible": {
-      "types": "./src/components/Collapsible/index.tsx",
-      "default": "./src/components/Collapsible/index.tsx"
+      "types": "./dist/components/Collapsible/index.d.ts",
+      "source": "./src/components/Collapsible/index.tsx",
+      "default": "./dist/components/Collapsible/index.js"
     },
     "./accordion": {
-      "types": "./src/components/Accordion/index.tsx",
-      "default": "./src/components/Accordion/index.tsx"
+      "types": "./dist/components/Accordion/index.d.ts",
+      "source": "./src/components/Accordion/index.tsx",
+      "default": "./dist/components/Accordion/index.js"
     },
     "./input-group": {
-      "types": "./src/components/InputGroup/index.tsx",
-      "default": "./src/components/InputGroup/index.tsx"
+      "types": "./dist/components/InputGroup/index.d.ts",
+      "source": "./src/components/InputGroup/index.tsx",
+      "default": "./dist/components/InputGroup/index.js"
     },
     "./primitives/collapse": {
-      "types": "./src/primitives/collapse.tsx",
-      "default": "./src/primitives/collapse.tsx"
+      "types": "./dist/primitives/collapse.d.ts",
+      "source": "./src/primitives/collapse.tsx",
+      "default": "./dist/primitives/collapse.js"
     },
     "./theme-selector": {
-      "types": "./src/components/ThemeSelector/index.tsx",
-      "default": "./src/components/ThemeSelector/index.tsx"
+      "types": "./dist/components/ThemeSelector/index.d.ts",
+      "source": "./src/components/ThemeSelector/index.tsx",
+      "default": "./dist/components/ThemeSelector/index.js"
     },
     "./breadcrumb": {
-      "types": "./src/components/Breadcrumb/index.tsx",
-      "default": "./src/components/Breadcrumb/index.tsx"
+      "types": "./dist/components/Breadcrumb/index.d.ts",
+      "source": "./src/components/Breadcrumb/index.tsx",
+      "default": "./dist/components/Breadcrumb/index.js"
     },
     "./empty-state": {
-      "types": "./src/components/EmptyState/index.tsx",
-      "default": "./src/components/EmptyState/index.tsx"
+      "types": "./dist/components/EmptyState/index.d.ts",
+      "source": "./src/components/EmptyState/index.tsx",
+      "default": "./dist/components/EmptyState/index.js"
     },
     "./item": {
-      "types": "./src/components/Item/index.tsx",
-      "default": "./src/components/Item/index.tsx"
+      "types": "./dist/components/Item/index.d.ts",
+      "source": "./src/components/Item/index.tsx",
+      "default": "./dist/components/Item/index.js"
     },
     "./countdown": {
-      "types": "./src/components/Countdown/index.tsx",
-      "default": "./src/components/Countdown/index.tsx"
+      "types": "./dist/components/Countdown/index.d.ts",
+      "source": "./src/components/Countdown/index.tsx",
+      "default": "./dist/components/Countdown/index.js"
     },
     "./chip": {
-      "types": "./src/components/Chip/index.tsx",
-      "default": "./src/components/Chip/index.tsx"
+      "types": "./dist/components/Chip/index.d.ts",
+      "source": "./src/components/Chip/index.tsx",
+      "default": "./dist/components/Chip/index.js"
     },
     "./avatar": {
-      "types": "./src/components/Avatar/index.tsx",
-      "default": "./src/components/Avatar/index.tsx"
+      "types": "./dist/components/Avatar/index.d.ts",
+      "source": "./src/components/Avatar/index.tsx",
+      "default": "./dist/components/Avatar/index.js"
     },
     "./form": {
-      "types": "./src/components/Form/index.tsx",
-      "default": "./src/components/Form/index.tsx"
+      "types": "./dist/components/Form/index.d.ts",
+      "source": "./src/components/Form/index.tsx",
+      "default": "./dist/components/Form/index.js"
     },
     "./pagination": {
-      "types": "./src/components/Pagination/index.tsx",
-      "default": "./src/components/Pagination/index.tsx"
+      "types": "./dist/components/Pagination/index.d.ts",
+      "source": "./src/components/Pagination/index.tsx",
+      "default": "./dist/components/Pagination/index.js"
     },
     "./grid-item": {
-      "types": "./src/components/GridItem/index.tsx",
-      "default": "./src/components/GridItem/index.tsx"
+      "types": "./dist/components/GridItem/index.d.ts",
+      "source": "./src/components/GridItem/index.tsx",
+      "default": "./dist/components/GridItem/index.js"
     },
     "./dialog": {
-      "types": "./src/components/Dialog/index.tsx",
-      "default": "./src/components/Dialog/index.tsx"
+      "types": "./dist/components/Dialog/index.d.ts",
+      "source": "./src/components/Dialog/index.tsx",
+      "default": "./dist/components/Dialog/index.js"
     },
     "./frame": {
-      "types": "./src/components/Frame/index.tsx",
-      "default": "./src/components/Frame/index.tsx"
+      "types": "./dist/components/Frame/index.d.ts",
+      "source": "./src/components/Frame/index.tsx",
+      "default": "./dist/components/Frame/index.js"
     },
     "./number-input": {
-      "types": "./src/components/NumberInput/index.tsx",
-      "default": "./src/components/NumberInput/index.tsx"
+      "types": "./dist/components/NumberInput/index.d.ts",
+      "source": "./src/components/NumberInput/index.tsx",
+      "default": "./dist/components/NumberInput/index.js"
     },
     "./meter": {
-      "types": "./src/components/Meter/index.tsx",
-      "default": "./src/components/Meter/index.tsx"
+      "types": "./dist/components/Meter/index.d.ts",
+      "source": "./src/components/Meter/index.tsx",
+      "default": "./dist/components/Meter/index.js"
     },
     "./message": {
-      "types": "./src/components/Message/index.tsx",
-      "default": "./src/components/Message/index.tsx"
+      "types": "./dist/components/Message/index.d.ts",
+      "source": "./src/components/Message/index.tsx",
+      "default": "./dist/components/Message/index.js"
     },
     "./code-block": {
-      "types": "./src/components/CodeBlock/index.tsx",
-      "default": "./src/components/CodeBlock/index.tsx"
+      "types": "./dist/components/CodeBlock/index.d.ts",
+      "source": "./src/components/CodeBlock/index.tsx",
+      "default": "./dist/components/CodeBlock/index.js"
     },
     "./hooks/use-copy-to-clipboard": {
-      "types": "./src/hooks/use-copy-to-clipboard.ts",
-      "default": "./src/hooks/use-copy-to-clipboard.ts"
+      "types": "./dist/hooks/use-copy-to-clipboard.d.ts",
+      "source": "./src/hooks/use-copy-to-clipboard.ts",
+      "default": "./dist/hooks/use-copy-to-clipboard.js"
     },
     "./table": {
-      "types": "./src/components/Table/index.tsx",
-      "default": "./src/components/Table/index.tsx"
+      "types": "./dist/components/Table/index.d.ts",
+      "source": "./src/components/Table/index.tsx",
+      "default": "./dist/components/Table/index.js"
     },
     "./response": {
-      "types": "./src/components/Response/index.tsx",
-      "default": "./src/components/Response/index.tsx"
+      "types": "./dist/components/Response/index.d.ts",
+      "source": "./src/components/Response/index.tsx",
+      "default": "./dist/components/Response/index.js"
     },
     "./bottom-sheet": {
-      "types": "./src/components/BottomSheet/index.tsx",
-      "default": "./src/components/BottomSheet/index.tsx"
+      "types": "./dist/components/BottomSheet/index.d.ts",
+      "source": "./src/components/BottomSheet/index.tsx",
+      "default": "./dist/components/BottomSheet/index.js"
     },
     "./popover": {
-      "types": "./src/components/Popover/index.tsx",
-      "default": "./src/components/Popover/index.tsx"
+      "types": "./dist/components/Popover/index.d.ts",
+      "source": "./src/components/Popover/index.tsx",
+      "default": "./dist/components/Popover/index.js"
     },
     "./calendar": {
-      "types": "./src/components/Calendar/index.tsx",
-      "default": "./src/components/Calendar/index.tsx"
+      "types": "./dist/components/Calendar/index.d.ts",
+      "source": "./src/components/Calendar/index.tsx",
+      "default": "./dist/components/Calendar/index.js"
     },
     "./date-picker": {
-      "types": "./src/components/DatePicker/index.tsx",
-      "default": "./src/components/DatePicker/index.tsx"
+      "types": "./dist/components/DatePicker/index.d.ts",
+      "source": "./src/components/DatePicker/index.tsx",
+      "default": "./dist/components/DatePicker/index.js"
     },
     "./steps": {
-      "types": "./src/components/Steps/index.tsx",
-      "default": "./src/components/Steps/index.tsx"
+      "types": "./dist/components/Steps/index.d.ts",
+      "source": "./src/components/Steps/index.tsx",
+      "default": "./dist/components/Steps/index.js"
     },
     "./sources": {
-      "types": "./src/components/Sources/index.tsx",
-      "default": "./src/components/Sources/index.tsx"
+      "types": "./dist/components/Sources/index.d.ts",
+      "source": "./src/components/Sources/index.tsx",
+      "default": "./dist/components/Sources/index.js"
     },
     "./rating": {
-      "types": "./src/components/Rating/index.tsx",
-      "default": "./src/components/Rating/index.tsx"
+      "types": "./dist/components/Rating/index.d.ts",
+      "source": "./src/components/Rating/index.tsx",
+      "default": "./dist/components/Rating/index.js"
     },
     "./tooltip": {
-      "types": "./src/components/Tooltip/index.tsx",
-      "default": "./src/components/Tooltip/index.tsx"
+      "types": "./dist/components/Tooltip/index.d.ts",
+      "source": "./src/components/Tooltip/index.tsx",
+      "default": "./dist/components/Tooltip/index.js"
     },
     "./tabs": {
-      "types": "./src/components/Tabs/index.tsx",
-      "default": "./src/components/Tabs/index.tsx"
+      "types": "./dist/components/Tabs/index.d.ts",
+      "source": "./src/components/Tabs/index.tsx",
+      "default": "./dist/components/Tabs/index.js"
     },
     "./select": {
-      "types": "./src/components/Select/index.tsx",
-      "default": "./src/components/Select/index.tsx"
+      "types": "./dist/components/Select/index.d.ts",
+      "source": "./src/components/Select/index.tsx",
+      "default": "./dist/components/Select/index.js"
     },
     "./scroll-canvas": {
-      "types": "./src/components/ScrollCanvas/index.tsx",
-      "default": "./src/components/ScrollCanvas/index.tsx"
+      "types": "./dist/components/ScrollCanvas/index.d.ts",
+      "source": "./src/components/ScrollCanvas/index.tsx",
+      "default": "./dist/components/ScrollCanvas/index.js"
     },
     "./primitives/scroll-progress": {
-      "types": "./src/primitives/scroll-progress.tsx",
-      "default": "./src/primitives/scroll-progress.tsx"
+      "types": "./dist/primitives/scroll-progress.d.ts",
+      "source": "./src/primitives/scroll-progress.tsx",
+      "default": "./dist/primitives/scroll-progress.js"
     },
     "./primitives/observable-number": {
-      "types": "./src/primitives/observable-number.ts",
-      "default": "./src/primitives/observable-number.ts"
+      "types": "./dist/primitives/observable-number.d.ts",
+      "source": "./src/primitives/observable-number.ts",
+      "default": "./dist/primitives/observable-number.js"
     },
     "./hooks/use-reveal-progress": {
-      "types": "./src/hooks/use-reveal-progress.ts",
-      "default": "./src/hooks/use-reveal-progress.ts"
+      "types": "./dist/hooks/use-reveal-progress.d.ts",
+      "source": "./src/hooks/use-reveal-progress.ts",
+      "default": "./dist/hooks/use-reveal-progress.js"
     },
     "./scroll-text": {
-      "types": "./src/components/ScrollText/index.tsx",
-      "default": "./src/components/ScrollText/index.tsx"
+      "types": "./dist/components/ScrollText/index.d.ts",
+      "source": "./src/components/ScrollText/index.tsx",
+      "default": "./dist/components/ScrollText/index.js"
     },
     "./support": {
-      "types": "./src/components/Support/index.tsx",
-      "default": "./src/components/Support/index.tsx"
+      "types": "./dist/components/Support/index.d.ts",
+      "source": "./src/components/Support/index.tsx",
+      "default": "./dist/components/Support/index.js"
     },
     "./tree": {
-      "types": "./src/components/Tree/index.tsx",
-      "default": "./src/components/Tree/index.tsx"
+      "types": "./dist/components/Tree/index.d.ts",
+      "source": "./src/components/Tree/index.tsx",
+      "default": "./dist/components/Tree/index.js"
     },
     "./feedback": {
-      "types": "./src/components/Feedback/index.tsx",
-      "default": "./src/components/Feedback/index.tsx"
+      "types": "./dist/components/Feedback/index.d.ts",
+      "source": "./src/components/Feedback/index.tsx",
+      "default": "./dist/components/Feedback/index.js"
     },
     "./primitives/keyboard-avoider": {
-      "types": "./src/primitives/keyboard-avoider.tsx",
-      "default": "./src/primitives/keyboard-avoider.tsx"
+      "types": "./dist/primitives/keyboard-avoider.d.ts",
+      "source": "./src/primitives/keyboard-avoider.tsx",
+      "default": "./dist/primitives/keyboard-avoider.js"
     },
     "./hooks/use-keyboard": {
-      "types": "./src/hooks/use-keyboard.ts",
-      "default": "./src/hooks/use-keyboard.ts"
+      "types": "./dist/hooks/use-keyboard.d.ts",
+      "source": "./src/hooks/use-keyboard.ts",
+      "default": "./dist/hooks/use-keyboard.js"
     },
     "./hooks/use-keyboard-avoidance": {
-      "types": "./src/hooks/use-keyboard-avoidance.ts",
-      "default": "./src/hooks/use-keyboard-avoidance.ts"
+      "types": "./dist/hooks/use-keyboard-avoidance.d.ts",
+      "source": "./src/hooks/use-keyboard-avoidance.ts",
+      "default": "./dist/hooks/use-keyboard-avoidance.js"
     },
     "./shimmer": {
-      "types": "./src/components/Shimmer/index.tsx",
-      "default": "./src/components/Shimmer/index.tsx"
+      "types": "./dist/components/Shimmer/index.d.ts",
+      "source": "./src/components/Shimmer/index.tsx",
+      "default": "./dist/components/Shimmer/index.js"
     },
     "./attachment": {
-      "types": "./src/components/Attachment/index.tsx",
-      "default": "./src/components/Attachment/index.tsx"
+      "types": "./dist/components/Attachment/index.d.ts",
+      "source": "./src/components/Attachment/index.tsx",
+      "default": "./dist/components/Attachment/index.js"
     },
     "./reasoning": {
-      "types": "./src/components/Reasoning/index.tsx",
-      "default": "./src/components/Reasoning/index.tsx"
+      "types": "./dist/components/Reasoning/index.d.ts",
+      "source": "./src/components/Reasoning/index.tsx",
+      "default": "./dist/components/Reasoning/index.js"
     },
     "./task": {
-      "types": "./src/components/Task/index.tsx",
-      "default": "./src/components/Task/index.tsx"
+      "types": "./dist/components/Task/index.d.ts",
+      "source": "./src/components/Task/index.tsx",
+      "default": "./dist/components/Task/index.js"
     },
     "./marker": {
-      "types": "./src/components/Marker/index.tsx",
-      "default": "./src/components/Marker/index.tsx"
+      "types": "./dist/components/Marker/index.d.ts",
+      "source": "./src/components/Marker/index.tsx",
+      "default": "./dist/components/Marker/index.js"
     },
     "./page-header": {
-      "types": "./src/components/PageHeader/index.tsx",
-      "default": "./src/components/PageHeader/index.tsx"
+      "types": "./dist/components/PageHeader/index.d.ts",
+      "source": "./src/components/PageHeader/index.tsx",
+      "default": "./dist/components/PageHeader/index.js"
     },
     "./plan": {
-      "types": "./src/components/Plan/index.tsx",
-      "default": "./src/components/Plan/index.tsx"
+      "types": "./dist/components/Plan/index.d.ts",
+      "source": "./src/components/Plan/index.tsx",
+      "default": "./dist/components/Plan/index.js"
     },
     "./image-generation": {
-      "types": "./src/components/ImageGeneration/index.tsx",
-      "default": "./src/components/ImageGeneration/index.tsx"
+      "types": "./dist/components/ImageGeneration/index.d.ts",
+      "source": "./src/components/ImageGeneration/index.tsx",
+      "default": "./dist/components/ImageGeneration/index.js"
     },
     "./animated-badge": {
-      "types": "./src/components/AnimatedBadge/index.tsx",
-      "default": "./src/components/AnimatedBadge/index.tsx"
+      "types": "./dist/components/AnimatedBadge/index.d.ts",
+      "source": "./src/components/AnimatedBadge/index.tsx",
+      "default": "./dist/components/AnimatedBadge/index.js"
     },
     "./scroll-fade": {
-      "types": "./src/components/ScrollFade/index.tsx",
-      "default": "./src/components/ScrollFade/index.tsx"
+      "types": "./dist/components/ScrollFade/index.d.ts",
+      "source": "./src/components/ScrollFade/index.tsx",
+      "default": "./dist/components/ScrollFade/index.js"
     },
     "./circular-text": {
-      "types": "./src/components/CircularText/index.tsx",
-      "default": "./src/components/CircularText/index.tsx"
+      "types": "./dist/components/CircularText/index.d.ts",
+      "source": "./src/components/CircularText/index.tsx",
+      "default": "./dist/components/CircularText/index.js"
     },
     "./flip-card": {
-      "types": "./src/components/FlipCard/index.tsx",
-      "default": "./src/components/FlipCard/index.tsx"
+      "types": "./dist/components/FlipCard/index.d.ts",
+      "source": "./src/components/FlipCard/index.tsx",
+      "default": "./dist/components/FlipCard/index.js"
     },
     "./scroll-blur": {
-      "types": "./src/components/ScrollBlur/index.tsx",
-      "default": "./src/components/ScrollBlur/index.tsx"
+      "types": "./dist/components/ScrollBlur/index.d.ts",
+      "source": "./src/components/ScrollBlur/index.tsx",
+      "default": "./dist/components/ScrollBlur/index.js"
     },
     "./qr-code": {
-      "types": "./src/components/QRCode/index.tsx",
-      "default": "./src/components/QRCode/index.tsx"
+      "types": "./dist/components/QRCode/index.d.ts",
+      "source": "./src/components/QRCode/index.tsx",
+      "default": "./dist/components/QRCode/index.js"
     },
     "./marquee": {
-      "types": "./src/components/Marquee/index.tsx",
-      "default": "./src/components/Marquee/index.tsx"
+      "types": "./dist/components/Marquee/index.d.ts",
+      "source": "./src/components/Marquee/index.tsx",
+      "default": "./dist/components/Marquee/index.js"
     },
     "./otp-input": {
-      "types": "./src/components/OtpInput/index.tsx",
-      "default": "./src/components/OtpInput/index.tsx"
+      "types": "./dist/components/OtpInput/index.d.ts",
+      "source": "./src/components/OtpInput/index.tsx",
+      "default": "./dist/components/OtpInput/index.js"
     },
     "./leaderboard": {
-      "types": "./src/components/Leaderboard/index.tsx",
-      "default": "./src/components/Leaderboard/index.tsx"
+      "types": "./dist/components/Leaderboard/index.d.ts",
+      "source": "./src/components/Leaderboard/index.tsx",
+      "default": "./dist/components/Leaderboard/index.js"
     },
     "./splitter": {
-      "types": "./src/components/Splitter/index.tsx",
-      "default": "./src/components/Splitter/index.tsx"
+      "types": "./dist/components/Splitter/index.d.ts",
+      "source": "./src/components/Splitter/index.tsx",
+      "default": "./dist/components/Splitter/index.js"
     },
     "./split-view": {
-      "types": "./src/components/SplitView/index.tsx",
-      "default": "./src/components/SplitView/index.tsx"
+      "types": "./dist/components/SplitView/index.d.ts",
+      "source": "./src/components/SplitView/index.tsx",
+      "default": "./dist/components/SplitView/index.js"
     },
     "./primitives/observable-value": {
-      "types": "./src/primitives/observable-value.ts",
-      "default": "./src/primitives/observable-value.ts"
+      "types": "./dist/primitives/observable-value.d.ts",
+      "source": "./src/primitives/observable-value.ts",
+      "default": "./dist/primitives/observable-value.js"
     },
-    "./compare": "./src/components/Compare/index.tsx",
-    "./loader": "./src/components/Loader/index.tsx",
-    "./tag-input": "./src/components/TagInput/index.tsx",
-    "./section-rail": "./src/components/SectionRail/index.tsx",
-    "./progress-button": "./src/components/ProgressButton/index.tsx",
-    "./section-progress": "./src/components/SectionProgress/index.tsx",
-    "./slider": "./src/components/Slider/index.tsx",
-    "./toast": "./src/components/Toast/index.tsx",
-    "./slide-button": "./src/components/SlideButton/index.tsx",
-    "./thinking-orb": "./src/components/ThinkingOrb/index.tsx",
-    "./scroll-header": "./src/components/ScrollHeader/index.tsx",
-    "./soundwave": "./src/components/Soundwave/index.tsx",
-    "./selection-mode": "./src/components/SelectionMode/index.tsx",
-    "./search-bar": "./src/components/SearchBar/index.tsx",
-    "./primitives/input-focus": "./src/primitives/input-focus.ts",
-    "./time-picker": "./src/components/TimePicker/index.tsx",
-    "./utils/time": "./src/lib/time.ts",
-    "./date-time-picker": "./src/components/DateTimePicker/index.tsx",
-    "./menu": "./src/components/Menu/index.tsx",
-    "./context-menu": "./src/components/ContextMenu/index.tsx",
-    "./carousel": "./src/components/Carousel/index.tsx",
-    "./line-chart": "./src/components/LineChart/index.tsx",
-    "./kpi": "./src/components/Kpi/index.tsx",
-    "./area-chart": "./src/components/AreaChart/index.tsx",
-    "./bar-chart": "./src/components/BarChart/index.tsx",
-    "./ring-chart": "./src/components/RingChart/index.tsx",
-    "./pie-chart": "./src/components/PieChart/index.tsx",
-    "./polar-area-chart": "./src/components/PolarAreaChart/index.tsx",
-    "./radar-chart": "./src/components/RadarChart/index.tsx",
-    "./drawer": "./src/components/Drawer/index.tsx",
-    "./signature": "./src/components/Signature/index.tsx",
-    "./swipe": "./src/components/Swipe/index.tsx",
-    "./funnel-chart": "./src/components/FunnelChart/index.tsx",
-    "./fab": "./src/components/Fab/index.tsx",
-    "./pyramid-chart": "./src/components/PyramidChart/index.tsx",
-    "./text-animation": "./src/components/TextAnimation/index.tsx",
-    "./timeline": "./src/components/Timeline/index.tsx",
-    "./waterfall-chart": "./src/components/WaterfallChart/index.tsx",
-    "./stack-card": "./src/components/StackCard/index.tsx",
-    "./color-picker": "./src/components/ColorPicker/index.tsx",
-    "./post": "./src/components/Post/index.tsx",
-    "./bubble-chart": "./src/components/BubbleChart/index.tsx",
-    "./scatter-chart": "./src/components/ScatterChart/index.tsx",
-    "./combobox": "./src/components/Combobox/index.tsx",
-    "./ai-input": "./src/components/AIInput/index.tsx",
-    "./image-viewer": "./src/components/ImageViewer/index.tsx",
-    "./heatmap-chart": "./src/components/HeatmapChart/index.tsx",
-    "./planner": "./src/components/Planner/index.tsx",
-    "./sortable": "./src/components/Sortable/index.tsx",
-    "./hex-chart": "./src/components/HexChart/index.tsx",
-    "./questionnaire": "./src/components/Questionnaire/index.tsx",
-    "./tour": "./src/components/Tour/index.tsx",
-    "./message-scroller": "./src/components/MessageScroller/index.tsx",
-    "./candlestick-chart": "./src/components/CandlestickChart/index.tsx",
-    "./bump-chart": "./src/components/BumpChart/index.tsx",
-    "./live-line-chart": "./src/components/LiveLineChart/index.tsx",
-    "./markdown-editor": "./src/components/MarkdownEditor/index.tsx",
-    "./sketch": "./src/components/Sketch/index.tsx",
-    "./panelside": "./src/components/Panelside/index.tsx",
-    "./mirror-area-chart": "./src/components/MirrorAreaChart/index.tsx",
-    "./treemap-chart": "./src/components/TreemapChart/index.tsx",
-    "./flow": "./src/components/Flow/index.tsx",
-    "./sankey-chart": "./src/components/SankeyChart/index.tsx",
-    "./map": "./src/components/Map/index.tsx",
-    "./plot": "./src/components/Plot/index.tsx",
-    "./avatar-cropper": "./src/components/AvatarCropper/index.tsx",
-    "./file-upload": "./src/components/FileUpload/index.tsx",
-    "./scroll-area": "./src/components/ScrollArea/index.tsx",
-    "./image": "./src/components/Image/index.tsx",
-    "./profile-identity": "./src/components/ProfileIdentity/index.tsx",
-    "./setup-progress-header": "./src/components/SetupProgressHeader/index.tsx",
-    "./platform/taro-plugin-weapp-accessibility": "./src/platform/taro-plugin-weapp-accessibility.cjs",
-    "./platform/taro-plugin-weapp-native-scroll": "./src/platform/taro-plugin-weapp-native-scroll.cjs",
+    "./compare": {
+      "types": "./dist/components/Compare/index.d.ts",
+      "source": "./src/components/Compare/index.tsx",
+      "default": "./dist/components/Compare/index.js"
+    },
+    "./loader": {
+      "types": "./dist/components/Loader/index.d.ts",
+      "source": "./src/components/Loader/index.tsx",
+      "default": "./dist/components/Loader/index.js"
+    },
+    "./tag-input": {
+      "types": "./dist/components/TagInput/index.d.ts",
+      "source": "./src/components/TagInput/index.tsx",
+      "default": "./dist/components/TagInput/index.js"
+    },
+    "./section-rail": {
+      "types": "./dist/components/SectionRail/index.d.ts",
+      "source": "./src/components/SectionRail/index.tsx",
+      "default": "./dist/components/SectionRail/index.js"
+    },
+    "./progress-button": {
+      "types": "./dist/components/ProgressButton/index.d.ts",
+      "source": "./src/components/ProgressButton/index.tsx",
+      "default": "./dist/components/ProgressButton/index.js"
+    },
+    "./section-progress": {
+      "types": "./dist/components/SectionProgress/index.d.ts",
+      "source": "./src/components/SectionProgress/index.tsx",
+      "default": "./dist/components/SectionProgress/index.js"
+    },
+    "./slider": {
+      "types": "./dist/components/Slider/index.d.ts",
+      "source": "./src/components/Slider/index.tsx",
+      "default": "./dist/components/Slider/index.js"
+    },
+    "./toast": {
+      "types": "./dist/components/Toast/index.d.ts",
+      "source": "./src/components/Toast/index.tsx",
+      "default": "./dist/components/Toast/index.js"
+    },
+    "./slide-button": {
+      "types": "./dist/components/SlideButton/index.d.ts",
+      "source": "./src/components/SlideButton/index.tsx",
+      "default": "./dist/components/SlideButton/index.js"
+    },
+    "./thinking-orb": {
+      "types": "./dist/components/ThinkingOrb/index.d.ts",
+      "source": "./src/components/ThinkingOrb/index.tsx",
+      "default": "./dist/components/ThinkingOrb/index.js"
+    },
+    "./scroll-header": {
+      "types": "./dist/components/ScrollHeader/index.d.ts",
+      "source": "./src/components/ScrollHeader/index.tsx",
+      "default": "./dist/components/ScrollHeader/index.js"
+    },
+    "./soundwave": {
+      "types": "./dist/components/Soundwave/index.d.ts",
+      "source": "./src/components/Soundwave/index.tsx",
+      "default": "./dist/components/Soundwave/index.js"
+    },
+    "./selection-mode": {
+      "types": "./dist/components/SelectionMode/index.d.ts",
+      "source": "./src/components/SelectionMode/index.tsx",
+      "default": "./dist/components/SelectionMode/index.js"
+    },
+    "./search-bar": {
+      "types": "./dist/components/SearchBar/index.d.ts",
+      "source": "./src/components/SearchBar/index.tsx",
+      "default": "./dist/components/SearchBar/index.js"
+    },
+    "./primitives/input-focus": {
+      "types": "./dist/primitives/input-focus.d.ts",
+      "source": "./src/primitives/input-focus.ts",
+      "default": "./dist/primitives/input-focus.js"
+    },
+    "./time-picker": {
+      "types": "./dist/components/TimePicker/index.d.ts",
+      "source": "./src/components/TimePicker/index.tsx",
+      "default": "./dist/components/TimePicker/index.js"
+    },
+    "./utils/time": {
+      "types": "./dist/lib/time.d.ts",
+      "source": "./src/lib/time.ts",
+      "default": "./dist/lib/time.js"
+    },
+    "./date-time-picker": {
+      "types": "./dist/components/DateTimePicker/index.d.ts",
+      "source": "./src/components/DateTimePicker/index.tsx",
+      "default": "./dist/components/DateTimePicker/index.js"
+    },
+    "./menu": {
+      "types": "./dist/components/Menu/index.d.ts",
+      "source": "./src/components/Menu/index.tsx",
+      "default": "./dist/components/Menu/index.js"
+    },
+    "./context-menu": {
+      "types": "./dist/components/ContextMenu/index.d.ts",
+      "source": "./src/components/ContextMenu/index.tsx",
+      "default": "./dist/components/ContextMenu/index.js"
+    },
+    "./carousel": {
+      "types": "./dist/components/Carousel/index.d.ts",
+      "source": "./src/components/Carousel/index.tsx",
+      "default": "./dist/components/Carousel/index.js"
+    },
+    "./line-chart": {
+      "types": "./dist/components/LineChart/index.d.ts",
+      "source": "./src/components/LineChart/index.tsx",
+      "default": "./dist/components/LineChart/index.js"
+    },
+    "./kpi": {
+      "types": "./dist/components/Kpi/index.d.ts",
+      "source": "./src/components/Kpi/index.tsx",
+      "default": "./dist/components/Kpi/index.js"
+    },
+    "./area-chart": {
+      "types": "./dist/components/AreaChart/index.d.ts",
+      "source": "./src/components/AreaChart/index.tsx",
+      "default": "./dist/components/AreaChart/index.js"
+    },
+    "./bar-chart": {
+      "types": "./dist/components/BarChart/index.d.ts",
+      "source": "./src/components/BarChart/index.tsx",
+      "default": "./dist/components/BarChart/index.js"
+    },
+    "./ring-chart": {
+      "types": "./dist/components/RingChart/index.d.ts",
+      "source": "./src/components/RingChart/index.tsx",
+      "default": "./dist/components/RingChart/index.js"
+    },
+    "./pie-chart": {
+      "types": "./dist/components/PieChart/index.d.ts",
+      "source": "./src/components/PieChart/index.tsx",
+      "default": "./dist/components/PieChart/index.js"
+    },
+    "./polar-area-chart": {
+      "types": "./dist/components/PolarAreaChart/index.d.ts",
+      "source": "./src/components/PolarAreaChart/index.tsx",
+      "default": "./dist/components/PolarAreaChart/index.js"
+    },
+    "./radar-chart": {
+      "types": "./dist/components/RadarChart/index.d.ts",
+      "source": "./src/components/RadarChart/index.tsx",
+      "default": "./dist/components/RadarChart/index.js"
+    },
+    "./drawer": {
+      "types": "./dist/components/Drawer/index.d.ts",
+      "source": "./src/components/Drawer/index.tsx",
+      "default": "./dist/components/Drawer/index.js"
+    },
+    "./signature": {
+      "types": "./dist/components/Signature/index.d.ts",
+      "source": "./src/components/Signature/index.tsx",
+      "default": "./dist/components/Signature/index.js"
+    },
+    "./swipe": {
+      "types": "./dist/components/Swipe/index.d.ts",
+      "source": "./src/components/Swipe/index.tsx",
+      "default": "./dist/components/Swipe/index.js"
+    },
+    "./funnel-chart": {
+      "types": "./dist/components/FunnelChart/index.d.ts",
+      "source": "./src/components/FunnelChart/index.tsx",
+      "default": "./dist/components/FunnelChart/index.js"
+    },
+    "./fab": {
+      "types": "./dist/components/Fab/index.d.ts",
+      "source": "./src/components/Fab/index.tsx",
+      "default": "./dist/components/Fab/index.js"
+    },
+    "./pyramid-chart": {
+      "types": "./dist/components/PyramidChart/index.d.ts",
+      "source": "./src/components/PyramidChart/index.tsx",
+      "default": "./dist/components/PyramidChart/index.js"
+    },
+    "./text-animation": {
+      "types": "./dist/components/TextAnimation/index.d.ts",
+      "source": "./src/components/TextAnimation/index.tsx",
+      "default": "./dist/components/TextAnimation/index.js"
+    },
+    "./timeline": {
+      "types": "./dist/components/Timeline/index.d.ts",
+      "source": "./src/components/Timeline/index.tsx",
+      "default": "./dist/components/Timeline/index.js"
+    },
+    "./waterfall-chart": {
+      "types": "./dist/components/WaterfallChart/index.d.ts",
+      "source": "./src/components/WaterfallChart/index.tsx",
+      "default": "./dist/components/WaterfallChart/index.js"
+    },
+    "./stack-card": {
+      "types": "./dist/components/StackCard/index.d.ts",
+      "source": "./src/components/StackCard/index.tsx",
+      "default": "./dist/components/StackCard/index.js"
+    },
+    "./color-picker": {
+      "types": "./dist/components/ColorPicker/index.d.ts",
+      "source": "./src/components/ColorPicker/index.tsx",
+      "default": "./dist/components/ColorPicker/index.js"
+    },
+    "./post": {
+      "types": "./dist/components/Post/index.d.ts",
+      "source": "./src/components/Post/index.tsx",
+      "default": "./dist/components/Post/index.js"
+    },
+    "./bubble-chart": {
+      "types": "./dist/components/BubbleChart/index.d.ts",
+      "source": "./src/components/BubbleChart/index.tsx",
+      "default": "./dist/components/BubbleChart/index.js"
+    },
+    "./scatter-chart": {
+      "types": "./dist/components/ScatterChart/index.d.ts",
+      "source": "./src/components/ScatterChart/index.tsx",
+      "default": "./dist/components/ScatterChart/index.js"
+    },
+    "./combobox": {
+      "types": "./dist/components/Combobox/index.d.ts",
+      "source": "./src/components/Combobox/index.tsx",
+      "default": "./dist/components/Combobox/index.js"
+    },
+    "./ai-input": {
+      "types": "./dist/components/AIInput/index.d.ts",
+      "source": "./src/components/AIInput/index.tsx",
+      "default": "./dist/components/AIInput/index.js"
+    },
+    "./image-viewer": {
+      "types": "./dist/components/ImageViewer/index.d.ts",
+      "source": "./src/components/ImageViewer/index.tsx",
+      "default": "./dist/components/ImageViewer/index.js"
+    },
+    "./heatmap-chart": {
+      "types": "./dist/components/HeatmapChart/index.d.ts",
+      "source": "./src/components/HeatmapChart/index.tsx",
+      "default": "./dist/components/HeatmapChart/index.js"
+    },
+    "./planner": {
+      "types": "./dist/components/Planner/index.d.ts",
+      "source": "./src/components/Planner/index.tsx",
+      "default": "./dist/components/Planner/index.js"
+    },
+    "./sortable": {
+      "types": "./dist/components/Sortable/index.d.ts",
+      "source": "./src/components/Sortable/index.tsx",
+      "default": "./dist/components/Sortable/index.js"
+    },
+    "./hex-chart": {
+      "types": "./dist/components/HexChart/index.d.ts",
+      "source": "./src/components/HexChart/index.tsx",
+      "default": "./dist/components/HexChart/index.js"
+    },
+    "./questionnaire": {
+      "types": "./dist/components/Questionnaire/index.d.ts",
+      "source": "./src/components/Questionnaire/index.tsx",
+      "default": "./dist/components/Questionnaire/index.js"
+    },
+    "./tour": {
+      "types": "./dist/components/Tour/index.d.ts",
+      "source": "./src/components/Tour/index.tsx",
+      "default": "./dist/components/Tour/index.js"
+    },
+    "./message-scroller": {
+      "types": "./dist/components/MessageScroller/index.d.ts",
+      "source": "./src/components/MessageScroller/index.tsx",
+      "default": "./dist/components/MessageScroller/index.js"
+    },
+    "./candlestick-chart": {
+      "types": "./dist/components/CandlestickChart/index.d.ts",
+      "source": "./src/components/CandlestickChart/index.tsx",
+      "default": "./dist/components/CandlestickChart/index.js"
+    },
+    "./bump-chart": {
+      "types": "./dist/components/BumpChart/index.d.ts",
+      "source": "./src/components/BumpChart/index.tsx",
+      "default": "./dist/components/BumpChart/index.js"
+    },
+    "./live-line-chart": {
+      "types": "./dist/components/LiveLineChart/index.d.ts",
+      "source": "./src/components/LiveLineChart/index.tsx",
+      "default": "./dist/components/LiveLineChart/index.js"
+    },
+    "./markdown-editor": {
+      "types": "./dist/components/MarkdownEditor/index.d.ts",
+      "source": "./src/components/MarkdownEditor/index.tsx",
+      "default": "./dist/components/MarkdownEditor/index.js"
+    },
+    "./sketch": {
+      "types": "./dist/components/Sketch/index.d.ts",
+      "source": "./src/components/Sketch/index.tsx",
+      "default": "./dist/components/Sketch/index.js"
+    },
+    "./panelside": {
+      "types": "./dist/components/Panelside/index.d.ts",
+      "source": "./src/components/Panelside/index.tsx",
+      "default": "./dist/components/Panelside/index.js"
+    },
+    "./mirror-area-chart": {
+      "types": "./dist/components/MirrorAreaChart/index.d.ts",
+      "source": "./src/components/MirrorAreaChart/index.tsx",
+      "default": "./dist/components/MirrorAreaChart/index.js"
+    },
+    "./treemap-chart": {
+      "types": "./dist/components/TreemapChart/index.d.ts",
+      "source": "./src/components/TreemapChart/index.tsx",
+      "default": "./dist/components/TreemapChart/index.js"
+    },
+    "./flow": {
+      "types": "./dist/components/Flow/index.d.ts",
+      "source": "./src/components/Flow/index.tsx",
+      "default": "./dist/components/Flow/index.js"
+    },
+    "./sankey-chart": {
+      "types": "./dist/components/SankeyChart/index.d.ts",
+      "source": "./src/components/SankeyChart/index.tsx",
+      "default": "./dist/components/SankeyChart/index.js"
+    },
+    "./map": {
+      "types": "./dist/components/Map/index.d.ts",
+      "source": "./src/components/Map/index.tsx",
+      "default": "./dist/components/Map/index.js"
+    },
+    "./plot": {
+      "types": "./dist/components/Plot/index.d.ts",
+      "source": "./src/components/Plot/index.tsx",
+      "default": "./dist/components/Plot/index.js"
+    },
+    "./avatar-cropper": {
+      "types": "./dist/components/AvatarCropper/index.d.ts",
+      "source": "./src/components/AvatarCropper/index.tsx",
+      "default": "./dist/components/AvatarCropper/index.js"
+    },
+    "./file-upload": {
+      "types": "./dist/components/FileUpload/index.d.ts",
+      "source": "./src/components/FileUpload/index.tsx",
+      "default": "./dist/components/FileUpload/index.js"
+    },
+    "./scroll-area": {
+      "types": "./dist/components/ScrollArea/index.d.ts",
+      "source": "./src/components/ScrollArea/index.tsx",
+      "default": "./dist/components/ScrollArea/index.js"
+    },
+    "./image": {
+      "types": "./dist/components/Image/index.d.ts",
+      "source": "./src/components/Image/index.tsx",
+      "default": "./dist/components/Image/index.js"
+    },
+    "./profile-identity": {
+      "types": "./dist/components/ProfileIdentity/index.d.ts",
+      "source": "./src/components/ProfileIdentity/index.tsx",
+      "default": "./dist/components/ProfileIdentity/index.js"
+    },
+    "./setup-progress-header": {
+      "types": "./dist/components/SetupProgressHeader/index.d.ts",
+      "source": "./src/components/SetupProgressHeader/index.tsx",
+      "default": "./dist/components/SetupProgressHeader/index.js"
+    },
+    "./platform/taro-plugin-weapp-accessibility": "./dist/platform/taro-plugin-weapp-accessibility.cjs",
+    "./platform/taro-plugin-weapp-native-scroll": "./dist/platform/taro-plugin-weapp-native-scroll.cjs",
     "./weapp-hosts": {
-      "types": "./src/primitives/weapp-hosts.tsx",
-      "default": "./src/primitives/weapp-hosts.tsx"
+      "types": "./dist/primitives/weapp-hosts.d.ts",
+      "source": "./src/primitives/weapp-hosts.tsx",
+      "default": "./dist/primitives/weapp-hosts.js"
     },
     "./icons/drawing": {
-      "types": "./src/icons/Drawing/index.tsx",
-      "default": "./src/icons/Drawing/index.tsx"
+      "types": "./dist/icons/Drawing/index.d.ts",
+      "source": "./src/icons/Drawing/index.tsx",
+      "default": "./dist/icons/Drawing/index.js"
     },
     "./weapp-chart": {
-      "types": "./src/primitives/weapp-chart.tsx",
-      "default": "./src/primitives/weapp-chart.tsx"
+      "types": "./dist/primitives/weapp-chart.d.ts",
+      "source": "./src/primitives/weapp-chart.tsx",
+      "default": "./dist/primitives/weapp-chart.js"
     },
-    "./camera": "./src/components/Camera/index.tsx",
-    "./hooks/use-breakpoint": "./src/hooks/use-breakpoint.ts",
-    "./hooks/use-scroll-sections": "./src/hooks/use-scroll-sections.ts",
-    "./hooks/use-skeleton-handoff": "./src/hooks/use-skeleton-handoff.ts",
-    "./hooks/use-back-handler": "./src/hooks/use-back-handler.ts",
-    "./hooks/use-direction": "./src/hooks/use-direction.ts",
-    "./primitives/glass": "./src/primitives/glass.tsx",
-    "./primitives/portal": "./src/primitives/portal.tsx",
-    "./primitives/scrim": "./src/primitives/scrim.tsx",
-    "./primitives/chart-accessibility": "./src/primitives/chart-accessibility.tsx",
-    "./utils/cn": "./src/lib/utils.ts",
-    "./utils/color": "./src/lib/color.ts",
+    "./camera": {
+      "types": "./dist/components/Camera/index.d.ts",
+      "source": "./src/components/Camera/index.tsx",
+      "default": "./dist/components/Camera/index.js"
+    },
+    "./hooks/use-breakpoint": {
+      "types": "./dist/hooks/use-breakpoint.d.ts",
+      "source": "./src/hooks/use-breakpoint.ts",
+      "default": "./dist/hooks/use-breakpoint.js"
+    },
+    "./hooks/use-scroll-sections": {
+      "types": "./dist/hooks/use-scroll-sections.d.ts",
+      "source": "./src/hooks/use-scroll-sections.ts",
+      "default": "./dist/hooks/use-scroll-sections.js"
+    },
+    "./hooks/use-skeleton-handoff": {
+      "types": "./dist/hooks/use-skeleton-handoff.d.ts",
+      "source": "./src/hooks/use-skeleton-handoff.ts",
+      "default": "./dist/hooks/use-skeleton-handoff.js"
+    },
+    "./hooks/use-back-handler": {
+      "types": "./dist/hooks/use-back-handler.d.ts",
+      "source": "./src/hooks/use-back-handler.ts",
+      "default": "./dist/hooks/use-back-handler.js"
+    },
+    "./hooks/use-direction": {
+      "types": "./dist/hooks/use-direction.d.ts",
+      "source": "./src/hooks/use-direction.ts",
+      "default": "./dist/hooks/use-direction.js"
+    },
+    "./primitives/glass": {
+      "types": "./dist/primitives/glass.d.ts",
+      "source": "./src/primitives/glass.tsx",
+      "default": "./dist/primitives/glass.js"
+    },
+    "./primitives/portal": {
+      "types": "./dist/primitives/portal.d.ts",
+      "source": "./src/primitives/portal.tsx",
+      "default": "./dist/primitives/portal.js"
+    },
+    "./primitives/scrim": {
+      "types": "./dist/primitives/scrim.d.ts",
+      "source": "./src/primitives/scrim.tsx",
+      "default": "./dist/primitives/scrim.js"
+    },
+    "./primitives/chart-accessibility": {
+      "types": "./dist/primitives/chart-accessibility.d.ts",
+      "source": "./src/primitives/chart-accessibility.tsx",
+      "default": "./dist/primitives/chart-accessibility.js"
+    },
+    "./utils/cn": {
+      "types": "./dist/lib/utils.d.ts",
+      "source": "./src/lib/utils.ts",
+      "default": "./dist/lib/utils.js"
+    },
+    "./utils/color": {
+      "types": "./dist/lib/color.d.ts",
+      "source": "./src/lib/color.ts",
+      "default": "./dist/lib/color.js"
+    },
     "./primitives/refs": {
-      "types": "./src/primitives/refs.ts",
-      "default": "./src/primitives/refs.ts"
+      "types": "./dist/primitives/refs.d.ts",
+      "source": "./src/primitives/refs.ts",
+      "default": "./dist/primitives/refs.js"
     }
   },
   "scripts": {
@@ -1048,14 +1478,18 @@
     "test:example": "bunx --no-install vitest run --root example --maxWorkers=4",
     "typecheck": "bunx --no-install tsc -p tsconfig.json --noEmit",
     "verify:consumer": "node scripts/verify-packed-consumer.mjs",
-    "dev:weapp:panelui": "pnpm --filter panelui-example dev:weapp",
+    "dev:weapp:panelui": "pnpm build && pnpm --filter panelui-example dev:weapp",
     "dev:panelui-docs": "pnpm --filter panelui-docs dev",
-    "build:weapp:panelui": "pnpm --filter panelui-example build:weapp",
+    "build:weapp:panelui": "pnpm build && pnpm --filter panelui-example build:weapp",
     "build:panelui-docs": "pnpm --filter panelui-docs build",
     "test:panelui-example": "pnpm --filter panelui-example test",
     "typecheck:panelui-docs": "pnpm --filter panelui-docs typecheck",
     "typecheck:example": "pnpm --filter panelui-example typecheck",
-    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm verify:consumer"
+    "prepublishOnly": "pnpm build && pnpm test:package && pnpm typecheck && pnpm test && pnpm verify:consumer",
+    "build": "node scripts/build-package.mjs",
+    "test:package": "node --test scripts/package-build.test.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
+    "prepack": "pnpm build && pnpm verify:package"
   },
   "dependencies": {
     "@amaster.ai/taro-echarts-ui": "^1.1.72",

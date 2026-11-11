@@ -126,6 +126,10 @@ For UI changes, open the built example in WeChat Developer Tools and exercise th
 
 ## Publishing
 
+The package includes unbundled JavaScript and `.d.ts` declarations in `dist/`, plus source for Tailwind scanning, styles, Taro build plugins and upstream notices. Public imports resolve to compiled files by default. The repository's tests and example explicitly enable the `source` export condition so their private adapters share the same source modules; external consumers do not need that condition.
+
+Run `pnpm build` before typechecking or building a fresh checkout. `pnpm pack` runs `prepack`: build the library, then verify the actual archive's exports, declarations, styles and licenses. `pnpm test:package` checks the build and package contract. The library build does not create a root barrel or bundle unrelated components together.
+
 The npm package is public and the GitHub repository is private. Follow the [release guide](./docs/releasing.md) to configure npm Trusted Publishing and use the `Publish npm Package` GitHub Actions workflow. Manual runs default to checking and packing without publication; publishing a GitHub Release publishes its exact tag after validation. The workflow publishes the same tarball verified by an independent Taro consumer, using OIDC without an npm token.
 
 Local publication remains available through `pnpm publish --access public`; its `prepublishOnly` hook runs types, tests and the independent consumer build. npm authentication and permission to publish `panelui-taro` are required. See the [documentation deployment guide](./docs/README.md#deployment) for website hosting.

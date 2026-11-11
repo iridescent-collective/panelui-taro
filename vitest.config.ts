@@ -4,6 +4,7 @@ import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   resolve: {
+    conditions: ["source", "module", "browser", "development"],
     alias: {
       "@tarojs/components": fileURLToPath(
         new URL("test/taro-components.tsx", import.meta.url)
