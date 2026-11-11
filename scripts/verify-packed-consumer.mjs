@@ -34,24 +34,31 @@ const version = (name) =>
 cpSync(path.join(library, "test/fixtures/packed-consumer"), project, {
   recursive: true,
 });
-mkdirSync(path.join(project, "artifacts"));
-run(
-  "pnpm",
-  [
-    "--config.verify-deps-before-run=false",
-    "pack",
-    "--pack-destination",
-    path.join(project, "artifacts"),
-  ],
-  library
-);
-const archive = path.join(
-  project,
-  "artifacts",
-  readdirSync(path.join(project, "artifacts")).find((file) =>
-    file.endsWith(".tgz")
-  )
-);
+let archive = process.env.PANELUI_PACKAGE_ARCHIVE;
+if (archive) {
+  archive = realpathSync(archive);
+  assert.ok(archive.endsWith(".tgz"), "Expected a packed npm archive");
+  console.log(`Verifying supplied archive without repacking: ${archive}`);
+} else {
+  mkdirSync(path.join(project, "artifacts"));
+  run(
+    "pnpm",
+    [
+      "--config.verify-deps-before-run=false",
+      "pack",
+      "--pack-destination",
+      path.join(project, "artifacts"),
+    ],
+    library
+  );
+  archive = path.join(
+    project,
+    "artifacts",
+    readdirSync(path.join(project, "artifacts")).find((file) =>
+      file.endsWith(".tgz")
+    )
+  );
+}
 const exampleManifest = JSON.parse(
   readFileSync(path.join(library, "example/package.json"), "utf-8")
 );

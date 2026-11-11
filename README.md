@@ -126,7 +126,9 @@ For UI changes, open the built example in WeChat Developer Tools and exercise th
 
 ## Publishing
 
-The package is configured for public npm publication; this repository remains private. Run `pnpm verify:consumer` and inspect `pnpm pack` before releasing. When ready, run `pnpm publish --access public` from this directory. The `prepublishOnly` hook runs types, tests and the independent consumer build. npm authentication and permission to publish `panelui-taro` are required. See the [documentation deployment guide](./docs/README.md#deployment) for website hosting.
+The npm package is public and the GitHub repository is private. Follow the [release guide](./docs/releasing.md) to configure npm Trusted Publishing and use the `Publish npm Package` GitHub Actions workflow. Manual runs default to checking and packing without publication; publishing a GitHub Release publishes its exact tag after validation. The workflow publishes the same tarball verified by an independent Taro consumer, using OIDC without an npm token.
+
+Local publication remains available through `pnpm publish --access public`; its `prepublishOnly` hook runs types, tests and the independent consumer build. npm authentication and permission to publish `panelui-taro` are required. See the [documentation deployment guide](./docs/README.md#deployment) for website hosting.
 
 ## License and source notices
 

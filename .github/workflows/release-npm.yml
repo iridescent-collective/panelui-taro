@@ -1,0 +1,228 @@
+name: Publish npm Package
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Exact package.json version at the selected branch or tag
+        required: true
+        type: string
+      dry_run:
+        description: Check and pack without publishing to npm
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      name: ${{ steps.pack.outputs.name }}
+      version: ${{ steps.pack.outputs.version }}
+      channel: ${{ steps.pack.outputs.channel }}
+      integrity: ${{ steps.pack.outputs.integrity }}
+      sha: ${{ steps.source.outputs.sha }}
+    steps:
+      - name: Freeze the requested source
+        uses: actions/github-script@v9.0.0
+        id: source
+        with:
+          script: |
+            let sha = context.sha;
+            if (context.eventName === 'release') {
+              const release = context.payload.release;
+              if (release.draft) throw new Error('Cannot publish a draft release');
+              if (!/^v(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-(?:canary|beta)\.(?:0|[1-9]\d*))?$/.test(release.tag_name)) {
+                throw new Error('Expected vX.Y.Z, vX.Y.Z-canary.N or vX.Y.Z-beta.N');
+              }
+              const { data: commit } = await github.rest.repos.getCommit({
+                ...context.repo, ref: `tags/${release.tag_name}`,
+              });
+              sha = commit.sha;
+              if (/^[0-9a-f]{40}$/.test(release.target_commitish) && release.target_commitish !== sha) {
+                throw new Error('Release target SHA differs from tag');
+              }
+              if (release.prerelease !== release.tag_name.includes('-')) {
+                throw new Error('Release prerelease flag differs from version');
+              }
+            }
+            if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error('Source must resolve to a full commit SHA');
+            core.setOutput('sha', sha);
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ steps.source.outputs.sha }}
+          persist-credentials: false
+      - uses: jdx/mise-action@v5.2.7
+        with:
+          cache: false
+      - name: Validate package and release identity
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          mise exec -- node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { readFileSync } from 'node:fs';
+          const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
+          const expected = process.env.RELEASE_TAG?.slice(1) || process.env.REQUESTED_VERSION;
+          assert.equal(pkg.name, 'panelui-taro');
+          assert.equal(pkg.private, false);
+          assert.equal(pkg.version, expected, 'Requested version must match the frozen package.json');
+          assert.match(pkg.version, /^(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-(?:canary|beta)\.(?:0|[1-9]\d*))?$/);
+          assert.equal(pkg.repository.url, 'git+https://github.com/iridescent-collective/panelui-taro.git');
+          JS
+      - run: mise exec -- pnpm install --frozen-lockfile
+      - name: Check library and example
+        run: |
+          mise exec -- pnpm typecheck
+          mise exec -- pnpm typecheck:example
+          mise exec -- pnpm test
+          mise exec -- pnpm test:panelui-example
+          mise exec -- pnpm build:weapp:panelui
+      - name: Pack the release once
+        id: pack
+        env:
+          SOURCE_SHA: ${{ steps.source.outputs.sha }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/npm-package"
+          mise exec -- pnpm pack --pack-destination "$RUNNER_TEMP/npm-package"
+          mise exec -- node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { execFileSync } from 'node:child_process';
+          import { createHash } from 'node:crypto';
+          import { appendFileSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+          const directory = process.env.RUNNER_TEMP + '/npm-package';
+          const files = readdirSync(directory).filter(name => name.endsWith('.tgz'));
+          assert.equal(files.length, 1, 'Expected exactly one tarball');
+          const archive = directory + '/' + files[0];
+          const packed = JSON.parse(execFileSync('tar', ['-xOf', archive, 'package/package.json'], { encoding: 'utf8' }));
+          const pkg = JSON.parse(readFileSync('package.json', 'utf8'));
+          assert.equal(packed.name, pkg.name);
+          assert.equal(packed.version, pkg.version);
+          for (const section of ['dependencies', 'peerDependencies']) {
+            for (const version of Object.values(packed[section] ?? {})) {
+              assert.ok(!/^(?:catalog|workspace):/.test(version), 'Package contains unresolved workspace dependencies');
+            }
+          }
+          const integrity = 'sha512-' + createHash('sha512').update(readFileSync(archive)).digest('base64');
+          const channel = pkg.version.includes('-') ? pkg.version.split('-')[1].split('.')[0] : 'latest';
+          const identity = { name: pkg.name, version: pkg.version, channel, integrity, sha: process.env.SOURCE_SHA };
+          writeFileSync(directory + '/release.json', JSON.stringify(identity, null, 2) + '\n');
+          appendFileSync(process.env.GITHUB_OUTPUT, Object.entries(identity).map(([key, value]) => `${key}=${value}\n`).join(''));
+          appendFileSync(process.env.GITHUB_OUTPUT, `archive=${archive}\n`);
+          JS
+      - name: Build an independent consumer from this exact tarball
+        env:
+          PANELUI_PACKAGE_ARCHIVE: ${{ steps.pack.outputs.archive }}
+        run: mise exec -- pnpm verify:consumer
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: npm-package
+          path: ${{ runner.temp }}/npm-package/
+          if-no-files-found: error
+          retention-days: 7
+      - name: Record checked source and package
+        env:
+          VERSION: ${{ steps.pack.outputs.version }}
+          SOURCE_SHA: ${{ steps.source.outputs.sha }}
+          INTEGRITY: ${{ steps.pack.outputs.integrity }}
+        run: |
+          {
+            echo '### Checked npm package'
+            printf '\nVersion: `%s`\n\nSource: `%s`\n\nIntegrity: `%s`\n' "$VERSION" "$SOURCE_SHA" "$INTEGRITY"
+            echo 'A successful build or dry run does not mean the package was published.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  publish:
+    if: github.event_name == 'release' || inputs.dry_run == false
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      # Private GitHub repositories cannot generate npm provenance.
+      NPM_CONFIG_PROVENANCE: 'false'
+      PACKAGE_NAME: ${{ needs.build.outputs.name }}
+      VERSION: ${{ needs.build.outputs.version }}
+      CHANNEL: ${{ needs.build.outputs.channel }}
+      INTEGRITY: ${{ needs.build.outputs.integrity }}
+    steps:
+      # This job never checks out source or executes package lifecycle scripts.
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24.22.2'
+          package-manager-cache: false
+      - run: npm install --global npm@11.21.0
+      - uses: actions/download-artifact@v8.0.2
+        with:
+          name: npm-package
+          path: ${{ runner.temp }}/npm-package
+      - name: Verify artifact and check for an existing version
+        id: registry
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { createHash } from 'node:crypto';
+          import { appendFileSync, readdirSync, readFileSync } from 'node:fs';
+          const directory = process.env.RUNNER_TEMP + '/npm-package';
+          const files = readdirSync(directory).filter(name => name.endsWith('.tgz'));
+          assert.equal(files.length, 1);
+          const integrity = 'sha512-' + createHash('sha512').update(readFileSync(directory + '/' + files[0])).digest('base64');
+          assert.equal(integrity, process.env.INTEGRITY, 'Artifact differs from the checked tarball');
+          const url = `https://registry.npmjs.org/${encodeURIComponent(process.env.PACKAGE_NAME)}/${encodeURIComponent(process.env.VERSION)}`;
+          const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+          if (response.status === 404) {
+            appendFileSync(process.env.GITHUB_OUTPUT, 'publish=true\n');
+          } else if (response.ok) {
+            const existing = await response.json();
+            assert.equal(existing.dist?.integrity, integrity, 'Existing npm version has different bytes; refusing to overwrite');
+            appendFileSync(process.env.GITHUB_OUTPUT, 'publish=false\n');
+          } else {
+            throw new Error(`npm registry lookup failed: ${response.status}`);
+          }
+          JS
+      - name: Publish the checked tarball with OIDC
+        if: steps.registry.outputs.publish == 'true'
+        run: |
+          files=("$RUNNER_TEMP"/npm-package/*.tgz)
+          [ "${#files[@]}" -eq 1 ] && [ -f "${files[0]}" ]
+          npm publish "${files[0]}" --ignore-scripts --access public --tag "$CHANNEL" --registry https://registry.npmjs.org
+      - name: Verify npm delivery
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          const registry = 'https://registry.npmjs.org/';
+          const name = encodeURIComponent(process.env.PACKAGE_NAME);
+          const version = encodeURIComponent(process.env.VERSION);
+          for (let attempt = 0; attempt < 6; attempt++) {
+            const response = await fetch(`${registry}${name}/${version}`, { signal: AbortSignal.timeout(30000) });
+            if (response.ok) {
+              const pkg = await response.json();
+              assert.equal(pkg.version, process.env.VERSION);
+              assert.equal(pkg.dist?.integrity, process.env.INTEGRITY, 'Published bytes differ from the checked package');
+              const tags = await fetch(`${registry}-/package/${name}/dist-tags`, { signal: AbortSignal.timeout(30000) });
+              if (!tags.ok) throw new Error(`npm channel lookup failed: ${tags.status}`);
+              const channels = await tags.json();
+              assert.equal(channels[process.env.CHANNEL], process.env.VERSION, 'Channel points elsewhere; inspect before changing it');
+              console.log(`Verified ${process.env.PACKAGE_NAME}@${pkg.version} on ${process.env.CHANNEL}`);
+              process.exit(0);
+            }
+            if (response.status !== 404) throw new Error(`npm verification failed: ${response.status}`);
+            if (attempt < 5) await new Promise(resolve => setTimeout(resolve, 5000));
+          }
+          throw new Error('Published version is not visible on npm');
+          JS
+      - name: Record verified publication
+        run: |
+          printf '### npm publication verified\n\n`%s@%s` on `%s`\n' "$PACKAGE_NAME" "$VERSION" "$CHANNEL" >> "$GITHUB_STEP_SUMMARY"
