@@ -1,0 +1,25 @@
+.panelui-theme .font-normal {
+  font-family: var(--panel-font-normal, inherit);
+  font-weight: var(--panel-font-normal-weight, 400);
+}
+.panelui-theme .font-medium {
+  font-family: var(--panel-font-medium, inherit);
+  font-weight: var(--panel-font-medium-weight, 500);
+}
+.panelui-theme .font-semibold {
+  font-family: var(--panel-font-semibold, inherit);
+  font-weight: var(--panel-font-semibold-weight, 600);
+}
+.panelui-theme .font-bold {
+  font-family: var(--panel-font-bold, inherit);
+  font-weight: var(--panel-font-bold-weight, 700);
+}
+.panelui-theme .font-mono {
+  font-family: var(
+    --panel-font-mono,
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace
+  );
+}

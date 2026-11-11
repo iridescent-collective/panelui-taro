@@ -1,0 +1,54 @@
+---
+title: "安装"
+description: "在 Taro 微信项目中安装组件包并配置 Tailwind 与 WXSS。"
+---
+
+## 安装组件包
+
+首次发布前，在仓库根目录运行 `pnpm pack`，再安装生成的压缩包；发布后可用 `pnpm add panelui-taro`：
+
+```sh
+pnpm add /absolute/path/panelui-taro-1.0.0.tgz
+```
+
+运行 `pnpm --filter panelui-taro verify:consumer` 可生成并验证一个独立消费者。项目位置会打印到终端。
+
+当前支持的示例配置为 **Taro 4.2 + React 18**。宿主与组件库应解析到同一份 Taro runtime；官网独立使用 React 19。
+
+## Provider 与样式
+
+```tsx
+import { PanelUIProvider } from "panelui-taro/provider";
+import { Button } from "panelui-taro/button";
+import "panelui-taro/styles";
+
+export function Example() {
+  return (
+    <PanelUIProvider>
+      <Button>Continue</Button>
+    </PanelUIProvider>
+  );
+}
+```
+
+从应用入口或全局样式加载一次主题样式。组件使用公开子路径导入。
+
+## Tailwind 与 WXSS
+
+参考 `test/fixtures/packed-consumer` 的独立安装配置，或 `example/config/index.ts` 的完整示例。默认 Taro 工程并不包含 Tailwind、WXSS 转义和无障碍模板配置。
+
+把组件库源码纳入 Tailwind v4 扫描；以下路径相对于宿主的 `src/styles/tailwind.css`：
+
+```css
+@import "weapp-tailwindcss/index.css";
+@source "../../node_modules/panelui-taro/src";
+@source "../";
+```
+
+独立安装时改为扫描已安装的 `node_modules/panelui-taro/src`，路径相对于自己的 CSS 入口解析。语义化 `@theme` 映射也需保留，完整内容见验证项目。安装并运行 `weapp-tailwindcss` 的补丁命令，使用其 Vite 插件转义类名。它是宿主的 Tailwind 集成步骤，与已内置到组件包的 variants 兼容修复不同。
+
+## Taro 配置
+
+设置 `designWidth: 750` 与 `mini.runtime.enableMutationObserver: true`。Native 逻辑尺寸在微信边界转换为两倍数值的 rpx。
+
+使用包提供的 `panelui-taro/platform/taro-plugin-weapp-accessibility` 构建插件，并按独立验证项目的入口设置运行时无障碍属性。确保宿主和组件库解析到同一份 Taro runtime。

@@ -1,0 +1,99 @@
+packages:
+  - docs
+  - example
+linkWorkspacePackages: true
+allowBuilds:
+  "@parcel/watcher": true
+  "@swc/core": true
+  "@tarojs/binding": true
+  "@tarojs/cli": true
+  core-js: true
+  core-js-pure: true
+  less: true
+  esbuild: true
+  weapp-tailwindcss: true
+peerDependencyRules:
+  allowedVersions:
+    typescript: 6 || 5
+patchedDependencies:
+  "@tarojs/vite-runner@4.2.1": patches/@tarojs__vite-runner.patch
+catalogs:
+  panelui-docs:
+    "@types/mdx": ^2.0.14
+    "@types/react": ^19.3.0
+    "@types/react-dom": ^19.3.0
+    fumadocs-core: ^16.18.3
+    fumadocs-mdx: ^15.5.2
+    fumadocs-ui: ^16.18.3
+    i18next: ^26.7.2
+    lucide-react: ^1.70.0
+    next: ^16.4.5
+    react: ^19.3.1
+    react-dom: ^19.3.1
+    react-i18next: ^17.1.12
+    zod: ^4.6.7
+  panelui-icons:
+    "@hugeicons/core-free-icons": ^4.4.0
+  panelui-peers:
+    "@tarojs/components": ^4.2.1 <4.3.0
+    "@tarojs/runtime": ^4.2.1 <4.3.0
+    "@tarojs/taro": ^4.2.1 <4.3.0
+    react: ^18.3.1
+  panelui-react18:
+    "@types/react": ^18.3.31
+    "@types/react-dom": ^18.3.7
+    react: ^18.3.1
+    react-dom: ^18.3.1
+  panelui-styles:
+    "@tailwindcss/postcss": ^4.3.5
+    clsx: ^2.1.1
+    tailwind-merge: ^3.7.0
+    tailwind-variants: ^3.3.1
+    tailwindcss: ^4.3.5
+  panelui-testing:
+    "@testing-library/dom": ^10.4.2
+    "@testing-library/react": ^16.3.3
+    happy-dom: ^21.0.4
+    vite: ^8.3.6
+    vitest: ^5.1.0
+  panelui-tooling:
+    "@types/node": ^26.6.6
+    oxfmt: ^0.74.0
+    typescript: ^6.0.3
+  panelui-weapp:
+    "@tarojs/cli": ^4.2.1 <4.3.0
+    "@tarojs/components": ^4.2.1 <4.3.0
+    "@tarojs/helper": ^4.2.1 <4.3.0
+    "@tarojs/plugin-framework-react": ^4.2.1 <4.3.0
+    "@tarojs/plugin-generator": ^4.2.1 <4.3.0
+    "@tarojs/plugin-platform-weapp": ^4.2.1 <4.3.0
+    "@tarojs/react": ^4.2.1 <4.3.0
+    "@tarojs/runtime": ^4.2.1 <4.3.0
+    "@tarojs/shared": ^4.2.1 <4.3.0
+    "@tarojs/taro": ^4.2.1 <4.3.0
+    "@tarojs/vite-runner": ^4.2.1 <4.3.0
+    babel-preset-taro: ^4.2.1 <4.3.0
+    echarts: ^5.6.0
+  panelui-weapp-build:
+    "@babel/core": ^7.29.13
+    "@babel/plugin-proposal-decorators": ^7.29.7
+    "@babel/plugin-transform-class-properties": ^7.29.7
+    "@babel/preset-react": ^7.29.7
+    "@babel/runtime": ^7.29.13
+    "@vitejs/plugin-react": ^4.7.0
+    lucide-react-taro: ^1.5.2
+    postcss: ^8.5.32
+    react-refresh: ^0.14.2
+    sass: ^1.108.1
+    terser: ^5.51.2
+    vite: ^4.5.14
+    weapp-tailwindcss: ^4.12.0
+catalogMode: prefer
+catalogPrune: true
+saveExact: true
+publicHoistPattern:
+  - "*@tarojs*"
+  - "*@babel/plugin-*"
+  - typescript
+  - "@types/react"
+  - "@types/react-dom"

@@ -1,0 +1,60 @@
+/* :is(native-tag) preserves native hosts through Taro's HTML-tag transform;
+ * bare button/input/canvas selectors are otherwise rewritten to H5 classes. */
+/* Native PortalHost is absoluteFill with box-none while interactive. */
+.panelui-portal-layer-active > view,
+.panelui-portal-layer-active > text,
+.panelui-portal-layer-active > :is(button),
+.panelui-portal-layer-active > image,
+.panelui-portal-layer-active > :is(input),
+.panelui-portal-layer-active > :is(textarea),
+.panelui-portal-layer-active > scroll-view,
+.panelui-portal-layer-active > :is(canvas),
+.panelui-portal-layer-active > :is(video),
+.panelui-portal-layer-active > :is(map),
+.panelui-portal-layer-active > cover-view,
+.panelui-portal-layer-active > cover-image,
+.panelui-portal-layer-active > custom-wrapper {
+  pointer-events: auto;
+}
+
+.panelui-portal-layer-inactive view,
+.panelui-portal-layer-inactive text,
+.panelui-portal-layer-inactive :is(button),
+.panelui-portal-layer-inactive image,
+.panelui-portal-layer-inactive :is(input),
+.panelui-portal-layer-inactive :is(textarea),
+.panelui-portal-layer-inactive scroll-view,
+.panelui-portal-layer-inactive :is(canvas),
+.panelui-portal-layer-inactive :is(video),
+.panelui-portal-layer-inactive :is(map),
+.panelui-portal-layer-inactive cover-view,
+.panelui-portal-layer-inactive cover-image,
+.panelui-portal-layer-inactive custom-wrapper {
+  pointer-events: none !important;
+}
+
+/* Native pointerEvents="none" disables the complete page subtree. CSS alone
+ * inherits, so descendants with explicit auto must also be disabled. Portals
+ * are hoisted outside this page host and keep their own interaction state. */
+.panelui-modal-isolated,
+.panelui-modal-isolated view,
+.panelui-modal-isolated text,
+.panelui-modal-isolated :is(button),
+.panelui-modal-isolated image,
+.panelui-modal-isolated :is(input),
+.panelui-modal-isolated :is(textarea),
+.panelui-modal-isolated picker,
+.panelui-modal-isolated picker-view,
+.panelui-modal-isolated slider,
+.panelui-modal-isolated switch,
+.panelui-modal-isolated scroll-view,
+.panelui-modal-isolated :is(canvas),
+.panelui-modal-isolated :is(video),
+.panelui-modal-isolated :is(map),
+.panelui-modal-isolated cover-view,
+.panelui-modal-isolated cover-image,
+.panelui-modal-isolated custom-wrapper,
+.panelui-modal-isolated navigator,
+.panelui-modal-isolated web-view {
+  pointer-events: none !important;
+}

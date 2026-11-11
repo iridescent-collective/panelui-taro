@@ -1,0 +1,38 @@
+---
+title: "服务端路由"
+description: "独立 Node 开发服务向微信小程序输出模型流。"
+---
+
+实现位于 `example/server/server.mjs`，`provider.mjs` 适配兼容的 Chat Completions 接口。这些文件只在 Node 中运行，不进入小程序包。组件库不导出服务端路由。
+
+## 聊天请求
+
+`POST /api/chat` 接收 JSON：
+
+```json
+{"messages":[{"role":"user","content":"查找 PanelUI 语音文档"}]}
+```
+
+只接受 user 和 assistant 角色，最后一条必须是用户消息。最多 64 条历史，每条不超过 16,000 个字符，请求不超过 256 KiB。客户端传入的系统提示、模型和工具实现不会转发给供应商。
+
+## 流事件契约
+
+响应类型是 `application/x-ndjson; charset=utf-8`，每行一个 JSON 对象。网络分块是任意字节边界，不等于事件边界。
+
+```json
+{"type":"text","delta":"这里是相关文档。"}
+{"type":"tool","id":"step-0-0","name":"findPanelUIDocs","state":"input-available","input":"{\"topic\":\"voice\"}"}
+{"type":"tool","id":"step-0-0","name":"findPanelUIDocs","state":"output-available","output":"官方文档链接"}
+{"type":"source","id":"voice","title":"PanelUI Voice","url":"https://panelui.dev/docs/ai/voice"}
+{"type":"finish"}
+```
+
+正文和工具片段保留到达顺序。只有供应商明确输出兼容的 `reasoning_content` 扩展时，才转成含 `delta` 的 `reasoning` 事件；不伪造推理过程。来源来自白名单工具结果。`error` 携带可展示的 `message`，表示终止；未收到 `finish` 就断流属于客户端错误。该协议仅属于示例。
+
+## 取消与限制
+
+客户端中止会关闭连接，并中止上游模型请求。服务端设置 110 秒期限、4 个并发请求、输出上限和最多 5 步工具循环；响应写入遵守背压。供应商错误使用通用提示，不返回密钥或原始错误体。达到模型长度上限或内容被过滤时，标记为未完整完成。
+
+## 音频路由
+
+`POST /api/transcribe` 接收 Taro `uploadFile` 上传的 multipart `file`，最多 5 MiB，返回 `{ text }`。`POST /api/speech` 接收最多 4,000 字符的 `{ text }`，返回最多 5 MiB 的 MP3。两者使用服务端配置的模型与音色；未配置音频模型时返回 503。服务端不保存音频文件。

@@ -1,0 +1,8288 @@
+[
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [0, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [0, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [0, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [96.8657734856853, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [53.75614096142535, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [23.21287905152458, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [116.23892818282235, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [87.96459430051421, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [59.690260418206066, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [193.7315469713706, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [107.5122819228507, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [46.42575810304916, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [232.4778563656447, 464.9557127312894],
+      "progressDash": [232.4778563656447, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [175.92918860102841, 351.85837720205683],
+      "progressDash": [175.92918860102841, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [119.38052083641213, 238.76104167282426],
+      "progressDash": [119.38052083641213, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [193.7315469713706, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [107.5122819228507, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [46.42575810304916, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [232.4778563656447, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [175.92918860102841, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [119.38052083641213, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [0, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [0, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [0, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [387.4630939427412, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [215.0245638457014, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [92.85151620609832, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "round",
+      "trackDash": [464.9557127312894, 464.9557127312894],
+      "progressDash": [464.9557127312894, 464.9557127312894]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "round",
+      "trackDash": [351.85837720205683, 351.85837720205683],
+      "progressDash": [351.85837720205683, 351.85837720205683]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "round",
+      "trackDash": [238.76104167282426, 238.76104167282426],
+      "progressDash": [238.76104167282426, 238.76104167282426]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        0, 19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        0, 14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        0, 9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        0, 19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        0, 14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        0, 9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        0, 19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        0, 14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        0, 9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        0, 19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        0, 14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        0, 9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        6.948376736367678, 3, 6.948376736367678, 3, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3,
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        0, 19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057, 0,
+        19.373154697137057, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        0, 14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        0, 9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 0, 19.373154697137057, 0, 19.373154697137057
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 0, 14.660765716752367, 0, 14.660765716752367, 0,
+        14.660765716752367, 0, 14.660765716752367, 0, 14.660765716752367
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3,
+        6.948376736367678, 3, 6.948376736367678, 3, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678, 0,
+        9.948376736367678, 0, 9.948376736367678, 0, 9.948376736367678
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [16.373154697137057, 3],
+      "progressDash": [
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3,
+        16.373154697137057, 3, 16.373154697137057, 3, 16.373154697137057, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [11.660765716752367, 3],
+      "progressDash": [
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3,
+        11.660765716752367, 3, 11.660765716752367, 3, 11.660765716752367, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [6.948376736367678, 3],
+      "progressDash": [
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3,
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3,
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3,
+        6.948376736367678, 3, 6.948376736367678, 3, 6.948376736367678, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        0, 38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        0, 29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        0, 19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        0, 38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        0, 29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        0, 19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        0, 38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        0, 29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        0, 19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        0, 38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        0, 29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        0, 19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        16.896753472735355, 3, 16.896753472735355, 3, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3,
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        0, 38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114, 0,
+        38.746309394274114, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        0, 29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        0, 19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 0, 38.746309394274114, 0, 38.746309394274114
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 0, 29.321531433504735, 0, 29.321531433504735, 0,
+        29.321531433504735, 0, 29.321531433504735, 0, 29.321531433504735
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3,
+        16.896753472735355, 3, 16.896753472735355, 3, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355, 0,
+        19.896753472735355, 0, 19.896753472735355, 0, 19.896753472735355
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 74,
+      "cap": "butt",
+      "trackDash": [35.746309394274114, 3],
+      "progressDash": [
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3,
+        35.746309394274114, 3, 35.746309394274114, 3, 35.746309394274114, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 56,
+      "cap": "butt",
+      "trackDash": [26.321531433504735, 3],
+      "progressDash": [
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3,
+        26.321531433504735, 3, 26.321531433504735, 3, 26.321531433504735, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 160,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 38,
+      "cap": "butt",
+      "trackDash": [16.896753472735355, 3],
+      "progressDash": [
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3,
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3,
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3,
+        16.896753472735355, 3, 16.896753472735355, 3, 16.896753472735355, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [0, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [0, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [0, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [149.22565104551518, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [92.15338450530061, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [47.647488579445195, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [179.0707812546182, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [150.79644737231007, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [122.52211349000193, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [298.45130209103036, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [184.30676901060122, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [95.29497715889039, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [358.1415625092364, 716.2831250184728],
+      "progressDash": [358.1415625092364, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [301.59289474462014, 603.1857894892403],
+      "progressDash": [301.59289474462014, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [245.04422698000386, 490.0884539600077],
+      "progressDash": [245.04422698000386, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [298.45130209103036, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [184.30676901060122, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [95.29497715889039, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [358.1415625092364, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [301.59289474462014, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [245.04422698000386, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [0, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [0, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [0, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [596.9026041820607, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [368.61353802120243, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [190.58995431778078, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "round",
+      "trackDash": [716.2831250184728, 716.2831250184728],
+      "progressDash": [716.2831250184728, 716.2831250184728]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "round",
+      "trackDash": [603.1857894892403, 603.1857894892403],
+      "progressDash": [603.1857894892403, 603.1857894892403]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "round",
+      "trackDash": [490.0884539600077, 490.0884539600077],
+      "progressDash": [490.0884539600077, 490.0884539600077]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [0.5, -0.5],
+      "progressDash": [
+        0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5,
+        -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        0, 29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        0, 25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        0, 20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        0, 29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        0, 25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        0, 20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        0, 29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        0, 25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        0, 20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        0, 29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        0, 25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        0, 20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        17.420352248333653, 3, 17.420352248333653, 3, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3,
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        0, 29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033, 0,
+        29.845130209103033, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        0, 25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        0, 20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 0, 29.845130209103033, 0, 29.845130209103033
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 0, 25.132741228718345, 0, 25.132741228718345, 0,
+        25.132741228718345, 0, 25.132741228718345, 0, 25.132741228718345
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3,
+        17.420352248333653, 3, 17.420352248333653, 3, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653, 0,
+        20.420352248333653, 0, 20.420352248333653, 0, 20.420352248333653
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [26.845130209103033, 3],
+      "progressDash": [
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3,
+        26.845130209103033, 3, 26.845130209103033, 3, 26.845130209103033, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [22.132741228718345, 3],
+      "progressDash": [
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3,
+        22.132741228718345, 3, 22.132741228718345, 3, 22.132741228718345, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 0.5,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [17.420352248333653, 3],
+      "progressDash": [
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3,
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3,
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3,
+        17.420352248333653, 3, 17.420352248333653, 3, 17.420352248333653, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        0, 59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        0, 50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        0, 40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        0, 59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        0, 50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        0, 40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        0, 59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        0, 50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 0,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        0, 40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        0, 59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        0, 50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        0, 40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        37.84070449666731, 3, 37.84070449666731, 3, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 50,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3,
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        0, 59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066, 0,
+        59.690260418206066, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        0, 50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        0, 40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 0, 59.690260418206066, 0, 59.690260418206066
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 0, 50.26548245743669, 0, 50.26548245743669, 0,
+        50.26548245743669, 0, 50.26548245743669, 0, 50.26548245743669
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 0.5,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3,
+        37.84070449666731, 3, 37.84070449666731, 3, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731, 0,
+        40.84070449666731, 0, 40.84070449666731, 0, 40.84070449666731
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 0,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 114,
+      "cap": "butt",
+      "trackDash": [56.690260418206066, 3],
+      "progressDash": [
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3,
+        56.690260418206066, 3, 56.690260418206066, 3, 56.690260418206066, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 1,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 96,
+      "cap": "butt",
+      "trackDash": [47.26548245743669, 3],
+      "progressDash": [
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3,
+        47.26548245743669, 3, 47.26548245743669, 3, 47.26548245743669, 3
+      ]
+    }
+  },
+  {
+    "input": {
+      "datum": {
+        "label": "Goal",
+        "value": 120,
+        "maxValue": 100
+      },
+      "index": 2,
+      "count": 3,
+      "size": 240,
+      "strokeWidth": 12,
+      "ringGap": 6,
+      "arc": 1,
+      "reveal": 1,
+      "segments": 12,
+      "segmentGap": 3
+    },
+    "expected": {
+      "radius": 78,
+      "cap": "butt",
+      "trackDash": [37.84070449666731, 3],
+      "progressDash": [
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3,
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3,
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3,
+        37.84070449666731, 3, 37.84070449666731, 3, 37.84070449666731, 3
+      ]
+    }
+  }
+]

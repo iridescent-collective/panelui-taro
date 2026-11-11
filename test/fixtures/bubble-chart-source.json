@@ -1,0 +1,2245 @@
+{
+  "commit": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "models": [
+    {
+      "input": {
+        "data": [],
+        "sizeRange": [10, 28],
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 1],
+          "y": [0, 1]
+        },
+        "bubbles": [],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "sizeRange": [10, 28],
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 1],
+          "y": [0, 1]
+        },
+        "bubbles": [],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 1],
+          "y": [0, 1]
+        },
+        "bubbles": [],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 1],
+          "y": [0, 1]
+        },
+        "bubbles": [],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 10,
+            "y": 20,
+            "n": "A",
+            "s": 10,
+            "c": 2
+          },
+          {
+            "x": 30,
+            "y": 60,
+            "n": "B",
+            "s": 30,
+            "c": "#cc00aa"
+          },
+          {
+            "x": 20,
+            "y": 10,
+            "n": "C",
+            "s": 20,
+            "c": 5
+          }
+        ],
+        "sizeRange": [10, 28],
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [10, 30],
+          "y": [10, 60]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 10,
+            "y": 20,
+            "r": 19,
+            "size": null,
+            "label": "A",
+            "color": "#262626",
+            "datum": {
+              "x": 10,
+              "y": 20,
+              "n": "A",
+              "s": 10,
+              "c": 2
+            }
+          },
+          {
+            "index": 1,
+            "x": 30,
+            "y": 60,
+            "r": 19,
+            "size": null,
+            "label": "B",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 30,
+              "y": 60,
+              "n": "B",
+              "s": 30,
+              "c": "#cc00aa"
+            }
+          },
+          {
+            "index": 2,
+            "x": 20,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "C",
+            "color": "#60a5fa",
+            "datum": {
+              "x": 20,
+              "y": 10,
+              "n": "C",
+              "s": 20,
+              "c": 5
+            }
+          }
+        ],
+        "fit": {
+          "slope": 2,
+          "intercept": -10,
+          "r": 0.7559289460184544
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 10,
+            "y": 20,
+            "n": "A",
+            "s": 10,
+            "c": 2
+          },
+          {
+            "x": 30,
+            "y": 60,
+            "n": "B",
+            "s": 30,
+            "c": "#cc00aa"
+          },
+          {
+            "x": 20,
+            "y": 10,
+            "n": "C",
+            "s": 20,
+            "c": 5
+          }
+        ],
+        "sizeRange": [10, 28],
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [10, 30],
+          "y": [10, 60]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 10,
+            "y": 20,
+            "r": 19,
+            "size": null,
+            "label": "A",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 10,
+              "y": 20,
+              "n": "A",
+              "s": 10,
+              "c": 2
+            }
+          },
+          {
+            "index": 1,
+            "x": 30,
+            "y": 60,
+            "r": 19,
+            "size": null,
+            "label": "B",
+            "color": "#cc00aa",
+            "datum": {
+              "x": 30,
+              "y": 60,
+              "n": "B",
+              "s": 30,
+              "c": "#cc00aa"
+            }
+          },
+          {
+            "index": 2,
+            "x": 20,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "C",
+            "color": "#bfdbfe",
+            "datum": {
+              "x": 20,
+              "y": 10,
+              "n": "C",
+              "s": 20,
+              "c": 5
+            }
+          }
+        ],
+        "fit": {
+          "slope": 2,
+          "intercept": -10,
+          "r": 0.7559289460184544
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 10,
+            "y": 20,
+            "n": "A",
+            "s": 10,
+            "c": 2
+          },
+          {
+            "x": 30,
+            "y": 60,
+            "n": "B",
+            "s": 30,
+            "c": "#cc00aa"
+          },
+          {
+            "x": 20,
+            "y": 10,
+            "n": "C",
+            "s": 20,
+            "c": 5
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [10, 30],
+        "extents": {
+          "x": [10, 30],
+          "y": [10, 60]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 10,
+            "y": 20,
+            "r": 10,
+            "size": 10,
+            "label": "A",
+            "color": "#262626",
+            "datum": {
+              "x": 10,
+              "y": 20,
+              "n": "A",
+              "s": 10,
+              "c": 2
+            }
+          },
+          {
+            "index": 1,
+            "x": 30,
+            "y": 60,
+            "r": 28,
+            "size": 30,
+            "label": "B",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 30,
+              "y": 60,
+              "n": "B",
+              "s": 30,
+              "c": "#cc00aa"
+            }
+          },
+          {
+            "index": 2,
+            "x": 20,
+            "y": 10,
+            "r": 21.02379604162864,
+            "size": 20,
+            "label": "C",
+            "color": "#60a5fa",
+            "datum": {
+              "x": 20,
+              "y": 10,
+              "n": "C",
+              "s": 20,
+              "c": 5
+            }
+          }
+        ],
+        "fit": {
+          "slope": 2,
+          "intercept": -10,
+          "r": 0.7559289460184544
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 10,
+            "y": 20,
+            "n": "A",
+            "s": 10,
+            "c": 2
+          },
+          {
+            "x": 30,
+            "y": 60,
+            "n": "B",
+            "s": 30,
+            "c": "#cc00aa"
+          },
+          {
+            "x": 20,
+            "y": 10,
+            "n": "C",
+            "s": 20,
+            "c": 5
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [10, 30],
+        "extents": {
+          "x": [10, 30],
+          "y": [10, 60]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 10,
+            "y": 20,
+            "r": 10,
+            "size": 10,
+            "label": "A",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 10,
+              "y": 20,
+              "n": "A",
+              "s": 10,
+              "c": 2
+            }
+          },
+          {
+            "index": 1,
+            "x": 30,
+            "y": 60,
+            "r": 28,
+            "size": 30,
+            "label": "B",
+            "color": "#cc00aa",
+            "datum": {
+              "x": 30,
+              "y": 60,
+              "n": "B",
+              "s": 30,
+              "c": "#cc00aa"
+            }
+          },
+          {
+            "index": 2,
+            "x": 20,
+            "y": 10,
+            "r": 21.02379604162864,
+            "size": 20,
+            "label": "C",
+            "color": "#bfdbfe",
+            "datum": {
+              "x": 20,
+              "y": 10,
+              "n": "C",
+              "s": 20,
+              "c": 5
+            }
+          }
+        ],
+        "fit": {
+          "slope": 2,
+          "intercept": -10,
+          "r": 0.7559289460184544
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": null,
+            "y": 90,
+            "n": "Missing",
+            "s": 40
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "n": "Zero",
+            "s": 0
+          }
+        ],
+        "sizeRange": [10, 28],
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [-1, 1],
+          "y": [-1, 1]
+        },
+        "bubbles": [
+          {
+            "index": 1,
+            "x": 0,
+            "y": 0,
+            "r": 19,
+            "size": null,
+            "label": "Zero",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 0,
+              "y": 0,
+              "n": "Zero",
+              "s": 0
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": null,
+            "y": 90,
+            "n": "Missing",
+            "s": 40
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "n": "Zero",
+            "s": 0
+          }
+        ],
+        "sizeRange": [10, 28],
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [-1, 1],
+          "y": [-1, 1]
+        },
+        "bubbles": [
+          {
+            "index": 1,
+            "x": 0,
+            "y": 0,
+            "r": 19,
+            "size": null,
+            "label": "Zero",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 0,
+              "y": 0,
+              "n": "Zero",
+              "s": 0
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": null,
+            "y": 90,
+            "n": "Missing",
+            "s": 40
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "n": "Zero",
+            "s": 0
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [0, 40],
+        "extents": {
+          "x": [-1, 1],
+          "y": [-1, 1]
+        },
+        "bubbles": [
+          {
+            "index": 1,
+            "x": 0,
+            "y": 0,
+            "r": 10,
+            "size": 0,
+            "label": "Zero",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 0,
+              "y": 0,
+              "n": "Zero",
+              "s": 0
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": null,
+            "y": 90,
+            "n": "Missing",
+            "s": 40
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "n": "Zero",
+            "s": 0
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [0, 40],
+        "extents": {
+          "x": [-1, 1],
+          "y": [-1, 1]
+        },
+        "bubbles": [
+          {
+            "index": 1,
+            "x": 0,
+            "y": 0,
+            "r": 10,
+            "size": 0,
+            "label": "Zero",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 0,
+              "y": 0,
+              "n": "Zero",
+              "s": 0
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 7,
+            "y": 9,
+            "n": "Only",
+            "s": 10
+          }
+        ],
+        "sizeRange": [10, 28],
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [6, 8],
+          "y": [8, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 7,
+            "y": 9,
+            "r": 19,
+            "size": null,
+            "label": "Only",
+            "color": "#262626",
+            "datum": {
+              "x": 7,
+              "y": 9,
+              "n": "Only",
+              "s": 10
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 7,
+            "y": 9,
+            "n": "Only",
+            "s": 10
+          }
+        ],
+        "sizeRange": [10, 28],
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [6, 8],
+          "y": [8, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 7,
+            "y": 9,
+            "r": 19,
+            "size": null,
+            "label": "Only",
+            "color": "#262626",
+            "datum": {
+              "x": 7,
+              "y": 9,
+              "n": "Only",
+              "s": 10
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 7,
+            "y": 9,
+            "n": "Only",
+            "s": 10
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [10, 10],
+        "extents": {
+          "x": [6, 8],
+          "y": [8, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 7,
+            "y": 9,
+            "r": 28,
+            "size": 10,
+            "label": "Only",
+            "color": "#262626",
+            "datum": {
+              "x": 7,
+              "y": 9,
+              "n": "Only",
+              "s": 10
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 7,
+            "y": 9,
+            "n": "Only",
+            "s": 10
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": [10, 10],
+        "extents": {
+          "x": [6, 8],
+          "y": [8, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 7,
+            "y": 9,
+            "r": 28,
+            "size": 10,
+            "label": "Only",
+            "color": "#262626",
+            "datum": {
+              "x": 7,
+              "y": 9,
+              "n": "Only",
+              "s": 10
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 1,
+            "y": 5,
+            "n": "One"
+          },
+          {
+            "x": 1,
+            "y": 10,
+            "n": "Two"
+          }
+        ],
+        "sizeRange": [10, 28],
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 2],
+          "y": [5, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 1,
+            "y": 5,
+            "r": 19,
+            "size": null,
+            "label": "One",
+            "color": "#262626",
+            "datum": {
+              "x": 1,
+              "y": 5,
+              "n": "One"
+            }
+          },
+          {
+            "index": 1,
+            "x": 1,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "Two",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 1,
+              "y": 10,
+              "n": "Two"
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 1,
+            "y": 5,
+            "n": "One"
+          },
+          {
+            "x": 1,
+            "y": 10,
+            "n": "Two"
+          }
+        ],
+        "sizeRange": [10, 28],
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 2],
+          "y": [5, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 1,
+            "y": 5,
+            "r": 19,
+            "size": null,
+            "label": "One",
+            "color": "#262626",
+            "datum": {
+              "x": 1,
+              "y": 5,
+              "n": "One"
+            }
+          },
+          {
+            "index": 1,
+            "x": 1,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "Two",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 1,
+              "y": 10,
+              "n": "Two"
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 1,
+            "y": 5,
+            "n": "One"
+          },
+          {
+            "x": 1,
+            "y": 10,
+            "n": "Two"
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 2],
+          "y": [5, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 1,
+            "y": 5,
+            "r": 19,
+            "size": null,
+            "label": "One",
+            "color": "#262626",
+            "datum": {
+              "x": 1,
+              "y": 5,
+              "n": "One"
+            }
+          },
+          {
+            "index": 1,
+            "x": 1,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "Two",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 1,
+              "y": 10,
+              "n": "Two"
+            }
+          }
+        ],
+        "fit": null
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "x": 1,
+            "y": 5,
+            "n": "One"
+          },
+          {
+            "x": 1,
+            "y": 10,
+            "n": "Two"
+          }
+        ],
+        "sizeRange": [10, 28],
+        "sizeKey": "s",
+        "colorKey": "c",
+        "xDataKey": "x",
+        "yDataKey": "y",
+        "labelKey": "n",
+        "palette": ["#262626", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe"]
+      },
+      "expected": {
+        "sizeExtent": null,
+        "extents": {
+          "x": [0, 2],
+          "y": [5, 10]
+        },
+        "bubbles": [
+          {
+            "index": 0,
+            "x": 1,
+            "y": 5,
+            "r": 19,
+            "size": null,
+            "label": "One",
+            "color": "#262626",
+            "datum": {
+              "x": 1,
+              "y": 5,
+              "n": "One"
+            }
+          },
+          {
+            "index": 1,
+            "x": 1,
+            "y": 10,
+            "r": 19,
+            "size": null,
+            "label": "Two",
+            "color": "#3b82f6",
+            "datum": {
+              "x": 1,
+              "y": 10,
+              "n": "Two"
+            }
+          }
+        ],
+        "fit": null
+      }
+    }
+  ],
+  "frames": [
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.440892098500626e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.440892098500626e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.440892098500626e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.707345624410664e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.707345624410664e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.707345624410664e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.973799150320702e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.973799150320702e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.973799150320702e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.2,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 17.925925925925927,
+        "fillOpacity": 0.6000000000000001
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.2,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 8.235939643347052,
+        "fillOpacity": 0.20000000000000004
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.2,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.440892098500626e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.2,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 19.001481481481484,
+        "fillOpacity": 0.6333333333333334
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.2,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 8.730096021947876,
+        "fillOpacity": 0.21111111111111114
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.2,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.707345624410664e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.2,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20.07703703703704,
+        "fillOpacity": 0.6666666666666667
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.2,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 9.2242524005487,
+        "fillOpacity": 0.22222222222222227
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.2,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 4.973799150320702e-15,
+        "fillOpacity": 0
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.4,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.185185185185187,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.4,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20.13717421124829,
+        "fillOpacity": 0.8000000000000002
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.4,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 14.085048010973944,
+        "fillOpacity": 0.4000000000000001
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.4,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.456296296296298,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.4,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.345404663923187,
+        "fillOpacity": 0.8444444444444446
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.4,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 14.930150891632382,
+        "fillOpacity": 0.4222222222222223
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.4,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 23.727407407407412,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.4,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.553635116598088,
+        "fillOpacity": 0.8888888888888891
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.4,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 15.775253772290819,
+        "fillOpacity": 0.44444444444444453
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.7,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.7,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20.072359396433473,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.7,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.020233196159126,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.7,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.200000000000003,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.7,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.276700960219483,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.7,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.281447187928674,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 0.7,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.400000000000002,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 0.7,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.481042524005492,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 0.7,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 23.54266117969822,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 1,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 1,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 1,
+        "selection": 0
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 20,
+        "fillOpacity": 0.9
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 1,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.200000000000003,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 1,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.200000000000003,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 1,
+        "selection": 0.5
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 21.200000000000003,
+        "fillOpacity": 0.95
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 0,
+        "grow": 1,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.400000000000002,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 1,
+        "grow": 1,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.400000000000002,
+        "fillOpacity": 1
+      }
+    },
+    {
+      "input": {
+        "x": 20,
+        "y": 30,
+        "r": 20,
+        "plot": {
+          "left": 44,
+          "top": 28,
+          "width": 228,
+          "height": 244
+        },
+        "xExtent": [0, 40],
+        "yExtent": [0, 80],
+        "opacity": 0.9,
+        "total": 3,
+        "order": 2,
+        "grow": 1,
+        "selection": 1
+      },
+      "expected": {
+        "cx": 158,
+        "cy": 180.5,
+        "r": 22.400000000000002,
+        "fillOpacity": 1
+      }
+    }
+  ]
+}

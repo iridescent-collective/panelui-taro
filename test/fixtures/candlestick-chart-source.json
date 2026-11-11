@@ -1,0 +1,2940 @@
+{
+  "commit": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "frames": [
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M125.25 88.62878787878788h27a1.5 1.5 0 0 1 1.5 1.5v7.075757575757578a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-7.075757575757578a1.5 1.5 0 0 1 1.5 -1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M138 77.86363636363637h1.5V114.13636363636363h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M64.75 86.24242424242425h27a1.5 1.5 0 0 1 1.5 1.5v11.848484848484851a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-11.848484848484851a1.5 1.5 0 0 1 1.5 -1.5ZM184.42045454545453 105.9128787878788h29.65909090909091a0.17045454545454541 0.17045454545454541 0 0 1 0.17045454545454541 0.17045454545454541v0a0.17045454545454541 0.17045454545454541 0 0 1 -0.17045454545454541 0.17045454545454541h-29.65909090909091a0.17045454545454541 0.17045454545454541 0 0 1 -0.17045454545454541 -0.17045454545454541v0a0.17045454545454541 0.17045454545454541 0 0 1 0.17045454545454541 -0.17045454545454541Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M77.5 79.87878787878789h1.5V121.45454545454545h-1.5ZM198.5 102.15151515151516h1.5V108.51515151515153h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M125.25 88.62878787878788h27a1.5 1.5 0 0 1 1.5 1.5v7.075757575757578a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-7.075757575757578a1.5 1.5 0 0 1 1.5 -1.5Z"
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M138 77.86363636363637h1.5V114.13636363636363h-1.5Z"
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M64.75 86.24242424242425h27a1.5 1.5 0 0 1 1.5 1.5v11.848484848484851a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-11.848484848484851a1.5 1.5 0 0 1 1.5 -1.5ZM184.42045454545453 105.9128787878788h29.65909090909091a0.17045454545454541 0.17045454545454541 0 0 1 0.17045454545454541 0.17045454545454541v0a0.17045454545454541 0.17045454545454541 0 0 1 -0.17045454545454541 0.17045454545454541h-29.65909090909091a0.17045454545454541 0.17045454545454541 0 0 1 -0.17045454545454541 -0.17045454545454541v0a0.17045454545454541 0.17045454545454541 0 0 1 0.17045454545454541 -0.17045454545454541Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M77.5 79.87878787878789h1.5V121.45454545454545h-1.5ZM198.5 102.15151515151516h1.5V108.51515151515153h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M138 54h1.5V138h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M64.75 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5ZM185 105.33333333333334h28.5a0.75 0.75 0 0 1 0.75 0.75v0a0.75 0.75 0 0 1 -0.75 0.75h-28.5a0.75 0.75 0 0 1 -0.75 -0.75v0a0.75 0.75 0 0 1 0.75 -0.75Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M77.5 68h1.5V133.33333333333334h-1.5ZM198.5 91.33333333333333h1.5V119.33333333333334h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M138 54h1.5V138h-1.5Z"
+        },
+        "highlight": {
+          "d": "M138 54h1.5V138h-1.5ZM125.25 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5Z"
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M64.75 82h27a1.5 1.5 0 0 1 1.5 1.5v20.333333333333343a1.5 1.5 0 0 1 -1.5 1.5h-27a1.5 1.5 0 0 1 -1.5 -1.5v-20.333333333333343a1.5 1.5 0 0 1 1.5 -1.5ZM185 105.33333333333334h28.5a0.75 0.75 0 0 1 0.75 0.75v0a0.75 0.75 0 0 1 -0.75 0.75h-28.5a0.75 0.75 0 0 1 -0.75 -0.75v0a0.75 0.75 0 0 1 0.75 -0.75Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Mon",
+            "open": 100,
+            "high": 108,
+            "low": 94,
+            "close": 105
+          },
+          {
+            "date": "Tue",
+            "open": 105,
+            "high": 111,
+            "low": 93,
+            "close": 100
+          },
+          {
+            "date": "Wed",
+            "open": 100,
+            "high": 103,
+            "low": 97,
+            "close": 100
+          },
+          {
+            "date": "Missing",
+            "open": 100,
+            "high": null,
+            "low": 93,
+            "close": 104
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M77.5 68h1.5V133.33333333333334h-1.5ZM198.5 91.33333333333333h1.5V119.33333333333334h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M154.47727272727272 572.2727272727273h29.045454545454547a0.4772727272727272 0.4772727272727272 0 0 1 0.4772727272727272 0.4772727272727272v0a0.4772727272727272 0.4772727272727272 0 0 1 -0.4772727272727272 0.4772727272727272h-29.045454545454547a0.4772727272727272 0.4772727272727272 0 0 1 -0.4772727272727272 -0.4772727272727272v0a0.4772727272727272 0.4772727272727272 0 0 1 0.4772727272727272 -0.4772727272727272Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M168.25 572h1.5V572h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M154.47727272727272 572.2727272727273h29.045454545454547a0.4772727272727272 0.4772727272727272 0 0 1 0.4772727272727272 0.4772727272727272v0a0.4772727272727272 0.4772727272727272 0 0 1 -0.4772727272727272 0.4772727272727272h-29.045454545454547a0.4772727272727272 0.4772727272727272 0 0 1 -0.4772727272727272 -0.4772727272727272v0a0.4772727272727272 0.4772727272727272 0 0 1 0.4772727272727272 -0.4772727272727272Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 0.35,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M168.25 572h1.5V572h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M154.75 572h28.5a0.75 0.75 0 0 1 0.75 0.75v0a0.75 0.75 0 0 1 -0.75 0.75h-28.5a0.75 0.75 0 0 1 -0.75 -0.75v0a0.75 0.75 0 0 1 0.75 -0.75Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": -1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M168.25 572h1.5V572h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": false,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": ""
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": false,
+      "expected": {
+        "body": {
+          "d": "M154.75 572h28.5a0.75 0.75 0 0 1 0.75 0.75v0a0.75 0.75 0 0 1 -0.75 0.75h-28.5a0.75 0.75 0 0 1 -0.75 -0.75v0a0.75 0.75 0 0 1 0.75 -0.75Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    },
+    {
+      "input": {
+        "data": [
+          {
+            "date": "Flat",
+            "open": 0,
+            "high": 0,
+            "low": 0,
+            "close": 0
+          }
+        ],
+        "plot": {
+          "height": 140,
+          "left": 48,
+          "top": 12,
+          "width": 242
+        },
+        "width": 30,
+        "cornerRadius": 1.5,
+        "min": 90,
+        "max": 120,
+        "grow": 1,
+        "active": 1
+      },
+      "wantRising": true,
+      "wicks": true,
+      "expected": {
+        "body": {
+          "d": "M168.25 572h1.5V572h-1.5Z"
+        },
+        "highlight": {
+          "d": ""
+        }
+      }
+    }
+  ],
+  "domains": [
+    {
+      "data": [
+        {
+          "date": "Mon",
+          "open": 100,
+          "high": 108,
+          "low": 94,
+          "close": 105
+        },
+        {
+          "date": "Tue",
+          "open": 105,
+          "high": 111,
+          "low": 93,
+          "close": 100
+        },
+        {
+          "date": "Wed",
+          "open": 100,
+          "high": 103,
+          "low": 97,
+          "close": 100
+        },
+        {
+          "date": "Missing",
+          "open": 100,
+          "high": null,
+          "low": 93,
+          "close": 104
+        }
+      ],
+      "expected": [91.2, 112.8]
+    },
+    {
+      "data": [
+        {
+          "date": "Mon",
+          "open": 100,
+          "high": 108,
+          "low": 94,
+          "close": 105
+        },
+        {
+          "date": "Tue",
+          "open": 105,
+          "high": 111,
+          "low": 93,
+          "close": 100
+        },
+        {
+          "date": "Wed",
+          "open": 100,
+          "high": 103,
+          "low": 97,
+          "close": 100
+        },
+        {
+          "date": "Missing",
+          "open": 100,
+          "high": null,
+          "low": 93,
+          "close": 104
+        }
+      ],
+      "yDomain": [80, 140],
+      "expected": [80, 140]
+    },
+    {
+      "data": [],
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "yDomain": [80, 140],
+      "expected": [80, 140]
+    },
+    {
+      "data": [
+        {
+          "date": "Flat",
+          "open": 0,
+          "high": 0,
+          "low": 0,
+          "close": 0
+        }
+      ],
+      "expected": [-1, 1]
+    },
+    {
+      "data": [
+        {
+          "date": "Flat",
+          "open": 0,
+          "high": 0,
+          "low": 0,
+          "close": 0
+        }
+      ],
+      "yDomain": [80, 140],
+      "expected": [80, 140]
+    }
+  ]
+}

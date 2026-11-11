@@ -1,0 +1,28 @@
+---
+title: "Fonts"
+description: "Load and restore theme font families through WeChat."
+---
+
+```tsx
+import { loadThemeFonts, setThemeFonts } from "panelui-taro/theme";
+
+await loadThemeFonts("brand", {
+  normal: {
+    family: "BrandRegular",
+    source: "https://assets.example.com/regular.woff",
+  },
+  medium: {
+    family: "BrandMedium",
+    source: "https://assets.example.com/medium.woff",
+  },
+  mono: { family: "BrandMono", source: "https://assets.example.com/mono.woff" },
+});
+
+setThemeFonts("brand", {});
+```
+
+`normal`, `medium`, `semibold`, `bold` and `mono` map to font families. A supplied weight face uses weight 400 to avoid synthesizing weight on top of the loaded face; unconfigured weights keep their existing behavior. `setThemeFonts` replaces the font mapping and can configure already available families. To change one token while retaining others, merge `getRegisteredThemeFonts(theme)` into the new mapping.
+
+The loader requires HTTPS, deduplicates shared faces, applies configuration only after every download succeeds, and rejects superseded requests. Restoring or replacing fonts while a download is pending prevents that request from overwriting the newer configuration. A failed download preserves the active mapping. Host applications own resource hosting, licensing and release-domain setup. Font families are runtime configuration; register them again after an application restart.
+
+The example downloads the [Google Fonts Pacifico TTF](https://github.com/google/fonts/tree/main/ofl/pacifico) only after a button press. See the [Taro font API](https://docs.taro.zone/docs/apis/ui/fonts/loadFontFace/) for platform requirements. Resource servers must allow WeChat font requests through CORS. Glyph fallback and native Canvas support are platform constraints, so a successful loader call alone does not establish visual or device acceptance.

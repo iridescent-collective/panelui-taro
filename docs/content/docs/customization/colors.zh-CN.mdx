@@ -1,0 +1,21 @@
+---
+title: "颜色"
+description: "组件、浮层与图表共用的语义化设计变量。"
+---
+
+## 语义角色
+
+组件优先使用 `--panel-background`、`--panel-foreground`、`--panel-primary`、`--panel-muted`、`--panel-border` 和状态色，避免硬编码颜色。六套内置主题分别定义其值。
+
+```tsx
+import { useThemeToken } from "panelui-taro/theme";
+const primary = useThemeToken("primary");
+```
+
+在组件或自定义 Hook 中调用。JavaScript 图形也读取解析后的变量；共享颜色修改应通过 `registerTheme` 注册，让 WXSS 与图形保持一致。
+
+## 自定义与预览
+
+自定义主题继承内置主题，校验变量名和颜色字面量，并派生透明度别名。[主题指南](/zh-CN/docs/customization/theming)介绍浅深模式与系列。
+
+打开 `/customization/colors/index`，切换系列与模式、检查调色板并复制变量。

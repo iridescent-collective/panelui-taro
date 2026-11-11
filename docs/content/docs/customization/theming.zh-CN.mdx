@@ -1,0 +1,45 @@
+---
+title: "主题"
+description: "内置系列、自定义变量以及 Provider 与 Portal 的共享值。"
+---
+
+恢复已保存的自定义主题前先完成注册。主题继承六套内置主题之一；变量名与颜色字面量会被校验。圆角使用 Native 逻辑 px，在微信边界转换为两倍数值的 rpx。
+
+```tsx
+import {
+  registerTheme,
+  registerThemeFamily,
+  useTheme,
+} from "panelui-taro/theme";
+
+registerTheme("brand", {
+  extends: "light",
+  tokens: {
+    primary: "#c2410c",
+    "primary-foreground": "#ffffff",
+    "chart-1": "#c2410c",
+    "radius-xl": "18px",
+  },
+});
+registerTheme("brand-dark", {
+  extends: "dark",
+  tokens: { primary: "#fb923c", "chart-1": "#fb923c" },
+});
+registerThemeFamily({
+  id: "brand",
+  name: "Brand",
+  light: "brand",
+  dark: "brand-dark",
+  swatch: ["#c2410c", "#fb923c"],
+});
+```
+
+调用 `useTheme().setTheme("brand")` 选用主题。`useThemeMode()` 切换模式时保留系列；`useThemeFamilies()` 包含注册的系列。
+
+`useThemeToken()`、`useThemeTokens()`、SVG、Canvas、Provider 和 Portal 读取同一注册表。更新已有定义会通知消费者，透明度别名随基础颜色更新，无需切换主题名。一个变体只归属一个系列；未注册系列的独立主题按其内置基准判断模式。
+
+这是 Native Uniwind 配置在微信端的对应方式。任意宿主 CSS 覆盖不会反向同步到 JavaScript 图表颜色；共享修改使用注册表，局部外观使用 `className` 与 `style`。
+
+## 内置主题
+
+Panel、Moon、Grass 各有浅色和深色。`system` 始终选择内置 Panel 浅深组合。

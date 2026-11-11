@@ -1,0 +1,68 @@
+{
+  "upstream": "PanelUI Native",
+  "commit": "73e7e3ad9bd83c611108f86955238742f6560edd",
+  "scope": "AI beta documentation patterns and application-owned recorder; Taro-specific transport and development server",
+  "sources": [
+    {
+      "path": "apps/docs/content/docs/ai/index.mdx",
+      "sha256": "2994aa3168abaf195af35900e8c83290d033331934af95cfffaf315653ab84d8"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/setup.mdx",
+      "sha256": "84723e933ff5ed986dcb7b89be5fc363514a970c79c2db0819341ac9c782f30c"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/api-route.mdx",
+      "sha256": "0d922171d029c8ec65de61f073e091051fcbe47f33f2e70ed5f5020f409b9d26"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/chat-ui.mdx",
+      "sha256": "68814d0751c0a7273d5c986252a42b7d0ad99c2f6de12a55ffd18db8ed8b0d59"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/voice.mdx",
+      "sha256": "41445c5f5da6077585f2d654d9b99c1b5311128a59b5a03190c006c60fdf885f"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/streaming-performance.mdx",
+      "sha256": "13ad127298fbf2b4806ba60f53c691eab6690d357dea254e0272f8ef1d6c57bc"
+    },
+    {
+      "path": "apps/docs/content/docs/ai/tools.mdx",
+      "sha256": "be23fa5eca6a31dfe10ddbc3cbfb23a67f7fcdd03e66e1b5a980cd01bcef2456"
+    },
+    {
+      "path": "apps/example/src/components/voice.tsx",
+      "sha256": "f4dbde908f93eb099b5f72ce8a5f3fa2a755af9a9679b7c3df252b187a38dc05"
+    }
+  ],
+  "acceptance": {
+    "automated": {
+      "status": "passed",
+      "exampleTests": 1747,
+      "serverTests": 9,
+      "docsI18nTests": 4,
+      "typechecks": [
+        "panelui-example",
+        "panelui-docs"
+      ],
+      "builds": [
+        "weapp:panelui",
+        "panelui-docs"
+      ],
+      "siteVerification": {
+        "localizedPages": 326,
+        "markdownAndSearchLocales": [
+          "en",
+          "zh-CN"
+        ]
+      }
+    },
+    "simulator": {
+      "status": "blocked",
+      "reason": "WeChat Developer Tools rejected the example touristappid with error code 10"
+    },
+    "physicalDevice": "pending; microphone, audio, keyboard, scrolling and performance require device evidence",
+    "liveProvider": "pending; configure server model and optional audio models before provider acceptance"
+  }
+}

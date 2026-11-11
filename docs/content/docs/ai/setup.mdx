@@ -1,0 +1,33 @@
+---
+title: "Setup"
+description: "Configure the independent example client and server."
+---
+
+## Server configuration
+
+From the repository root:
+
+```sh
+cp panelui-taro/example/server/.env.example panelui-taro/example/server/.env.local
+pnpm --filter panelui-example dev:ai
+```
+
+Fill `AI_BASE_URL`, `AI_API_KEY` and `AI_MODEL` in that server file before sending a real message. The provider must implement streaming Chat Completions and function tools. `AI_BASE_URL` ends at the API version prefix, such as `/v1`; the adapter appends `/chat/completions`. No new runtime or provider dependency is installed.
+
+Optional audio endpoints need `AI_TRANSCRIPTION_MODEL` and `AI_SPEECH_MODEL`. `AI_SPEECH_VOICE` defaults to `alloy`; set a voice supported by your provider. Audio support is provider-specific.
+
+## Mini program configuration
+
+```sh
+TARO_APP_PANELUI_AI_API_URL=http://127.0.0.1:3101 pnpm dev:weapp:panelui
+```
+
+This public URL is captured at build time. Restart the build after changing it. No provider key belongs in a `TARO_APP_*` variable. Open assistant options and select **Connected service**. Its model is controlled by the server; the demo's Balanced/Reasoning/Fast choices do not select provider models.
+
+On a phone, `127.0.0.1` refers to the phone. Bind `AI_DEMO_HOST` to the development machine's LAN address and build with that address. Developer Tools may disable domain verification for local debugging; distributed mini programs require a reachable HTTPS endpoint and the corresponding WeChat request/upload domain configuration. Configure microphone privacy declarations in the WeChat console for your test AppID.
+
+## Transport differences from Native
+
+Native's `expo/fetch`, Reanimated and Expo Router routes are not used. `services/transport.ts` uses Taro `request` with `enableChunked` and `onChunkReceived`. The client speaks the small NDJSON contract documented in [API route](/docs/ai/api-route), not the AI SDK UIMessage protocol. A custom UTF-8 decoder handles Chinese and emoji split across network chunks without assuming `TextDecoder` exists.
+
+`GET /health` returns configuration readiness without exposing keys. The server binds to loopback by default and denies browser origins unless `AI_ALLOWED_ORIGINS` explicitly lists them. Before adapting it into a shared service, add application authentication, per-user limits and your own business authorization at the service boundary.

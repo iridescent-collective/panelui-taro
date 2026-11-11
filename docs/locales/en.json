@@ -1,0 +1,151 @@
+{
+  "site": {
+    "nav": {
+      "components": "Components",
+      "docs": "Docs",
+      "upstream": "Upstream",
+      "start": "Get started",
+      "platform": "Taro / WeChat · Native port"
+    },
+    "hero": {
+      "title": "Beautiful components for your WeChat mini program",
+      "description": "PanelUI Native, adapted to Taro. Compound components, semantic colors and six themes — with a working WeChat example to make them your own.",
+      "browse": "Browse Components",
+      "pending": "Workspace package · public npm release pending"
+    },
+    "copy": {
+      "label": "Copy workspace install command",
+      "idle": "",
+      "copied": "Copied to clipboard",
+      "failed": "Copy failed. Select the command to copy it manually."
+    },
+    "showcase": {
+      "title": "The same parts. A new home in WeChat.",
+      "description": "One set of semantic tokens, from the smallest button to a complete screen. Explore the theme families below, then try the real components in Developer Tools.",
+      "family": "Theme family",
+      "caption": "Interactive website illustration. Taro components run in the WeChat example, not in this browser preview."
+    },
+    "buttons": {
+      "title": "Buttons & feedback",
+      "create": "Create project",
+      "reset": "Reset",
+      "ready": "Ready when you are.",
+      "created": "Project created. Try another theme.",
+      "find": "Find a component",
+      "placeholder": "Find a component…",
+      "none": "No matching components",
+      "browse": "Browse the collection →"
+    },
+    "metric": {
+      "title": "Activity",
+      "period": "Last 7 days",
+      "growth": "+12.8% this week",
+      "chart": "Activity rising over seven days"
+    },
+    "preferences": {
+      "title": "Make it yours",
+      "line1": "Every detail,",
+      "line2": "in your theme.",
+      "notifications": "Notifications",
+      "push": "Push",
+      "weekly": "Weekly digest",
+      "optional": "Optional",
+      "explore": "Explore theming →"
+    },
+    "features": {
+      "title": "Built around the platform you ship to",
+      "description": "Use the Native design language with the APIs and constraints of WeChat.",
+      "items": {
+        "0": {
+          "stat": "140",
+          "title": "A familiar component language",
+          "description": "Compound parts, typed props and per-component imports. Follow the Native collection without pulling in the Web library."
+        },
+        "1": {
+          "stat": "06",
+          "title": "Six themes, three families",
+          "description": "Panel, Moon and Grass, each in light and dark. Register your own colors, fonts and radii in one place."
+        },
+        "2": {
+          "stat": "750",
+          "title": "Made for the mini program",
+          "description": "Taro hosts, WXSS-safe classes, WeChat Canvas and native platform adapters. No React Native runtime required."
+        },
+        "3": {
+          "stat": "777",
+          "title": "Examples you can actually run",
+          "description": "An independent WeChat example with official variants, four Blocks and seven customization guides."
+        },
+        "4": {
+          "stat": "MIT",
+          "title": "Source you can make your own",
+          "description": "Readable TypeScript, explicit exports and retained upstream attribution. Your business app stays separate."
+        },
+        "5": {
+          "stat": "0.114",
+          "title": "Coverage you can inspect",
+          "description": "Aligned to Native 0.114.0 with a 0.112.0 source baseline. Deferred APIs and device checks stay visible."
+        }
+      }
+    },
+    "directory": {
+      "title": "Small parts. Complete interfaces.",
+      "description": "Explore the actual exports, compound anatomy and example routes in the Taro port.",
+      "all": "All {{count}} components →"
+    },
+    "footer": {
+      "attribution": "PanelUI Taro · MIT · A port of PanelUI Native.",
+      "source": "Design and source adapted from",
+      "platform": "Platform differences"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "This component or guide is not available in the Taro port.",
+      "back": "Back to documentation →"
+    }
+  },
+  "fumadocs": {
+    "Search(search trigger)": "Search",
+    "Search(search dialog)": "Search",
+    "Open Search(search trigger)(aria-label)": "Open Search",
+    "Close Search(search dialog)(aria-label)": "Close Search",
+    "No results found(search dialog)": "No results found",
+    "Search failed(search dialog)": "Search failed",
+    "On this page(table of contents)": "On this page",
+    "Table of Contents(inline table of contents)": "Table of Contents",
+    "No Headings(table of contents)": "No Headings",
+    "Next Page(pagination)": "Next Page",
+    "Previous Page(pagination)": "Previous Page",
+    "Copy Markdown(page actions)": "Copy Markdown",
+    "Copied Markdown(page actions)": "Copied Markdown",
+    "View as Markdown(page actions)": "View as Markdown",
+    "Copy Text(code block)(aria-label)": "Copy Text",
+    "Copied Text(code block)(aria-label)": "Copied Text",
+    "Toggle Menu(mobile menu)(aria-label)": "Toggle Menu",
+    "Toggle Theme(theme switcher)(aria-label)": "Toggle Theme",
+    "Choose a language(language switcher)": "Choose a language",
+    "Choose a language(language switcher)(aria-label)": "Choose a language",
+    "Open Sidebar(sidebar)(aria-label)": "Open Sidebar",
+    "Close Sidebar(sidebar)(aria-label)": "Close Sidebar",
+    "Close Sidebar(aria-label)": "Close Sidebar",
+    "Open Sidebar(aria-label)": "Open Sidebar",
+    "Hide Sidebar(sidebar)": "Hide Sidebar",
+    "Show Sidebar(sidebar)": "Show Sidebar",
+    "Collapse Sidebar(sidebar)(aria-label)": "Collapse Sidebar",
+    "Light(theme switcher)(aria-label)": "Light",
+    "Dark(theme switcher)(aria-label)": "Dark",
+    "System(theme switcher)(aria-label)": "System",
+    "Copy Anchor Link(heading anchor)(aria-label)": "Copy Anchor Link",
+    "Copied Anchor Link(heading anchor)(aria-label)": "Copied Anchor Link",
+    "Last updated on(page footer)": "Last updated on",
+    "Prop(type table)": "Prop",
+    "Type(type table)": "Type",
+    "Default(type table)": "Default",
+    "Parameters(type table)": "Parameters",
+    "Returns(type table)": "Returns",
+    "Page Not Found(404 page)": "Page Not Found",
+    "Back to Home(404 page)": "Back to Home",
+    "Open(page actions)": "Open",
+    "Edit on GitHub(edit page)": "Edit on GitHub"
+  }
+}

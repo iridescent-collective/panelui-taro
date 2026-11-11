@@ -1,0 +1,30 @@
+---
+title: "样式"
+description: "组合式子组件、WXSS 安全类名与显式样式优先级。"
+---
+
+## 修改拥有外观的子组件
+
+```tsx
+import { Button } from "panelui-taro/button";
+import { Card } from "panelui-taro/card";
+
+<Card>
+  <Card.Header>
+    <Card.Title>Account</Card.Title>
+  </Card.Header>
+  <Card.Content>
+    <Button className="rounded-full">Continue</Button>
+  </Card.Content>
+</Card>;
+```
+
+重复外观变化优先使用组件变体，调用处布局使用 `className`，颜色与表面通过主题变量保持一致。类名合并器理解 weapp-tailwindcss 的默认转义格式，并保留编码后的输出。
+
+## 优先级
+
+受支持的 inline style 优先于类名值。使用 Taro 的样式类型。只修改父级不能覆盖由组合式子组件自身定义的前景色或形状。
+
+## 验证
+
+打开 `/customization/styling/index`，比较类名覆盖后的胶囊圆角和显式零圆角。宿主必须启用 Tailwind 扫描与 WXSS patch。

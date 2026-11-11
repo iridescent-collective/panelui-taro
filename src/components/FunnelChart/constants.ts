@@ -1,0 +1,15 @@
+export const FUNNEL_DEFAULT_HEIGHT = 200;
+export const FUNNEL_DEFAULT_LAYERS = 3;
+export const FUNNEL_DEFAULT_GAP = 4;
+export const FUNNEL_DEFAULT_FLOOR = 0.1;
+export const FUNNEL_ANIMATION_DURATION = 700;
+export const FUNNEL_STAGGER = 90;
+export const FUNNEL_SELECT_DURATION = 180;
+export const FUNNEL_FADE = 0.35;
+export const FUNNEL_RING_INSET = 0.35;
+export const FUNNEL_RING_FAINTEST = 0.18;
+export const FUNNEL_RING_STRONGEST = 0.83;
+export const FUNNEL_SELECT_SPREAD = 0.12;
+export const FUNNEL_CURVE = 0.55;
+export const FUNNEL_TEXT_BAND = 0.15;
+export const FUNNEL_HIT_ITERATIONS = 32;

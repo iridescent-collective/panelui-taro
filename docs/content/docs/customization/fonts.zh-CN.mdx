@@ -1,0 +1,32 @@
+---
+title: "字体"
+description: "通过微信加载和恢复主题字体。"
+---
+
+```tsx
+import { loadThemeFonts, setThemeFonts } from "panelui-taro/theme";
+
+await loadThemeFonts("brand", {
+  normal: {
+    family: "BrandRegular",
+    source: "https://assets.example.com/regular.woff",
+  },
+  medium: {
+    family: "BrandMedium",
+    source: "https://assets.example.com/medium.woff",
+  },
+  mono: { family: "BrandMono", source: "https://assets.example.com/mono.woff" },
+});
+
+setThemeFonts("brand", {});
+```
+
+`normal`、`medium`、`semibold`、`bold`、`mono` 映射到字体家族。已加载的字重字体以 weight 400 使用，避免再次合成加粗；未配置字重保持原行为。
+
+`setThemeFonts` 替换整个映射，也可设置已存在的字体家族。只改一个字段时合并 `getRegisteredThemeFonts(theme)`。
+
+加载器要求 HTTPS，对共享字体去重，所有下载成功后才应用配置，并拒绝已被新请求替代的结果。下载期间恢复或替换配置可防止旧请求覆盖新值；失败保留原映射。字体配置属于运行时状态，应用重启后需重新注册。
+
+宿主负责资源托管、授权、CORS 与微信资源域名。示例只在用户点击后下载 Google Fonts Pacifico；Canvas 与字形回退仍需真机检查。成功请求不能替代外观验收。
+
+参考 [Taro loadFontFace](https://docs.taro.zone/docs/apis/ui/fonts/loadFontFace/)。

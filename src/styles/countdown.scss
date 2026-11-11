@@ -1,0 +1,30 @@
+.panelui-countdown-digit {
+  position: absolute;
+  inset: 0;
+}
+.panelui-countdown-digit--in {
+  animation: panelui-countdown-in 260ms cubic-bezier(0.33, 1, 0.68, 1) both;
+}
+.panelui-countdown-digit--out {
+  animation: panelui-countdown-out 260ms cubic-bezier(0.33, 1, 0.68, 1) both;
+}
+@keyframes panelui-countdown-in {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes panelui-countdown-out {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,43 @@
+---
+title: "WeChat example"
+description: "Run the actual components in the isolated mini-program app."
+---
+
+## Build and open
+
+Run from the monorepo root:
+
+```sh
+pnpm install
+pnpm dev:weapp:panelui
+pnpm build:weapp:panelui
+```
+
+Import `example/dist` into WeChat Developer Tools. Use the example’s own project configuration and a test AppID. Do not replace it with the business app’s production AppID.
+
+## What is included
+
+- 141 component pages and 784 upstream-derived variants.
+- Four official Blocks: Smart Home, Wallet, Activity and Boarding Pass.
+- Seven customization pages, including a custom Sunset light/dark theme pair.
+- Theme persistence and native navigation/status-bar synchronization.
+
+Each component reference lists its exact mini-program route. Variants can be selected from the bottom picker. The example is independent of business login, stores, services and environment variables.
+
+For independent tarball installation and consumer verification, see [Installation](./installation#installing-a-packed-release).
+
+## Browser previews
+
+The homepage is an interactive web illustration of the design language. It does not render the Taro library in the browser. Use Developer Tools for actual WXSS, gestures, Canvas and native component behavior.
+
+## Verification
+
+```sh
+pnpm --filter panelui-taro test
+pnpm --filter panelui-taro typecheck
+pnpm test:panelui-example
+pnpm --filter panelui-example typecheck
+pnpm build:weapp:panelui
+```
+
+Simulator acceptance does not establish physical-device permissions, Canvas font support or production resource-domain configuration.

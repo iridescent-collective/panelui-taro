@@ -1,0 +1,41 @@
+import {
+  PostRoot,
+  PostHeader,
+  PostAuthor,
+  PostAction,
+  PostCommunity,
+  PostTitle,
+  PostBody,
+  PostMedia,
+  PostFooter,
+  PostStat,
+  PostVotes,
+} from "./parts";
+
+export type {
+  PostProps,
+  PostVariant,
+  PostVote,
+  PostHeaderProps,
+  PostAuthorProps,
+  PostActionProps,
+  PostCommunityProps,
+  PostTitleProps,
+  PostBodyProps,
+  PostMediaProps,
+  PostFooterProps,
+  PostStatProps,
+  PostVotesProps,
+} from "./types";
+export const Post = Object.assign(PostRoot, {
+  Action: PostAction,
+  Author: PostAuthor,
+  Body: PostBody,
+  Community: PostCommunity,
+  Footer: PostFooter,
+  Header: PostHeader,
+  Media: PostMedia,
+  Stat: PostStat,
+  Title: PostTitle,
+  Votes: PostVotes,
+});

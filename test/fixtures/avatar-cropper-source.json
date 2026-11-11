@@ -1,0 +1,9005 @@
+{
+  "commit": "5113deeaee8f09cffc46938624a9f9d60f4af89a",
+  "results": [
+    {
+      "state": {
+        "x": -350,
+        "y": -350,
+        "scale": 0.1,
+        "rotation": -1300
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 300,
+        "height": 300
+      },
+      "present": {
+        "x": -98.38292293159057,
+        "y": -83.65657877859658,
+        "scale": 0.7512562814070352,
+        "rotation": -1300
+      },
+      "settle": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotation": -1300
+      },
+      "crop": {
+        "originX": 61,
+        "originY": 61,
+        "width": 300,
+        "height": 300,
+        "rotation": 140,
+        "canvas": {
+          "width": 422,
+          "height": 422
+        }
+      },
+      "min": 1,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -331,
+        "y": -321,
+        "scale": 1.4000000000000001,
+        "rotation": -1263
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 259.7711670480549
+        }
+      },
+      "source": {
+        "width": 437,
+        "height": 473
+      },
+      "present": {
+        "x": -141.67665937686454,
+        "y": -142.7512595475256,
+        "scale": 1.4000000000000001,
+        "rotation": -1263
+      },
+      "settle": {
+        "x": -44.743106948913876,
+        "y": -53.455543691288966,
+        "scale": 1.4000000000000001,
+        "rotation": -1263
+      },
+      "crop": {
+        "originX": 133,
+        "originY": 161,
+        "width": 312,
+        "height": 312,
+        "rotation": 177,
+        "canvas": {
+          "width": 461,
+          "height": 495
+        }
+      },
+      "min": 0.4619450317124736,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -312,
+        "y": -292,
+        "scale": 2.7,
+        "rotation": -1226
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 270.10452961672473
+        }
+      },
+      "source": {
+        "width": 574,
+        "height": 646
+      },
+      "present": {
+        "x": -167.78810133688665,
+        "y": -194.72784612171247,
+        "scale": 2.7,
+        "rotation": -1226
+      },
+      "settle": {
+        "x": -92.69327528923847,
+        "y": -144.07574638177294,
+        "scale": 2.7,
+        "rotation": -1226
+      },
+      "crop": {
+        "originX": 395,
+        "originY": 450,
+        "width": 212,
+        "height": 212,
+        "rotation": -146,
+        "canvas": {
+          "width": 837,
+          "height": 856
+        }
+      },
+      "min": 1.3882304760257895,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -293,
+        "y": -263,
+        "scale": 4,
+        "rotation": -1189
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 276.4556962025316
+        }
+      },
+      "source": {
+        "width": 711,
+        "height": 819
+      },
+      "present": {
+        "x": -293,
+        "y": -263,
+        "scale": 4,
+        "rotation": -1189
+      },
+      "settle": {
+        "x": -293,
+        "y": -263,
+        "scale": 4,
+        "rotation": -1189
+      },
+      "crop": {
+        "originX": 631,
+        "originY": 575,
+        "width": 177,
+        "height": 177,
+        "rotation": -109,
+        "canvas": {
+          "width": 1005,
+          "height": 938
+        }
+      },
+      "min": 0.43406593406593413,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -274,
+        "y": -234,
+        "scale": 5.3,
+        "rotation": -1152
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 280.75471698113205
+        }
+      },
+      "source": {
+        "width": 848,
+        "height": 992
+      },
+      "present": {
+        "x": -273.99999999999994,
+        "y": -234,
+        "scale": 5.154784240150094,
+        "rotation": -1152
+      },
+      "settle": {
+        "x": -273.99999999999994,
+        "y": -234,
+        "scale": 5,
+        "rotation": -1152
+      },
+      "crop": {
+        "originX": 712,
+        "originY": 637,
+        "width": 169,
+        "height": 169,
+        "rotation": -72,
+        "canvas": {
+          "width": 1205,
+          "height": 1113
+        }
+      },
+      "min": 1.2600735106701015,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -255,
+        "y": -205,
+        "scale": 6.6,
+        "rotation": -1115
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 283.8578680203046
+        }
+      },
+      "source": {
+        "width": 985,
+        "height": 1165
+      },
+      "present": {
+        "x": -255,
+        "y": -204.99999999999997,
+        "scale": 5.650887573964496,
+        "rotation": -1115
+      },
+      "settle": {
+        "x": -255,
+        "y": -204.99999999999997,
+        "scale": 5,
+        "rotation": -1115
+      },
+      "crop": {
+        "originX": 849,
+        "originY": 830,
+        "width": 196,
+        "height": 196,
+        "rotation": -35,
+        "canvas": {
+          "width": 1475,
+          "height": 1519
+        }
+      },
+      "min": 0.4227467811158798,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -236,
+        "y": -176,
+        "scale": 7.8999999999999995,
+        "rotation": -1078
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 286.2032085561497
+        }
+      },
+      "source": {
+        "width": 1122,
+        "height": 1338
+      },
+      "present": {
+        "x": -236,
+        "y": -176.00000000000003,
+        "scale": 5.973748473748474,
+        "rotation": -1078
+      },
+      "settle": {
+        "x": -236,
+        "y": -176.00000000000003,
+        "scale": 5,
+        "rotation": -1078
+      },
+      "crop": {
+        "originX": 693,
+        "originY": 741,
+        "width": 224,
+        "height": 224,
+        "rotation": 2,
+        "canvas": {
+          "width": 1168,
+          "height": 1376
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -217,
+        "y": -147,
+        "scale": 1.2000000000000002,
+        "rotation": -1041
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 288.0381254964257
+        }
+      },
+      "source": {
+        "width": 1259,
+        "height": 1511
+      },
+      "present": {
+        "x": -93.40690454002866,
+        "y": -58.018258873669865,
+        "scale": 1.2000000000000002,
+        "rotation": -1041
+      },
+      "settle": {
+        "x": -21.801343913130978,
+        "y": -12.446976191770084,
+        "scale": 1.2000000000000002,
+        "rotation": -1041
+      },
+      "crop": {
+        "originX": 535,
+        "originY": 513,
+        "width": 1049,
+        "height": 1049,
+        "rotation": 39,
+        "canvas": {
+          "width": 1929,
+          "height": 1966
+        }
+      },
+      "min": 0.41661151555261416,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -198,
+        "y": -118,
+        "scale": 2.5,
+        "rotation": -1004
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 239.99999999999997,
+          "height": 289.512893982808
+        }
+      },
+      "source": {
+        "width": 1396,
+        "height": 1684
+      },
+      "present": {
+        "x": -197.12564210579754,
+        "y": -114.49314202884612,
+        "scale": 2.5,
+        "rotation": -1004
+      },
+      "settle": {
+        "x": -196.0981199729487,
+        "y": -110.37197584962992,
+        "scale": 2.5,
+        "rotation": -1004
+      },
+      "crop": {
+        "originX": 1163,
+        "originY": 858,
+        "width": 558,
+        "height": 558,
+        "rotation": 76,
+        "canvas": {
+          "width": 1971,
+          "height": 1761
+        }
+      },
+      "min": 1.2122176218756642,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -179,
+        "y": -89,
+        "scale": 3.8000000000000003,
+        "rotation": -967
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 290.7240704500978
+        }
+      },
+      "source": {
+        "width": 1533,
+        "height": 1857
+      },
+      "present": {
+        "x": -178.99999999999997,
+        "y": -88.99999999999999,
+        "scale": 3.8000000000000003,
+        "rotation": -967
+      },
+      "settle": {
+        "x": -178.99999999999997,
+        "y": -88.99999999999999,
+        "scale": 3.8000000000000003,
+        "rotation": -967
+      },
+      "crop": {
+        "originX": 1253,
+        "originY": 1016,
+        "width": 403,
+        "height": 403,
+        "rotation": 113,
+        "canvas": {
+          "width": 2308,
+          "height": 2136
+        }
+      },
+      "min": 0.4127625201938611,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -160,
+        "y": -60,
+        "scale": 5.1,
+        "rotation": -930
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 291.7365269461078
+        }
+      },
+      "source": {
+        "width": 1670,
+        "height": 2030
+      },
+      "present": {
+        "x": -160,
+        "y": -60,
+        "scale": 5.053816046966732,
+        "rotation": -930
+      },
+      "settle": {
+        "x": -160,
+        "y": -60,
+        "scale": 5,
+        "rotation": -930
+      },
+      "crop": {
+        "originX": 1286,
+        "originY": 1213,
+        "width": 334,
+        "height": 334,
+        "rotation": 150,
+        "canvas": {
+          "width": 2461,
+          "height": 2593
+        }
+      },
+      "min": 1.3660254037844382,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -141,
+        "y": -31,
+        "scale": 6.3999999999999995,
+        "rotation": -893
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 292.595462091865
+        }
+      },
+      "source": {
+        "width": 1807,
+        "height": 2203
+      },
+      "present": {
+        "x": -140.99999999999997,
+        "y": -30.999999999999996,
+        "scale": 5.58868501529052,
+        "rotation": -893
+      },
+      "settle": {
+        "x": -140.99999999999997,
+        "y": -30.999999999999996,
+        "scale": 5,
+        "rotation": -893
+      },
+      "crop": {
+        "originX": 1063,
+        "originY": 1069,
+        "width": 361,
+        "height": 361,
+        "rotation": -173,
+        "canvas": {
+          "width": 2062,
+          "height": 2406
+        }
+      },
+      "min": 0.41012256014525644,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -122,
+        "y": -2,
+        "scale": 7.699999999999999,
+        "rotation": -856
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 293.3333333333333
+        }
+      },
+      "source": {
+        "width": 1944,
+        "height": 2376
+      },
+      "present": {
+        "x": -122,
+        "y": -2.000000000000007,
+        "scale": 5.931618569636136,
+        "rotation": -856
+      },
+      "settle": {
+        "x": -122,
+        "y": -2.000000000000007,
+        "scale": 5,
+        "rotation": -856
+      },
+      "crop": {
+        "originX": 1528,
+        "originY": 1339,
+        "width": 388,
+        "height": 388,
+        "rotation": -136,
+        "canvas": {
+          "width": 3048,
+          "height": 3059
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -103,
+        "y": 27,
+        "scale": 1,
+        "rotation": -819
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 293.97405093704947
+        }
+      },
+      "source": {
+        "width": 2081,
+        "height": 2549
+      },
+      "present": {
+        "x": -50.76374194164435,
+        "y": 18.726589502779273,
+        "scale": 1,
+        "rotation": -819
+      },
+      "settle": {
+        "x": -7.921820620554146,
+        "y": 11.941095771910568,
+        "scale": 1,
+        "rotation": -819
+      },
+      "crop": {
+        "originX": 450,
+        "originY": 83,
+        "width": 2081,
+        "height": 2081,
+        "rotation": -99,
+        "canvas": {
+          "width": 2843,
+          "height": 2454
+        }
+      },
+      "min": 0.4081992938407219,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -84,
+        "y": 56,
+        "scale": 2.3000000000000003,
+        "rotation": -782
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 294.5356176735798
+        }
+      },
+      "source": {
+        "width": 2218,
+        "height": 2722
+      },
+      "present": {
+        "x": -84,
+        "y": 56,
+        "scale": 2.3000000000000003,
+        "rotation": -782
+      },
+      "settle": {
+        "x": -84,
+        "y": 56,
+        "scale": 2.3000000000000003,
+        "rotation": -782
+      },
+      "crop": {
+        "originX": 1578,
+        "originY": 911,
+        "width": 964,
+        "height": 964,
+        "rotation": -62,
+        "canvas": {
+          "width": 3444,
+          "height": 3236
+        }
+      },
+      "min": 1.3524191556448177,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -65,
+        "y": 85,
+        "scale": 3.6,
+        "rotation": -745
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 295.031847133758
+        }
+      },
+      "source": {
+        "width": 2355,
+        "height": 2895
+      },
+      "present": {
+        "x": -65.00000000000001,
+        "y": 85,
+        "scale": 3.6,
+        "rotation": -745
+      },
+      "settle": {
+        "x": -65.00000000000001,
+        "y": 85,
+        "scale": 3.6,
+        "rotation": -745
+      },
+      "crop": {
+        "originX": 1529,
+        "originY": 1251,
+        "width": 654,
+        "height": 654,
+        "rotation": -25,
+        "canvas": {
+          "width": 3357,
+          "height": 3619
+        }
+      },
+      "min": 0.40673575129533673,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -46,
+        "y": 114,
+        "scale": 4.8999999999999995,
+        "rotation": -708
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1625.2173913043478,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2492,
+        "height": 368
+      },
+      "present": {
+        "x": -46,
+        "y": 114.00000000000001,
+        "scale": 4.8999999999999995,
+        "rotation": -708
+      },
+      "settle": {
+        "x": -46,
+        "y": 114.00000000000001,
+        "scale": 4.8999999999999995,
+        "rotation": -708
+      },
+      "crop": {
+        "originX": 1234,
+        "originY": 366,
+        "width": 75,
+        "height": 75,
+        "rotation": 12,
+        "canvas": {
+          "width": 2514,
+          "height": 878
+        }
+      },
+      "min": 1.1860592915515649,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -27,
+        "y": 143,
+        "scale": 6.199999999999999,
+        "rotation": -671
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1166.2846580406654,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2629,
+        "height": 541
+      },
+      "present": {
+        "x": -27.000000000000007,
+        "y": 143,
+        "scale": 5.522151898734177,
+        "rotation": -671
+      },
+      "settle": {
+        "x": -27.000000000000007,
+        "y": 143,
+        "scale": 5,
+        "rotation": -671
+      },
+      "crop": {
+        "originX": 1025,
+        "originY": 1051,
+        "width": 108,
+        "height": 108,
+        "rotation": 49,
+        "canvas": {
+          "width": 2133,
+          "height": 2339
+        }
+      },
+      "min": 0.10289083301635603,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -8,
+        "y": 172,
+        "scale": 7.5,
+        "rotation": -634
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 929.7478991596639,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 2766,
+        "height": 714
+      },
+      "present": {
+        "x": -8.000000000000002,
+        "y": 172,
+        "scale": 5.887096774193548,
+        "rotation": -634
+      },
+      "settle": {
+        "x": -8.000000000000002,
+        "y": 172,
+        "scale": 5,
+        "rotation": -634
+      },
+      "crop": {
+        "originX": 386,
+        "originY": 1231,
+        "width": 142,
+        "height": 142,
+        "rotation": 86,
+        "canvas": {
+          "width": 905,
+          "height": 2809
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 11,
+        "y": 201,
+        "scale": 0.7999999999999999,
+        "rotation": -597
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 785.4791431792559,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2903,
+        "height": 887
+      },
+      "present": {
+        "x": -5.97142838177956,
+        "y": 181.9577975330322,
+        "scale": 0.7999999999999999,
+        "rotation": -597
+      },
+      "settle": {
+        "x": -22.00796063188089,
+        "y": 162.4095511172339,
+        "scale": 0.7999999999999999,
+        "rotation": -597
+      },
+      "crop": {
+        "originX": 710,
+        "originY": 154,
+        "width": 1108,
+        "height": 1108,
+        "rotation": 123,
+        "canvas": {
+          "width": 2324,
+          "height": 2917
+        }
+      },
+      "min": 0.15277299345504652,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 30,
+        "y": 230,
+        "scale": 2.1,
+        "rotation": -560
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 748.2352941176471
+        }
+      },
+      "source": {
+        "width": 340,
+        "height": 1060
+      },
+      "present": {
+        "x": 30,
+        "y": 230,
+        "scale": 2.1,
+        "rotation": -560
+      },
+      "settle": {
+        "x": 30,
+        "y": 230,
+        "scale": 2.1,
+        "rotation": -560
+      },
+      "crop": {
+        "originX": 240,
+        "originY": 320,
+        "width": 161,
+        "height": 161,
+        "rotation": 160,
+        "canvas": {
+          "width": 682,
+          "height": 1112
+        }
+      },
+      "min": 1.2817127641115766,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 49,
+        "y": 259,
+        "scale": 3.4,
+        "rotation": -523
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 620.377358490566
+        }
+      },
+      "source": {
+        "width": 477,
+        "height": 1233
+      },
+      "present": {
+        "x": 48.999999999999986,
+        "y": 258.99999999999994,
+        "scale": 3.4,
+        "rotation": -523
+      },
+      "settle": {
+        "x": 48.999999999999986,
+        "y": 258.99999999999994,
+        "scale": 3.4,
+        "rotation": -523
+      },
+      "crop": {
+        "originX": 309,
+        "originY": 438,
+        "width": 140,
+        "height": 140,
+        "rotation": -163,
+        "canvas": {
+          "width": 816,
+          "height": 1318
+        }
+      },
+      "min": 0.19343065693430656,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 68,
+        "y": 288,
+        "scale": 4.699999999999999,
+        "rotation": -486
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 549.5765472312704
+        }
+      },
+      "source": {
+        "width": 614,
+        "height": 1406
+      },
+      "present": {
+        "x": 67.99999999999997,
+        "y": 288,
+        "scale": 4.699999999999999,
+        "rotation": -486
+      },
+      "settle": {
+        "x": 67.99999999999997,
+        "y": 288,
+        "scale": 4.699999999999999,
+        "rotation": -486
+      },
+      "crop": {
+        "originX": 647,
+        "originY": 440,
+        "width": 130,
+        "height": 130,
+        "rotation": -126,
+        "canvas": {
+          "width": 1498,
+          "height": 1323
+        }
+      },
+      "min": 1.3968022466674204,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 87,
+        "y": 317,
+        "scale": 6,
+        "rotation": -449
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 504.6071904127829
+        }
+      },
+      "source": {
+        "width": 751,
+        "height": 1579
+      },
+      "present": {
+        "x": 87,
+        "y": 317,
+        "scale": 5.450819672131147,
+        "rotation": -449
+      },
+      "settle": {
+        "x": 87,
+        "y": 317,
+        "scale": 5,
+        "rotation": -449
+      },
+      "crop": {
+        "originX": 666,
+        "originY": 116,
+        "width": 150,
+        "height": 150,
+        "rotation": -89,
+        "canvas": {
+          "width": 1591,
+          "height": 778
+        }
+      },
+      "min": 0.2378087397086764,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 106,
+        "y": 346,
+        "scale": 7.3,
+        "rotation": -412
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 473.51351351351354
+        }
+      },
+      "source": {
+        "width": 888,
+        "height": 1752
+      },
+      "present": {
+        "x": 105.99999999999997,
+        "y": 346,
+        "scale": 5.839973439575033,
+        "rotation": -412
+      },
+      "settle": {
+        "x": 105.99999999999997,
+        "y": 346,
+        "scale": 5,
+        "rotation": -412
+      },
+      "crop": {
+        "originX": 797,
+        "originY": 544,
+        "width": 177,
+        "height": 177,
+        "rotation": -52,
+        "canvas": {
+          "width": 1927,
+          "height": 1778
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 125,
+        "y": -325,
+        "scale": 0.6,
+        "rotation": -375
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 450.7317073170732
+        }
+      },
+      "source": {
+        "width": 1025,
+        "height": 1925
+      },
+      "present": {
+        "x": 98.81567720850481,
+        "y": -133.57721008318975,
+        "scale": 0.6,
+        "rotation": -375
+      },
+      "settle": {
+        "x": 69.37377398688983,
+        "y": -30.7530097051405,
+        "scale": 0.6,
+        "rotation": -375
+      },
+      "crop": {
+        "originX": 0,
+        "originY": 537,
+        "width": 1488,
+        "height": 1488,
+        "rotation": -15,
+        "canvas": {
+          "width": 1488,
+          "height": 2124
+        }
+      },
+      "min": 0.2662337662337662,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 144,
+        "y": -296,
+        "scale": 1.9000000000000001,
+        "rotation": -338
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 433.32185886402755
+        }
+      },
+      "source": {
+        "width": 1162,
+        "height": 2098
+      },
+      "present": {
+        "x": 129.55005852274178,
+        "y": -260.23513981700336,
+        "scale": 1.9000000000000001,
+        "rotation": -338
+      },
+      "settle": {
+        "x": 116.67287672084929,
+        "y": -228.3629964300877,
+        "scale": 1.9000000000000001,
+        "rotation": -338
+      },
+      "crop": {
+        "originX": 329,
+        "originY": 1466,
+        "width": 611,
+        "height": 611,
+        "rotation": 22,
+        "canvas": {
+          "width": 1863,
+          "height": 2380
+        }
+      },
+      "min": 1.3017904479826996,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 163,
+        "y": -267,
+        "scale": 3.2,
+        "rotation": -301
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 419.58429561200927
+        }
+      },
+      "source": {
+        "width": 1299,
+        "height": 2271
+      },
+      "present": {
+        "x": 163,
+        "y": -267,
+        "scale": 3.2,
+        "rotation": -301
+      },
+      "settle": {
+        "x": 163,
+        "y": -267,
+        "scale": 3.2,
+        "rotation": -301
+      },
+      "crop": {
+        "originX": 829,
+        "originY": 1391,
+        "width": 405,
+        "height": 405,
+        "rotation": 59,
+        "canvas": {
+          "width": 2615,
+          "height": 2283
+        }
+      },
+      "min": 0.28599735799207393,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 182,
+        "y": -238,
+        "scale": 4.5,
+        "rotation": -264
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 408.46796657381617
+        }
+      },
+      "source": {
+        "width": 1436,
+        "height": 2444
+      },
+      "present": {
+        "x": 182,
+        "y": -238,
+        "scale": 4.5,
+        "rotation": -264
+      },
+      "settle": {
+        "x": 182,
+        "y": -238,
+        "scale": 4.5,
+        "rotation": -264
+      },
+      "crop": {
+        "originX": 889,
+        "originY": 998,
+        "width": 319,
+        "height": 319,
+        "rotation": 96,
+        "canvas": {
+          "width": 2580,
+          "height": 1683
+        }
+      },
+      "min": 1.0990503586359268,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 201,
+        "y": -209,
+        "scale": 5.8,
+        "rotation": -227
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 399.28798474253017
+        }
+      },
+      "source": {
+        "width": 1573,
+        "height": 2617
+      },
+      "present": {
+        "x": 201.00000000000003,
+        "y": -209,
+        "scale": 5.374149659863946,
+        "rotation": -227
+      },
+      "settle": {
+        "x": 201.00000000000003,
+        "y": -209,
+        "scale": 5,
+        "rotation": -227
+      },
+      "crop": {
+        "originX": 1073,
+        "originY": 1584,
+        "width": 314,
+        "height": 314,
+        "rotation": 133,
+        "canvas": {
+          "width": 2986,
+          "height": 2935
+        }
+      },
+      "min": 0.3005349636988919,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 220,
+        "y": -180,
+        "scale": 7.1,
+        "rotation": -190
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 391.57894736842104
+        }
+      },
+      "source": {
+        "width": 1710,
+        "height": 2790
+      },
+      "present": {
+        "x": 220,
+        "y": -179.99999999999997,
+        "scale": 5.790013679890561,
+        "rotation": -190
+      },
+      "settle": {
+        "x": 220,
+        "y": -179.99999999999997,
+        "scale": 5,
+        "rotation": -190
+      },
+      "crop": {
+        "originX": 600,
+        "originY": 1608,
+        "width": 342,
+        "height": 342,
+        "rotation": 170,
+        "canvas": {
+          "width": 2168,
+          "height": 3044
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 239,
+        "y": -151,
+        "scale": 0.4,
+        "rotation": -153
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 385.01353546291284
+        }
+      },
+      "source": {
+        "width": 1847,
+        "height": 2963
+      },
+      "present": {
+        "x": 182.59004017238314,
+        "y": -73.50590586122576,
+        "scale": 0.4,
+        "rotation": -153
+      },
+      "settle": {
+        "x": 139.35522868969252,
+        "y": -23.715859862938032,
+        "scale": 0.4,
+        "rotation": -153
+      },
+      "crop": {
+        "originX": 0,
+        "originY": 488,
+        "width": 2990,
+        "height": 2990,
+        "rotation": -153,
+        "canvas": {
+          "width": 2990,
+          "height": 3478
+        }
+      },
+      "min": 0.31167735403307456,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 258,
+        "y": -122,
+        "scale": 1.7000000000000002,
+        "rotation": -116
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1092.1100917431193,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1984,
+        "height": 436
+      },
+      "present": {
+        "x": 117.56264288179341,
+        "y": -53.504124281388776,
+        "scale": 1.7000000000000002,
+        "rotation": -116
+      },
+      "settle": {
+        "x": 40.64466542206732,
+        "y": -15.988720027705975,
+        "scale": 1.7000000000000002,
+        "rotation": -116
+      },
+      "crop": {
+        "originX": 459,
+        "originY": 876,
+        "width": 256,
+        "height": 256,
+        "rotation": -116,
+        "canvas": {
+          "width": 1261,
+          "height": 1974
+        }
+      },
+      "min": 1.3371651930882444,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 277,
+        "y": -93,
+        "scale": 3,
+        "rotation": -79
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 835.8620689655173,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2121,
+        "height": 609
+      },
+      "present": {
+        "x": 270.5021811957653,
+        "y": -94.26304802788806,
+        "scale": 3,
+        "rotation": -79
+      },
+      "settle": {
+        "x": 263.09476676377926,
+        "y": -95.70290353508871,
+        "scale": 3,
+        "rotation": -79
+      },
+      "crop": {
+        "originX": 177,
+        "originY": 1079,
+        "width": 202,
+        "height": 202,
+        "rotation": -79,
+        "canvas": {
+          "width": 1002,
+          "height": 2198
+        }
+      },
+      "min": 0.14356435643564355,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 296,
+        "y": -64,
+        "scale": 4.3,
+        "rotation": -42
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 692.9923273657289,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2258,
+        "height": 782
+      },
+      "present": {
+        "x": 296,
+        "y": -63.99999999999997,
+        "scale": 4.3,
+        "rotation": -42
+      },
+      "settle": {
+        "x": 296,
+        "y": -63.99999999999997,
+        "scale": 4.3,
+        "rotation": -42
+      },
+      "crop": {
+        "originX": 786,
+        "originY": 1004,
+        "width": 181,
+        "height": 181,
+        "rotation": -42,
+        "canvas": {
+          "width": 2201,
+          "height": 2092
+        }
+      },
+      "min": 1.4122754318362525,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 315,
+        "y": -35,
+        "scale": 5.6,
+        "rotation": -5
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 601.8848167539267,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2395,
+        "height": 955
+      },
+      "present": {
+        "x": 315,
+        "y": -35,
+        "scale": 5.291519434628976,
+        "rotation": -5
+      },
+      "settle": {
+        "x": 315,
+        "y": -35,
+        "scale": 5,
+        "rotation": -5
+      },
+      "crop": {
+        "originX": 888,
+        "originY": 512,
+        "width": 191,
+        "height": 191,
+        "rotation": -5,
+        "canvas": {
+          "width": 2469,
+          "height": 1160
+        }
+      },
+      "min": 0.19937369519832987,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 334,
+        "y": -6,
+        "scale": 6.8999999999999995,
+        "rotation": 32
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 538.7234042553191,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2532,
+        "height": 1128
+      },
+      "present": {
+        "x": 334,
+        "y": -6,
+        "scale": 5.736953455571227,
+        "rotation": 32
+      },
+      "settle": {
+        "x": 334,
+        "y": -6,
+        "scale": 5,
+        "rotation": 32
+      },
+      "crop": {
+        "originX": 946,
+        "originY": 1042,
+        "width": 225,
+        "height": 225,
+        "rotation": 32,
+        "canvas": {
+          "width": 2745,
+          "height": 2298
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -347,
+        "y": 23,
+        "scale": 0.2,
+        "rotation": 69
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 492.3597232897771,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2669,
+        "height": 1301
+      },
+      "present": {
+        "x": -227.45752511996082,
+        "y": -21.477438121698228,
+        "scale": 0.22363945123773885,
+        "rotation": 69
+      },
+      "settle": {
+        "x": -151.48925405472434,
+        "y": -43.64370826007646,
+        "scale": 0.24372424128887224,
+        "rotation": 69
+      },
+      "crop": {
+        "originX": 0,
+        "originY": 786,
+        "width": 2171,
+        "height": 2171,
+        "rotation": 69,
+        "canvas": {
+          "width": 2171,
+          "height": 2957
+        }
+      },
+      "min": 0.24372424128887224,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -328,
+        "y": 52,
+        "scale": 1.5,
+        "rotation": 106
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 456.87924016282227,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2806,
+        "height": 1474
+      },
+      "present": {
+        "x": -157.10730545242365,
+        "y": 101.0026916214069,
+        "scale": 1.5,
+        "rotation": 106
+      },
+      "settle": {
+        "x": -69.04707674592899,
+        "y": 126.25355587185953,
+        "scale": 1.5,
+        "rotation": 106
+      },
+      "crop": {
+        "originX": 887,
+        "originY": 544,
+        "width": 982,
+        "height": 982,
+        "rotation": 106,
+        "canvas": {
+          "width": 2190,
+          "height": 3103
+        }
+      },
+      "min": 1.236899051755318,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -309,
+        "y": 81,
+        "scale": 2.8000000000000003,
+        "rotation": 143
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 428.8524590163935,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 2943,
+        "height": 1647
+      },
+      "present": {
+        "x": -309,
+        "y": 81.00000000000001,
+        "scale": 2.8000000000000003,
+        "rotation": 143
+      },
+      "settle": {
+        "x": -309,
+        "y": 81.00000000000001,
+        "scale": 2.8000000000000003,
+        "rotation": 143
+      },
+      "crop": {
+        "originX": 2134,
+        "originY": 1050,
+        "width": 588,
+        "height": 588,
+        "rotation": 143,
+        "canvas": {
+          "width": 3341,
+          "height": 3086
+        }
+      },
+      "min": 0.2798165137614679,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -290,
+        "y": 110,
+        "scale": 4.1,
+        "rotation": 180
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 1149.4736842105262
+        }
+      },
+      "source": {
+        "width": 380,
+        "height": 1820
+      },
+      "present": {
+        "x": -290,
+        "y": 110,
+        "scale": 4.1,
+        "rotation": 180
+      },
+      "settle": {
+        "x": -290,
+        "y": 110,
+        "scale": 4.1,
+        "rotation": 180
+      },
+      "crop": {
+        "originX": 256,
+        "originY": 822,
+        "width": 92,
+        "height": 92,
+        "rotation": 180,
+        "canvas": {
+          "width": 380,
+          "height": 1820
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -271,
+        "y": 139,
+        "scale": 5.3999999999999995,
+        "rotation": 217
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 925.183752417795
+        }
+      },
+      "source": {
+        "width": 517,
+        "height": 1993
+      },
+      "present": {
+        "x": -271.00000000000006,
+        "y": 139,
+        "scale": 5.202205882352941,
+        "rotation": 217
+      },
+      "settle": {
+        "x": -271.00000000000006,
+        "y": 139,
+        "scale": 5,
+        "rotation": 217
+      },
+      "crop": {
+        "originX": 871,
+        "originY": 840,
+        "width": 103,
+        "height": 103,
+        "rotation": -143,
+        "canvas": {
+          "width": 1612,
+          "height": 1902
+        }
+      },
+      "min": 0.12970396387355745,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -252,
+        "y": 168,
+        "scale": 6.699999999999999,
+        "rotation": 254
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 794.862385321101
+        }
+      },
+      "source": {
+        "width": 654,
+        "height": 2166
+      },
+      "present": {
+        "x": -252,
+        "y": 168,
+        "scale": 5.680494905385735,
+        "rotation": 254
+      },
+      "settle": {
+        "x": -252,
+        "y": 168,
+        "scale": 5,
+        "rotation": 254
+      },
+      "crop": {
+        "originX": 1203,
+        "originY": 456,
+        "width": 130,
+        "height": 130,
+        "rotation": -106,
+        "canvas": {
+          "width": 2262,
+          "height": 1225
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -233,
+        "y": 197,
+        "scale": 8,
+        "rotation": 291
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 709.6839443742099
+        }
+      },
+      "source": {
+        "width": 791,
+        "height": 2339
+      },
+      "present": {
+        "x": -233,
+        "y": 197,
+        "scale": 5.993975903614458,
+        "rotation": 291
+      },
+      "settle": {
+        "x": -233,
+        "y": 197,
+        "scale": 5,
+        "rotation": 291
+      },
+      "crop": {
+        "originX": 1308,
+        "originY": 579,
+        "width": 158,
+        "height": 158,
+        "rotation": -69,
+        "canvas": {
+          "width": 2467,
+          "height": 1576
+        }
+      },
+      "min": 0.16908935442496792,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -214,
+        "y": 226,
+        "scale": 1.3,
+        "rotation": 328
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 649.6551724137931
+        }
+      },
+      "source": {
+        "width": 928,
+        "height": 2512
+      },
+      "present": {
+        "x": -41.65424088386264,
+        "y": 118.3064171967779,
+        "scale": 1.3375978906274641,
+        "rotation": 328
+      },
+      "settle": {
+        "x": 41.469439938237024,
+        "y": 66.36497663315457,
+        "scale": 1.3779673603896312,
+        "rotation": 328
+      },
+      "crop": {
+        "originX": 606,
+        "originY": 788,
+        "width": 673,
+        "height": 673,
+        "rotation": -32,
+        "canvas": {
+          "width": 2118,
+          "height": 2622
+        }
+      },
+      "min": 1.3779673603896312,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -195,
+        "y": 255,
+        "scale": 2.6,
+        "rotation": 365
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 605.0704225352113
+        }
+      },
+      "source": {
+        "width": 1065,
+        "height": 2685
+      },
+      "present": {
+        "x": -194.99999999999997,
+        "y": 254.99999999999997,
+        "scale": 2.6,
+        "rotation": 365
+      },
+      "settle": {
+        "x": -194.99999999999997,
+        "y": 254.99999999999997,
+        "scale": 2.6,
+        "rotation": 365
+      },
+      "crop": {
+        "originX": 775,
+        "originY": 744,
+        "width": 409,
+        "height": 409,
+        "rotation": 5,
+        "canvas": {
+          "width": 1294,
+          "height": 2767
+        }
+      },
+      "min": 0.19832402234636873,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -176,
+        "y": 284,
+        "scale": 3.9,
+        "rotation": 402
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 570.648918469218
+        }
+      },
+      "source": {
+        "width": 1202,
+        "height": 2858
+      },
+      "present": {
+        "x": -176.00000000000003,
+        "y": 284.00000000000006,
+        "scale": 3.9,
+        "rotation": 402
+      },
+      "settle": {
+        "x": -176.00000000000003,
+        "y": 284.00000000000006,
+        "scale": 3.9,
+        "rotation": 402
+      },
+      "crop": {
+        "originX": 1475,
+        "originY": 945,
+        "width": 308,
+        "height": 308,
+        "rotation": 42,
+        "canvas": {
+          "width": 2805,
+          "height": 2928
+        }
+      },
+      "min": 1.4122754318362525,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -157,
+        "y": 313,
+        "scale": 5.199999999999999,
+        "rotation": 439
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 970.8761329305136,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1339,
+        "height": 331
+      },
+      "present": {
+        "x": -156.99999999999997,
+        "y": 313,
+        "scale": 5.105363984674329,
+        "rotation": 439
+      },
+      "settle": {
+        "x": -156.99999999999997,
+        "y": 313,
+        "scale": 5,
+        "rotation": 439
+      },
+      "crop": {
+        "originX": 300,
+        "originY": 569,
+        "width": 66,
+        "height": 66,
+        "rotation": 79,
+        "canvas": {
+          "width": 580,
+          "height": 1377
+        }
+      },
+      "min": 0.12359970126960419,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -138,
+        "y": 342,
+        "scale": 6.5,
+        "rotation": 476
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 702.8571428571428,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1476,
+        "height": 504
+      },
+      "present": {
+        "x": -138,
+        "y": 341.99999999999994,
+        "scale": 5.620300751879699,
+        "rotation": 476
+      },
+      "settle": {
+        "x": -138,
+        "y": 341.99999999999994,
+        "scale": 5,
+        "rotation": 476
+      },
+      "crop": {
+        "originX": 558,
+        "originY": 580,
+        "width": 100,
+        "height": 100,
+        "rotation": 116,
+        "canvas": {
+          "width": 1100,
+          "height": 1547
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -119,
+        "y": -329,
+        "scale": 7.8,
+        "rotation": 513
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 571.8168389955687,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1613,
+        "height": 677
+      },
+      "present": {
+        "x": -119.00000000000001,
+        "y": -329,
+        "scale": 5.952970297029703,
+        "rotation": 513
+      },
+      "settle": {
+        "x": -119.00000000000001,
+        "y": -329,
+        "scale": 5,
+        "rotation": 513
+      },
+      "crop": {
+        "originX": 872,
+        "originY": 786,
+        "width": 135,
+        "height": 135,
+        "rotation": 153,
+        "canvas": {
+          "width": 1744,
+          "height": 1335
+        }
+      },
+      "min": 0.20985740855548668,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -100,
+        "y": -300,
+        "scale": 1.1,
+        "rotation": 550
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 494.11764705882354,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1750,
+        "height": 850
+      },
+      "present": {
+        "x": -127.08813121459352,
+        "y": -117.26383929233148,
+        "scale": 1.127995890845877,
+        "rotation": 550
+      },
+      "settle": {
+        "x": -144.9558697200296,
+        "y": -25.559630843702333,
+        "scale": 1.158455930679138,
+        "rotation": 550
+      },
+      "crop": {
+        "originX": 1012,
+        "originY": 282,
+        "width": 733,
+        "height": 733,
+        "rotation": -170,
+        "canvas": {
+          "width": 1871,
+          "height": 1140
+        }
+      },
+      "min": 1.158455930679138,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -81,
+        "y": -271,
+        "scale": 2.4,
+        "rotation": 587
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 442.6979472140763,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1887,
+        "height": 1023
+      },
+      "present": {
+        "x": -81.00000000000001,
+        "y": -271.00000000000006,
+        "scale": 2.4,
+        "rotation": 587
+      },
+      "settle": {
+        "x": -81.00000000000001,
+        "y": -271.00000000000006,
+        "scale": 2.4,
+        "rotation": 587
+      },
+      "crop": {
+        "originX": 948,
+        "originY": 1307,
+        "width": 426,
+        "height": 426,
+        "rotation": -133,
+        "canvas": {
+          "width": 2035,
+          "height": 2077
+        }
+      },
+      "min": 0.2710651828298887,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -62,
+        "y": -242,
+        "scale": 3.7,
+        "rotation": 624
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 406.1538461538462,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2024,
+        "height": 1196
+      },
+      "present": {
+        "x": -61.99999999999999,
+        "y": -241.99999999999997,
+        "scale": 3.7,
+        "rotation": 624
+      },
+      "settle": {
+        "x": -61.99999999999999,
+        "y": -241.99999999999997,
+        "scale": 3.7,
+        "rotation": 624
+      },
+      "crop": {
+        "originX": 623,
+        "originY": 1233,
+        "width": 323,
+        "height": 323,
+        "rotation": -96,
+        "canvas": {
+          "width": 1401,
+          "height": 2137
+        }
+      },
+      "min": 1.0990503586359277,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -43,
+        "y": -213,
+        "scale": 5,
+        "rotation": 661
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 378.8458728999269,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2161,
+        "height": 1369
+      },
+      "present": {
+        "x": -42.999999999999986,
+        "y": -213,
+        "scale": 5,
+        "rotation": 661
+      },
+      "settle": {
+        "x": -42.999999999999986,
+        "y": -213,
+        "scale": 5,
+        "rotation": 661
+      },
+      "crop": {
+        "originX": 1056,
+        "originY": 1385,
+        "width": 273,
+        "height": 273,
+        "rotation": -59,
+        "canvas": {
+          "width": 2286,
+          "height": 2557
+        }
+      },
+      "min": 0.3167515039333642,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -24,
+        "y": -184,
+        "scale": 6.3,
+        "rotation": 698
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 357.6653696498054,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2298,
+        "height": 1542
+      },
+      "present": {
+        "x": -24.000000000000007,
+        "y": -184.00000000000003,
+        "scale": 5.555987558320373,
+        "rotation": 698
+      },
+      "settle": {
+        "x": -24.000000000000007,
+        "y": -184.00000000000003,
+        "scale": 5,
+        "rotation": 698
+      },
+      "crop": {
+        "originX": 1231,
+        "originY": 1227,
+        "width": 308,
+        "height": 308,
+        "rotation": -22,
+        "canvas": {
+          "width": 2708,
+          "height": 2290
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -5,
+        "y": -155,
+        "scale": 7.6,
+        "rotation": 735
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 340.75801749271136,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2435,
+        "height": 1715
+      },
+      "present": {
+        "x": -5,
+        "y": -155.00000000000003,
+        "scale": 5.909669211195928,
+        "rotation": 735
+      },
+      "settle": {
+        "x": -5,
+        "y": -155.00000000000003,
+        "scale": 5,
+        "rotation": 735
+      },
+      "crop": {
+        "originX": 1234,
+        "originY": 1194,
+        "width": 342,
+        "height": 342,
+        "rotation": 15,
+        "canvas": {
+          "width": 2795,
+          "height": 2286
+        }
+      },
+      "min": 0.35215605749486656,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 14,
+        "y": -126,
+        "scale": 0.9,
+        "rotation": 772
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 326.9491525423729,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2572,
+        "height": 1888
+      },
+      "present": {
+        "x": -4.0715678008777765,
+        "y": -71.00686400621788,
+        "scale": 1.2050500824987878,
+        "rotation": 772
+      },
+      "settle": {
+        "x": -37.57015996343037,
+        "y": -48.087611865348116,
+        "scale": 1.4036722289323804,
+        "rotation": 772
+      },
+      "crop": {
+        "originX": 1074,
+        "originY": 1191,
+        "width": 1345,
+        "height": 1345,
+        "rotation": 52,
+        "canvas": {
+          "width": 3071,
+          "height": 3189
+        }
+      },
+      "min": 1.4036722289323804,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 33,
+        "y": -97,
+        "scale": 2.2,
+        "rotation": 809
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 315.4585152838428,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2709,
+        "height": 2061
+      },
+      "present": {
+        "x": 33,
+        "y": -97.00000000000001,
+        "scale": 2.2,
+        "rotation": 809
+      },
+      "settle": {
+        "x": 33,
+        "y": -97.00000000000001,
+        "scale": 2.2,
+        "rotation": 809
+      },
+      "crop": {
+        "originX": 457,
+        "originY": 1283,
+        "width": 936,
+        "height": 936,
+        "rotation": 89,
+        "canvas": {
+          "width": 2107,
+          "height": 2744
+        }
+      },
+      "min": 0.3803986710963455,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 52,
+        "y": -68,
+        "scale": 3.5,
+        "rotation": 846
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 305.74753804834376,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2846,
+        "height": 2234
+      },
+      "present": {
+        "x": 52.00000000000001,
+        "y": -68.00000000000001,
+        "scale": 3.5,
+        "rotation": 846
+      },
+      "settle": {
+        "x": 52.00000000000001,
+        "y": -68.00000000000001,
+        "scale": 3.5,
+        "rotation": 846
+      },
+      "crop": {
+        "originX": 1283,
+        "originY": 1669,
+        "width": 638,
+        "height": 638,
+        "rotation": 126,
+        "canvas": {
+          "width": 3480,
+          "height": 3615
+        }
+      },
+      "min": 1.3968022466674204,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 71,
+        "y": -39,
+        "scale": 4.8,
+        "rotation": 883
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 297.43248857498963,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2983,
+        "height": 2407
+      },
+      "present": {
+        "x": 71,
+        "y": -39,
+        "scale": 4.8,
+        "rotation": 883
+      },
+      "settle": {
+        "x": 71,
+        "y": -39,
+        "scale": 4.8,
+        "rotation": 883
+      },
+      "crop": {
+        "originX": 1379,
+        "originY": 1417,
+        "width": 501,
+        "height": 501,
+        "rotation": 163,
+        "canvas": {
+          "width": 3556,
+          "height": 3173
+        }
+      },
+      "min": 0.4034528997653369,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 90,
+        "y": -10,
+        "scale": 6.1,
+        "rotation": 920
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 1474.2857142857142
+        }
+      },
+      "source": {
+        "width": 420,
+        "height": 2580
+      },
+      "present": {
+        "x": 90,
+        "y": -10,
+        "scale": 5.487117552334944,
+        "rotation": 920
+      },
+      "settle": {
+        "x": 90,
+        "y": -10,
+        "scale": 5,
+        "rotation": 920
+      },
+      "crop": {
+        "originX": 565,
+        "originY": 1246,
+        "width": 84,
+        "height": 84,
+        "rotation": -160,
+        "canvas": {
+          "width": 1277,
+          "height": 2568
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 109,
+        "y": 19,
+        "scale": 7.3999999999999995,
+        "rotation": 957
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 1186.2118491921005
+        }
+      },
+      "source": {
+        "width": 557,
+        "height": 2753
+      },
+      "present": {
+        "x": 109,
+        "y": 19.000000000000007,
+        "scale": 5.863874345549738,
+        "rotation": 957
+      },
+      "settle": {
+        "x": 109,
+        "y": 19.000000000000007,
+        "scale": 5,
+        "rotation": 957
+      },
+      "crop": {
+        "originX": 1200,
+        "originY": 919,
+        "width": 111,
+        "height": 111,
+        "rotation": -123,
+        "canvas": {
+          "width": 2612,
+          "height": 1966
+        }
+      },
+      "min": 0.10116236832546313,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 128,
+        "y": 48,
+        "scale": 0.7,
+        "rotation": 994
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 1011.8731988472623
+        }
+      },
+      "source": {
+        "width": 694,
+        "height": 2926
+      },
+      "present": {
+        "x": 129.3452719787947,
+        "y": 28.761714406750663,
+        "scale": 0.9207725113165621,
+        "rotation": 994
+      },
+      "settle": {
+        "x": 130.71731082250207,
+        "y": 9.14064481164654,
+        "scale": 1.0673205240039498,
+        "rotation": 994
+      },
+      "crop": {
+        "originX": 804,
+        "originY": 98,
+        "width": 650,
+        "height": 650,
+        "rotation": -86,
+        "canvas": {
+          "width": 2967,
+          "height": 896
+        }
+      },
+      "min": 1.0673205240039498,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 147,
+        "y": 77,
+        "scale": 2,
+        "rotation": 1031
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 499.84962406015035,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 831,
+        "height": 399
+      },
+      "present": {
+        "x": 131.42659830485837,
+        "y": 63.46224844372865,
+        "scale": 2,
+        "rotation": 1031
+      },
+      "settle": {
+        "x": 115.71060605961733,
+        "y": 49.80054481331798,
+        "scale": 2,
+        "rotation": 1031
+      },
+      "crop": {
+        "originX": 227,
+        "originY": 303,
+        "width": 199,
+        "height": 199,
+        "rotation": -49,
+        "canvas": {
+          "width": 846,
+          "height": 888
+        }
+      },
+      "min": 0.240072202166065,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 166,
+        "y": 106,
+        "scale": 3.3000000000000003,
+        "rotation": 1068
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 406.15384615384613,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 968,
+        "height": 572
+      },
+      "present": {
+        "x": 166,
+        "y": 106,
+        "scale": 3.3000000000000003,
+        "rotation": 1068
+      },
+      "settle": {
+        "x": 166,
+        "y": 106,
+        "scale": 3.3000000000000003,
+        "rotation": 1068
+      },
+      "crop": {
+        "originX": 326,
+        "originY": 217,
+        "width": 173,
+        "height": 173,
+        "rotation": -12,
+        "canvas": {
+          "width": 1065,
+          "height": 760
+        }
+      },
+      "min": 1.1860592915515664,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 185,
+        "y": 135,
+        "scale": 4.6,
+        "rotation": 1105
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 355.9731543624161,
+          "height": 239.99999999999997
+        }
+      },
+      "source": {
+        "width": 1105,
+        "height": 745
+      },
+      "present": {
+        "x": 185,
+        "y": 135,
+        "scale": 4.6,
+        "rotation": 1105
+      },
+      "settle": {
+        "x": 185,
+        "y": 135,
+        "scale": 4.6,
+        "rotation": 1105
+      },
+      "crop": {
+        "originX": 453,
+        "originY": 399,
+        "width": 161,
+        "height": 161,
+        "rotation": 25,
+        "canvas": {
+          "width": 1316,
+          "height": 1142
+        }
+      },
+      "min": 0.33710407239819007,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 204,
+        "y": 164,
+        "scale": 5.8999999999999995,
+        "rotation": 1142
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 324.7058823529412,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1242,
+        "height": 918
+      },
+      "present": {
+        "x": 204,
+        "y": 164,
+        "scale": 5.413188647746244,
+        "rotation": 1142
+      },
+      "settle": {
+        "x": 204,
+        "y": 164,
+        "scale": 5,
+        "rotation": 1142
+      },
+      "crop": {
+        "originX": 449,
+        "originY": 547,
+        "width": 183,
+        "height": 183,
+        "rotation": 62,
+        "canvas": {
+          "width": 1393,
+          "height": 1527
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 223,
+        "y": 193,
+        "scale": 7.199999999999999,
+        "rotation": 1179
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 303.35472043996333,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1379,
+        "height": 1091
+      },
+      "present": {
+        "x": 223,
+        "y": 193,
+        "scale": 5.815363881401617,
+        "rotation": 1179
+      },
+      "settle": {
+        "x": 223,
+        "y": 193,
+        "scale": 5,
+        "rotation": 1179
+      },
+      "crop": {
+        "originX": 335,
+        "originY": 482,
+        "width": 218,
+        "height": 218,
+        "rotation": 99,
+        "canvas": {
+          "width": 1293,
+          "height": 1532
+        }
+      },
+      "min": 0.39557650471356054,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 242,
+        "y": 222,
+        "scale": 0.5,
+        "rotation": 1216
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 287.8481012658228,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 1516,
+        "height": 1264
+      },
+      "present": {
+        "x": 79.0339109780671,
+        "y": 66.79783337654848,
+        "scale": 1.1201994659669297,
+        "rotation": 1216
+      },
+      "settle": {
+        "x": 14.290457301882313,
+        "y": -13.800134203287612,
+        "scale": 1.4139981707976483,
+        "rotation": 1216
+      },
+      "crop": {
+        "originX": 484,
+        "originY": 586,
+        "width": 893,
+        "height": 893,
+        "rotation": 136,
+        "canvas": {
+          "width": 1968,
+          "height": 1962
+        }
+      },
+      "min": 1.4139981707976483,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 261,
+        "y": 251,
+        "scale": 1.8,
+        "rotation": 1253
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 276.0751565762004,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1653,
+        "height": 1437
+      },
+      "present": {
+        "x": 192.32710397121576,
+        "y": 145.08128339282203,
+        "scale": 1.8,
+        "rotation": 1253
+      },
+      "settle": {
+        "x": 139.20951957107036,
+        "y": 79.62816351001122,
+        "scale": 1.8,
+        "rotation": 1253
+      },
+      "crop": {
+        "originX": 45,
+        "originY": 150,
+        "width": 798,
+        "height": 798,
+        "rotation": 173,
+        "canvas": {
+          "width": 1815,
+          "height": 1627
+        }
+      },
+      "min": 0.43466424682395643,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 280,
+        "y": 280,
+        "scale": 3.1,
+        "rotation": 1290
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 266.832298136646,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1790,
+        "height": 1610
+      },
+      "present": {
+        "x": 213.47569892709194,
+        "y": 241.59217686790495,
+        "scale": 3.1,
+        "rotation": 1290
+      },
+      "settle": {
+        "x": 164.9744197847161,
+        "y": 213.5899502990132,
+        "scale": 3.1,
+        "rotation": 1290
+      },
+      "crop": {
+        "originX": 561,
+        "originY": 423,
+        "width": 519,
+        "height": 519,
+        "rotation": -150,
+        "canvas": {
+          "width": 2355,
+          "height": 2289
+        }
+      },
+      "min": 1.3660254037844382,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 299,
+        "y": 309,
+        "scale": 4.3999999999999995,
+        "rotation": 1327
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 259.383062254627,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1927,
+        "height": 1783
+      },
+      "present": {
+        "x": 299,
+        "y": 309,
+        "scale": 4.3999999999999995,
+        "rotation": 1327
+      },
+      "settle": {
+        "x": 299,
+        "y": 309,
+        "scale": 4.3999999999999995,
+        "rotation": 1327
+      },
+      "crop": {
+        "originX": 490,
+        "originY": 511,
+        "width": 405,
+        "height": 405,
+        "rotation": -113,
+        "canvas": {
+          "width": 2394,
+          "height": 2470
+        }
+      },
+      "min": 0.4626362221069019,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 318,
+        "y": 338,
+        "scale": 5.699999999999999,
+        "rotation": 1364
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 253.25153374233128,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2064,
+        "height": 1956
+      },
+      "present": {
+        "x": 318,
+        "y": 338,
+        "scale": 5.3336221837088384,
+        "rotation": 1364
+      },
+      "settle": {
+        "x": 318,
+        "y": 338,
+        "scale": 5,
+        "rotation": 1364
+      },
+      "crop": {
+        "originX": 485,
+        "originY": 491,
+        "width": 391,
+        "height": 391,
+        "rotation": -76,
+        "canvas": {
+          "width": 2397,
+          "height": 2475
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 337,
+        "y": -333,
+        "scale": 7,
+        "rotation": 1401
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 248.11648661343355,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2201,
+        "height": 2129
+      },
+      "present": {
+        "x": 337,
+        "y": -333,
+        "scale": 5.763888888888889,
+        "rotation": 1401
+      },
+      "settle": {
+        "x": 321.49856093824116,
+        "y": -320.44718215624226,
+        "scale": 5,
+        "rotation": 1401
+      },
+      "crop": {
+        "originX": 742,
+        "originY": 1876,
+        "width": 425,
+        "height": 425,
+        "rotation": -39,
+        "canvas": {
+          "width": 3050,
+          "height": 3039
+        }
+      },
+      "min": 0.483643798273512,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -344,
+        "y": -304,
+        "scale": 0.30000000000000004,
+        "rotation": 1438
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 243.75325803649,
+          "height": 239.99999999999997
+        }
+      },
+      "source": {
+        "width": 2338,
+        "height": 2302
+      },
+      "present": {
+        "x": -107.36356345825818,
+        "y": -97.08125855890283,
+        "scale": 0.80752270044446,
+        "rotation": 1438
+      },
+      "settle": {
+        "x": -1.9397968426796286,
+        "y": 0.06773919840403304,
+        "scale": 1.0342903237215955,
+        "rotation": 1438
+      },
+      "crop": {
+        "originX": 113,
+        "originY": 78,
+        "width": 2225,
+        "height": 2225,
+        "rotation": -2,
+        "canvas": {
+          "width": 2416,
+          "height": 2382
+        }
+      },
+      "min": 1.0342903237215955,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -325,
+        "y": -275,
+        "scale": 1.6,
+        "rotation": 1475
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2475,
+        "height": 2475
+      },
+      "present": {
+        "x": -124.46637683928137,
+        "y": -134.5848453983606,
+        "scale": 1.6,
+        "rotation": 1475
+      },
+      "settle": {
+        "x": -36.69293854032325,
+        "y": -73.12522224684574,
+        "scale": 1.6,
+        "rotation": 1475
+      },
+      "crop": {
+        "originX": 1187,
+        "originY": 1422,
+        "width": 1546,
+        "height": 1546,
+        "rotation": 35,
+        "canvas": {
+          "width": 3447,
+          "height": 3447
+        }
+      },
+      "min": 0.5,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -306,
+        "y": -246,
+        "scale": 2.9,
+        "rotation": 1512
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 243.30781010719755
+        }
+      },
+      "source": {
+        "width": 2612,
+        "height": 2648
+      },
+      "present": {
+        "x": -276.5390703981308,
+        "y": -175.58012494950773,
+        "scale": 2.9,
+        "rotation": 1512
+      },
+      "settle": {
+        "x": -252.5329272559183,
+        "y": -124.86556847416833,
+        "scale": 2.9,
+        "rotation": 1512
+      },
+      "crop": {
+        "originX": 2160,
+        "originY": 1670,
+        "width": 900,
+        "height": 900,
+        "rotation": 72,
+        "canvas": {
+          "width": 3325,
+          "height": 3302
+        }
+      },
+      "min": 1.2600735106701015,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -287,
+        "y": -217,
+        "scale": 4.199999999999999,
+        "rotation": 1549
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 246.28592215351037
+        }
+      },
+      "source": {
+        "width": 2749,
+        "height": 2821
+      },
+      "present": {
+        "x": -287,
+        "y": -217,
+        "scale": 4.199999999999999,
+        "rotation": 1549
+      },
+      "settle": {
+        "x": -287,
+        "y": -217,
+        "scale": 4.199999999999999,
+        "rotation": 1549
+      },
+      "crop": {
+        "originX": 2237,
+        "originY": 2023,
+        "width": 654,
+        "height": 654,
+        "rotation": 109,
+        "canvas": {
+          "width": 3562,
+          "height": 3517
+        }
+      },
+      "min": 0.48723856788372916,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -268,
+        "y": -188,
+        "scale": 5.5,
+        "rotation": 1586
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 248.981288981289
+        }
+      },
+      "source": {
+        "width": 2886,
+        "height": 2994
+      },
+      "present": {
+        "x": -268,
+        "y": -188,
+        "scale": 5.247747747747748,
+        "rotation": 1586
+      },
+      "settle": {
+        "x": -268,
+        "y": -188,
+        "scale": 5,
+        "rotation": 1586
+      },
+      "crop": {
+        "originX": 2389,
+        "originY": 2211,
+        "width": 577,
+        "height": 577,
+        "rotation": 146,
+        "canvas": {
+          "width": 4066,
+          "height": 4095
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -249,
+        "y": -159,
+        "scale": 6.8,
+        "rotation": 1623
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 346.99690402476784
+        }
+      },
+      "source": {
+        "width": 323,
+        "height": 467
+      },
+      "present": {
+        "x": -249,
+        "y": -158.99999999999997,
+        "scale": 5.7091690544412605,
+        "rotation": 1623
+      },
+      "settle": {
+        "x": -249,
+        "y": -158.99999999999997,
+        "scale": 5,
+        "rotation": 1623
+      },
+      "crop": {
+        "originX": 208,
+        "originY": 252,
+        "width": 64,
+        "height": 64,
+        "rotation": -177,
+        "canvas": {
+          "width": 346,
+          "height": 483
+        }
+      },
+      "min": 0.3458244111349036,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -230,
+        "y": -130,
+        "scale": 0.1,
+        "rotation": 1660
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 333.9130434782609
+        }
+      },
+      "source": {
+        "width": 460,
+        "height": 640
+      },
+      "present": {
+        "x": -86.32799901428288,
+        "y": -36.44100161586161,
+        "scale": 1.0528054923988437,
+        "rotation": 1660
+      },
+      "settle": {
+        "x": -31.01795562250908,
+        "y": 36.96576004805311,
+        "scale": 1.4088320528055172,
+        "rotation": 1660
+      },
+      "crop": {
+        "originX": 261,
+        "originY": 179,
+        "width": 326,
+        "height": 326,
+        "rotation": -140,
+        "canvas": {
+          "width": 763,
+          "height": 785
+        }
+      },
+      "min": 1.4088320528055172,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -211,
+        "y": -101,
+        "scale": 1.4000000000000001,
+        "rotation": 1697
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 326.83417085427135
+        }
+      },
+      "source": {
+        "width": 597,
+        "height": 813
+      },
+      "present": {
+        "x": -160.62577076237847,
+        "y": -57.305294336923986,
+        "scale": 1.4000000000000001,
+        "rotation": 1697
+      },
+      "settle": {
+        "x": -116.79344539479084,
+        "y": -22.298705700465298,
+        "scale": 1.4000000000000001,
+        "rotation": 1697
+      },
+      "crop": {
+        "originX": 458,
+        "originY": 209,
+        "width": 426,
+        "height": 426,
+        "rotation": -103,
+        "canvas": {
+          "width": 926,
+          "height": 764
+        }
+      },
+      "min": 0.3671586715867159,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -192,
+        "y": -72,
+        "scale": 2.7,
+        "rotation": 1734
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 322.3978201634877
+        }
+      },
+      "source": {
+        "width": 734,
+        "height": 986
+      },
+      "present": {
+        "x": -191.99999999999997,
+        "y": -71.99999999999999,
+        "scale": 2.7,
+        "rotation": 1734
+      },
+      "settle": {
+        "x": -191.99999999999997,
+        "y": -71.99999999999999,
+        "scale": 2.7,
+        "rotation": 1734
+      },
+      "crop": {
+        "originX": 681,
+        "originY": 482,
+        "width": 271,
+        "height": 271,
+        "rotation": -66,
+        "canvas": {
+          "width": 1199,
+          "height": 1071
+        }
+      },
+      "min": 1.3202821007184007,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -173,
+        "y": -43,
+        "scale": 4,
+        "rotation": 1771
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 239.99999999999997,
+          "height": 319.35706084959816
+        }
+      },
+      "source": {
+        "width": 871,
+        "height": 1159
+      },
+      "present": {
+        "x": -173.00000000000003,
+        "y": -42.99999999999999,
+        "scale": 4,
+        "rotation": 1771
+      },
+      "settle": {
+        "x": -173.00000000000003,
+        "y": -42.99999999999999,
+        "scale": 4,
+        "rotation": 1771
+      },
+      "crop": {
+        "originX": 710,
+        "originY": 648,
+        "width": 217,
+        "height": 217,
+        "rotation": -29,
+        "canvas": {
+          "width": 1323,
+          "height": 1435
+        }
+      },
+      "min": 0.3757549611734254,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -154,
+        "y": -14,
+        "scale": 5.3,
+        "rotation": 1808
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 317.1428571428571
+        }
+      },
+      "source": {
+        "width": 1008,
+        "height": 1332
+      },
+      "present": {
+        "x": -154,
+        "y": -14,
+        "scale": 5.154784240150094,
+        "rotation": 1808
+      },
+      "settle": {
+        "x": -154,
+        "y": -14,
+        "scale": 5,
+        "rotation": 1808
+      },
+      "crop": {
+        "originX": 620,
+        "originY": 641,
+        "width": 201,
+        "height": 201,
+        "rotation": 8,
+        "canvas": {
+          "width": 1183,
+          "height": 1459
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -135,
+        "y": 15,
+        "scale": 6.6,
+        "rotation": 1845
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 315.45851528384276
+        }
+      },
+      "source": {
+        "width": 1145,
+        "height": 1505
+      },
+      "present": {
+        "x": -135,
+        "y": 14.999999999999993,
+        "scale": 5.650887573964496,
+        "rotation": 1845
+      },
+      "settle": {
+        "x": -135,
+        "y": 14.999999999999993,
+        "scale": 5,
+        "rotation": 1845
+      },
+      "crop": {
+        "originX": 951,
+        "originY": 808,
+        "width": 229,
+        "height": 229,
+        "rotation": 45,
+        "canvas": {
+          "width": 1873,
+          "height": 1873
+        }
+      },
+      "min": 0.38039867109634556,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -116,
+        "y": 44,
+        "scale": 7.8999999999999995,
+        "rotation": 1882
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 314.1341653666147
+        }
+      },
+      "source": {
+        "width": 1282,
+        "height": 1678
+      },
+      "present": {
+        "x": -116,
+        "y": 44,
+        "scale": 5.973748473748474,
+        "rotation": 1882
+      },
+      "settle": {
+        "x": -116,
+        "y": 44,
+        "scale": 5,
+        "rotation": 1882
+      },
+      "crop": {
+        "originX": 916,
+        "originY": 576,
+        "width": 256,
+        "height": 256,
+        "rotation": 82,
+        "canvas": {
+          "width": 1840,
+          "height": 1503
+        }
+      },
+      "min": 1.12944116970164,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -97,
+        "y": 73,
+        "scale": 1.2000000000000002,
+        "rotation": 1919
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 313.0655391120507
+        }
+      },
+      "source": {
+        "width": 1419,
+        "height": 1851
+      },
+      "present": {
+        "x": -74.20121345001044,
+        "y": 31.86990030157913,
+        "scale": 1.2000000000000002,
+        "rotation": 1919
+      },
+      "settle": {
+        "x": -54.88275969151289,
+        "y": -2.9815128367531187,
+        "scale": 1.2000000000000002,
+        "rotation": 1919
+      },
+      "crop": {
+        "originX": 832,
+        "originY": 493,
+        "width": 1182,
+        "height": 1182,
+        "rotation": 119,
+        "canvas": {
+          "width": 2306,
+          "height": 2138
+        }
+      },
+      "min": 0.3833063209076175,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -78,
+        "y": 102,
+        "scale": 2.5,
+        "rotation": 1956
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 312.1850899742931
+        }
+      },
+      "source": {
+        "width": 1556,
+        "height": 2024
+      },
+      "present": {
+        "x": -78,
+        "y": 102.00000000000001,
+        "scale": 2.5,
+        "rotation": 1956
+      },
+      "settle": {
+        "x": -78,
+        "y": 102.00000000000001,
+        "scale": 2.5,
+        "rotation": 1956
+      },
+      "crop": {
+        "originX": 1013,
+        "originY": 665,
+        "width": 622,
+        "height": 622,
+        "rotation": 156,
+        "canvas": {
+          "width": 2244,
+          "height": 2481
+        }
+      },
+      "min": 1.3202821007184011,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -59,
+        "y": 131,
+        "scale": 3.8000000000000003,
+        "rotation": 1993
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 311.44713526284704
+        }
+      },
+      "source": {
+        "width": 1693,
+        "height": 2197
+      },
+      "present": {
+        "x": -59,
+        "y": 130.99999999999997,
+        "scale": 3.8000000000000003,
+        "rotation": 1993
+      },
+      "settle": {
+        "x": -59,
+        "y": 130.99999999999997,
+        "scale": 3.8000000000000003,
+        "rotation": 1993
+      },
+      "crop": {
+        "originX": 959,
+        "originY": 795,
+        "width": 445,
+        "height": 445,
+        "rotation": -167,
+        "canvas": {
+          "width": 2143,
+          "height": 2521
+        }
+      },
+      "min": 0.38529813381884387,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -40,
+        "y": 160,
+        "scale": 5.1,
+        "rotation": 2030
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 310.81967213114757
+        }
+      },
+      "source": {
+        "width": 1830,
+        "height": 2370
+      },
+      "present": {
+        "x": -40.00000000000001,
+        "y": 160,
+        "scale": 5.053816046966732,
+        "rotation": 2030
+      },
+      "settle": {
+        "x": -40.00000000000001,
+        "y": 160,
+        "scale": 5,
+        "rotation": 2030
+      },
+      "crop": {
+        "originX": 1374,
+        "originY": 1036,
+        "width": 365,
+        "height": 365,
+        "rotation": -130,
+        "canvas": {
+          "width": 2991,
+          "height": 2925
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -21,
+        "y": 189,
+        "scale": 6.3999999999999995,
+        "rotation": 2067
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 310.2796136248094
+        }
+      },
+      "source": {
+        "width": 1967,
+        "height": 2543
+      },
+      "present": {
+        "x": -21,
+        "y": 189.00000000000003,
+        "scale": 5.58868501529052,
+        "rotation": 2067
+      },
+      "settle": {
+        "x": -21,
+        "y": 189.00000000000003,
+        "scale": 5,
+        "rotation": 2067
+      },
+      "crop": {
+        "originX": 1159,
+        "originY": 542,
+        "width": 393,
+        "height": 393,
+        "rotation": -93,
+        "canvas": {
+          "width": 2642,
+          "height": 2097
+        }
+      },
+      "min": 0.386747935509241,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -2,
+        "y": 218,
+        "scale": 7.699999999999999,
+        "rotation": 2104
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 309.80988593155894
+        }
+      },
+      "source": {
+        "width": 2104,
+        "height": 2716
+      },
+      "present": {
+        "x": -1.9999999999999858,
+        "y": 218,
+        "scale": 5.931618569636136,
+        "rotation": 2104
+      },
+      "settle": {
+        "x": -1.9999999999999858,
+        "y": 218,
+        "scale": 5,
+        "rotation": 2104
+      },
+      "crop": {
+        "originX": 1508,
+        "originY": 1039,
+        "width": 420,
+        "height": 420,
+        "rotation": -56,
+        "canvas": {
+          "width": 3428,
+          "height": 3263
+        }
+      },
+      "min": 1.388230476025789,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 17,
+        "y": 247,
+        "scale": 1,
+        "rotation": 2141
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 309.3975903614458
+        }
+      },
+      "source": {
+        "width": 2241,
+        "height": 2889
+      },
+      "present": {
+        "x": 7.059930158950234,
+        "y": 115.23156934583048,
+        "scale": 1,
+        "rotation": 2141
+      },
+      "settle": {
+        "x": 11.296822708875023,
+        "y": 32.808355394289485,
+        "scale": 1,
+        "rotation": 2141
+      },
+      "crop": {
+        "originX": 304,
+        "originY": 304,
+        "width": 2241,
+        "height": 2241,
+        "rotation": -19,
+        "canvas": {
+          "width": 3059,
+          "height": 3461
+        }
+      },
+      "min": 0.3878504672897196,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 36,
+        "y": 276,
+        "scale": 2.3000000000000003,
+        "rotation": 2178
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1576.574585635359,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2378,
+        "height": 362
+      },
+      "present": {
+        "x": 58.43843101292873,
+        "y": 206.94161027146674,
+        "scale": 2.3000000000000003,
+        "rotation": 2178
+      },
+      "settle": {
+        "x": 75.11407574267645,
+        "y": 155.61925301493898,
+        "scale": 2.3000000000000003,
+        "rotation": 2178
+      },
+      "crop": {
+        "originX": 1059,
+        "originY": 359,
+        "width": 157,
+        "height": 157,
+        "rotation": 18,
+        "canvas": {
+          "width": 2373,
+          "height": 1079
+        }
+      },
+      "min": 1.2600735106701013,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 55,
+        "y": 305,
+        "scale": 3.6,
+        "rotation": 2215
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1128.2242990654206,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2515,
+        "height": 535
+      },
+      "present": {
+        "x": 55,
+        "y": 305,
+        "scale": 3.6,
+        "rotation": 2215
+      },
+      "settle": {
+        "x": 55,
+        "y": 305,
+        "scale": 3.6,
+        "rotation": 2215
+      },
+      "crop": {
+        "originX": 832,
+        "originY": 921,
+        "width": 148,
+        "height": 148,
+        "rotation": 55,
+        "canvas": {
+          "width": 1880,
+          "height": 2367
+        }
+      },
+      "min": 0.10636182902584493,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 74,
+        "y": 334,
+        "scale": 4.8999999999999995,
+        "rotation": 2252
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 898.9830508474575,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2652,
+        "height": 708
+      },
+      "present": {
+        "x": 74,
+        "y": 334,
+        "scale": 4.8999999999999995,
+        "rotation": 2252
+      },
+      "settle": {
+        "x": 74,
+        "y": 334,
+        "scale": 4.8999999999999995,
+        "rotation": 2252
+      },
+      "crop": {
+        "originX": 283,
+        "originY": 1064,
+        "width": 144,
+        "height": 144,
+        "rotation": 92,
+        "canvas": {
+          "width": 800,
+          "height": 2675
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 93,
+        "y": -337,
+        "scale": 6.199999999999999,
+        "rotation": 2289
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 759.7729852440408,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2789,
+        "height": 881
+      },
+      "present": {
+        "x": 92.99999999999996,
+        "y": -337,
+        "scale": 5.522151898734177,
+        "rotation": 2289
+      },
+      "settle": {
+        "x": 92.99999999999996,
+        "y": -337,
+        "scale": 5,
+        "rotation": 2289
+      },
+      "crop": {
+        "originX": 1063,
+        "originY": 1520,
+        "width": 176,
+        "height": 176,
+        "rotation": 129,
+        "canvas": {
+          "width": 2439,
+          "height": 2721
+        }
+      },
+      "min": 0.1579419146647544,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 112,
+        "y": -308,
+        "scale": 7.5,
+        "rotation": 2326
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 666.2618595825427,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2926,
+        "height": 1054
+      },
+      "present": {
+        "x": 111.99999999999999,
+        "y": -308.00000000000006,
+        "scale": 5.887096774193548,
+        "rotation": 2326
+      },
+      "settle": {
+        "x": 111.99999999999999,
+        "y": -308.00000000000006,
+        "scale": 5,
+        "rotation": 2326
+      },
+      "crop": {
+        "originX": 1344,
+        "originY": 1031,
+        "width": 210,
+        "height": 210,
+        "rotation": 166,
+        "canvas": {
+          "width": 3094,
+          "height": 1730
+        }
+      },
+      "min": 1.2122176218756673,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 131,
+        "y": -279,
+        "scale": 0.7999999999999999,
+        "rotation": 2363
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 811.2396694214876
+        }
+      },
+      "source": {
+        "width": 363,
+        "height": 1227
+      },
+      "present": {
+        "x": 108.53480542447429,
+        "y": -226.0753182105571,
+        "scale": 0.7999999999999999,
+        "rotation": 2363
+      },
+      "settle": {
+        "x": 90.55512230243873,
+        "y": -183.71783919074846,
+        "scale": 0.7999999999999999,
+        "rotation": 2363
+      },
+      "crop": {
+        "originX": 9,
+        "originY": 756,
+        "width": 453,
+        "height": 453,
+        "rotation": -157,
+        "canvas": {
+          "width": 813,
+          "height": 1271
+        }
+      },
+      "min": 0.14792176039119803,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 150,
+        "y": -250,
+        "scale": 2.1,
+        "rotation": 2400
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 672
+        }
+      },
+      "source": {
+        "width": 500,
+        "height": 1400
+      },
+      "present": {
+        "x": 163.62441980663579,
+        "y": -226.40181267125905,
+        "scale": 2.1,
+        "rotation": 2400
+      },
+      "settle": {
+        "x": 176.71469970012117,
+        "y": -203.72878281044495,
+        "scale": 2.1,
+        "rotation": 2400
+      },
+      "crop": {
+        "originX": 437,
+        "originY": 650,
+        "width": 238,
+        "height": 238,
+        "rotation": -120,
+        "canvas": {
+          "width": 1462,
+          "height": 1133
+        }
+      },
+      "min": 1.3660254037844384,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 169,
+        "y": -221,
+        "scale": 3.4,
+        "rotation": 2437
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 592.6530612244899
+        }
+      },
+      "source": {
+        "width": 637,
+        "height": 1573
+      },
+      "present": {
+        "x": 169,
+        "y": -221,
+        "scale": 3.4,
+        "rotation": 2437
+      },
+      "settle": {
+        "x": 169,
+        "y": -221,
+        "scale": 3.4,
+        "rotation": 2437
+      },
+      "crop": {
+        "originX": 594,
+        "originY": 491,
+        "width": 187,
+        "height": 187,
+        "rotation": -83,
+        "canvas": {
+          "width": 1638,
+          "height": 823
+        }
+      },
+      "min": 0.20247933884297517,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 188,
+        "y": -192,
+        "scale": 4.699999999999999,
+        "rotation": 2474
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 541.3953488372093
+        }
+      },
+      "source": {
+        "width": 774,
+        "height": 1746
+      },
+      "present": {
+        "x": 188.00000000000003,
+        "y": -192.00000000000006,
+        "scale": 4.699999999999999,
+        "rotation": 2474
+      },
+      "settle": {
+        "x": 188.00000000000003,
+        "y": -192.00000000000006,
+        "scale": 4.699999999999999,
+        "rotation": 2474
+      },
+      "crop": {
+        "originX": 686,
+        "originY": 934,
+        "width": 164,
+        "height": 164,
+        "rotation": -46,
+        "canvas": {
+          "width": 1793,
+          "height": 1769
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 207,
+        "y": -163,
+        "scale": 6,
+        "rotation": 2511
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 505.55433589462126
+        }
+      },
+      "source": {
+        "width": 911,
+        "height": 1919
+      },
+      "present": {
+        "x": 206.99999999999997,
+        "y": -163,
+        "scale": 5.450819672131147,
+        "rotation": 2511
+      },
+      "settle": {
+        "x": 206.99999999999997,
+        "y": -163,
+        "scale": 5,
+        "rotation": 2511
+      },
+      "crop": {
+        "originX": 351,
+        "originY": 1051,
+        "width": 182,
+        "height": 182,
+        "rotation": -9,
+        "canvas": {
+          "width": 1199,
+          "height": 2037
+        }
+      },
+      "min": 0.23736321000521107,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 226,
+        "y": -134,
+        "scale": 7.3,
+        "rotation": 2548
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 479.08396946564886
+        }
+      },
+      "source": {
+        "width": 1048,
+        "height": 2092
+      },
+      "present": {
+        "x": 226,
+        "y": -134,
+        "scale": 5.839973439575033,
+        "rotation": 2548
+      },
+      "settle": {
+        "x": 226,
+        "y": -134,
+        "scale": 5,
+        "rotation": 2548
+      },
+      "crop": {
+        "originX": 652,
+        "originY": 1182,
+        "width": 209,
+        "height": 209,
+        "rotation": 28,
+        "canvas": {
+          "width": 1907,
+          "height": 2339
+        }
+      },
+      "min": 1.3524191556448162,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 245,
+        "y": -105,
+        "scale": 0.6,
+        "rotation": 2585
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 458.73417721518985
+        }
+      },
+      "source": {
+        "width": 1185,
+        "height": 2265
+      },
+      "present": {
+        "x": 98.4952809983712,
+        "y": -36.683727573693496,
+        "scale": 0.6,
+        "rotation": 2585
+      },
+      "settle": {
+        "x": 19.510557202248258,
+        "y": 0.1474540096964505,
+        "scale": 0.6,
+        "rotation": 2585
+      },
+      "crop": {
+        "originX": 128,
+        "originY": 27,
+        "width": 1975,
+        "height": 1975,
+        "rotation": 65,
+        "canvas": {
+          "width": 2553,
+          "height": 2031
+        }
+      },
+      "min": 0.26158940397350994,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 264,
+        "y": -76,
+        "scale": 1.9000000000000001,
+        "rotation": 2622
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 442.60211800302574
+        }
+      },
+      "source": {
+        "width": 1322,
+        "height": 2438
+      },
+      "present": {
+        "x": 259.47296862306604,
+        "y": -54.701991877523014,
+        "scale": 1.9000000000000001,
+        "rotation": 2622
+      },
+      "settle": {
+        "x": 254.94440235239992,
+        "y": -33.39676264777883,
+        "scale": 1.9000000000000001,
+        "rotation": 2622
+      },
+      "crop": {
+        "originX": 243,
+        "originY": 649,
+        "width": 695,
+        "height": 695,
+        "rotation": 102,
+        "canvas": {
+          "width": 2659,
+          "height": 1799
+        }
+      },
+      "min": 1.1860592915515658,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 283,
+        "y": -47,
+        "scale": 3.2,
+        "rotation": 2659
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 429.4996572995202
+        }
+      },
+      "source": {
+        "width": 1459,
+        "height": 2611
+      },
+      "present": {
+        "x": 272.1238530434649,
+        "y": -37.54550969214375,
+        "scale": 3.2,
+        "rotation": 2659
+      },
+      "settle": {
+        "x": 260.5777152221701,
+        "y": -27.508605211093823,
+        "scale": 3.2,
+        "rotation": 2659
+      },
+      "crop": {
+        "originX": 684,
+        "originY": 1288,
+        "width": 455,
+        "height": 455,
+        "rotation": 139,
+        "canvas": {
+          "width": 2814,
+          "height": 2927
+        }
+      },
+      "min": 0.27939486786671774,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 302,
+        "y": -18,
+        "scale": 4.5,
+        "rotation": 2696
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 418.64661654135335
+        }
+      },
+      "source": {
+        "width": 1596,
+        "height": 2784
+      },
+      "present": {
+        "x": 302,
+        "y": -18,
+        "scale": 4.5,
+        "rotation": 2696
+      },
+      "settle": {
+        "x": 302,
+        "y": -18,
+        "scale": 4.5,
+        "rotation": 2696
+      },
+      "crop": {
+        "originX": 270,
+        "originY": 1294,
+        "width": 354,
+        "height": 354,
+        "rotation": 176,
+        "canvas": {
+          "width": 1786,
+          "height": 2888
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 321,
+        "y": 11,
+        "scale": 5.8,
+        "rotation": 2733
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 409.50952106174265
+        }
+      },
+      "source": {
+        "width": 1733,
+        "height": 2957
+      },
+      "present": {
+        "x": 321,
+        "y": 10.999999999999972,
+        "scale": 5.374149659863946,
+        "rotation": 2733
+      },
+      "settle": {
+        "x": 321,
+        "y": 10.999999999999972,
+        "scale": 5,
+        "rotation": 2733
+      },
+      "crop": {
+        "originX": 895,
+        "originY": 1523,
+        "width": 346,
+        "height": 346,
+        "rotation": -147,
+        "canvas": {
+          "width": 3063,
+          "height": 3423
+        }
+      },
+      "min": 0.293033479878255,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 340,
+        "y": 40,
+        "scale": 7.1,
+        "rotation": 2770
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1043.7209302325582,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1870,
+        "height": 430
+      },
+      "present": {
+        "x": 340.00000000000006,
+        "y": 40,
+        "scale": 5.790013679890561,
+        "rotation": 2770
+      },
+      "settle": {
+        "x": 340.00000000000006,
+        "y": 40,
+        "scale": 5,
+        "rotation": 2770
+      },
+      "crop": {
+        "originX": 357,
+        "originY": 895,
+        "width": 86,
+        "height": 86,
+        "rotation": -110,
+        "canvas": {
+          "width": 1043,
+          "height": 1904
+        }
+      },
+      "min": 1.281712764111579,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -341,
+        "y": 69,
+        "scale": 0.4,
+        "rotation": 2807
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 798.8059701492538,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2007,
+        "height": 603
+      },
+      "present": {
+        "x": -176.29161542331428,
+        "y": 43.88340655194078,
+        "scale": 0.4,
+        "rotation": 2807
+      },
+      "settle": {
+        "x": -80.47899050965745,
+        "y": 16.97305621347865,
+        "scale": 0.4,
+        "rotation": 2807
+      },
+      "crop": {
+        "originX": 0,
+        "originY": 359,
+        "width": 1163,
+        "height": 1163,
+        "rotation": -73,
+        "canvas": {
+          "width": 1163,
+          "height": 2095
+        }
+      },
+      "min": 0.15022421524663676,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -322,
+        "y": 98,
+        "scale": 1.7000000000000002,
+        "rotation": 2844
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 663.0927835051547,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2144,
+        "height": 776
+      },
+      "present": {
+        "x": -299.0987633889863,
+        "y": 129.52084802783148,
+        "scale": 1.7000000000000002,
+        "rotation": 2844
+      },
+      "settle": {
+        "x": -278.7393255452798,
+        "y": 157.54321018686537,
+        "scale": 1.7000000000000002,
+        "rotation": 2844
+      },
+      "crop": {
+        "originX": 1397,
+        "originY": 416,
+        "width": 456,
+        "height": 456,
+        "rotation": -36,
+        "canvas": {
+          "width": 2190,
+          "height": 1888
+        }
+      },
+      "min": 1.3968022466674217,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -303,
+        "y": 127,
+        "scale": 3,
+        "rotation": 2881
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 576.8598524762908,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 2281,
+        "height": 949
+      },
+      "present": {
+        "x": -303,
+        "y": 127.00000000000003,
+        "scale": 3,
+        "rotation": 2881
+      },
+      "settle": {
+        "x": -303,
+        "y": 127.00000000000003,
+        "scale": 3,
+        "rotation": 2881
+      },
+      "crop": {
+        "originX": 1390,
+        "originY": 169,
+        "width": 316,
+        "height": 316,
+        "rotation": 1,
+        "canvas": {
+          "width": 2297,
+          "height": 988
+        }
+      },
+      "min": 0.20802279701885137,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -284,
+        "y": 156,
+        "scale": 4.3,
+        "rotation": 2918
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 517.2192513368984,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2418,
+        "height": 1122
+      },
+      "present": {
+        "x": -284,
+        "y": 156,
+        "scale": 4.3,
+        "rotation": 2918
+      },
+      "settle": {
+        "x": -284,
+        "y": 156,
+        "scale": 4.3,
+        "rotation": 2918
+      },
+      "crop": {
+        "originX": 1477,
+        "originY": 886,
+        "width": 260,
+        "height": 260,
+        "rotation": 38,
+        "canvas": {
+          "width": 2596,
+          "height": 2372
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -265,
+        "y": 185,
+        "scale": 5.6,
+        "rotation": 2955
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 473.5135135135135,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2555,
+        "height": 1295
+      },
+      "present": {
+        "x": -265,
+        "y": 185,
+        "scale": 5.291519434628976,
+        "rotation": 2955
+      },
+      "settle": {
+        "x": -265,
+        "y": 185,
+        "scale": 5,
+        "rotation": 2955
+      },
+      "crop": {
+        "originX": 1112,
+        "originY": 1072,
+        "width": 259,
+        "height": 259,
+        "rotation": 75,
+        "canvas": {
+          "width": 1912,
+          "height": 2803
+        }
+      },
+      "min": 0.2534246575342466,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -246,
+        "y": 214,
+        "scale": 6.8999999999999995,
+        "rotation": 2992
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 440.1089918256131,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2692,
+        "height": 1468
+      },
+      "present": {
+        "x": -246,
+        "y": 214,
+        "scale": 5.736953455571227,
+        "rotation": 2992
+      },
+      "settle": {
+        "x": -246,
+        "y": 214,
+        "scale": 5,
+        "rotation": 2992
+      },
+      "crop": {
+        "originX": 1339,
+        "originY": 1114,
+        "width": 293,
+        "height": 293,
+        "rotation": 112,
+        "canvas": {
+          "width": 2369,
+          "height": 3045
+        }
+      },
+      "min": 1.3017904479827018,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -227,
+        "y": 243,
+        "scale": 0.2,
+        "rotation": 3029
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 413.7477148080439,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2829,
+        "height": 1641
+      },
+      "present": {
+        "x": -86.64976658400391,
+        "y": 157.74466451697003,
+        "scale": 0.2531187453441667,
+        "rotation": 3029
+      },
+      "settle": {
+        "x": -7.550760270892965,
+        "y": 103.9296661896273,
+        "scale": 0.2900318133616119,
+        "rotation": 3029
+      },
+      "crop": {
+        "originX": 382,
+        "originY": 0,
+        "width": 2863,
+        "height": 2863,
+        "rotation": 149,
+        "canvas": {
+          "width": 3270,
+          "height": 2863
+        }
+      },
+      "min": 0.2900318133616119,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -208,
+        "y": 272,
+        "scale": 1.5,
+        "rotation": 3066
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 392.4145534729879,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 2966,
+        "height": 1814
+      },
+      "present": {
+        "x": -184.00881387734742,
+        "y": 115.61597131040344,
+        "scale": 1.5,
+        "rotation": 3066
+      },
+      "settle": {
+        "x": -166.5643696075849,
+        "y": 30.87236139943846,
+        "scale": 1.5,
+        "rotation": 3066
+      },
+      "crop": {
+        "originX": 1804,
+        "originY": 297,
+        "width": 1209,
+        "height": 1209,
+        "rotation": -174,
+        "canvas": {
+          "width": 3139,
+          "height": 2114
+        }
+      },
+      "min": 1.0990503586359224,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -189,
+        "y": 301,
+        "scale": 2.8000000000000003,
+        "rotation": 3103
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 239.99999999999997,
+          "height": 1183.3250620347394
+        }
+      },
+      "source": {
+        "width": 403,
+        "height": 1987
+      },
+      "present": {
+        "x": -188.99999999999997,
+        "y": 301,
+        "scale": 2.8000000000000003,
+        "rotation": 3103
+      },
+      "settle": {
+        "x": -188.99999999999997,
+        "y": 301,
+        "scale": 2.8000000000000003,
+        "rotation": 3103
+      },
+      "crop": {
+        "originX": 866,
+        "originY": 612,
+        "width": 143,
+        "height": 143,
+        "rotation": -137,
+        "canvas": {
+          "width": 1649,
+          "height": 1728
+        }
+      },
+      "min": 0.10140915953699044,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -170,
+        "y": 330,
+        "scale": 4.1,
+        "rotation": 3140
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 960
+        }
+      },
+      "source": {
+        "width": 540,
+        "height": 2160
+      },
+      "present": {
+        "x": -169.99999999999997,
+        "y": 329.99999999999994,
+        "scale": 4.1,
+        "rotation": 3140
+      },
+      "settle": {
+        "x": -169.99999999999997,
+        "y": 329.99999999999994,
+        "scale": 4.1,
+        "rotation": 3140
+      },
+      "crop": {
+        "originX": 1138,
+        "originY": 206,
+        "width": 131,
+        "height": 131,
+        "rotation": -100,
+        "canvas": {
+          "width": 2220,
+          "height": 906
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -151,
+        "y": -341,
+        "scale": 5.3999999999999995,
+        "rotation": 3177
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 827.0605612998522
+        }
+      },
+      "source": {
+        "width": 677,
+        "height": 2333
+      },
+      "present": {
+        "x": -150.99999999999997,
+        "y": -341,
+        "scale": 5.202205882352941,
+        "rotation": 3177
+      },
+      "settle": {
+        "x": -150.99999999999997,
+        "y": -341,
+        "scale": 5,
+        "rotation": 3177
+      },
+      "crop": {
+        "originX": 1211,
+        "originY": 956,
+        "width": 135,
+        "height": 135,
+        "rotation": -63,
+        "canvas": {
+          "width": 2386,
+          "height": 1662
+        }
+      },
+      "min": 0.14509215602228892,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -132,
+        "y": -312,
+        "scale": 6.699999999999999,
+        "rotation": 3214
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 738.8697788697789
+        }
+      },
+      "source": {
+        "width": 814,
+        "height": 2506
+      },
+      "present": {
+        "x": -132,
+        "y": -312,
+        "scale": 5.680494905385735,
+        "rotation": 3214
+      },
+      "settle": {
+        "x": -132,
+        "y": -312,
+        "scale": 5,
+        "rotation": 3214
+      },
+      "crop": {
+        "originX": 924,
+        "originY": 1435,
+        "width": 162,
+        "height": 162,
+        "rotation": -26,
+        "canvas": {
+          "width": 1830,
+          "height": 2609
+        }
+      },
+      "min": 1.3371651930882456,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -113,
+        "y": -283,
+        "scale": 8,
+        "rotation": 3251
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 676.0883280757098
+        }
+      },
+      "source": {
+        "width": 951,
+        "height": 2679
+      },
+      "present": {
+        "x": -113,
+        "y": -283,
+        "scale": 5.993975903614458,
+        "rotation": 3251
+      },
+      "settle": {
+        "x": -113,
+        "y": -283,
+        "scale": 5,
+        "rotation": 3251
+      },
+      "crop": {
+        "originX": 717,
+        "originY": 1535,
+        "width": 190,
+        "height": 190,
+        "rotation": 11,
+        "canvas": {
+          "width": 1444,
+          "height": 2811
+        }
+      },
+      "min": 0.177491601343785,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -94,
+        "y": -254,
+        "scale": 1.3,
+        "rotation": 3288
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 629.1176470588235
+        }
+      },
+      "source": {
+        "width": 1088,
+        "height": 2852
+      },
+      "present": {
+        "x": 15.652009136288079,
+        "y": -132.21910637707282,
+        "scale": 1.355489825071435,
+        "rotation": 3288
+      },
+      "settle": {
+        "x": 74.39144293819069,
+        "y": -66.98235608269854,
+        "scale": 1.4122754318362523,
+        "rotation": 3288
+      },
+      "crop": {
+        "originX": 800,
+        "originY": 1188,
+        "width": 770,
+        "height": 770,
+        "rotation": 48,
+        "canvas": {
+          "width": 2847,
+          "height": 2716
+        }
+      },
+      "min": 1.4122754318362523,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -75,
+        "y": -225,
+        "scale": 2.6,
+        "rotation": 3325
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 904.6153846153846,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1225,
+        "height": 325
+      },
+      "present": {
+        "x": -75,
+        "y": -225,
+        "scale": 2.6,
+        "rotation": 3325
+      },
+      "settle": {
+        "x": -75,
+        "y": -225,
+        "scale": 2.6,
+        "rotation": 3325
+      },
+      "crop": {
+        "originX": 192,
+        "originY": 679,
+        "width": 124,
+        "height": 124,
+        "rotation": 85,
+        "canvas": {
+          "width": 430,
+          "height": 1248
+        }
+      },
+      "min": 0.1326530612244898,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -56,
+        "y": -196,
+        "scale": 3.9,
+        "rotation": 3362
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 656.3855421686746,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1362,
+        "height": 498
+      },
+      "present": {
+        "x": -56.000000000000014,
+        "y": -196,
+        "scale": 3.9,
+        "rotation": 3362
+      },
+      "settle": {
+        "x": -56.000000000000014,
+        "y": -196,
+        "scale": 3.9,
+        "rotation": 3362
+      },
+      "crop": {
+        "originX": 538,
+        "originY": 750,
+        "width": 127,
+        "height": 127,
+        "rotation": 122,
+        "canvas": {
+          "width": 1144,
+          "height": 1418
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -37,
+        "y": -167,
+        "scale": 5.199999999999999,
+        "rotation": 3399
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 536.1549925484352,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1499,
+        "height": 671
+      },
+      "present": {
+        "x": -36.999999999999986,
+        "y": -166.99999999999997,
+        "scale": 5.105363984674329,
+        "rotation": 3399
+      },
+      "settle": {
+        "x": -36.999999999999986,
+        "y": -166.99999999999997,
+        "scale": 5,
+        "rotation": 3399
+      },
+      "crop": {
+        "originX": 773,
+        "originY": 608,
+        "width": 134,
+        "height": 134,
+        "rotation": 159,
+        "canvas": {
+          "width": 1639,
+          "height": 1163
+        }
+      },
+      "min": 0.22381587725150098,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -18,
+        "y": -138,
+        "scale": 6.5,
+        "rotation": 3436
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 465.2132701421801,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1636,
+        "height": 844
+      },
+      "present": {
+        "x": -18,
+        "y": -138,
+        "scale": 5.620300751879699,
+        "rotation": 3436
+      },
+      "settle": {
+        "x": -18,
+        "y": -138,
+        "scale": 5,
+        "rotation": 3436
+      },
+      "crop": {
+        "originX": 831,
+        "originY": 644,
+        "width": 168,
+        "height": 168,
+        "rotation": -164,
+        "canvas": {
+          "width": 1805,
+          "height": 1262
+        }
+      },
+      "min": 1.2368990517553167,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 1,
+        "y": -109,
+        "scale": 7.8,
+        "rotation": 3473
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 418.4070796460177,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1773,
+        "height": 1017
+      },
+      "present": {
+        "x": 1.000000000000007,
+        "y": -109,
+        "scale": 5.952970297029703,
+        "rotation": 3473
+      },
+      "settle": {
+        "x": 1.000000000000007,
+        "y": -109,
+        "scale": 5,
+        "rotation": 3473
+      },
+      "crop": {
+        "originX": 837,
+        "originY": 1005,
+        "width": 203,
+        "height": 203,
+        "rotation": -127,
+        "canvas": {
+          "width": 1879,
+          "height": 2028
+        }
+      },
+      "min": 0.2868020304568528,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 20,
+        "y": -80,
+        "scale": 1.1,
+        "rotation": 3510
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 385.21008403361344,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1910,
+        "height": 1190
+      },
+      "present": {
+        "x": 16.320785597381338,
+        "y": -80,
+        "scale": 1.1,
+        "rotation": 3510
+      },
+      "settle": {
+        "x": 12,
+        "y": -80,
+        "scale": 1.1,
+        "rotation": 3510
+      },
+      "crop": {
+        "originX": 0,
+        "originY": 775,
+        "width": 1081,
+        "height": 1081,
+        "rotation": -90,
+        "canvas": {
+          "width": 1190,
+          "height": 1910
+        }
+      },
+      "min": 1,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 39,
+        "y": -51,
+        "scale": 2.4,
+        "rotation": 3547
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 360.4402054292003,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2047,
+        "height": 1363
+      },
+      "present": {
+        "x": 39,
+        "y": -51.00000000000001,
+        "scale": 2.4,
+        "rotation": 3547
+      },
+      "settle": {
+        "x": 39,
+        "y": -51.00000000000001,
+        "scale": 2.4,
+        "rotation": 3547
+      },
+      "crop": {
+        "originX": 784,
+        "originY": 1065,
+        "width": 567,
+        "height": 567,
+        "rotation": -53,
+        "canvas": {
+          "width": 2320,
+          "height": 2455
+        }
+      },
+      "min": 0.3329262335124572,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 58,
+        "y": -22,
+        "scale": 3.7,
+        "rotation": 3584
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 341.25,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2184,
+        "height": 1536
+      },
+      "present": {
+        "x": 58.00000000000001,
+        "y": -22,
+        "scale": 3.7,
+        "rotation": 3584
+      },
+      "settle": {
+        "x": 58.00000000000001,
+        "y": -22,
+        "scale": 3.7,
+        "rotation": 3584
+      },
+      "crop": {
+        "originX": 953,
+        "originY": 870,
+        "width": 415,
+        "height": 415,
+        "rotation": -16,
+        "canvas": {
+          "width": 2522,
+          "height": 2078
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 77,
+        "y": 7,
+        "scale": 5,
+        "rotation": 3621
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 325.9449970743124,
+          "height": 239.99999999999997
+        }
+      },
+      "source": {
+        "width": 2321,
+        "height": 1709
+      },
+      "present": {
+        "x": 76.99999999999999,
+        "y": 6.9999999999999964,
+        "scale": 5,
+        "rotation": 3621
+      },
+      "settle": {
+        "x": 76.99999999999999,
+        "y": 6.9999999999999964,
+        "scale": 5,
+        "rotation": 3621
+      },
+      "crop": {
+        "originX": 1109,
+        "originY": 1033,
+        "width": 341,
+        "height": 341,
+        "rotation": 21,
+        "canvas": {
+          "width": 2779,
+          "height": 2427
+        }
+      },
+      "min": 0.3681602757432142,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 96,
+        "y": 36,
+        "scale": 6.3,
+        "rotation": 3658
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 313.4537725823592,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 2458,
+        "height": 1882
+      },
+      "present": {
+        "x": 96,
+        "y": 36.00000000000001,
+        "scale": 5.555987558320373,
+        "rotation": 3658
+      },
+      "settle": {
+        "x": 96,
+        "y": 36.00000000000001,
+        "scale": 5,
+        "rotation": 3658
+      },
+      "crop": {
+        "originX": 1110,
+        "originY": 1296,
+        "width": 376,
+        "height": 376,
+        "rotation": 58,
+        "canvas": {
+          "width": 2898,
+          "height": 3081
+        }
+      },
+      "min": 1.3779673603896314,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 115,
+        "y": 65,
+        "scale": 7.6,
+        "rotation": 3695
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 303.06569343065695,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2595,
+        "height": 2055
+      },
+      "present": {
+        "x": 114.99999999999999,
+        "y": 65,
+        "scale": 5.909669211195928,
+        "rotation": 3695
+      },
+      "settle": {
+        "x": 114.99999999999999,
+        "y": 65,
+        "scale": 5,
+        "rotation": 3695
+      },
+      "crop": {
+        "originX": 735,
+        "originY": 1066,
+        "width": 410,
+        "height": 410,
+        "rotation": 95,
+        "canvas": {
+          "width": 2273,
+          "height": 2764
+        }
+      },
+      "min": 0.3959537572254335,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 134,
+        "y": 94,
+        "scale": 0.9,
+        "rotation": 3732
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 294.29084380610414,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2732,
+        "height": 2228
+      },
+      "present": {
+        "x": 58.20038096027031,
+        "y": 32.67836596461314,
+        "scale": 1.210881033399252,
+        "rotation": 3732
+      },
+      "settle": {
+        "x": 13.254063878757911,
+        "y": -14.7201292160942,
+        "scale": 1.4122754318362523,
+        "rotation": 3732
+      },
+      "crop": {
+        "originX": 866,
+        "originY": 1069,
+        "width": 1577,
+        "height": 1577,
+        "rotation": 132,
+        "canvas": {
+          "width": 3483,
+          "height": 3521
+        }
+      },
+      "min": 1.4122754318362523,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 153,
+        "y": 123,
+        "scale": 2.2,
+        "rotation": 3769
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 286.780508121616,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2869,
+        "height": 2401
+      },
+      "present": {
+        "x": 150.5530634492303,
+        "y": 110.41160274091406,
+        "scale": 2.2,
+        "rotation": 3769
+      },
+      "settle": {
+        "x": 147.91946982774016,
+        "y": 96.86293809904409,
+        "scale": 2.2,
+        "rotation": 3769
+      },
+      "crop": {
+        "originX": 419,
+        "originY": 466,
+        "width": 1091,
+        "height": 1091,
+        "rotation": 169,
+        "canvas": {
+          "width": 3274,
+          "height": 2904
+        }
+      },
+      "min": 0.4184384803067271,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 172,
+        "y": 152,
+        "scale": 3.5,
+        "rotation": 3806
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 2018.8235294117646
+        }
+      },
+      "source": {
+        "width": 306,
+        "height": 2574
+      },
+      "present": {
+        "x": 172,
+        "y": 152,
+        "scale": 3.5,
+        "rotation": 3806
+      },
+      "settle": {
+        "x": 172,
+        "y": 152,
+        "scale": 3.5,
+        "rotation": 3806
+      },
+      "crop": {
+        "originX": 595,
+        "originY": 1125,
+        "width": 87,
+        "height": 87,
+        "rotation": -154,
+        "canvas": {
+          "width": 1403,
+          "height": 2447
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 191,
+        "y": 181,
+        "scale": 4.8,
+        "rotation": 3843
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 1488.2167042889391
+        }
+      },
+      "source": {
+        "width": 443,
+        "height": 2747
+      },
+      "present": {
+        "x": 191,
+        "y": 181,
+        "scale": 4.8,
+        "rotation": 3843
+      },
+      "settle": {
+        "x": 191,
+        "y": 181,
+        "scale": 4.8,
+        "rotation": 3843
+      },
+      "crop": {
+        "originX": 1205,
+        "originY": 705,
+        "width": 92,
+        "height": 92,
+        "rotation": -117,
+        "canvas": {
+          "width": 2648,
+          "height": 1641
+        }
+      },
+      "min": 0.08063341827448124,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 210,
+        "y": 210,
+        "scale": 6.1,
+        "rotation": 3880
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 1208.2758620689656
+        }
+      },
+      "source": {
+        "width": 580,
+        "height": 2920
+      },
+      "present": {
+        "x": 210,
+        "y": 210,
+        "scale": 5.487117552334944,
+        "rotation": 3880
+      },
+      "settle": {
+        "x": 210,
+        "y": 210,
+        "scale": 5,
+        "rotation": 3880
+      },
+      "crop": {
+        "originX": 1329,
+        "originY": 380,
+        "width": 115,
+        "height": 115,
+        "rotation": -80,
+        "canvas": {
+          "width": 2976,
+          "height": 1078
+        }
+      },
+      "min": 1.1584559306791318,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 229,
+        "y": 239,
+        "scale": 7.3999999999999995,
+        "rotation": 3917
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 437.86259541984737,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 717,
+        "height": 393
+      },
+      "present": {
+        "x": 229.00000000000003,
+        "y": 239,
+        "scale": 5.863874345549738,
+        "rotation": 3917
+      },
+      "settle": {
+        "x": 229.00000000000003,
+        "y": 239,
+        "scale": 5,
+        "rotation": 3917
+      },
+      "crop": {
+        "originX": 282,
+        "originY": 271,
+        "width": 78,
+        "height": 78,
+        "rotation": -43,
+        "canvas": {
+          "width": 792,
+          "height": 776
+        }
+      },
+      "min": 0.2740585774058577,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 248,
+        "y": 268,
+        "scale": 0.7,
+        "rotation": 3954
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 362.1201413427562,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 854,
+        "height": 566
+      },
+      "present": {
+        "x": 118.24738114843485,
+        "y": 84.40760296891216,
+        "scale": 0.9422128166545762,
+        "rotation": 3954
+      },
+      "settle": {
+        "x": 66.74046741698048,
+        "y": -7.014705789135272,
+        "scale": 1.0990503586359235,
+        "rotation": 3954
+      },
+      "crop": {
+        "originX": 54,
+        "originY": 84,
+        "width": 514,
+        "height": 514,
+        "rotation": -6,
+        "canvas": {
+          "width": 908,
+          "height": 652
+        }
+      },
+      "min": 1.0990503586359235,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 267,
+        "y": 297,
+        "scale": 2,
+        "rotation": 3991
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 321.8403247631935,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 991,
+        "height": 739
+      },
+      "present": {
+        "x": 155.05287204616033,
+        "y": 205.49179315800274,
+        "scale": 2,
+        "rotation": 3991
+      },
+      "settle": {
+        "x": 95.92527692163856,
+        "y": 145.52646231989735,
+        "scale": 2,
+        "rotation": 3991
+      },
+      "crop": {
+        "originX": 283,
+        "originY": 163,
+        "width": 369,
+        "height": 369,
+        "rotation": 31,
+        "canvas": {
+          "width": 1230,
+          "height": 1143
+        }
+      },
+      "min": 0.37285570131180623,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 286,
+        "y": 326,
+        "scale": 3.3000000000000003,
+        "rotation": 4028
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 296.84210526315786,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1128,
+        "height": 912
+      },
+      "present": {
+        "x": 278.64368639496206,
+        "y": 307.79248490656374,
+        "scale": 3.3000000000000003,
+        "rotation": 4028
+      },
+      "settle": {
+        "x": 271.16185208151455,
+        "y": 289.27429515791164,
+        "scale": 3.3000000000000003,
+        "rotation": 4028
+      },
+      "crop": {
+        "originX": 184,
+        "originY": 222,
+        "width": 276,
+        "height": 276,
+        "rotation": 68,
+        "canvas": {
+          "width": 1268,
+          "height": 1387
+        }
+      },
+      "min": 1,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 305,
+        "y": -345,
+        "scale": 4.6,
+        "rotation": 4065
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 279.815668202765,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 1265,
+        "height": 1085
+      },
+      "present": {
+        "x": 305,
+        "y": -345,
+        "scale": 4.6,
+        "rotation": 4065
+      },
+      "settle": {
+        "x": 305,
+        "y": -345,
+        "scale": 4.6,
+        "rotation": 4065
+      },
+      "crop": {
+        "originX": 270,
+        "originY": 973,
+        "width": 235,
+        "height": 235,
+        "rotation": 105,
+        "canvas": {
+          "width": 1375,
+          "height": 1502
+        }
+      },
+      "min": 0.42885375494071143,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 324,
+        "y": -316,
+        "scale": 5.8999999999999995,
+        "rotation": 4102
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 267.4721780604134,
+          "height": 240.00000000000003
+        }
+      },
+      "source": {
+        "width": 1402,
+        "height": 1258
+      },
+      "present": {
+        "x": 324,
+        "y": -316,
+        "scale": 5.413188647746244,
+        "rotation": 4102
+      },
+      "settle": {
+        "x": 324,
+        "y": -316,
+        "scale": 5,
+        "rotation": 4102
+      },
+      "crop": {
+        "originX": 474,
+        "originY": 1133,
+        "width": 251,
+        "height": 251,
+        "rotation": 142,
+        "canvas": {
+          "width": 1879,
+          "height": 1854
+        }
+      },
+      "min": 1.4036722289323804,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 343,
+        "y": -287,
+        "scale": 7.199999999999999,
+        "rotation": 4139
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 258.11320754716985,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1539,
+        "height": 1431
+      },
+      "present": {
+        "x": 343,
+        "y": -287,
+        "scale": 5.815363881401617,
+        "rotation": 4139
+      },
+      "settle": {
+        "x": 343,
+        "y": -287,
+        "scale": 5,
+        "rotation": 4139
+      },
+      "crop": {
+        "originX": 229,
+        "originY": 928,
+        "width": 286,
+        "height": 286,
+        "rotation": 179,
+        "canvas": {
+          "width": 1563,
+          "height": 1457
+        }
+      },
+      "min": 0.46491228070175433,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -338,
+        "y": -258,
+        "scale": 0.5,
+        "rotation": 4176
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 250.77306733167083,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1676,
+        "height": 1604
+      },
+      "present": {
+        "x": -92.6348994182436,
+        "y": -73.98497225185407,
+        "scale": 1.1077220285445528,
+        "rotation": 4176
+      },
+      "settle": {
+        "x": -6.086981026243674,
+        "y": -4.422450582727718,
+        "scale": 1.39680224666742,
+        "rotation": 4176
+      },
+      "crop": {
+        "originX": 604,
+        "originY": 588,
+        "width": 1148,
+        "height": 1148,
+        "rotation": -144,
+        "canvas": {
+          "width": 2298,
+          "height": 2282
+        }
+      },
+      "min": 1.39680224666742,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -319,
+        "y": -229,
+        "scale": 1.8,
+        "rotation": 4213
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 244.86212718064152,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1813,
+        "height": 1777
+      },
+      "present": {
+        "x": -173.77984023455474,
+        "y": -110.09226852271728,
+        "scale": 1.8,
+        "rotation": 4213
+      },
+      "settle": {
+        "x": -83.89036066278199,
+        "y": -48.109738173550156,
+        "scale": 1.8,
+        "rotation": 4213
+      },
+      "crop": {
+        "originX": 966,
+        "originY": 831,
+        "width": 987,
+        "height": 987,
+        "rotation": -107,
+        "canvas": {
+          "width": 2229,
+          "height": 2253
+        }
+      },
+      "min": 0.49007170435741865,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -300,
+        "y": -200,
+        "scale": 3.1,
+        "rotation": 4250
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 1950,
+        "height": 1950
+      },
+      "present": {
+        "x": -249.08505926164025,
+        "y": -181.4684770918097,
+        "scale": 3.1,
+        "rotation": 4250
+      },
+      "settle": {
+        "x": -207.6171130015485,
+        "y": -166.37537897698604,
+        "scale": 3.1,
+        "rotation": 4250
+      },
+      "crop": {
+        "originX": 1479,
+        "originY": 1371,
+        "width": 629,
+        "height": 629,
+        "rotation": -70,
+        "canvas": {
+          "width": 2499,
+          "height": 2499
+        }
+      },
+      "min": 1,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -281,
+        "y": -171,
+        "scale": 4.3999999999999995,
+        "rotation": 4287
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 244.13991375179685
+        }
+      },
+      "source": {
+        "width": 2087,
+        "height": 2123
+      },
+      "present": {
+        "x": -281,
+        "y": -171,
+        "scale": 4.3999999999999995,
+        "rotation": 4287
+      },
+      "settle": {
+        "x": -281,
+        "y": -171,
+        "scale": 4.3999999999999995,
+        "rotation": 4287
+      },
+      "crop": {
+        "originX": 1771,
+        "originY": 1559,
+        "width": 474,
+        "height": 474,
+        "rotation": -33,
+        "canvas": {
+          "width": 2906,
+          "height": 2917
+        }
+      },
+      "min": 0.49152143193593967,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -262,
+        "y": -142,
+        "scale": 5.699999999999999,
+        "rotation": 4324
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 247.76978417266187
+        }
+      },
+      "source": {
+        "width": 2224,
+        "height": 2296
+      },
+      "present": {
+        "x": -262,
+        "y": -142,
+        "scale": 5.3336221837088384,
+        "rotation": 4324
+      },
+      "settle": {
+        "x": -262,
+        "y": -142,
+        "scale": 5,
+        "rotation": 4324
+      },
+      "crop": {
+        "originX": 1453,
+        "originY": 1264,
+        "width": 444,
+        "height": 444,
+        "rotation": 4,
+        "canvas": {
+          "width": 2378,
+          "height": 2445
+        }
+      },
+      "min": 1.067320524003956,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -243,
+        "y": -113,
+        "scale": 7,
+        "rotation": 4361
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 250.97839898348158
+        }
+      },
+      "source": {
+        "width": 2361,
+        "height": 2469
+      },
+      "present": {
+        "x": -243,
+        "y": -113,
+        "scale": 5.763888888888889,
+        "rotation": 4361
+      },
+      "settle": {
+        "x": -243,
+        "y": -113,
+        "scale": 5,
+        "rotation": 4361
+      },
+      "crop": {
+        "originX": 1943,
+        "originY": 1692,
+        "width": 472,
+        "height": 472,
+        "rotation": 41,
+        "canvas": {
+          "width": 3401,
+          "height": 3412
+        }
+      },
+      "min": 0.4781287970838396,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -224,
+        "y": -84,
+        "scale": 0.30000000000000004,
+        "rotation": 4398
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 253.83506805444355
+        }
+      },
+      "source": {
+        "width": 2498,
+        "height": 2642
+      },
+      "present": {
+        "x": -85.56173325078935,
+        "y": -37.70964074839571,
+        "scale": 0.9185539398482299,
+        "rotation": 4398
+      },
+      "settle": {
+        "x": -8.025315192236613,
+        "y": 1.7058334035800868,
+        "scale": 1.1860592915515724,
+        "rotation": 4398
+      },
+      "crop": {
+        "originX": 569,
+        "originY": 428,
+        "width": 2106,
+        "height": 2106,
+        "rotation": 78,
+        "canvas": {
+          "width": 3103,
+          "height": 2992
+        }
+      },
+      "min": 1.1860592915515724,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -205,
+        "y": -55,
+        "scale": 1.6,
+        "rotation": 4435
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 256.39468690702085
+        }
+      },
+      "source": {
+        "width": 2635,
+        "height": 2815
+      },
+      "present": {
+        "x": -115.3538465847122,
+        "y": -15.337960088372544,
+        "scale": 1.6,
+        "rotation": 4435
+      },
+      "settle": {
+        "x": -55.11537411886262,
+        "y": 10.190920428495534,
+        "scale": 1.6,
+        "rotation": 4435
+      },
+      "crop": {
+        "originX": 1387,
+        "originY": 896,
+        "width": 1646,
+        "height": 1646,
+        "rotation": 115,
+        "canvas": {
+          "width": 3664,
+          "height": 3577
+        }
+      },
+      "min": 0.4680284191829485,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -186,
+        "y": -26,
+        "scale": 2.9,
+        "rotation": 4472
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 258.7012987012987
+        }
+      },
+      "source": {
+        "width": 2772,
+        "height": 2988
+      },
+      "present": {
+        "x": -186,
+        "y": -26,
+        "scale": 2.9,
+        "rotation": 4472
+      },
+      "settle": {
+        "x": -186,
+        "y": -26,
+        "scale": 2.9,
+        "rotation": 4472
+      },
+      "crop": {
+        "originX": 2188,
+        "originY": 1596,
+        "width": 955,
+        "height": 955,
+        "rotation": 152,
+        "canvas": {
+          "width": 3850,
+          "height": 3939
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -167,
+        "y": 3,
+        "scale": 4.199999999999999,
+        "rotation": 4509
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1514.4468546637743,
+          "height": 239.99999999999997
+        }
+      },
+      "source": {
+        "width": 2909,
+        "height": 461
+      },
+      "present": {
+        "x": -167,
+        "y": 2.9999999999999964,
+        "scale": 4.199999999999999,
+        "rotation": 4509
+      },
+      "settle": {
+        "x": -167,
+        "y": 2.9999999999999964,
+        "scale": 4.199999999999999,
+        "rotation": 4509
+      },
+      "crop": {
+        "originX": 1494,
+        "originY": 399,
+        "width": 109,
+        "height": 109,
+        "rotation": -171,
+        "canvas": {
+          "width": 2945,
+          "height": 910
+        }
+      },
+      "min": 0.0792368511515985,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -148,
+        "y": 32,
+        "scale": 5.5,
+        "rotation": 4546
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 439.76878612716763
+        }
+      },
+      "source": {
+        "width": 346,
+        "height": 634
+      },
+      "present": {
+        "x": -147.99999999999997,
+        "y": 31.999999999999986,
+        "scale": 5.247747747747748,
+        "rotation": 4546
+      },
+      "settle": {
+        "x": -147.99999999999997,
+        "y": 31.999999999999986,
+        "scale": 5,
+        "rotation": 4546
+      },
+      "crop": {
+        "originX": 356,
+        "originY": 301,
+        "width": 69,
+        "height": 69,
+        "rotation": -134,
+        "canvas": {
+          "width": 696,
+          "height": 689
+        }
+      },
+      "min": 1.4139981707976483,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -129,
+        "y": 61,
+        "scale": 6.8,
+        "rotation": 4583
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 400.99378881987576
+        }
+      },
+      "source": {
+        "width": 483,
+        "height": 807
+      },
+      "present": {
+        "x": -129,
+        "y": 61,
+        "scale": 5.7091690544412605,
+        "rotation": 4583
+      },
+      "settle": {
+        "x": -129,
+        "y": 61,
+        "scale": 5,
+        "rotation": 4583
+      },
+      "crop": {
+        "originX": 433,
+        "originY": 216,
+        "width": 96,
+        "height": 96,
+        "rotation": -97,
+        "canvas": {
+          "width": 859,
+          "height": 577
+        }
+      },
+      "min": 0.2992565055762082,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -110,
+        "y": 90,
+        "scale": 0.1,
+        "rotation": 4620
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 379.3548387096774
+        }
+      },
+      "source": {
+        "width": 620,
+        "height": 980
+      },
+      "present": {
+        "x": -63.13121028570324,
+        "y": 28.26514998370359,
+        "scale": 1.0212258023480851,
+        "rotation": 4620
+      },
+      "settle": {
+        "x": -43.52885682970053,
+        "y": -25.13139720814417,
+        "scale": 1.366025403784438,
+        "rotation": 4620
+      },
+      "crop": {
+        "originX": 435,
+        "originY": 334,
+        "width": 453,
+        "height": 453,
+        "rotation": -60,
+        "canvas": {
+          "width": 1158,
+          "height": 1026
+        }
+      },
+      "min": 1.366025403784438,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -91,
+        "y": 119,
+        "scale": 1.4000000000000001,
+        "rotation": 4657
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 365.5482166446499
+        }
+      },
+      "source": {
+        "width": 757,
+        "height": 1153
+      },
+      "present": {
+        "x": -28.425763172312347,
+        "y": 92.43881232311026,
+        "scale": 1.4000000000000001,
+        "rotation": 4657
+      },
+      "settle": {
+        "x": 19.102748843883816,
+        "y": 72.26415592031883,
+        "scale": 1.4000000000000001,
+        "rotation": 4657
+      },
+      "crop": {
+        "originX": 260,
+        "originY": 246,
+        "width": 540,
+        "height": 540,
+        "rotation": -23,
+        "canvas": {
+          "width": 1147,
+          "height": 1357
+        }
+      },
+      "min": 0.3282740676496097,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": -72,
+        "y": 148,
+        "scale": 2.7,
+        "rotation": 4694
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 355.9731543624161
+        }
+      },
+      "source": {
+        "width": 894,
+        "height": 1326
+      },
+      "present": {
+        "x": -72,
+        "y": 148,
+        "scale": 2.7,
+        "rotation": 4694
+      },
+      "settle": {
+        "x": -72,
+        "y": 148,
+        "scale": 2.7,
+        "rotation": 4694
+      },
+      "crop": {
+        "originX": 528,
+        "originY": 381,
+        "width": 331,
+        "height": 331,
+        "rotation": 14,
+        "canvas": {
+          "width": 1188,
+          "height": 1502
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -53,
+        "y": 177,
+        "scale": 4,
+        "rotation": 4731
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 348.94277400581956
+        }
+      },
+      "source": {
+        "width": 1031,
+        "height": 1499
+      },
+      "present": {
+        "x": -53,
+        "y": 177,
+        "scale": 4,
+        "rotation": 4731
+      },
+      "settle": {
+        "x": -53,
+        "y": 177,
+        "scale": 4,
+        "rotation": 4731
+      },
+      "crop": {
+        "originX": 835,
+        "originY": 553,
+        "width": 257,
+        "height": 257,
+        "rotation": 51,
+        "canvas": {
+          "width": 1813,
+          "height": 1744
+        }
+      },
+      "min": 0.3438959306204136,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -34,
+        "y": 206,
+        "scale": 5.3,
+        "rotation": 4768
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 343.5616438356164
+        }
+      },
+      "source": {
+        "width": 1168,
+        "height": 1672
+      },
+      "present": {
+        "x": -34,
+        "y": 206.00000000000003,
+        "scale": 5.154784240150094,
+        "rotation": 4768
+      },
+      "settle": {
+        "x": -34,
+        "y": 206.00000000000003,
+        "scale": 5,
+        "rotation": 4768
+      },
+      "crop": {
+        "originX": 772,
+        "originY": 295,
+        "width": 233,
+        "height": 233,
+        "rotation": 88,
+        "canvas": {
+          "width": 1711,
+          "height": 1225
+        }
+      },
+      "min": 1.034290323721603,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": -15,
+        "y": 235,
+        "scale": 6.6,
+        "rotation": 4805
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 339.3103448275862
+        }
+      },
+      "source": {
+        "width": 1305,
+        "height": 1845
+      },
+      "present": {
+        "x": -15,
+        "y": 235,
+        "scale": 5.650887573964496,
+        "rotation": 4805
+      },
+      "settle": {
+        "x": -15,
+        "y": 235,
+        "scale": 5,
+        "rotation": 4805
+      },
+      "crop": {
+        "originX": 1015,
+        "originY": 677,
+        "width": 261,
+        "height": 261,
+        "rotation": 125,
+        "canvas": {
+          "width": 2259,
+          "height": 2127
+        }
+      },
+      "min": 0.35365853658536583,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 4,
+        "y": 264,
+        "scale": 7.8999999999999995,
+        "rotation": 4842
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 335.86685159500695
+        }
+      },
+      "source": {
+        "width": 1442,
+        "height": 2018
+      },
+      "present": {
+        "x": 4,
+        "y": 263.99999999999994,
+        "scale": 5.973748473748474,
+        "rotation": 4842
+      },
+      "settle": {
+        "x": 4,
+        "y": 263.99999999999994,
+        "scale": 5,
+        "rotation": 4842
+      },
+      "crop": {
+        "originX": 849,
+        "originY": 721,
+        "width": 288,
+        "height": 288,
+        "rotation": 162,
+        "canvas": {
+          "width": 1995,
+          "height": 2364
+        }
+      },
+      "min": 1.2600735106701064,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 23,
+        "y": 293,
+        "scale": 1.2000000000000002,
+        "rotation": 4879
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 333.02089930335654
+        }
+      },
+      "source": {
+        "width": 1579,
+        "height": 2191
+      },
+      "present": {
+        "x": 11.527596875049262,
+        "y": 139.63500871566,
+        "scale": 1.2000000000000002,
+        "rotation": 4879
+      },
+      "settle": {
+        "x": -7.327897596336612,
+        "y": 47.483363137830864,
+        "scale": 1.2000000000000002,
+        "rotation": 4879
+      },
+      "crop": {
+        "originX": 486,
+        "originY": 375,
+        "width": 1315,
+        "height": 1315,
+        "rotation": -161,
+        "canvas": {
+          "width": 2206,
+          "height": 2585
+        }
+      },
+      "min": 0.3603377453217709,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 42,
+        "y": 322,
+        "scale": 2.5,
+        "rotation": 4916
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240.00000000000003,
+          "height": 330.62937062937067
+        }
+      },
+      "source": {
+        "width": 1716,
+        "height": 2364
+      },
+      "present": {
+        "x": 7.3502699869088985,
+        "y": 270.6296627130879,
+        "scale": 2.5,
+        "rotation": 4916
+      },
+      "settle": {
+        "x": -19.75513949878429,
+        "y": 230.44424057404515,
+        "scale": 2.5,
+        "rotation": 4916
+      },
+      "crop": {
+        "originX": 1173,
+        "originY": 370,
+        "width": 686,
+        "height": 686,
+        "rotation": -124,
+        "canvas": {
+          "width": 2919,
+          "height": 2744
+        }
+      },
+      "min": 1,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 61,
+        "y": -349,
+        "scale": 3.8000000000000003,
+        "rotation": 4953
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 328.5914732865623
+        }
+      },
+      "source": {
+        "width": 1853,
+        "height": 2537
+      },
+      "present": {
+        "x": 60.45593826755214,
+        "y": -338.6186837165992,
+        "scale": 3.8000000000000003,
+        "rotation": 4953
+      },
+      "settle": {
+        "x": 59.85750294134653,
+        "y": -327.1998574585038,
+        "scale": 3.8000000000000003,
+        "rotation": 4953
+      },
+      "crop": {
+        "originX": 950,
+        "originY": 1413,
+        "width": 487,
+        "height": 487,
+        "rotation": -87,
+        "canvas": {
+          "width": 2630,
+          "height": 1983
+        }
+      },
+      "min": 0.3651951123374064,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 80,
+        "y": -320,
+        "scale": 5.1,
+        "rotation": 4990
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 326.83417085427135
+        }
+      },
+      "source": {
+        "width": 1990,
+        "height": 2710
+      },
+      "present": {
+        "x": 80.00000000000001,
+        "y": -320,
+        "scale": 5.053816046966732,
+        "rotation": 4990
+      },
+      "settle": {
+        "x": 80.00000000000001,
+        "y": -320,
+        "scale": 5,
+        "rotation": 4990
+      },
+      "crop": {
+        "originX": 1346,
+        "originY": 1965,
+        "width": 398,
+        "height": 398,
+        "rotation": -50,
+        "canvas": {
+          "width": 3355,
+          "height": 3266
+        }
+      },
+      "min": 1.4088320528055176,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 99,
+        "y": -291,
+        "scale": 6.3999999999999995,
+        "rotation": 5027
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 325.3032440056418
+        }
+      },
+      "source": {
+        "width": 2127,
+        "height": 2883
+      },
+      "present": {
+        "x": 99.00000000000003,
+        "y": -291,
+        "scale": 5.58868501529052,
+        "rotation": 5027
+      },
+      "settle": {
+        "x": 99.00000000000003,
+        "y": -291,
+        "scale": 5,
+        "rotation": 5027
+      },
+      "crop": {
+        "originX": 973,
+        "originY": 1947,
+        "width": 425,
+        "height": 425,
+        "rotation": -13,
+        "canvas": {
+          "width": 2721,
+          "height": 3287
+        }
+      },
+      "min": 0.36888657648283035,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 118,
+        "y": -262,
+        "scale": 7.699999999999999,
+        "rotation": 5064
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1526.2921348314605,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2264,
+        "height": 356
+      },
+      "present": {
+        "x": 117.99999999999999,
+        "y": -262,
+        "scale": 5.931618569636136,
+        "rotation": 5064
+      },
+      "settle": {
+        "x": 117.99999999999999,
+        "y": -262,
+        "scale": 5,
+        "rotation": 5064
+      },
+      "crop": {
+        "originX": 1036,
+        "originY": 665,
+        "width": 71,
+        "height": 71,
+        "rotation": 24,
+        "canvas": {
+          "width": 2213,
+          "height": 1246
+        }
+      },
+      "min": 1.3202821007184005,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 137,
+        "y": -233,
+        "scale": 1,
+        "rotation": 5101
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 1089.3005671077506,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2401,
+        "height": 529
+      },
+      "present": {
+        "x": 34.71864756548061,
+        "y": -176.30452055071393,
+        "scale": 1,
+        "rotation": 5101
+      },
+      "settle": {
+        "x": -28.873396035547678,
+        "y": -141.05487518228406,
+        "scale": 1,
+        "rotation": 5101
+      },
+      "crop": {
+        "originX": 613,
+        "originY": 1225,
+        "width": 528,
+        "height": 528,
+        "rotation": 61,
+        "canvas": {
+          "width": 1626,
+          "height": 2356
+        }
+      },
+      "min": 0.11016243231986671,
+      "covers": false
+    },
+    {
+      "state": {
+        "x": 156,
+        "y": -204,
+        "scale": 2.3000000000000003,
+        "rotation": 5138
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 867.6923076923077,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2538,
+        "height": 702
+      },
+      "present": {
+        "x": 156.00000000000003,
+        "y": -204,
+        "scale": 2.3000000000000003,
+        "rotation": 5138
+      },
+      "settle": {
+        "x": 156.00000000000003,
+        "y": -204,
+        "scale": 2.3000000000000003,
+        "rotation": 5138
+      },
+      "crop": {
+        "originX": 173,
+        "originY": 1412,
+        "width": 305,
+        "height": 305,
+        "rotation": 98,
+        "canvas": {
+          "width": 1048,
+          "height": 2610
+        }
+      },
+      "min": 1,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 175,
+        "y": -175,
+        "scale": 3.6,
+        "rotation": 5175
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 733.7142857142858,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2675,
+        "height": 875
+      },
+      "present": {
+        "x": 175,
+        "y": -175.00000000000003,
+        "scale": 3.6,
+        "rotation": 5175
+      },
+      "settle": {
+        "x": 175,
+        "y": -175.00000000000003,
+        "scale": 3.6,
+        "rotation": 5175
+      },
+      "crop": {
+        "originX": 956,
+        "originY": 1311,
+        "width": 243,
+        "height": 243,
+        "rotation": 135,
+        "canvas": {
+          "width": 2510,
+          "height": 2510
+        }
+      },
+      "min": 0.16355140186915887,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 194,
+        "y": -146,
+        "scale": 4.8999999999999995,
+        "rotation": 5212
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 643.9694656488549,
+          "height": 240
+        }
+      },
+      "source": {
+        "width": 2812,
+        "height": 1048
+      },
+      "present": {
+        "x": 194.00000000000003,
+        "y": -146.00000000000003,
+        "scale": 4.8999999999999995,
+        "rotation": 5212
+      },
+      "settle": {
+        "x": 194.00000000000003,
+        "y": -146.00000000000003,
+        "scale": 4.8999999999999995,
+        "rotation": 5212
+      },
+      "crop": {
+        "originX": 1186,
+        "originY": 738,
+        "width": 213,
+        "height": 213,
+        "rotation": 172,
+        "canvas": {
+          "width": 2930,
+          "height": 1429
+        }
+      },
+      "min": 1.1294411697016404,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 213,
+        "y": -117,
+        "scale": 6.199999999999999,
+        "rotation": 5249
+      },
+      "bounds": {
+        "shape": "circle",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 579.6560196560196,
+          "height": 239.99999999999997
+        }
+      },
+      "source": {
+        "width": 2949,
+        "height": 1221
+      },
+      "present": {
+        "x": 212.99999999999997,
+        "y": -117,
+        "scale": 5.522151898734177,
+        "rotation": 5249
+      },
+      "settle": {
+        "x": 212.99999999999997,
+        "y": -117,
+        "scale": 5,
+        "rotation": 5249
+      },
+      "crop": {
+        "originX": 1247,
+        "originY": 1246,
+        "width": 244,
+        "height": 244,
+        "rotation": -151,
+        "canvas": {
+          "width": 3171,
+          "height": 2497
+        }
+      },
+      "min": 0.20701932858596137,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 232,
+        "y": -88,
+        "scale": 7.5,
+        "rotation": 5286
+      },
+      "bounds": {
+        "shape": "squircle",
+        "cover": true,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 866.7357512953367
+        }
+      },
+      "source": {
+        "width": 386,
+        "height": 1394
+      },
+      "present": {
+        "x": 232.00000000000003,
+        "y": -88.00000000000001,
+        "scale": 5.887096774193548,
+        "rotation": 5286
+      },
+      "settle": {
+        "x": 232.00000000000003,
+        "y": -88.00000000000001,
+        "scale": 5,
+        "rotation": 5286
+      },
+      "crop": {
+        "originX": 602,
+        "originY": 449,
+        "width": 77,
+        "height": 77,
+        "rotation": -114,
+        "canvas": {
+          "width": 1430,
+          "height": 919
+        }
+      },
+      "min": 1.320282100718405,
+      "covers": true
+    },
+    {
+      "state": {
+        "x": 251,
+        "y": -59,
+        "scale": 0.7999999999999999,
+        "rotation": 5323
+      },
+      "bounds": {
+        "shape": "square",
+        "cover": false,
+        "maxZoom": 5,
+        "minZoom": 0.5
+      },
+      "frame": {
+        "mask": 240,
+        "image": {
+          "width": 240,
+          "height": 719.0822179732313
+        }
+      },
+      "source": {
+        "width": 523,
+        "height": 1567
+      },
+      "present": {
+        "x": 196.9954409367269,
+        "y": -36.072979177978176,
+        "scale": 0.7999999999999999,
+        "rotation": 5323
+      },
+      "settle": {
+        "x": 150.81028815208418,
+        "y": -14.361690158105468,
+        "scale": 0.7999999999999999,
+        "rotation": 5323
+      },
+      "crop": {
+        "originX": 85,
+        "originY": 144,
+        "width": 653,
+        "height": 653,
+        "rotation": -77,
+        "canvas": {
+          "width": 1644,
+          "height": 862
+        }
+      },
+      "min": 0.16687938736439056,
+      "covers": false
+    }
+  ]
+}

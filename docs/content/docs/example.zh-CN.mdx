@@ -1,0 +1,45 @@
+---
+title: "微信示例"
+description: "在独立小程序中运行真实组件。"
+---
+
+## 构建与打开
+
+从仓库根目录运行：
+
+```sh
+pnpm install
+pnpm dev:weapp:panelui
+pnpm build:weapp:panelui
+```
+
+把 `example/dist` 导入微信开发者工具。使用示例自己的项目配置和测试 AppID。
+
+## 包含的内容
+
+- 141 个组件页面，784 个上游衍生示例变体。
+- Smart Home、Wallet、Activity、Boarding Pass 四个官方 Blocks。
+- 七个定制页面，包含 Sunset 浅色与深色自定义主题。
+- 主题持久化及导航栏、状态栏同步。
+
+每个组件参考页都有具体小程序路由，通过底部选择器切换变体。示例独立于业务登录、状态、服务和环境变量。
+
+## 独立安装验证
+
+```sh
+pnpm --filter panelui-taro verify:consumer
+```
+
+命令会打包组件库，在仓库外创建项目，用正常依赖安装 tarball，再执行类型检查、微信构建、样式与模板检查。项目不使用业务代码、workspace 链接或组件库的 pnpm 补丁。把输出目录中的项目导入开发者工具后继续检查交互。
+
+## 浏览器示意与验证边界
+
+官网首页是设计语言的交互示意。真实 WXSS、手势、Canvas 与原生组件行为请在开发者工具中检查。模拟器不能替代真机权限、Canvas 字体或生产域名验证。
+
+```sh
+pnpm --filter panelui-taro test
+pnpm --filter panelui-taro typecheck
+pnpm test:panelui-example
+pnpm --filter panelui-example typecheck
+pnpm build:weapp:panelui
+```

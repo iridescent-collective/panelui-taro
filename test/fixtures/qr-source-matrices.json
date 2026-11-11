@@ -1,0 +1,226 @@
+[
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "L",
+    "version": null,
+    "size": 25,
+    "sha256": "67009f78194a1a3ce3cce59e39a18d49a1a6f983acbda5c5cbcddea7990f93ae"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "L",
+    "version": 10,
+    "size": 57,
+    "sha256": "fbebd18e46dc353766d88a5d696e9510d74d426e1daff72f5ac5dcec896e913e"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "M",
+    "version": null,
+    "size": 25,
+    "sha256": "f9cc532291c17b7a2b864e708ba4e5eb5a325760ac3ab13c0c2917123b37c921"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "M",
+    "version": 10,
+    "size": 57,
+    "sha256": "29ed6415d6a11b4bd5d1edb6c3de7c519a67ade48bfbc6386a412b746089ea2e"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "Q",
+    "version": null,
+    "size": 25,
+    "sha256": "9f5c936c4e153622b532dad6013be07556b5a581a2091caa93fc6f120bb9c4f1"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "Q",
+    "version": 10,
+    "size": 57,
+    "sha256": "00700da18fac021993404cea243e98451e8ad6ae360df673e343820b8ddd6fa5"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "H",
+    "version": null,
+    "size": 29,
+    "sha256": "ead7a489c085ccdf04e149f143b028b58ab8222c3e32b364cd09acc77267f835"
+  },
+  {
+    "value": "https://panelui.dev",
+    "errorCorrection": "H",
+    "version": 10,
+    "size": 57,
+    "sha256": "360a611983d58aab03cb3c225e39a454090d165f04951a3d652443a4a8f99d78"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "L",
+    "version": null,
+    "size": 25,
+    "sha256": "61504b0a76a1620ac49acbfd3419563f940779579b87a0586170dc2e03deadca"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "L",
+    "version": 10,
+    "size": 57,
+    "sha256": "c49a21a7105d8d191a62d4dceda7cfdb6e2c2e592e7fd29504722745a118dc94"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "M",
+    "version": null,
+    "size": 29,
+    "sha256": "3e79252b618007788e9ade1beef2dbd07cfb6d6aaf90637da0f4d7d95b1ea4ee"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "M",
+    "version": 10,
+    "size": 57,
+    "sha256": "1477346f766a9e75f170e78db5f9afcd584913e392a912b60abaca0b7bb36d13"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "Q",
+    "version": null,
+    "size": 29,
+    "sha256": "1f24a92977fa1f087ee01b8317afce7cfdfff97c19a38b622ac823ca957c439f"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "Q",
+    "version": 10,
+    "size": 57,
+    "sha256": "63da6e1ca0e6f407d8b6438674d9266dae5d360f2e2ca08a9f9be20250306258"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "H",
+    "version": null,
+    "size": 33,
+    "sha256": "48d28359f398a00c33b7bce3213321ee9afef87e2ea9c1ba70c41890823e7b05"
+  },
+  {
+    "value": "小书包 👩‍👧‍👦",
+    "errorCorrection": "H",
+    "version": 10,
+    "size": 57,
+    "sha256": "abde52f8425922f7215525f1cdade7115584d9386d2c796774deb30c73f00abb"
+  },
+  {
+    "value": "",
+    "errorCorrection": "L",
+    "version": null,
+    "size": 21,
+    "sha256": "4ce260f1891fd1b827103e74ba1bc3c445e9a9c336d6d5a0e03656ccb28da00e"
+  },
+  {
+    "value": "",
+    "errorCorrection": "L",
+    "version": 10,
+    "size": 57,
+    "sha256": "c1cc740037a9a6ce839d2295ad4699b71368987cb632311ec62176d8ca93f7d1"
+  },
+  {
+    "value": "",
+    "errorCorrection": "M",
+    "version": null,
+    "size": 21,
+    "sha256": "c30ac51df3031a0d4219aac58b58f0b82efbdb32354c067967ff9db149b16f61"
+  },
+  {
+    "value": "",
+    "errorCorrection": "M",
+    "version": 10,
+    "size": 57,
+    "sha256": "09fc107731b15450f1c805f03ed47f49baae576df1054d66871df2f07e329077"
+  },
+  {
+    "value": "",
+    "errorCorrection": "Q",
+    "version": null,
+    "size": 21,
+    "sha256": "a3177e31c73bc6e2ad35a19cac9e75235796f9a478b39ee4a0c189d6f4b686fa"
+  },
+  {
+    "value": "",
+    "errorCorrection": "Q",
+    "version": 10,
+    "size": 57,
+    "sha256": "e1d1ef9b3e71eace14babc5b3f4a32e7049f231434a910ae5cb2c862975149cc"
+  },
+  {
+    "value": "",
+    "errorCorrection": "H",
+    "version": null,
+    "size": 21,
+    "sha256": "d076ba4d73b28ea539329786aee7201dd1836d92d172e22952a58fecd495f708"
+  },
+  {
+    "value": "",
+    "errorCorrection": "H",
+    "version": 10,
+    "size": 57,
+    "sha256": "c79b993d005c34024063b1258d0e59d6da4a42569b66915f273a853f983547c0"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "L",
+    "version": null,
+    "size": 25,
+    "sha256": "4bee9d150f592dfd608d169377d26af00eef96df5ef9f7d1f5a9cfa0f1cd1b18"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "L",
+    "version": 10,
+    "size": 57,
+    "sha256": "8b01c4ac9e883a78ae701ada3632b59defcaa2d71274e1d4fee04891dcea3cf3"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "M",
+    "version": null,
+    "size": 29,
+    "sha256": "acb43fe954cb1a702369461f089dfa4f8bf33a9cd337c202671c9efe3b52b973"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "M",
+    "version": 10,
+    "size": 57,
+    "sha256": "08df514500f78b7b1838d40b637788478d6378e0a4de0d76b7f90c2e1205e992"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "Q",
+    "version": null,
+    "size": 29,
+    "sha256": "bd9d26adf2ffe34563f565872474b45612121fb838ea9169c710ce66afc221c0"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "Q",
+    "version": 10,
+    "size": 57,
+    "sha256": "e2e87af0ec5a275f7cc93e60d62dcd86ff0fc04be1ddfbdd1e4039808a9bedcd"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "H",
+    "version": null,
+    "size": 33,
+    "sha256": "361e1b8b4e0875ea8e46e0e04c863aebb728f1ce41e2f04904a329fd461d88bb"
+  },
+  {
+    "value": "WIFI:T:WPA;S:PanelUI;P:example;;",
+    "errorCorrection": "H",
+    "version": 10,
+    "size": 57,
+    "sha256": "f321df1c0ab877c4f21e9a7fa2488fa7eeb650bf94094e1c0559fe828d37d0ec"
+  }
+]

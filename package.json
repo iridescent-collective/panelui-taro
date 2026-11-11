@@ -1,0 +1,1107 @@
+{
+  "name": "panelui-taro",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "files": [
+    "src",
+    "docs/README.md",
+    "LICENSE",
+    "LICENSE.weapp-core-escape",
+    "LICENSES",
+    "README.md",
+    "source-manifest.json",
+    "UPSTREAM-SYNC.md"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "**/*.scss"
+  ],
+  "typesVersions": {
+    "*": {
+      "card": [
+        "src/components/Card/index.tsx"
+      ],
+      "button-group": [
+        "src/components/ButtonGroup/index.tsx"
+      ],
+      "progress": [
+        "src/components/Progress/index.tsx"
+      ],
+      "skeleton": [
+        "src/components/Skeleton/index.tsx"
+      ],
+      "separator": [
+        "src/components/Separator/index.tsx"
+      ],
+      "provider": [
+        "src/components/Provider/index.tsx"
+      ],
+      "label": [
+        "src/components/Label/index.tsx"
+      ],
+      "surface": [
+        "src/components/Surface/index.tsx"
+      ],
+      "spinner": [
+        "src/components/Spinner/index.tsx"
+      ],
+      "button": [
+        "src/components/Button/index.tsx"
+      ],
+      "typography": [
+        "src/components/Typography/index.tsx"
+      ],
+      "badge": [
+        "src/components/Badge/index.tsx"
+      ],
+      "primitives/text": [
+        "src/components/primitives/Text/index.tsx"
+      ],
+      "checkbox": [
+        "src/components/Checkbox/index.tsx"
+      ],
+      "field": [
+        "src/components/Field/index.tsx"
+      ],
+      "switch": [
+        "src/components/Switch/index.tsx"
+      ],
+      "toggle-button": [
+        "src/components/ToggleButton/index.tsx"
+      ],
+      "direction": [
+        "src/components/Direction/index.tsx"
+      ],
+      "icons": [
+        "src/icons/index.tsx"
+      ],
+      "theme": [
+        "src/theme/use-theme.ts"
+      ],
+      "hooks/use-disclosure": [
+        "src/hooks/use-disclosure.ts"
+      ],
+      "hooks/use-debounced-value": [
+        "src/hooks/use-debounced-value.ts"
+      ],
+      "hooks/use-previous": [
+        "src/hooks/use-previous.ts"
+      ],
+      "primitives/controllable-state": [
+        "src/primitives/controllable-state.ts"
+      ],
+      "primitives/animated-pressable": [
+        "src/primitives/animated-pressable.tsx"
+      ],
+      "platform/weapp-accessibility.json": [
+        "src/platform/weapp-accessibility.json"
+      ],
+      "alert": [
+        "src/components/Alert/index.tsx"
+      ],
+      "radio-group": [
+        "src/components/RadioGroup/index.tsx"
+      ],
+      "file-upload": [
+        "src/components/FileUpload/index.tsx"
+      ],
+      "input": [
+        "src/components/Input/index.tsx"
+      ],
+      "textarea": [
+        "src/components/Textarea/index.tsx"
+      ],
+      "collapsible": [
+        "src/components/Collapsible/index.tsx"
+      ],
+      "accordion": [
+        "src/components/Accordion/index.tsx"
+      ],
+      "input-group": [
+        "src/components/InputGroup/index.tsx"
+      ],
+      "primitives/collapse": [
+        "src/primitives/collapse.tsx"
+      ],
+      "theme-selector": [
+        "src/components/ThemeSelector/index.tsx"
+      ],
+      "breadcrumb": [
+        "src/components/Breadcrumb/index.tsx"
+      ],
+      "empty-state": [
+        "src/components/EmptyState/index.tsx"
+      ],
+      "item": [
+        "src/components/Item/index.tsx"
+      ],
+      "countdown": [
+        "src/components/Countdown/index.tsx"
+      ],
+      "chip": [
+        "src/components/Chip/index.tsx"
+      ],
+      "avatar": [
+        "src/components/Avatar/index.tsx"
+      ],
+      "form": [
+        "src/components/Form/index.tsx"
+      ],
+      "pagination": [
+        "src/components/Pagination/index.tsx"
+      ],
+      "grid-item": [
+        "src/components/GridItem/index.tsx"
+      ],
+      "dialog": [
+        "src/components/Dialog/index.tsx"
+      ],
+      "frame": [
+        "src/components/Frame/index.tsx"
+      ],
+      "number-input": [
+        "src/components/NumberInput/index.tsx"
+      ],
+      "meter": [
+        "src/components/Meter/index.tsx"
+      ],
+      "message": [
+        "src/components/Message/index.tsx"
+      ],
+      "code-block": [
+        "src/components/CodeBlock/index.tsx"
+      ],
+      "hooks/use-copy-to-clipboard": [
+        "src/hooks/use-copy-to-clipboard.ts"
+      ],
+      "table": [
+        "src/components/Table/index.tsx"
+      ],
+      "response": [
+        "src/components/Response/index.tsx"
+      ],
+      "bottom-sheet": [
+        "src/components/BottomSheet/index.tsx"
+      ],
+      "popover": [
+        "src/components/Popover/index.tsx"
+      ],
+      "calendar": [
+        "src/components/Calendar/index.tsx"
+      ],
+      "date-picker": [
+        "src/components/DatePicker/index.tsx"
+      ],
+      "steps": [
+        "src/components/Steps/index.tsx"
+      ],
+      "sources": [
+        "src/components/Sources/index.tsx"
+      ],
+      "rating": [
+        "src/components/Rating/index.tsx"
+      ],
+      "tooltip": [
+        "src/components/Tooltip/index.tsx"
+      ],
+      "tabs": [
+        "src/components/Tabs/index.tsx"
+      ],
+      "select": [
+        "src/components/Select/index.tsx"
+      ],
+      "scroll-canvas": [
+        "src/components/ScrollCanvas/index.tsx"
+      ],
+      "primitives/scroll-progress": [
+        "src/primitives/scroll-progress.tsx"
+      ],
+      "primitives/observable-number": [
+        "src/primitives/observable-number.ts"
+      ],
+      "hooks/use-reveal-progress": [
+        "src/hooks/use-reveal-progress.ts"
+      ],
+      "scroll-text": [
+        "src/components/ScrollText/index.tsx"
+      ],
+      "support": [
+        "src/components/Support/index.tsx"
+      ],
+      "tree": [
+        "src/components/Tree/index.tsx"
+      ],
+      "feedback": [
+        "src/components/Feedback/index.tsx"
+      ],
+      "primitives/keyboard-avoider": [
+        "src/primitives/keyboard-avoider.tsx"
+      ],
+      "hooks/use-keyboard": [
+        "src/hooks/use-keyboard.ts"
+      ],
+      "hooks/use-keyboard-avoidance": [
+        "src/hooks/use-keyboard-avoidance.ts"
+      ],
+      "shimmer": [
+        "src/components/Shimmer/index.tsx"
+      ],
+      "attachment": [
+        "src/components/Attachment/index.tsx"
+      ],
+      "reasoning": [
+        "src/components/Reasoning/index.tsx"
+      ],
+      "task": [
+        "src/components/Task/index.tsx"
+      ],
+      "marker": [
+        "src/components/Marker/index.tsx"
+      ],
+      "page-header": [
+        "src/components/PageHeader/index.tsx"
+      ],
+      "plan": [
+        "src/components/Plan/index.tsx"
+      ],
+      "image-generation": [
+        "src/components/ImageGeneration/index.tsx"
+      ],
+      "animated-badge": [
+        "src/components/AnimatedBadge/index.tsx"
+      ],
+      "scroll-fade": [
+        "src/components/ScrollFade/index.tsx"
+      ],
+      "circular-text": [
+        "src/components/CircularText/index.tsx"
+      ],
+      "flip-card": [
+        "src/components/FlipCard/index.tsx"
+      ],
+      "scroll-blur": [
+        "src/components/ScrollBlur/index.tsx"
+      ],
+      "qr-code": [
+        "src/components/QRCode/index.tsx"
+      ],
+      "marquee": [
+        "src/components/Marquee/index.tsx"
+      ],
+      "otp-input": [
+        "src/components/OtpInput/index.tsx"
+      ],
+      "leaderboard": [
+        "src/components/Leaderboard/index.tsx"
+      ],
+      "splitter": [
+        "src/components/Splitter/index.tsx"
+      ],
+      "split-view": [
+        "src/components/SplitView/index.tsx"
+      ],
+      "primitives/observable-value": [
+        "src/primitives/observable-value.ts"
+      ],
+      "compare": [
+        "src/components/Compare/index.tsx"
+      ],
+      "loader": [
+        "src/components/Loader/index.tsx"
+      ],
+      "tag-input": [
+        "src/components/TagInput/index.tsx"
+      ],
+      "section-rail": [
+        "src/components/SectionRail/index.tsx"
+      ],
+      "progress-button": [
+        "src/components/ProgressButton/index.tsx"
+      ],
+      "section-progress": [
+        "src/components/SectionProgress/index.tsx"
+      ],
+      "slider": [
+        "src/components/Slider/index.tsx"
+      ],
+      "toast": [
+        "src/components/Toast/index.tsx"
+      ],
+      "slide-button": [
+        "src/components/SlideButton/index.tsx"
+      ],
+      "thinking-orb": [
+        "src/components/ThinkingOrb/index.tsx"
+      ],
+      "scroll-header": [
+        "src/components/ScrollHeader/index.tsx"
+      ],
+      "soundwave": [
+        "src/components/Soundwave/index.tsx"
+      ],
+      "selection-mode": [
+        "src/components/SelectionMode/index.tsx"
+      ],
+      "search-bar": [
+        "src/components/SearchBar/index.tsx"
+      ],
+      "primitives/input-focus": [
+        "src/primitives/input-focus.ts"
+      ],
+      "time-picker": [
+        "src/components/TimePicker/index.tsx"
+      ],
+      "utils/time": [
+        "src/lib/time.ts"
+      ],
+      "date-time-picker": [
+        "src/components/DateTimePicker/index.tsx"
+      ],
+      "menu": [
+        "src/components/Menu/index.tsx"
+      ],
+      "context-menu": [
+        "src/components/ContextMenu/index.tsx"
+      ],
+      "carousel": [
+        "src/components/Carousel/index.tsx"
+      ],
+      "line-chart": [
+        "src/components/LineChart/index.tsx"
+      ],
+      "kpi": [
+        "src/components/Kpi/index.tsx"
+      ],
+      "area-chart": [
+        "src/components/AreaChart/index.tsx"
+      ],
+      "bar-chart": [
+        "src/components/BarChart/index.tsx"
+      ],
+      "ring-chart": [
+        "src/components/RingChart/index.tsx"
+      ],
+      "pie-chart": [
+        "src/components/PieChart/index.tsx"
+      ],
+      "polar-area-chart": [
+        "src/components/PolarAreaChart/index.tsx"
+      ],
+      "radar-chart": [
+        "src/components/RadarChart/index.tsx"
+      ],
+      "drawer": [
+        "src/components/Drawer/index.tsx"
+      ],
+      "signature": [
+        "src/components/Signature/index.tsx"
+      ],
+      "swipe": [
+        "src/components/Swipe/index.tsx"
+      ],
+      "funnel-chart": [
+        "src/components/FunnelChart/index.tsx"
+      ],
+      "fab": [
+        "src/components/Fab/index.tsx"
+      ],
+      "pyramid-chart": [
+        "src/components/PyramidChart/index.tsx"
+      ],
+      "text-animation": [
+        "src/components/TextAnimation/index.tsx"
+      ],
+      "timeline": [
+        "src/components/Timeline/index.tsx"
+      ],
+      "waterfall-chart": [
+        "src/components/WaterfallChart/index.tsx"
+      ],
+      "stack-card": [
+        "src/components/StackCard/index.tsx"
+      ],
+      "color-picker": [
+        "src/components/ColorPicker/index.tsx"
+      ],
+      "post": [
+        "src/components/Post/index.tsx"
+      ],
+      "bubble-chart": [
+        "src/components/BubbleChart/index.tsx"
+      ],
+      "scatter-chart": [
+        "src/components/ScatterChart/index.tsx"
+      ],
+      "combobox": [
+        "src/components/Combobox/index.tsx"
+      ],
+      "ai-input": [
+        "src/components/AIInput/index.tsx"
+      ],
+      "image-viewer": [
+        "src/components/ImageViewer/index.tsx"
+      ],
+      "heatmap-chart": [
+        "src/components/HeatmapChart/index.tsx"
+      ],
+      "planner": [
+        "src/components/Planner/index.tsx"
+      ],
+      "sortable": [
+        "src/components/Sortable/index.tsx"
+      ],
+      "hex-chart": [
+        "src/components/HexChart/index.tsx"
+      ],
+      "questionnaire": [
+        "src/components/Questionnaire/index.tsx"
+      ],
+      "tour": [
+        "src/components/Tour/index.tsx"
+      ],
+      "message-scroller": [
+        "src/components/MessageScroller/index.tsx"
+      ],
+      "candlestick-chart": [
+        "src/components/CandlestickChart/index.tsx"
+      ],
+      "bump-chart": [
+        "src/components/BumpChart/index.tsx"
+      ],
+      "live-line-chart": [
+        "src/components/LiveLineChart/index.tsx"
+      ],
+      "markdown-editor": [
+        "src/components/MarkdownEditor/index.tsx"
+      ],
+      "sketch": [
+        "src/components/Sketch/index.tsx"
+      ],
+      "panelside": [
+        "src/components/Panelside/index.tsx"
+      ],
+      "mirror-area-chart": [
+        "src/components/MirrorAreaChart/index.tsx"
+      ],
+      "treemap-chart": [
+        "src/components/TreemapChart/index.tsx"
+      ],
+      "flow": [
+        "src/components/Flow/index.tsx"
+      ],
+      "sankey-chart": [
+        "src/components/SankeyChart/index.tsx"
+      ],
+      "map": [
+        "src/components/Map/index.tsx"
+      ],
+      "plot": [
+        "src/components/Plot/index.tsx"
+      ],
+      "avatar-cropper": [
+        "src/components/AvatarCropper/index.tsx"
+      ],
+      "scroll-area": [
+        "src/components/ScrollArea/index.tsx"
+      ],
+      "image": [
+        "src/components/Image/index.tsx"
+      ],
+      "profile-identity": [
+        "src/components/ProfileIdentity/index.tsx"
+      ],
+      "setup-progress-header": [
+        "src/components/SetupProgressHeader/index.tsx"
+      ],
+      "weapp-hosts": [
+        "src/primitives/weapp-hosts.tsx"
+      ],
+      "icons/drawing": [
+        "src/icons/Drawing/index.tsx"
+      ],
+      "weapp-chart": [
+        "src/primitives/weapp-chart.tsx"
+      ],
+      "camera": [
+        "src/components/Camera/index.tsx"
+      ],
+      "hooks/use-breakpoint": [
+        "src/hooks/use-breakpoint.ts"
+      ],
+      "hooks/use-scroll-sections": [
+        "src/hooks/use-scroll-sections.ts"
+      ],
+      "hooks/use-skeleton-handoff": [
+        "src/hooks/use-skeleton-handoff.ts"
+      ],
+      "hooks/use-back-handler": [
+        "src/hooks/use-back-handler.ts"
+      ],
+      "hooks/use-direction": [
+        "src/hooks/use-direction.ts"
+      ],
+      "primitives/glass": [
+        "src/primitives/glass.tsx"
+      ],
+      "primitives/portal": [
+        "src/primitives/portal.tsx"
+      ],
+      "primitives/scrim": [
+        "src/primitives/scrim.tsx"
+      ],
+      "primitives/chart-accessibility": [
+        "src/primitives/chart-accessibility.tsx"
+      ],
+      "utils/cn": [
+        "src/lib/utils.ts"
+      ],
+      "utils/color": [
+        "src/lib/color.ts"
+      ],
+      "primitives/refs": [
+        "src/primitives/refs.ts"
+      ]
+    }
+  },
+  "exports": {
+    "./card": {
+      "types": "./src/components/Card/index.tsx",
+      "default": "./src/components/Card/index.tsx"
+    },
+    "./button-group": {
+      "types": "./src/components/ButtonGroup/index.tsx",
+      "default": "./src/components/ButtonGroup/index.tsx"
+    },
+    "./progress": {
+      "types": "./src/components/Progress/index.tsx",
+      "default": "./src/components/Progress/index.tsx"
+    },
+    "./skeleton": {
+      "types": "./src/components/Skeleton/index.tsx",
+      "default": "./src/components/Skeleton/index.tsx"
+    },
+    "./separator": {
+      "types": "./src/components/Separator/index.tsx",
+      "default": "./src/components/Separator/index.tsx"
+    },
+    "./provider": {
+      "types": "./src/components/Provider/index.tsx",
+      "default": "./src/components/Provider/index.tsx"
+    },
+    "./label": {
+      "types": "./src/components/Label/index.tsx",
+      "default": "./src/components/Label/index.tsx"
+    },
+    "./surface": {
+      "types": "./src/components/Surface/index.tsx",
+      "default": "./src/components/Surface/index.tsx"
+    },
+    "./spinner": {
+      "types": "./src/components/Spinner/index.tsx",
+      "default": "./src/components/Spinner/index.tsx"
+    },
+    "./button": {
+      "types": "./src/components/Button/index.tsx",
+      "default": "./src/components/Button/index.tsx"
+    },
+    "./typography": {
+      "types": "./src/components/Typography/index.tsx",
+      "default": "./src/components/Typography/index.tsx"
+    },
+    "./badge": {
+      "types": "./src/components/Badge/index.tsx",
+      "default": "./src/components/Badge/index.tsx"
+    },
+    "./primitives/text": {
+      "types": "./src/components/primitives/Text/index.tsx",
+      "default": "./src/components/primitives/Text/index.tsx"
+    },
+    "./styles": "./src/styles/panel.scss",
+    "./package.json": "./package.json",
+    "./checkbox": {
+      "types": "./src/components/Checkbox/index.tsx",
+      "default": "./src/components/Checkbox/index.tsx"
+    },
+    "./field": {
+      "types": "./src/components/Field/index.tsx",
+      "default": "./src/components/Field/index.tsx"
+    },
+    "./switch": {
+      "types": "./src/components/Switch/index.tsx",
+      "default": "./src/components/Switch/index.tsx"
+    },
+    "./toggle-button": {
+      "types": "./src/components/ToggleButton/index.tsx",
+      "default": "./src/components/ToggleButton/index.tsx"
+    },
+    "./direction": {
+      "types": "./src/components/Direction/index.tsx",
+      "default": "./src/components/Direction/index.tsx"
+    },
+    "./icons": {
+      "types": "./src/icons/index.tsx",
+      "default": "./src/icons/index.tsx"
+    },
+    "./theme": {
+      "types": "./src/theme/use-theme.ts",
+      "default": "./src/theme/use-theme.ts"
+    },
+    "./hooks/use-disclosure": {
+      "types": "./src/hooks/use-disclosure.ts",
+      "default": "./src/hooks/use-disclosure.ts"
+    },
+    "./hooks/use-debounced-value": {
+      "types": "./src/hooks/use-debounced-value.ts",
+      "default": "./src/hooks/use-debounced-value.ts"
+    },
+    "./hooks/use-previous": {
+      "types": "./src/hooks/use-previous.ts",
+      "default": "./src/hooks/use-previous.ts"
+    },
+    "./primitives/controllable-state": {
+      "types": "./src/primitives/controllable-state.ts",
+      "default": "./src/primitives/controllable-state.ts"
+    },
+    "./primitives/animated-pressable": {
+      "types": "./src/primitives/animated-pressable.tsx",
+      "default": "./src/primitives/animated-pressable.tsx"
+    },
+    "./platform/weapp-accessibility.json": "./src/platform/weapp-accessibility.json",
+    "./alert": {
+      "types": "./src/components/Alert/index.tsx",
+      "default": "./src/components/Alert/index.tsx"
+    },
+    "./radio-group": {
+      "types": "./src/components/RadioGroup/index.tsx",
+      "default": "./src/components/RadioGroup/index.tsx"
+    },
+    "./input": {
+      "types": "./src/components/Input/index.tsx",
+      "default": "./src/components/Input/index.tsx"
+    },
+    "./textarea": {
+      "types": "./src/components/Textarea/index.tsx",
+      "default": "./src/components/Textarea/index.tsx"
+    },
+    "./collapsible": {
+      "types": "./src/components/Collapsible/index.tsx",
+      "default": "./src/components/Collapsible/index.tsx"
+    },
+    "./accordion": {
+      "types": "./src/components/Accordion/index.tsx",
+      "default": "./src/components/Accordion/index.tsx"
+    },
+    "./input-group": {
+      "types": "./src/components/InputGroup/index.tsx",
+      "default": "./src/components/InputGroup/index.tsx"
+    },
+    "./primitives/collapse": {
+      "types": "./src/primitives/collapse.tsx",
+      "default": "./src/primitives/collapse.tsx"
+    },
+    "./theme-selector": {
+      "types": "./src/components/ThemeSelector/index.tsx",
+      "default": "./src/components/ThemeSelector/index.tsx"
+    },
+    "./breadcrumb": {
+      "types": "./src/components/Breadcrumb/index.tsx",
+      "default": "./src/components/Breadcrumb/index.tsx"
+    },
+    "./empty-state": {
+      "types": "./src/components/EmptyState/index.tsx",
+      "default": "./src/components/EmptyState/index.tsx"
+    },
+    "./item": {
+      "types": "./src/components/Item/index.tsx",
+      "default": "./src/components/Item/index.tsx"
+    },
+    "./countdown": {
+      "types": "./src/components/Countdown/index.tsx",
+      "default": "./src/components/Countdown/index.tsx"
+    },
+    "./chip": {
+      "types": "./src/components/Chip/index.tsx",
+      "default": "./src/components/Chip/index.tsx"
+    },
+    "./avatar": {
+      "types": "./src/components/Avatar/index.tsx",
+      "default": "./src/components/Avatar/index.tsx"
+    },
+    "./form": {
+      "types": "./src/components/Form/index.tsx",
+      "default": "./src/components/Form/index.tsx"
+    },
+    "./pagination": {
+      "types": "./src/components/Pagination/index.tsx",
+      "default": "./src/components/Pagination/index.tsx"
+    },
+    "./grid-item": {
+      "types": "./src/components/GridItem/index.tsx",
+      "default": "./src/components/GridItem/index.tsx"
+    },
+    "./dialog": {
+      "types": "./src/components/Dialog/index.tsx",
+      "default": "./src/components/Dialog/index.tsx"
+    },
+    "./frame": {
+      "types": "./src/components/Frame/index.tsx",
+      "default": "./src/components/Frame/index.tsx"
+    },
+    "./number-input": {
+      "types": "./src/components/NumberInput/index.tsx",
+      "default": "./src/components/NumberInput/index.tsx"
+    },
+    "./meter": {
+      "types": "./src/components/Meter/index.tsx",
+      "default": "./src/components/Meter/index.tsx"
+    },
+    "./message": {
+      "types": "./src/components/Message/index.tsx",
+      "default": "./src/components/Message/index.tsx"
+    },
+    "./code-block": {
+      "types": "./src/components/CodeBlock/index.tsx",
+      "default": "./src/components/CodeBlock/index.tsx"
+    },
+    "./hooks/use-copy-to-clipboard": {
+      "types": "./src/hooks/use-copy-to-clipboard.ts",
+      "default": "./src/hooks/use-copy-to-clipboard.ts"
+    },
+    "./table": {
+      "types": "./src/components/Table/index.tsx",
+      "default": "./src/components/Table/index.tsx"
+    },
+    "./response": {
+      "types": "./src/components/Response/index.tsx",
+      "default": "./src/components/Response/index.tsx"
+    },
+    "./bottom-sheet": {
+      "types": "./src/components/BottomSheet/index.tsx",
+      "default": "./src/components/BottomSheet/index.tsx"
+    },
+    "./popover": {
+      "types": "./src/components/Popover/index.tsx",
+      "default": "./src/components/Popover/index.tsx"
+    },
+    "./calendar": {
+      "types": "./src/components/Calendar/index.tsx",
+      "default": "./src/components/Calendar/index.tsx"
+    },
+    "./date-picker": {
+      "types": "./src/components/DatePicker/index.tsx",
+      "default": "./src/components/DatePicker/index.tsx"
+    },
+    "./steps": {
+      "types": "./src/components/Steps/index.tsx",
+      "default": "./src/components/Steps/index.tsx"
+    },
+    "./sources": {
+      "types": "./src/components/Sources/index.tsx",
+      "default": "./src/components/Sources/index.tsx"
+    },
+    "./rating": {
+      "types": "./src/components/Rating/index.tsx",
+      "default": "./src/components/Rating/index.tsx"
+    },
+    "./tooltip": {
+      "types": "./src/components/Tooltip/index.tsx",
+      "default": "./src/components/Tooltip/index.tsx"
+    },
+    "./tabs": {
+      "types": "./src/components/Tabs/index.tsx",
+      "default": "./src/components/Tabs/index.tsx"
+    },
+    "./select": {
+      "types": "./src/components/Select/index.tsx",
+      "default": "./src/components/Select/index.tsx"
+    },
+    "./scroll-canvas": {
+      "types": "./src/components/ScrollCanvas/index.tsx",
+      "default": "./src/components/ScrollCanvas/index.tsx"
+    },
+    "./primitives/scroll-progress": {
+      "types": "./src/primitives/scroll-progress.tsx",
+      "default": "./src/primitives/scroll-progress.tsx"
+    },
+    "./primitives/observable-number": {
+      "types": "./src/primitives/observable-number.ts",
+      "default": "./src/primitives/observable-number.ts"
+    },
+    "./hooks/use-reveal-progress": {
+      "types": "./src/hooks/use-reveal-progress.ts",
+      "default": "./src/hooks/use-reveal-progress.ts"
+    },
+    "./scroll-text": {
+      "types": "./src/components/ScrollText/index.tsx",
+      "default": "./src/components/ScrollText/index.tsx"
+    },
+    "./support": {
+      "types": "./src/components/Support/index.tsx",
+      "default": "./src/components/Support/index.tsx"
+    },
+    "./tree": {
+      "types": "./src/components/Tree/index.tsx",
+      "default": "./src/components/Tree/index.tsx"
+    },
+    "./feedback": {
+      "types": "./src/components/Feedback/index.tsx",
+      "default": "./src/components/Feedback/index.tsx"
+    },
+    "./primitives/keyboard-avoider": {
+      "types": "./src/primitives/keyboard-avoider.tsx",
+      "default": "./src/primitives/keyboard-avoider.tsx"
+    },
+    "./hooks/use-keyboard": {
+      "types": "./src/hooks/use-keyboard.ts",
+      "default": "./src/hooks/use-keyboard.ts"
+    },
+    "./hooks/use-keyboard-avoidance": {
+      "types": "./src/hooks/use-keyboard-avoidance.ts",
+      "default": "./src/hooks/use-keyboard-avoidance.ts"
+    },
+    "./shimmer": {
+      "types": "./src/components/Shimmer/index.tsx",
+      "default": "./src/components/Shimmer/index.tsx"
+    },
+    "./attachment": {
+      "types": "./src/components/Attachment/index.tsx",
+      "default": "./src/components/Attachment/index.tsx"
+    },
+    "./reasoning": {
+      "types": "./src/components/Reasoning/index.tsx",
+      "default": "./src/components/Reasoning/index.tsx"
+    },
+    "./task": {
+      "types": "./src/components/Task/index.tsx",
+      "default": "./src/components/Task/index.tsx"
+    },
+    "./marker": {
+      "types": "./src/components/Marker/index.tsx",
+      "default": "./src/components/Marker/index.tsx"
+    },
+    "./page-header": {
+      "types": "./src/components/PageHeader/index.tsx",
+      "default": "./src/components/PageHeader/index.tsx"
+    },
+    "./plan": {
+      "types": "./src/components/Plan/index.tsx",
+      "default": "./src/components/Plan/index.tsx"
+    },
+    "./image-generation": {
+      "types": "./src/components/ImageGeneration/index.tsx",
+      "default": "./src/components/ImageGeneration/index.tsx"
+    },
+    "./animated-badge": {
+      "types": "./src/components/AnimatedBadge/index.tsx",
+      "default": "./src/components/AnimatedBadge/index.tsx"
+    },
+    "./scroll-fade": {
+      "types": "./src/components/ScrollFade/index.tsx",
+      "default": "./src/components/ScrollFade/index.tsx"
+    },
+    "./circular-text": {
+      "types": "./src/components/CircularText/index.tsx",
+      "default": "./src/components/CircularText/index.tsx"
+    },
+    "./flip-card": {
+      "types": "./src/components/FlipCard/index.tsx",
+      "default": "./src/components/FlipCard/index.tsx"
+    },
+    "./scroll-blur": {
+      "types": "./src/components/ScrollBlur/index.tsx",
+      "default": "./src/components/ScrollBlur/index.tsx"
+    },
+    "./qr-code": {
+      "types": "./src/components/QRCode/index.tsx",
+      "default": "./src/components/QRCode/index.tsx"
+    },
+    "./marquee": {
+      "types": "./src/components/Marquee/index.tsx",
+      "default": "./src/components/Marquee/index.tsx"
+    },
+    "./otp-input": {
+      "types": "./src/components/OtpInput/index.tsx",
+      "default": "./src/components/OtpInput/index.tsx"
+    },
+    "./leaderboard": {
+      "types": "./src/components/Leaderboard/index.tsx",
+      "default": "./src/components/Leaderboard/index.tsx"
+    },
+    "./splitter": {
+      "types": "./src/components/Splitter/index.tsx",
+      "default": "./src/components/Splitter/index.tsx"
+    },
+    "./split-view": {
+      "types": "./src/components/SplitView/index.tsx",
+      "default": "./src/components/SplitView/index.tsx"
+    },
+    "./primitives/observable-value": {
+      "types": "./src/primitives/observable-value.ts",
+      "default": "./src/primitives/observable-value.ts"
+    },
+    "./compare": "./src/components/Compare/index.tsx",
+    "./loader": "./src/components/Loader/index.tsx",
+    "./tag-input": "./src/components/TagInput/index.tsx",
+    "./section-rail": "./src/components/SectionRail/index.tsx",
+    "./progress-button": "./src/components/ProgressButton/index.tsx",
+    "./section-progress": "./src/components/SectionProgress/index.tsx",
+    "./slider": "./src/components/Slider/index.tsx",
+    "./toast": "./src/components/Toast/index.tsx",
+    "./slide-button": "./src/components/SlideButton/index.tsx",
+    "./thinking-orb": "./src/components/ThinkingOrb/index.tsx",
+    "./scroll-header": "./src/components/ScrollHeader/index.tsx",
+    "./soundwave": "./src/components/Soundwave/index.tsx",
+    "./selection-mode": "./src/components/SelectionMode/index.tsx",
+    "./search-bar": "./src/components/SearchBar/index.tsx",
+    "./primitives/input-focus": "./src/primitives/input-focus.ts",
+    "./time-picker": "./src/components/TimePicker/index.tsx",
+    "./utils/time": "./src/lib/time.ts",
+    "./date-time-picker": "./src/components/DateTimePicker/index.tsx",
+    "./menu": "./src/components/Menu/index.tsx",
+    "./context-menu": "./src/components/ContextMenu/index.tsx",
+    "./carousel": "./src/components/Carousel/index.tsx",
+    "./line-chart": "./src/components/LineChart/index.tsx",
+    "./kpi": "./src/components/Kpi/index.tsx",
+    "./area-chart": "./src/components/AreaChart/index.tsx",
+    "./bar-chart": "./src/components/BarChart/index.tsx",
+    "./ring-chart": "./src/components/RingChart/index.tsx",
+    "./pie-chart": "./src/components/PieChart/index.tsx",
+    "./polar-area-chart": "./src/components/PolarAreaChart/index.tsx",
+    "./radar-chart": "./src/components/RadarChart/index.tsx",
+    "./drawer": "./src/components/Drawer/index.tsx",
+    "./signature": "./src/components/Signature/index.tsx",
+    "./swipe": "./src/components/Swipe/index.tsx",
+    "./funnel-chart": "./src/components/FunnelChart/index.tsx",
+    "./fab": "./src/components/Fab/index.tsx",
+    "./pyramid-chart": "./src/components/PyramidChart/index.tsx",
+    "./text-animation": "./src/components/TextAnimation/index.tsx",
+    "./timeline": "./src/components/Timeline/index.tsx",
+    "./waterfall-chart": "./src/components/WaterfallChart/index.tsx",
+    "./stack-card": "./src/components/StackCard/index.tsx",
+    "./color-picker": "./src/components/ColorPicker/index.tsx",
+    "./post": "./src/components/Post/index.tsx",
+    "./bubble-chart": "./src/components/BubbleChart/index.tsx",
+    "./scatter-chart": "./src/components/ScatterChart/index.tsx",
+    "./combobox": "./src/components/Combobox/index.tsx",
+    "./ai-input": "./src/components/AIInput/index.tsx",
+    "./image-viewer": "./src/components/ImageViewer/index.tsx",
+    "./heatmap-chart": "./src/components/HeatmapChart/index.tsx",
+    "./planner": "./src/components/Planner/index.tsx",
+    "./sortable": "./src/components/Sortable/index.tsx",
+    "./hex-chart": "./src/components/HexChart/index.tsx",
+    "./questionnaire": "./src/components/Questionnaire/index.tsx",
+    "./tour": "./src/components/Tour/index.tsx",
+    "./message-scroller": "./src/components/MessageScroller/index.tsx",
+    "./candlestick-chart": "./src/components/CandlestickChart/index.tsx",
+    "./bump-chart": "./src/components/BumpChart/index.tsx",
+    "./live-line-chart": "./src/components/LiveLineChart/index.tsx",
+    "./markdown-editor": "./src/components/MarkdownEditor/index.tsx",
+    "./sketch": "./src/components/Sketch/index.tsx",
+    "./panelside": "./src/components/Panelside/index.tsx",
+    "./mirror-area-chart": "./src/components/MirrorAreaChart/index.tsx",
+    "./treemap-chart": "./src/components/TreemapChart/index.tsx",
+    "./flow": "./src/components/Flow/index.tsx",
+    "./sankey-chart": "./src/components/SankeyChart/index.tsx",
+    "./map": "./src/components/Map/index.tsx",
+    "./plot": "./src/components/Plot/index.tsx",
+    "./avatar-cropper": "./src/components/AvatarCropper/index.tsx",
+    "./file-upload": "./src/components/FileUpload/index.tsx",
+    "./scroll-area": "./src/components/ScrollArea/index.tsx",
+    "./image": "./src/components/Image/index.tsx",
+    "./profile-identity": "./src/components/ProfileIdentity/index.tsx",
+    "./setup-progress-header": "./src/components/SetupProgressHeader/index.tsx",
+    "./platform/taro-plugin-weapp-accessibility": "./src/platform/taro-plugin-weapp-accessibility.cjs",
+    "./platform/taro-plugin-weapp-native-scroll": "./src/platform/taro-plugin-weapp-native-scroll.cjs",
+    "./weapp-hosts": {
+      "types": "./src/primitives/weapp-hosts.tsx",
+      "default": "./src/primitives/weapp-hosts.tsx"
+    },
+    "./icons/drawing": {
+      "types": "./src/icons/Drawing/index.tsx",
+      "default": "./src/icons/Drawing/index.tsx"
+    },
+    "./weapp-chart": {
+      "types": "./src/primitives/weapp-chart.tsx",
+      "default": "./src/primitives/weapp-chart.tsx"
+    },
+    "./camera": "./src/components/Camera/index.tsx",
+    "./hooks/use-breakpoint": "./src/hooks/use-breakpoint.ts",
+    "./hooks/use-scroll-sections": "./src/hooks/use-scroll-sections.ts",
+    "./hooks/use-skeleton-handoff": "./src/hooks/use-skeleton-handoff.ts",
+    "./hooks/use-back-handler": "./src/hooks/use-back-handler.ts",
+    "./hooks/use-direction": "./src/hooks/use-direction.ts",
+    "./primitives/glass": "./src/primitives/glass.tsx",
+    "./primitives/portal": "./src/primitives/portal.tsx",
+    "./primitives/scrim": "./src/primitives/scrim.tsx",
+    "./primitives/chart-accessibility": "./src/primitives/chart-accessibility.tsx",
+    "./utils/cn": "./src/lib/utils.ts",
+    "./utils/color": "./src/lib/color.ts",
+    "./primitives/refs": {
+      "types": "./src/primitives/refs.ts",
+      "default": "./src/primitives/refs.ts"
+    }
+  },
+  "scripts": {
+    "vendor:variants": "bun run scripts/vendor-variants.mjs",
+    "test": "bunx --no-install vitest run --maxWorkers=4",
+    "test:example": "bunx --no-install vitest run --root example --maxWorkers=4",
+    "typecheck": "bunx --no-install tsc -p tsconfig.json --noEmit",
+    "verify:consumer": "node scripts/verify-packed-consumer.mjs",
+    "dev:weapp:panelui": "pnpm --filter panelui-example dev:weapp",
+    "dev:panelui-docs": "pnpm --filter panelui-docs dev",
+    "build:weapp:panelui": "pnpm --filter panelui-example build:weapp",
+    "build:panelui-docs": "pnpm --filter panelui-docs build",
+    "test:panelui-example": "pnpm --filter panelui-example test",
+    "typecheck:panelui-docs": "pnpm --filter panelui-docs typecheck",
+    "typecheck:example": "pnpm --filter panelui-example typecheck",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm verify:consumer"
+  },
+  "dependencies": {
+    "@amaster.ai/taro-echarts-ui": "^1.1.72",
+    "@hugeicons/core-free-icons": "catalog:panelui-icons",
+    "clsx": "catalog:panelui-styles",
+    "echarts": "catalog:panelui-weapp",
+    "tailwind-merge": "catalog:panelui-styles"
+  },
+  "devDependencies": {
+    "@tarojs/components": "catalog:panelui-weapp",
+    "@tarojs/runtime": "catalog:panelui-weapp",
+    "@tarojs/taro": "catalog:panelui-weapp",
+    "@testing-library/react": "catalog:panelui-testing",
+    "@types/node": "catalog:panelui-tooling",
+    "@types/react": "catalog:panelui-react18",
+    "@types/react-dom": "catalog:panelui-react18",
+    "happy-dom": "catalog:panelui-testing",
+    "react": "catalog:panelui-react18",
+    "react-dom": "catalog:panelui-react18",
+    "tailwind-variants": "catalog:panelui-styles",
+    "typescript": "catalog:panelui-tooling",
+    "vite": "catalog:panelui-testing",
+    "vitest": "catalog:panelui-testing"
+  },
+  "peerDependencies": {
+    "@tarojs/components": "catalog:panelui-peers",
+    "@tarojs/runtime": "catalog:panelui-peers",
+    "@tarojs/taro": "catalog:panelui-peers",
+    "react": "catalog:panelui-peers"
+  },
+  "description": "PanelUI Native components adapted for Taro and WeChat Mini Programs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iridescent-collective/panelui-taro.git"
+  },
+  "homepage": "https://github.com/iridescent-collective/panelui-taro",
+  "bugs": {
+    "url": "https://github.com/iridescent-collective/panelui-taro/issues"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=24.22.2",
+    "pnpm": ">=12.18.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

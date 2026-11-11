@@ -1,0 +1,22 @@
+@keyframes panel-tag-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.panelui-tag-enter {
+  animation: panel-tag-enter 140ms ease-out;
+}
+@keyframes panel-tag-exit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.panelui-tag-exit {
+  animation: panel-tag-exit 120ms ease-out forwards;
+}

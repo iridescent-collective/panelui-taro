@@ -1,0 +1,33 @@
+---
+title: "图表"
+description: "五级系列颜色与独立系列覆盖。"
+---
+
+## 共用系列色
+
+`chart-1` 至 `chart-5` 定义主题的系列色。通过注册表修改可同步 WXSS 与 JavaScript 图形。`colorIndex` 选择颜色槽，显式系列颜色优先。
+
+```tsx
+import { registerTheme } from "panelui-taro/theme";
+registerTheme("brand", {
+  extends: "light",
+  tokens: { "chart-1": "#c2410c", "chart-2": "#0369a1" },
+});
+```
+
+## 渲染与预览
+
+图表通过原生 Canvas 2D 直接绘制，保留现有组件组合、主题色、几何计算和触摸行为。动画仍由 JavaScript 驱动。静态图标和图例色块继续使用 SVG 图片。
+
+Plot 保留现有图形原语和图层注册 API，内部直接绘制图形，不再逐帧生成 SVG 图片。画布复用位图、合并待绘制帧，并在更高弹层遮挡或应用进入后台时暂停。Canvas 2D 不可用时使用暂停的兼容快照，不恢复持续更新的 SVG 动画。组透明度与图案填充还需要离屏 Canvas 支持。
+
+## 几何与图层
+
+- AreaChart 独立处理堆叠／覆盖、值域与基线；`LineChart.Area` 用于单系列填充。
+- 通过 `Plot.Layer`、`usePlotLayer` 或 `usePlotAnimatedLayer` 注册图形。嵌套组保留变换、顺序和透明度；未单独指定曲线的线与面积沿用根部件的 `curve`。
+- Ring 和 Pie 使用 Canvas 命中测试；Pie 轮廓考虑扇区分配、间距、圆角及孔洞。
+- Sankey 迭代次数必须是 `0–64` 内的有限数值，默认 `6`；范围内的小数按上游整数转换规则处理，无效值抛出异常。
+
+## 微信预览
+
+打开 `/customization/charts/index`，比较主题折线、柱状配色和显式 info 系列色。各图表的结构与类型见[组件参考](/zh-CN/docs/components)。

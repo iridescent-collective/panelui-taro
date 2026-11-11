@@ -1,0 +1,33 @@
+---
+title: "Charts"
+description: "A five-color series ramp with per-series overrides."
+---
+
+## Shared series colors
+
+`chart-1` through `chart-5` define the theme’s series ramp. Set them through the theme registry to update both WXSS and JavaScript-drawn graphics. A series’ `colorIndex` selects a ramp entry; an explicit series color takes precedence.
+
+```tsx
+import { registerTheme } from "panelui-taro/theme";
+registerTheme("brand", {
+  extends: "light",
+  tokens: { "chart-1": "#c2410c", "chart-2": "#0369a1" },
+});
+```
+
+## Rendering
+
+Charts draw directly to native Canvas 2D. Existing component parts, theme colors, geometry and touch semantics remain the same. Animation runs on JavaScript rather than RN worklets. Static icons and legend swatches remain SVG images.
+
+The plot module retains its shape primitives and layer registration APIs. Shapes are painted directly rather than serialized into a new SVG image on each frame. Native surfaces keep their bitmap between updates, merge pending paints and pause under higher portal layers or while the app is hidden. A missing Canvas 2D host uses a paused compatibility snapshot; this fallback does not provide continuous SVG animation. Group opacity and pattern fills also require offscreen Canvas support.
+
+## Geometry and layers
+
+- AreaChart has independent stacked/overlay semantics, domains and baselines; `LineChart.Area` fills a single series.
+- Register Plot shapes through `Plot.Layer`, `usePlotLayer` or `usePlotAnimatedLayer`. Nested groups retain transforms, order and opacity. Root `curve` applies to lines and areas without their own curve setting.
+- Ring and Pie selection use Canvas hit testing. Pie contours account for holes as well as slice allocation, gaps and corner radii.
+- Sankey iterations must be finite and within `0–64`, defaulting to `6`. Valid fractions follow the source's integer conversion; invalid inputs throw.
+
+## Try it in WeChat
+
+Open `/customization/charts/index` to compare a themed line/bar ramp with an explicit info-colored series. See each [component reference](/docs/components) for its own parts and type declarations.

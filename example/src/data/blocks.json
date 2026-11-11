@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "smart-home",
+    "name": "Smart Home",
+    "summary": "A room at a time: climate, scenes and devices.",
+    "route": "/blocks/smart-home/index"
+  },
+  {
+    "slug": "wallet",
+    "name": "Wallet",
+    "summary": "Cards, balance and what has been spent.",
+    "route": "/blocks/wallet/index"
+  },
+  {
+    "slug": "activity",
+    "name": "Activity",
+    "summary": "The goals, the readings and the work behind them.",
+    "route": "/blocks/activity/index"
+  },
+  {
+    "slug": "boarding-pass",
+    "name": "Boarding Pass",
+    "summary": "Everything for a flight, in one pass.",
+    "route": "/blocks/boarding-pass/index"
+  }
+]

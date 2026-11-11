@@ -1,0 +1,15 @@
+{
+  "files": {
+    "lite.d.ts": "b96cddbe94afe2d9c7dd96b0dbd69cecf8b5dd7353e9571e99b2043241453842",
+    "config-bO3A8WhU.d.ts": "bd61dbd116d064b3e313ec1353a0a9a48aa922a8e2cab75c0f780c3c7024b904",
+    "utils.d.ts": "b0e1df790dbbd827a2bb80687f1946e8045fbc8a868a678773289ca039c18d45",
+    "types.d.ts": "ebf38175dc8b7240ab3774f5382ea6b4dafce639e7d45d12a4374cf46c2827f0",
+    "lite.js": "375b7a3b3936c0cd56002e9ade2f2c31562930475e64ebee36f9e7617135dfca",
+    "chunk-OYFAXDFZ.js": "1d1bd4463ab97ade0dc11cc01363fdba76da0073fe0031bb939c753c29b8e63c",
+    "chunk-SUL6UUW2.js": "e6f1f6dc0ff8187a3f3f6fff94cf77086d2e08bab997e36edba166c75d8b2254"
+  },
+  "package": "tailwind-variants",
+  "repository": "https://github.com/heroui-inc/tailwind-variants",
+  "transform": "Replace falsy BigInt zero guards with equivalent typeof checks for ES2015 parsing.",
+  "version": "3.3.1"
+}

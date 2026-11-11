@@ -1,0 +1,14 @@
+diff --git a/dist/utils/compiler/mini.js b/dist/utils/compiler/mini.js
+--- a/dist/utils/compiler/mini.js
++++ b/dist/utils/compiler/mini.js
+@@ -86,6 +86,10 @@
+             const templatePath = this.getTemplatePath(compScriptPath);
+             const cssPath = this.getStylePath(compScriptPath);
+             if (!helper_1.fs.existsSync(compScriptPath)) {
++                // Skip Taro virtual base components injected into usingComponents (NervJS/taro#18184)
++                if (compName === 'comp' || compName === 'custom-wrapper') {
++                    return;
++                }
+                 return this.logger.warn(`找不到页面 ${name} 依赖的自定义组件：${compScriptPath}`);
+             }
+             const nativeCompMeta = {

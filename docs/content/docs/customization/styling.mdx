@@ -1,0 +1,30 @@
+---
+title: "Styling"
+description: "Compound parts, WXSS-safe class names and explicit style precedence."
+---
+
+## Style the part that owns the appearance
+
+```tsx
+import { Button } from "panelui-taro/button";
+import { Card } from "panelui-taro/card";
+
+<Card>
+  <Card.Header>
+    <Card.Title>Account</Card.Title>
+  </Card.Header>
+  <Card.Content>
+    <Button className="rounded-full">Continue</Button>
+  </Card.Content>
+</Card>;
+```
+
+Use component variants for recurring visual changes and `className` for call-site layout. Theme tokens keep colors and surfaces consistent. The class merger understands weapp-tailwindcss’s default escaped class names and preserves their encoded output.
+
+## Explicit styles
+
+Supported inline styles take precedence over class-driven values. Use the host’s Taro style types rather than RN style objects. Styling only the parent cannot change a compound child that owns its own foreground or shape.
+
+## Verify
+
+Open `/customization/styling/index` to compare the class override’s pill shape and an explicit zero-radius style. Keep Tailwind scanning and WXSS patching enabled in the host.

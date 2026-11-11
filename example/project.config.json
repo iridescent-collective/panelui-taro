@@ -1,0 +1,42 @@
+{
+  "appid": "touristappid",
+  "projectname": "PanelUI Example",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "Accordion",
+          "pathName": "pages/index/index",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "Button",
+          "pathName": "components-a/button/index",
+          "query": ""
+        },
+        {
+          "id": 2,
+          "name": "Colors / Themes",
+          "pathName": "components-d/theme-selector/index",
+          "query": ""
+        },
+        {
+          "id": 3,
+          "name": "Smart Home",
+          "pathName": "blocks/smart-home/index",
+          "query": ""
+        }
+      ]
+    }
+  }
+}

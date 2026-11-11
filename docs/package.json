@@ -1,0 +1,38 @@
+{
+  "name": "panelui-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "dev": "bun run scripts/generate-docs.mjs && bunx --no-install next dev --port 3100",
+    "build": "node scripts/generate-docs.mjs && next build --webpack",
+    "generate": "bun run scripts/generate-docs.mjs",
+    "test:i18n": "node --experimental-strip-types --test scripts/i18n.test.mjs",
+    "typecheck": "bun run scripts/generate-docs.mjs && bunx --no-install fumadocs-mdx && bunx --no-install next typegen && bunx --no-install tsc --noEmit",
+    "verify": "bun run scripts/verify-site.mjs",
+    "verify:standalone": "node --test scripts/start.test.mjs",
+    "postinstall": "node scripts/generate-docs.mjs && fumadocs-mdx"
+  },
+  "dependencies": {
+    "fumadocs-core": "catalog:panelui-docs",
+    "fumadocs-mdx": "catalog:panelui-docs",
+    "fumadocs-ui": "catalog:panelui-docs",
+    "i18next": "catalog:panelui-docs",
+    "lucide-react": "catalog:panelui-docs",
+    "next": "catalog:panelui-docs",
+    "react": "catalog:panelui-docs",
+    "react-dom": "catalog:panelui-docs",
+    "react-i18next": "catalog:panelui-docs",
+    "zod": "catalog:panelui-docs"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:panelui-styles",
+    "@types/mdx": "catalog:panelui-docs",
+    "@types/node": "catalog:panelui-tooling",
+    "@types/react": "catalog:panelui-docs",
+    "@types/react-dom": "catalog:panelui-docs",
+    "tailwindcss": "catalog:panelui-styles",
+    "typescript": "catalog:panelui-tooling"
+  }
+}

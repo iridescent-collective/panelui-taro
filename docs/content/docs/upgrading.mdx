@@ -1,0 +1,45 @@
+---
+title: "Upgrading"
+description: "Version alignment, dependency compatibility and source coverage."
+---
+
+## Native alignment
+
+The package version is **1.0.0**, aligned with PanelUI Native. The source baseline remains **0.112.0**, commit `3812a4509eb8b935b14a4f8f173a82d603030491`, plus selected later fixes. This is not a claim that every Native 1.0.0 capability is implemented.
+
+Camera and ImageViewer RTL are ported; platform-specific Camera limits are documented in [Platform differences](./platform). Review the public exports and per-module acceptance status before upgrading an application.
+
+## Native 1.0.0 alignment
+
+`panelui-taro/icons` exports `icon`, its alias `createIcon`, and `IconDefaults`. Custom glyphs use the existing SVG adapter, provider colors, stroke/fill props and directional mirroring. The icon customization page demonstrates the public factory with the existing controls.
+
+Import `ViewRef`, `TextRef`, `TextInputRef` and `ScrollViewRef` from `panelui-taro/primitives/refs`. The host aliases use Taro component instances; `TextInputRef` is the existing Input/Textarea handle with `focus()`, `blur()`, `clear()` and `isFocused()`. They do not promise React Native host methods. Scrolling uses Taro scroll props/APIs.
+
+The Expo SDK 58, RN 0.88, Reanimated and MapLibre style fixes are platform-specific and do not change this Taro runtime. WeChat Map still cannot load a MapLibre style document. The 140 baseline source records and the Camera supplemental record retain their original hashes and acceptance states.
+
+## Changes in 0.116.0
+
+- Tabs: `activeClassName`, `labelClassName` and `activeLabelClassName` override selected-trigger and label colors. `Tabs.List.indicatorClassName` remains supported.
+- Checkbox: `contentClassName` controls the label/description layout. `label` accepts text nodes with inline `Text onPress` or `onClick` links; link clicks do not toggle the checkbox. Supply `accessibilityLabel` (or `aria-label`) for a node label. Taro host props, events and refs remain supported; `hitSlop` uses the shared pressable adapter.
+- Keyboard dismissal: the Taro implementation already guards queued measurements and resets the lift when hidden. A two-field regression covers dismissal with stale measurements; the upstream RN worklet change does not apply directly.
+- The example adds Custom colours, Sharing a line and A link inside the label, for 784 upstream-derived variants. `UPSTREAM-SYNC.md` in the package records the selected upstream commits and SHA-256 values without changing baseline acceptance states.
+
+The port now exposes all 141 Native component modules. The original 140-module source baseline remains intact in `source-manifest.json`; Camera has a supplemental record with its own source commit and hashes. Neither a version number nor an entry file establishes physical-device acceptance.
+
+- `panelui-taro/camera`: Camera, all thirteen compound parts, `useCamera`, `hasCamera`, and the upstream state/handle types. Photo/video capture uses WeChat CameraContext; outputs are local temporary files supplied to `onCapture`. No upload or album save is performed.
+- `panelui-taro/image-viewer`: `dir="rtl"` puts the next picture on the left. Swipe right to advance; indices, captions, the counter and accessibility actions keep their logical forward order.
+- `panelui-taro/hooks/use-breakpoint`: `useBreakpoint`, `createBreakpoints` and `BREAKPOINTS`. Dimensions use physical window logical pixels, rather than the library's normalized 375-unit drawing space.
+- `panelui-taro/hooks/use-scroll-sections`: `useScrollSections`. Give section Views the ids supplied in `ids`; spread `scrollProps` on a Taro ScrollView. The hook measures those ids, tracks the bottom section and preserves the chosen section during a programmatic jump. Scroll signals use the port's subscribable `.value` objects.
+- `panelui-taro/hooks/use-skeleton-handoff`: `useSkeletonHandoff` and `SKELETON_FADE`; opacity is a subscribable `.value` signal. Use React subscription or the existing port adapters, not Reanimated worklets.
+- `panelui-taro/primitives/glass`, `/portal`, `/scrim`, `/chart-accessibility`, plus `/utils/cn` and `/utils/color`: public primitives and helpers. Glass and GlassContainer preserve content, props and radius; `hasGlass` and `useGlassMaterial()` are false on WeChat, as in the upstream non-native fallback.
+- Chart axes cap the user font-size setting at 1.353x. Heatmap weekday/month gutters grow to the same cap; explicit axis width still wins. Accessible data remains separate from visual labels.
+
+## Dependencies
+
+The library, isolated example and documentation site use named pnpm catalogs with `^` ranges. `pnpm-lock.yaml` records the tested installation. Business-app dependency catalogs remain independent.
+
+The documentation site uses React 19, Next.js 16 and Fumadocs. The mini-program renderer uses React 18. The Taro toolchain remains on 4.2 at the user’s request to keep the business directory unchanged. The retained Taro 4.2 line requires Vite 4, the Vite React plugin 4, Babel 7 and React Refresh 0.14. These use the latest compatible versions rather than unsupported newest majors. The WeChat Tailwind adapter remains on its compatible v4 line.
+
+## Upgrade procedure
+
+Update the appropriate catalog, install, run library and example tests, typecheck both, build the mini program, then inspect affected states in WeChat Developer Tools. Build and inspect the documentation site separately. Keep physical-device checks distinct.

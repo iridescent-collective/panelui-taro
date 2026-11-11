@@ -1,0 +1,45 @@
+---
+title: "升级"
+description: "版本对齐、依赖兼容性与源码覆盖范围。"
+---
+
+## Native 版本
+
+包版本 **1.0.0** 对齐 PanelUI Native。源码基线仍是 **0.112.0**，提交 `3812a4509eb8b935b14a4f8f173a82d603030491`，另有部分后续修复。版本一致不代表全部能力已实现；Camera 和 ImageViewer RTL 已移植，平台限制见[平台差异](./platform)。
+
+## Native 1.0.0 对齐
+
+`panelui-taro/icons` 导出 `icon`、别名 `createIcon` 和 `IconDefaults`。自定义字形复用现有 SVG 适配、Provider 颜色、描边、填充和方向镜像。图标定制页通过现有控件演示公共工厂。
+
+从 `panelui-taro/primitives/refs` 导入 `ViewRef`、`TextRef`、`TextInputRef` 和 `ScrollViewRef`。宿主别名对应 Taro 实例；`TextInputRef` 对应 Input/Textarea 已有的 `focus()`、`blur()`、`clear()` 和 `isFocused()`。这些类型不承诺 React Native 宿主方法，滚动仍使用 Taro 属性或 API。
+
+Expo SDK 58、RN 0.88、Reanimated 和 MapLibre 样式修复属于原生平台兼容，不改变 Taro 运行时。微信地图仍不支持加载 MapLibre 样式文档。原有 140 条基线及 Camera 补充记录保留原始哈希和验收状态。
+
+## 0.116.0 同步内容
+
+- Tabs 新增 `activeClassName`、`labelClassName`、`activeLabelClassName`，调用方样式覆盖默认样式；保留 `Tabs.List.indicatorClassName`。
+- Checkbox 新增 `contentClassName`；`label` 支持包含 `Text onPress` 或 `onClick` 链接的节点，点链接不会切换勾选。节点标签须提供 `accessibilityLabel` 或 `aria-label`。保留 Taro 宿主属性、事件和 ref，`hitSlop` 复用现有点击区域适配。
+- 键盘收起：现有 Taro 实现已经清理追踪、忽略过期测量并归零位移，新增双输入框及滞后测量回归验证；上游 RN worklet 补丁不直接适用。
+- 示例新增 Custom colours、Sharing a line、A link inside the label，共 784 个上游衍生变体。包内 `UPSTREAM-SYNC.md` 记录本次源码提交及 SHA-256，保留原基线的实现和验收状态。
+
+现在提供 Native 的 141 个组件模块。`source-manifest.json` 保留原有 140 模块的源码基线，Camera 使用带有独立提交和哈希的补充记录。模块存在与版本对齐不代表真机验收完成。
+
+- `camera`：全部十三个组合部件、`useCamera`、`hasCamera` 和上游状态／句柄类型。拍照与录像通过微信 CameraContext 完成，将本地临时文件交给 `onCapture`，组件不上传或保存到相册。
+- `image-viewer`：支持 `dir="rtl"`，下一张位于左侧，向右滑进入下一张；索引、计数器、说明和无障碍动作仍按逻辑顺序递增。
+- `hooks/use-breakpoint`：响应式断点、自定义断点 Provider、窗口尺寸及横竖屏。使用实际窗口逻辑像素，而非绘图使用的归一化 375 单位。
+- `hooks/use-scroll-sections`：按 ids 自动测量章节位置，将 `scrollProps` 传给 Taro ScrollView；支持滚动追踪、底部末章和跳转保护。章节 View 必须设置对应 id。
+- `hooks/use-skeleton-handoff`：骨架保留至渐隐结束；opacity 是可订阅的 `.value` 信号，不是 RN worklet。
+- `primitives/glass`、`portal`、`scrim`、`chart-accessibility` 以及 `utils/cn`、`utils/color`：补齐公共入口。Glass 使用上游不支持原生材质平台的实色回退，保留内容、属性和圆角；`hasGlass`、`useGlassMaterial()` 返回 false。
+- 图表轴文字按用户字体设置放大，最大 1.353 倍；热力图的星期栏和月份行同步扩宽／增高，显式轴宽优先。无障碍数据层继续独立保留。
+
+## 依赖约束
+
+组件库、独立示例和官网使用分类 pnpm catalogs，采用 `^` 范围并保留 lockfile。业务依赖保持独立。
+
+官网使用 React 19、Next.js 16 和 Fumadocs；小程序渲染器使用 React 18。Taro 保留 4.2，需要 Vite 4、Vite React plugin 4、Babel 7 和 React Refresh 0.14；微信 Tailwind 适配器使用兼容的 v4。
+
+variants 的 ES2015 兼容实现与声明随组件包交付，消费者不需要继承仓库的 pnpm patch。升级该实现时运行 vendoring 脚本并审核来源、授权和构建回归。
+
+## 升级检查
+
+更新对应 catalog 后安装依赖，运行组件库及示例测试、类型检查和微信构建。再打出 tarball，在独立宿主验证，使用微信开发者工具检查受影响状态。官网单独构建验收，真机测试另行记录。

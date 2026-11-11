@@ -1,0 +1,13 @@
+export const CANCEL_DURATION = 180;
+export const CANCEL_GAP = 8;
+export const CLEAR_HIT_SLOP = 12;
+export const PANEL_IN = 140;
+export const PANEL_OUT = 120;
+export const PANEL_EDGE_GAP = 24;
+export const PANEL_MIN_HEIGHT = 160;
+export const PANEL_MAX_HEIGHT = 320;
+export const FIELD_HEIGHT = { lg: 56, md: 48, sm: 40 } as const;
+export const FOCUS_GUARD = 400;
+export const BLUR_GRACE = 220;
+export const TOKEN_MAX_SHARE = 0.6;
+export const ICON_SIZE = { lg: 20, md: 18, sm: 16 } as const;

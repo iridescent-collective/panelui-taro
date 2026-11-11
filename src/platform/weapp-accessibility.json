@@ -1,0 +1,38 @@
+{
+  "attributes": [
+    "aria-role",
+    "aria-label",
+    "aria-hidden",
+    "aria-labelledby",
+    "aria-describedby",
+    "aria-checked",
+    "aria-disabled",
+    "aria-selected",
+    "aria-expanded",
+    "aria-busy",
+    "aria-valuemin",
+    "aria-valuemax",
+    "aria-valuenow",
+    "aria-valuetext",
+    "aria-live",
+    "aria-level",
+    "aria-pressed",
+    "aria-required",
+    "aria-invalid",
+    "aria-current",
+    "aria-description",
+    "aria-orientation",
+    "aria-modal"
+  ],
+  "components": [
+    "View",
+    "Text",
+    "Button",
+    "Image",
+    "Input",
+    "Textarea",
+    "Switch",
+    "Checkbox",
+    "Radio"
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "pinned": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "slots": [
+    {
+      "count": 1,
+      "index": 0,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 0.04,
+      "output": 0.04,
+      "settled": 0.11526400000000014
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 0.1,
+      "output": 0.1,
+      "settled": 0.2709999999999999
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 0.3,
+      "output": 0.3,
+      "settled": 0.657
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 0.7,
+      "output": 0.7,
+      "settled": 0.973
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 1,
+      "index": 0,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 0.3,
+      "output": 0.16666666666666669,
+      "settled": 0.4212962962962965
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 0.7,
+      "output": 0.6428571428571429,
+      "settled": 0.9544460641399417
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 0,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 0.1,
+      "output": 0.02380952380952381,
+      "settled": 0.06974138861893975
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 0.3,
+      "output": 0.26190476190476186,
+      "settled": 0.5978970953460749
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 0.7,
+      "output": 0.738095238095238,
+      "settled": 0.9820348774430407
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 1,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 0.04,
+      "output": 0.04761904761904762,
+      "settled": 0.1361624014685241
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 0.1,
+      "output": 0.11904761904761905,
+      "settled": 0.3163130331497679
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 0.3,
+      "output": 0.35714285714285715,
+      "settled": 0.7343294460641401
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 0.7,
+      "output": 0.8333333333333333,
+      "settled": 0.9953703703703703
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 3,
+      "index": 2,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 0.3,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 0.7,
+      "output": 0.5588235294117647,
+      "settled": 0.9141308772644006
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 0,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 0.3,
+      "output": 0.08823529411764706,
+      "settled": 0.24203643395074304
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 0.7,
+      "output": 0.6764705882352942,
+      "settled": 0.9661357622633828
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 1,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 0.3,
+      "output": 0.2058823529411765,
+      "settled": 0.49921127620598416
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 0.7,
+      "output": 0.7941176470588236,
+      "settled": 0.9912731528597598
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 2,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 0.04,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 0.1,
+      "output": 0.029411764705882356,
+      "settled": 0.08566558111133726
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 0.3,
+      "output": 0.32352941176470584,
+      "settled": 0.6904386322002849
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 0.7,
+      "output": 0.9117647058823529,
+      "settled": 0.9993130470181152
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 3,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": -0.1,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 0,
+      "output": 0,
+      "settled": 0
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 0.04,
+      "output": 0.05882352941176471,
+      "settled": 0.16629350702218604
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 0.1,
+      "output": 0.1470588235294118,
+      "settled": 0.37947791573376766
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 0.3,
+      "output": 0.44117647058823534,
+      "settled": 0.8254884998982291
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 0.7,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 1,
+      "output": 1,
+      "settled": 1
+    },
+    {
+      "count": 5,
+      "index": 4,
+      "progress": 1.15,
+      "output": 1.15,
+      "settled": 1
+    }
+  ],
+  "origins": [
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 0,
+      "width": 250,
+      "output": [22, 46, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 3,
+      "width": 250,
+      "output": [22, 180, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "md",
+      "count": 0,
+      "width": 250,
+      "output": [28, 52, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "md",
+      "count": 3,
+      "width": 250,
+      "output": [28, 186, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 0,
+      "width": 250,
+      "output": [32, 56, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 3,
+      "width": 250,
+      "output": [32, 190, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 0,
+      "width": 224,
+      "output": [22, 46, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 3,
+      "width": 224,
+      "output": [22, 190, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "md",
+      "count": 0,
+      "width": 224,
+      "output": [28, 52, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "md",
+      "count": 3,
+      "width": 224,
+      "output": [28, 196, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 0,
+      "width": 224,
+      "output": [32, 56, 0]
+    },
+    {
+      "placement": "bottom-left",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 3,
+      "width": 224,
+      "output": [32, 200, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 0,
+      "width": 250,
+      "output": [125, 46, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 3,
+      "width": 250,
+      "output": [125, 180, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "md",
+      "count": 0,
+      "width": 250,
+      "output": [125, 52, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "md",
+      "count": 3,
+      "width": 250,
+      "output": [125, 186, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 0,
+      "width": 250,
+      "output": [125, 56, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 3,
+      "width": 250,
+      "output": [125, 190, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 0,
+      "width": 224,
+      "output": [112, 46, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 3,
+      "width": 224,
+      "output": [112, 190, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "md",
+      "count": 0,
+      "width": 224,
+      "output": [112, 52, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "md",
+      "count": 3,
+      "width": 224,
+      "output": [112, 196, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 0,
+      "width": 224,
+      "output": [112, 56, 0]
+    },
+    {
+      "placement": "bottom-center",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 3,
+      "width": 224,
+      "output": [112, 200, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 0,
+      "width": 250,
+      "output": [228, 46, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "sm",
+      "count": 3,
+      "width": 250,
+      "output": [228, 180, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "md",
+      "count": 0,
+      "width": 250,
+      "output": [222, 52, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "md",
+      "count": 3,
+      "width": 250,
+      "output": [222, 186, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 0,
+      "width": 250,
+      "output": [218, 56, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "platform",
+      "size": "lg",
+      "count": 3,
+      "width": 250,
+      "output": [218, 190, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 0,
+      "width": 224,
+      "output": [202, 46, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "sm",
+      "count": 3,
+      "width": 224,
+      "output": [202, 190, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "md",
+      "count": 0,
+      "width": 224,
+      "output": [196, 52, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "md",
+      "count": 3,
+      "width": 224,
+      "output": [196, 196, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 0,
+      "width": 224,
+      "output": [192, 56, 0]
+    },
+    {
+      "placement": "bottom-right",
+      "appearance": "wells",
+      "size": "lg",
+      "count": 3,
+      "width": 224,
+      "output": [192, 200, 0]
+    }
+  ]
+}

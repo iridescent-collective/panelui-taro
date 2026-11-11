@@ -1,0 +1,19 @@
+---
+title: "AI"
+description: "Build AI interfaces in Taro without coupling the UI library to a model provider."
+---
+
+The Native AI beta section describes application integration patterns. The UI components take plain props and do not depend on the AI SDK. This Taro adaptation keeps the same separation.
+
+| Layer | Location | Responsibility |
+| --- | --- | --- |
+| UI library | `panelui-taro/src/components` | AIInput, Message, Response, Reasoning, Sources, Task and Soundwave |
+| Runnable client | `panelui-taro/example/src/components/AIChatTemplate` | Conversation state, ordered parts, transport, recorder and audio playback |
+| Development server | `panelui-taro/example/server` | Provider credentials, streaming, allowlisted tools, transcription and speech |
+| Guides | `docs/content/docs/ai` | Setup, server contract, composition and platform limitations |
+
+Open **AI Assistant** from the example catalogue, or navigate to `/showcases/ai/index`. Prepared examples work without a server. Choose **Connected service** in assistant options after configuring the endpoint. Changing modes starts a new conversation and preserves previous sessions in memory.
+
+Follow [Setup](/docs/ai/setup), then [API route](/docs/ai/api-route) and [Chat UI](/docs/ai/chat-ui). [Voice](/docs/ai/voice), [Streaming performance](/docs/ai/streaming-performance) and [Tools](/docs/ai/tools) explain the remaining integration paths.
+
+This example does not import business authentication, stores or services. Its server is a local development reference. Automated checks, WeChat Developer Tools observations and physical-device acceptance are separate evidence.

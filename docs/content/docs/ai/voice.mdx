@@ -1,0 +1,24 @@
+---
+title: "Voice"
+description: "Real WeChat recording, editable transcription and generated answer playback."
+---
+
+The offline voice preview remains explicitly simulated. In connected mode, the voice screen uses the real WeChat recorder through `services/recorder.ts`, and `services/audio.ts` connects transcription and speech endpoints.
+
+## Recording
+
+Tap the microphone to request `scope.record`, then record mono MP3 at 16 kHz for up to 60 seconds. Stop creates a temporary voice note. **Play recording** uses InnerAudioContext; **Use transcript** uploads the file and returns editable text to the composer. Permission errors remain visible rather than falling back to a simulated recording.
+
+RecorderManager is a global singleton. The example registers native listeners once, routes them to the current owner, and releases ownership when the screen closes. Pause/interruption stops the recording. Pending permission resolution cannot start recording after disposal. Page hide and unmount stop recording, abort audio requests and destroy playback.
+
+## Waveform limitations
+
+Soundwave draws the provided level; it does not record audio. MP3 bytes are compressed audio and cannot be treated as PCM amplitudes. The screen therefore labels its slider as a **manual wave preview** and does not claim microphone metering. A platform-specific PCM capture and validated level adapter would be needed for a measured microphone waveform.
+
+## Transcription and speech
+
+Configure the optional server audio models described in [Setup](/docs/ai/setup). **Read last answer · AI voice** sends the last complete connected answer to the speech endpoint and plays its MP3. The button identifies the voice as generated audio; text over 4,000 characters is not sent. Generated files are removed when audio is cancelled or the screen closes.
+
+This is a voice-note workflow, not a realtime duplex voice agent: recording, reviewing, transcription and sending remain explicit user actions. It does not perform voice activity detection, realtime speech transport or background recording.
+
+Verify microphone denial, settings recovery, interruptions, automatic duration stop, repeated open/close, file playback and background transitions on iOS and Android. An automated recorder mock does not prove hardware behavior or provider audio compatibility.

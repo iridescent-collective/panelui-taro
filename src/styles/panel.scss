@@ -1,0 +1,523 @@
+@use "./toast";
+@use "./portal";
+@use "./fonts";
+@use "./section-progress";
+@use "./file-upload";
+@use "./section-rail";
+@use "./tag-input";
+@use "./otp-input";
+@use "./animated-badge";
+@use "./image-generation";
+@use "dialog";
+@use "shimmer";
+@use "countdown";
+@use "./variant-opacity.scss";
+.panelui-theme {
+  font-family: var(
+    --panel-font-normal,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "PingFang SC",
+    sans-serif
+  );
+  --panel-background: #ffffff;
+  --panel-foreground: #262626;
+  --panel-card: #ffffff;
+  --panel-card-foreground: #262626;
+  --panel-popover: #ffffff;
+  --panel-popover-foreground: #262626;
+  --panel-overlay: #ffffff;
+  --panel-overlay-foreground: #262626;
+  --panel-inset: rgba(0, 0, 0, 0.035);
+  --panel-primary: #262626;
+  --panel-primary-foreground: #fafafa;
+  --panel-secondary: rgba(0, 0, 0, 0.06);
+  --panel-secondary-foreground: #262626;
+  --panel-muted: rgba(0, 0, 0, 0.06);
+  --panel-muted-foreground: #686868;
+  --panel-accent: rgba(0, 0, 0, 0.06);
+  --panel-accent-foreground: #262626;
+  --panel-destructive: #ef4444;
+  --panel-destructive-foreground: #b91c1c;
+  --panel-destructive-solid-foreground: #171717;
+  --panel-info: #3b82f6;
+  --panel-info-foreground: #1d4ed8;
+  --panel-info-solid-foreground: #171717;
+  --panel-success: #10b981;
+  --panel-success-foreground: #047857;
+  --panel-success-solid-foreground: #171717;
+  --panel-warning: #f59e0b;
+  --panel-warning-foreground: #b45309;
+  --panel-warning-solid-foreground: #171717;
+  --panel-border: rgba(0, 0, 0, 0.08);
+  --panel-input: rgba(0, 0, 0, 0.1);
+  --panel-ring: #a3a3a3;
+  --panel-surface: #f7f7f7;
+  --panel-surface-secondary: #f1f1f1;
+  --panel-surface-tertiary: #eaeaea;
+  --panel-skeleton: rgba(0, 0, 0, 0.1);
+  --panel-info-soft: rgba(59, 130, 246, 0.1);
+  --panel-info-subtle: rgba(59, 130, 246, 0.08);
+  --panel-success-soft: rgba(16, 185, 129, 0.1);
+  --panel-success-subtle: rgba(16, 185, 129, 0.08);
+  --panel-warning-soft: rgba(245, 158, 11, 0.1);
+  --panel-warning-subtle: rgba(245, 158, 11, 0.08);
+  --panel-destructive-soft: rgba(239, 68, 68, 0.1);
+  --panel-destructive-subtle: rgba(239, 68, 68, 0.08);
+  --panel-code-keyword: #8250df;
+  --panel-code-string: #0a7d55;
+  --panel-code-number: #0550ae;
+  --panel-code-comment: #8b949e;
+  --panel-code-function: #6639ba;
+  --panel-code-property: #953800;
+  --panel-code-punctuation: #57606a;
+  --panel-code-inserted: #0a7d55;
+  --panel-code-deleted: #cf222e;
+  --panel-chart-1: #262626;
+  --panel-chart-2: #3b82f6;
+  --panel-chart-3: #10b981;
+  --panel-chart-4: #f59e0b;
+  --panel-chart-5: #8b5cf6;
+  --panel-radius-xs: 8rpx;
+  --panel-radius-sm: 12rpx;
+  --panel-radius-md: 16rpx;
+  --panel-radius-lg: 20rpx;
+  --panel-radius-xl: 28rpx;
+  --panel-radius-2xl: 32rpx;
+  --panel-radius-3xl: 48rpx;
+  --panel-primary-track: rgba(250, 250, 250, 0.32);
+  --panel-primary-subtle: rgba(38, 38, 38, 0.16);
+  color: var(--panel-foreground);
+  background: var(--panel-background);
+}
+
+.panelui-button {
+  line-height: 1.5;
+  transition: transform 120ms ease-out;
+}
+.panelui-button::after {
+  border: 0;
+}
+.panelui-button-pressed {
+  transform: scale(0.97);
+}
+.panelui-spin {
+  animation: panelui-spin 800ms linear infinite;
+}
+.panelui-pulse {
+  animation: panelui-pulse 900ms ease-in-out infinite alternate;
+}
+.panelui-progress-transition {
+  transition: width 220ms ease-out;
+}
+.panelui-progress-sweep {
+  animation: panelui-progress-sweep 1100ms ease-in-out infinite;
+}
+.panelui-progress-sweep--rtl {
+  animation-direction: reverse;
+}
+.panelui-reduced-motion .panelui-button {
+  transition: none;
+}
+.panelui-reduced-motion .panelui-button-pressed {
+  transform: none;
+}
+@keyframes panelui-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes panelui-pulse {
+  to {
+    opacity: 0.35;
+  }
+}
+@keyframes panelui-progress-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+.panelui-button-attached-pressed {
+  background: var(--panel-accent);
+}
+.panelui-skeleton-pulse {
+  animation: panelui-skeleton-pulse 700ms ease-in-out infinite alternate;
+}
+@keyframes panelui-skeleton-pulse {
+  to {
+    opacity: 0.45;
+  }
+}
+
+.panelui-theme--dark {
+  --panel-background: #141414;
+  --panel-foreground: #f5f5f5;
+  --panel-card: #191919;
+  --panel-card-foreground: #f5f5f5;
+  --panel-popover: #1d1d1d;
+  --panel-popover-foreground: #f5f5f5;
+  --panel-overlay: #232323;
+  --panel-overlay-foreground: #f5f5f5;
+  --panel-inset: rgba(0, 0, 0, 0.22);
+  --panel-primary: #f5f5f5;
+  --panel-primary-foreground: #262626;
+  --panel-secondary: rgba(255, 255, 255, 0.08);
+  --panel-secondary-foreground: #f5f5f5;
+  --panel-muted: rgba(255, 255, 255, 0.08);
+  --panel-muted-foreground: #878787;
+  --panel-accent: rgba(255, 255, 255, 0.08);
+  --panel-accent-foreground: #f5f5f5;
+  --panel-destructive: #f15757;
+  --panel-destructive-foreground: #f87171;
+  --panel-destructive-solid-foreground: #171717;
+  --panel-info: #3b82f6;
+  --panel-info-foreground: #60a5fa;
+  --panel-info-solid-foreground: #171717;
+  --panel-success: #10b981;
+  --panel-success-foreground: #34d399;
+  --panel-success-solid-foreground: #171717;
+  --panel-warning: #f59e0b;
+  --panel-warning-foreground: #fbbf24;
+  --panel-warning-solid-foreground: #171717;
+  --panel-border: rgba(255, 255, 255, 0.06);
+  --panel-input: rgba(255, 255, 255, 0.08);
+  --panel-ring: #737373;
+  --panel-surface: #1c1c1c;
+  --panel-surface-secondary: #222222;
+  --panel-surface-tertiary: #282828;
+  --panel-skeleton: rgba(255, 255, 255, 0.13);
+  --panel-info-soft: rgba(59, 130, 246, 0.06);
+  --panel-info-subtle: rgba(59, 130, 246, 0.16);
+  --panel-success-soft: rgba(16, 185, 129, 0.06);
+  --panel-success-subtle: rgba(16, 185, 129, 0.16);
+  --panel-warning-soft: rgba(245, 158, 11, 0.06);
+  --panel-warning-subtle: rgba(245, 158, 11, 0.16);
+  --panel-destructive-soft: rgba(241, 87, 87, 0.06);
+  --panel-destructive-subtle: rgba(241, 87, 87, 0.16);
+  --panel-code-keyword: #d2a8ff;
+  --panel-code-string: #7ee787;
+  --panel-code-number: #79c0ff;
+  --panel-code-comment: #8b949e;
+  --panel-code-function: #d2a8ff;
+  --panel-code-property: #ffa657;
+  --panel-code-punctuation: #8b949e;
+  --panel-code-inserted: #7ee787;
+  --panel-code-deleted: #ff7b72;
+  --panel-chart-1: #fafafa;
+  --panel-chart-2: #60a5fa;
+  --panel-chart-3: #34d399;
+  --panel-chart-4: #fbbf24;
+  --panel-chart-5: #a78bfa;
+  --panel-radius-xs: 8rpx;
+  --panel-radius-sm: 12rpx;
+  --panel-radius-md: 16rpx;
+  --panel-radius-lg: 20rpx;
+  --panel-radius-xl: 28rpx;
+  --panel-radius-2xl: 32rpx;
+  --panel-radius-3xl: 48rpx;
+}
+
+.panelui-theme--moon {
+  --panel-background: #ffffff;
+  --panel-foreground: #08090a;
+  --panel-card: #ffffff;
+  --panel-card-foreground: #08090a;
+  --panel-popover: #ffffff;
+  --panel-popover-foreground: #08090a;
+  --panel-overlay: #ffffff;
+  --panel-overlay-foreground: #08090a;
+  --panel-inset: rgba(0, 0, 0, 0.035);
+  --panel-primary: #5e6ad2;
+  --panel-primary-foreground: #ffffff;
+  --panel-secondary: rgba(0, 0, 0, 0.05);
+  --panel-secondary-foreground: #08090a;
+  --panel-muted: rgba(0, 0, 0, 0.05);
+  --panel-muted-foreground: #6b6f76;
+  --panel-accent: rgba(0, 0, 0, 0.06);
+  --panel-accent-foreground: #08090a;
+  --panel-destructive: #eb5757;
+  --panel-destructive-foreground: #c62b30;
+  --panel-destructive-solid-foreground: #08090a;
+  --panel-info: #4ea7fc;
+  --panel-info-foreground: #0b6ec4;
+  --panel-info-solid-foreground: #08090a;
+  --panel-success: #27a644;
+  --panel-success-foreground: #1c7a32;
+  --panel-success-solid-foreground: #08090a;
+  --panel-warning: #f2c94c;
+  --panel-warning-foreground: #8a6d0b;
+  --panel-warning-solid-foreground: #08090a;
+  --panel-border: rgba(0, 0, 0, 0.08);
+  --panel-input: rgba(0, 0, 0, 0.12);
+  --panel-ring: #5e6ad2;
+  --panel-surface: #f5f6f6;
+  --panel-surface-secondary: #f6f7f7;
+  --panel-surface-tertiary: #eeeff1;
+  --panel-skeleton: rgba(0, 0, 0, 0.07);
+  --panel-info-soft: rgba(78, 167, 252, 0.1);
+  --panel-info-subtle: rgba(78, 167, 252, 0.08);
+  --panel-success-soft: rgba(39, 166, 68, 0.1);
+  --panel-success-subtle: rgba(39, 166, 68, 0.08);
+  --panel-warning-soft: rgba(242, 201, 76, 0.14);
+  --panel-warning-subtle: rgba(242, 201, 76, 0.1);
+  --panel-destructive-soft: rgba(235, 87, 87, 0.1);
+  --panel-destructive-subtle: rgba(235, 87, 87, 0.08);
+  --panel-code-keyword: #5e6ad2;
+  --panel-code-string: #1c7a32;
+  --panel-code-number: #0b6ec4;
+  --panel-code-comment: #8a8f98;
+  --panel-code-function: #6639ba;
+  --panel-code-property: #953800;
+  --panel-code-punctuation: #62666d;
+  --panel-code-inserted: #1c7a32;
+  --panel-code-deleted: #cf222e;
+  --panel-chart-1: #5e6ad2;
+  --panel-chart-2: #4ea7fc;
+  --panel-chart-3: #27a644;
+  --panel-chart-4: #f2c94c;
+  --panel-chart-5: #7a7fad;
+  --panel-radius-xs: 8rpx;
+  --panel-radius-sm: 12rpx;
+  --panel-radius-md: 16rpx;
+  --panel-radius-lg: 24rpx;
+  --panel-radius-xl: 32rpx;
+  --panel-radius-2xl: 48rpx;
+  --panel-radius-3xl: 64rpx;
+}
+
+.panelui-theme--moon-dark {
+  --panel-background: #010102;
+  --panel-foreground: #f7f8f8;
+  --panel-card: #0f1011;
+  --panel-card-foreground: #f7f8f8;
+  --panel-popover: #141516;
+  --panel-popover-foreground: #f7f8f8;
+  --panel-overlay: #18191a;
+  --panel-overlay-foreground: #f7f8f8;
+  --panel-inset: rgba(0, 0, 0, 0.22);
+  --panel-primary: #5e6ad2;
+  --panel-primary-foreground: #ffffff;
+  --panel-secondary: rgba(255, 255, 255, 0.06);
+  --panel-secondary-foreground: #f7f8f8;
+  --panel-muted: rgba(255, 255, 255, 0.06);
+  --panel-muted-foreground: #8a8f98;
+  --panel-accent: rgba(255, 255, 255, 0.08);
+  --panel-accent-foreground: #f7f8f8;
+  --panel-destructive: #eb5757;
+  --panel-destructive-foreground: #ff8a8a;
+  --panel-destructive-solid-foreground: #08090a;
+  --panel-info: #4ea7fc;
+  --panel-info-foreground: #8ec5ff;
+  --panel-info-solid-foreground: #08090a;
+  --panel-success: #27a644;
+  --panel-success-foreground: #4cc061;
+  --panel-success-solid-foreground: #08090a;
+  --panel-warning: #f2c94c;
+  --panel-warning-foreground: #f5d97a;
+  --panel-warning-solid-foreground: #08090a;
+  --panel-border: #23252a;
+  --panel-input: #34343a;
+  --panel-ring: #5e6ad2;
+  --panel-surface: #0f1011;
+  --panel-surface-secondary: #141516;
+  --panel-surface-tertiary: #18191a;
+  --panel-skeleton: rgba(255, 255, 255, 0.08);
+  --panel-info-soft: rgba(78, 167, 252, 0.16);
+  --panel-info-subtle: rgba(78, 167, 252, 0.1);
+  --panel-success-soft: rgba(39, 166, 68, 0.18);
+  --panel-success-subtle: rgba(39, 166, 68, 0.12);
+  --panel-warning-soft: rgba(242, 201, 76, 0.16);
+  --panel-warning-subtle: rgba(242, 201, 76, 0.1);
+  --panel-destructive-soft: rgba(235, 87, 87, 0.16);
+  --panel-destructive-subtle: rgba(235, 87, 87, 0.1);
+  --panel-code-keyword: #828fff;
+  --panel-code-string: #4cc061;
+  --panel-code-number: #8ec5ff;
+  --panel-code-comment: #62666d;
+  --panel-code-function: #d2a8ff;
+  --panel-code-property: #ffa657;
+  --panel-code-punctuation: #8a8f98;
+  --panel-code-inserted: #4cc061;
+  --panel-code-deleted: #ff8a8a;
+  --panel-chart-1: #5e6ad2;
+  --panel-chart-2: #4ea7fc;
+  --panel-chart-3: #27a644;
+  --panel-chart-4: #f2c94c;
+  --panel-chart-5: #7a7fad;
+  --panel-radius-xs: 8rpx;
+  --panel-radius-sm: 12rpx;
+  --panel-radius-md: 16rpx;
+  --panel-radius-lg: 24rpx;
+  --panel-radius-xl: 32rpx;
+  --panel-radius-2xl: 48rpx;
+  --panel-radius-3xl: 64rpx;
+}
+
+.panelui-theme--grass {
+  --panel-background: #ffffff;
+  --panel-foreground: #171717;
+  --panel-card: #ffffff;
+  --panel-card-foreground: #171717;
+  --panel-popover: #ffffff;
+  --panel-popover-foreground: #171717;
+  --panel-overlay: #ffffff;
+  --panel-overlay-foreground: #171717;
+  --panel-inset: rgba(0, 0, 0, 0.035);
+  --panel-primary: #24b47e;
+  --panel-primary-foreground: #052e1b;
+  --panel-secondary: rgba(0, 0, 0, 0.05);
+  --panel-secondary-foreground: #171717;
+  --panel-muted: rgba(0, 0, 0, 0.05);
+  --panel-muted-foreground: #707070;
+  --panel-accent: rgba(62, 207, 142, 0.1);
+  --panel-accent-foreground: #16794c;
+  --panel-destructive: #ef4444;
+  --panel-destructive-foreground: #b91c1c;
+  --panel-destructive-solid-foreground: #171717;
+  --panel-info: #3b82f6;
+  --panel-info-foreground: #1d4ed8;
+  --panel-info-solid-foreground: #171717;
+  --panel-success: #24b47e;
+  --panel-success-foreground: #16794c;
+  --panel-success-solid-foreground: #171717;
+  --panel-warning: #f59e0b;
+  --panel-warning-foreground: #b45309;
+  --panel-warning-solid-foreground: #171717;
+  --panel-border: rgba(0, 0, 0, 0.08);
+  --panel-input: rgba(0, 0, 0, 0.1);
+  --panel-ring: #3ecf8e;
+  --panel-surface: #f8f9fa;
+  --panel-surface-secondary: #f1f3f5;
+  --panel-surface-tertiary: #e9ecef;
+  --panel-skeleton: rgba(0, 0, 0, 0.08);
+  --panel-info-soft: rgba(59, 130, 246, 0.1);
+  --panel-info-subtle: rgba(59, 130, 246, 0.08);
+  --panel-success-soft: rgba(36, 180, 126, 0.1);
+  --panel-success-subtle: rgba(36, 180, 126, 0.08);
+  --panel-warning-soft: rgba(245, 158, 11, 0.1);
+  --panel-warning-subtle: rgba(245, 158, 11, 0.08);
+  --panel-destructive-soft: rgba(239, 68, 68, 0.1);
+  --panel-destructive-subtle: rgba(239, 68, 68, 0.08);
+  --panel-code-keyword: #8250df;
+  --panel-code-string: #0a7d55;
+  --panel-code-number: #0550ae;
+  --panel-code-comment: #8b949e;
+  --panel-code-function: #6639ba;
+  --panel-code-property: #953800;
+  --panel-code-punctuation: #57606a;
+  --panel-code-inserted: #0a7d55;
+  --panel-code-deleted: #cf222e;
+  --panel-chart-1: #24b47e;
+  --panel-chart-2: #1f2937;
+  --panel-chart-3: #2563eb;
+  --panel-chart-4: #f59e0b;
+  --panel-chart-5: #db2777;
+  --panel-radius-xs: 12rpx;
+  --panel-radius-sm: 16rpx;
+  --panel-radius-md: 24rpx;
+  --panel-radius-lg: 28rpx;
+  --panel-radius-xl: 36rpx;
+  --panel-radius-2xl: 44rpx;
+  --panel-radius-3xl: 56rpx;
+}
+
+.panelui-theme--grass-dark {
+  --panel-background: #1c1c1c;
+  --panel-foreground: #ededed;
+  --panel-card: #1f1f1f;
+  --panel-card-foreground: #ededed;
+  --panel-popover: #232323;
+  --panel-popover-foreground: #ededed;
+  --panel-overlay: #2a2a2a;
+  --panel-overlay-foreground: #ededed;
+  --panel-inset: rgba(0, 0, 0, 0.22);
+  --panel-primary: #3ecf8e;
+  --panel-primary-foreground: #052e1b;
+  --panel-secondary: rgba(255, 255, 255, 0.07);
+  --panel-secondary-foreground: #ededed;
+  --panel-muted: rgba(255, 255, 255, 0.07);
+  --panel-muted-foreground: #8f8f8f;
+  --panel-accent: rgba(62, 207, 142, 0.12);
+  --panel-accent-foreground: #3ecf8e;
+  --panel-destructive: #f15757;
+  --panel-destructive-foreground: #f87171;
+  --panel-destructive-solid-foreground: #171717;
+  --panel-info: #3b82f6;
+  --panel-info-foreground: #60a5fa;
+  --panel-info-solid-foreground: #171717;
+  --panel-success: #3ecf8e;
+  --panel-success-foreground: #4ade80;
+  --panel-success-solid-foreground: #171717;
+  --panel-warning: #f59e0b;
+  --panel-warning-foreground: #fbbf24;
+  --panel-warning-solid-foreground: #171717;
+  --panel-border: rgba(255, 255, 255, 0.07);
+  --panel-input: rgba(255, 255, 255, 0.1);
+  --panel-ring: #3ecf8e;
+  --panel-surface: #242424;
+  --panel-surface-secondary: #2a2a2a;
+  --panel-surface-tertiary: #303030;
+  --panel-skeleton: rgba(255, 255, 255, 0.11);
+  --panel-info-soft: rgba(59, 130, 246, 0.08);
+  --panel-info-subtle: rgba(59, 130, 246, 0.16);
+  --panel-success-soft: rgba(62, 207, 142, 0.08);
+  --panel-success-subtle: rgba(62, 207, 142, 0.16);
+  --panel-warning-soft: rgba(245, 158, 11, 0.08);
+  --panel-warning-subtle: rgba(245, 158, 11, 0.16);
+  --panel-destructive-soft: rgba(241, 87, 87, 0.08);
+  --panel-destructive-subtle: rgba(241, 87, 87, 0.16);
+  --panel-code-keyword: #d2a8ff;
+  --panel-code-string: #7ee787;
+  --panel-code-number: #79c0ff;
+  --panel-code-comment: #8b949e;
+  --panel-code-function: #d2a8ff;
+  --panel-code-property: #ffa657;
+  --panel-code-punctuation: #8b949e;
+  --panel-code-inserted: #7ee787;
+  --panel-code-deleted: #ff7b72;
+  --panel-chart-1: #3ecf8e;
+  --panel-chart-2: #ededed;
+  --panel-chart-3: #60a5fa;
+  --panel-chart-4: #fbbf24;
+  --panel-chart-5: #f472b6;
+  --panel-radius-xs: 12rpx;
+  --panel-radius-sm: 16rpx;
+  --panel-radius-md: 24rpx;
+  --panel-radius-lg: 28rpx;
+  --panel-radius-xl: 36rpx;
+  --panel-radius-2xl: 44rpx;
+  --panel-radius-3xl: 56rpx;
+}
+
+.panelui-background-transparent {
+  background: transparent;
+}
+.panelui-button-native {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+}
+.panelui-button-hit-area {
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  opacity: 0;
+}
+.panelui-button-hit-area::after {
+  border: 0;
+}
+.panelui-button {
+  position: relative;
+  z-index: 1;
+}
+
+.panelui-button {
+  overflow: visible;
+}

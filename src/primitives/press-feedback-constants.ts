@@ -1,0 +1,1 @@
+export const PRESS_RELEASE_DURATION = 240;

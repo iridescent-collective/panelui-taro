@@ -1,0 +1,58 @@
+---
+title: "Installation"
+description: "Install the package with Taro, Tailwind and WeChat."
+---
+
+## Add the package
+
+Before the first npm release, run `pnpm pack` at the repository root and install the resulting archive in your mini-program app. After publication, use `pnpm add panelui-taro`:
+
+```sh
+pnpm add /absolute/path/panelui-taro-1.0.0.tgz
+```
+
+The supported example configuration uses Taro 4.2 and React 18. Keep the host and library on the same Taro runtime; the documentation site uses React 19 independently. Install the workspace from the repository root with `pnpm install`.
+
+## Provider and styles
+
+```tsx
+import { PanelUIProvider } from "panelui-taro/provider";
+import { Button } from "panelui-taro/button";
+import "panelui-taro/styles";
+
+export function Example() {
+  return (
+    <PanelUIProvider>
+      <Button>Continue</Button>
+    </PanelUIProvider>
+  );
+}
+```
+
+Load the exported stylesheet once from the app stylesheet or entry. Import components through public subpaths rather than a root barrel.
+
+## Tailwind and WXSS
+
+The working reference is `example/config/index.ts` and `example/src/styles/tailwind.css`. Copy their integration when creating a new host; a default Taro installation alone does not set up Tailwind, WXSS escaping or workspace component templates.
+
+Include the library source in the Tailwind v4 scan. Resolve the path relative to your own CSS entry:
+
+```css
+@import "weapp-tailwindcss/index.css";
+@source "../../node_modules/panelui-taro/src";
+@source "../";
+```
+
+That example path is for a CSS entry in `src/styles/`. Adjust it for another host. Use `weapp-tailwindcss` to escape generated classes and apply the same workspace WeChat component-template adapter as the standalone example.
+
+## Taro configuration
+
+Use `designWidth: 750` and `mini.runtime.enableMutationObserver: true`. Logical Native dimensions convert to twice their value in the 750-unit design space. Keep the accessibility template aligned with Taro’s supported runtime properties.
+
+The example contains the required PostCSS ordering, source scan and output fixups. Follow [the example guide](/docs/example) before integrating with a production app.
+
+## Installing a packed release
+
+For an external Taro project, install the locally packed archive with `pnpm add /absolute/path/panelui-taro-1.0.0.tgz`. Run `pnpm --filter panelui-taro verify:consumer` to generate and verify an independent project outside this workspace. Its configuration is retained at `test/fixtures/packed-consumer`.
+
+Scan `node_modules/panelui-taro/src` from the host's Tailwind entry and retain the semantic `@theme` mappings. Resolve the exported accessibility build plugin with `require.resolve("panelui-taro/platform/taro-plugin-weapp-accessibility")`; align runtime accessibility properties as shown in the fixture. The compatible variants implementation ships inside the package, so consumers need no variants pnpm patch. The normal host `weapp-tailwindcss` setup and patch command are still required.

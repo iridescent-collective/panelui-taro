@@ -1,0 +1,31 @@
+---
+title: "图标"
+description: "源自 Native 的图标导出、尺寸、描边与方向行为。"
+---
+
+## 导入图标
+
+```tsx
+import { HeartIcon, ChevronRightIcon } from "panelui-taro/icons";
+
+<HeartIcon size={24} strokeWidth={2} filled />
+<ChevronRightIcon size={24} />
+```
+
+当前图标集有 **123 个导出名称，包含别名**。仅支持的图标提供填充态；方向图标可以镜像以适配 RTL。
+
+## 微信预览
+
+打开 `/customization/icons/index`。按导出名称搜索、调整尺寸和描边、切换受支持的填充状态，并复制 JSX。图标集包含四个 Camera 图标；方向预览通过公共工厂创建自定义字形。
+
+## 添加字形
+
+`icon()` 和 `createIcon()` 是同一个工厂。从项目已声明的依赖导入字形，生成的组件支持内置图标相同的尺寸、颜色、描边、填充和宿主属性。颜色优先级为显式属性、Provider、默认值；`flip: true` 启用 RTL 镜像，`fillable: true` 启用填充切换。
+
+```tsx
+import ArrowGlyph from "@hugeicons/core-free-icons/ArrowRight01Icon";
+import { icon, type IconDefaults } from "panelui-taro/icons";
+
+const defaults: IconDefaults = { size: 24, color: "#737373", flip: true };
+export const CustomArrowIcon = icon(ArrowGlyph, defaults);
+```

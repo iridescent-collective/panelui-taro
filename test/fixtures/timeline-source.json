@@ -1,0 +1,135 @@
+{
+  "commit": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "offsets": [
+    {
+      "input": [],
+      "result": []
+    },
+    {
+      "input": [76],
+      "result": [0]
+    },
+    {
+      "input": [268, 76, 268],
+      "result": [0, 268, 344]
+    },
+    {
+      "input": [140, 320, 1],
+      "result": [0, 140, 460]
+    },
+    {
+      "input": [76, 76, 268, 76, 268, 268],
+      "result": [0, 76, 152, 420, 496, 764]
+    },
+    {
+      "input": [0.5, 1.5, 268],
+      "result": [0, 0.5, 2]
+    },
+    {
+      "input": [320, 140, 76],
+      "result": [0, 320, 460]
+    }
+  ],
+  "widths": [
+    {
+      "filled": false,
+      "requested": "undefined",
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": "undefined",
+      "result": 268
+    },
+    {
+      "filled": false,
+      "requested": -1,
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": -1,
+      "result": 268
+    },
+    {
+      "filled": false,
+      "requested": 0,
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": 0,
+      "result": 268
+    },
+    {
+      "filled": false,
+      "requested": 1,
+      "result": 1
+    },
+    {
+      "filled": true,
+      "requested": 1,
+      "result": 1
+    },
+    {
+      "filled": false,
+      "requested": 76,
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": 76,
+      "result": 76
+    },
+    {
+      "filled": false,
+      "requested": 140,
+      "result": 140
+    },
+    {
+      "filled": true,
+      "requested": 140,
+      "result": 140
+    },
+    {
+      "filled": false,
+      "requested": 268,
+      "result": 268
+    },
+    {
+      "filled": true,
+      "requested": 268,
+      "result": 268
+    },
+    {
+      "filled": false,
+      "requested": 320,
+      "result": 320
+    },
+    {
+      "filled": true,
+      "requested": 320,
+      "result": 320
+    },
+    {
+      "filled": false,
+      "requested": "NaN",
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": "NaN",
+      "result": 268
+    },
+    {
+      "filled": false,
+      "requested": "Infinity",
+      "result": 76
+    },
+    {
+      "filled": true,
+      "requested": "Infinity",
+      "result": 268
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+---
+title: "Chat UI"
+description: "Compose existing PanelUI components around the example conversation driver."
+---
+
+`example/src/components/AIChatTemplate/index.tsx` composes the existing header, history, composer, transcript and voice screen. The runnable route is `/showcases/ai/index`.
+
+## Message rendering
+
+`hooks/use-chat-demo.ts` retains the deterministic prepared-reply driver and adds a connected transport. Each turn records which driver produced it, so opening old local sessions cannot relabel prepared replies as live inference. Only connected turns are included in a connected request.
+
+`services/reduce-event.ts` builds immutable ordered parts. Adjacent text deltas merge; tool updates replace the same tool ID without changing its position. `components/LiveBody` renders those parts with Message, Response and Task, then gathers sources below the answer. Response already renders fenced code through CodeBlock. A reasoning trace appears only if one was received. Demo plans, code samples and sources are never appended to connected replies.
+
+## Interaction lifecycle
+
+- Blank messages and duplicate sends while busy are rejected.
+- Stop flushes pending text before aborting; partial text remains visible.
+- Retry replaces the last assistant turn and sends history through the preceding user message.
+- Switching conversations, starting a new one, hiding the page and unmounting cancel the active stream.
+- A generation counter rejects callbacks belonging to an older stream.
+- Completed turns retain stable object references, and only the newest turn receives the busy flag.
+
+## Composer and keyboard
+
+The existing PageLayout footer and AIInput keyboard avoidance remain in use. MessageScroller supplies the transcript and jump-to-latest control. These are Taro adaptations; there is no React Native FlatList or claim of equivalent native row recycling. Verify keyboard overlap and scrolling in Developer Tools and on phones.
+
+The included brief is a fixed sample, not an upload. In connected mode its short text is included in the user message when selected. Voice transcription returns editable text to the draft and never sends it automatically. Conversations and drafts live in memory, without persistent storage.

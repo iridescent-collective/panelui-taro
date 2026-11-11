@@ -1,0 +1,21 @@
+---
+title: "Tools"
+description: "Execute a small allowlisted tool on the server and render its lifecycle."
+---
+
+Ask the connected assistant to find PanelUI voice, tools or chat documentation. The example exposes one server tool: `findPanelUIDocs`, with a `topic` enum of `chat-ui`, `tools` or `voice`.
+
+The tool searches a fixed local index of official links. It does not fetch those pages, perform web search, inspect business data or execute arbitrary model-generated code. Sources are those returned links, not fabricated citations.
+
+## Lifecycle
+
+| Stream state | Task status | Meaning |
+| --- | --- | --- |
+| `input-streaming` | pending | Tool name/arguments are still arriving |
+| `input-available` | running | Server is validating and executing the call |
+| `output-available` | complete | Result is available and returned to the model |
+| `output-error` | error | Tool name or arguments were rejected |
+
+Tool fragments are joined by provider call index; client IDs include the step number. Text before and after a tool remains in order. The server returns the result through a tool message and requests the next model step, with a maximum of five steps. Unknown tools are not executed, and arguments are parsed and validated before use.
+
+To add a real application tool, define its schema and implementation on your own server, apply user authorization there, and return a serializable display result. Keep database access, secrets and mutations out of the component package. The example's custom stream is documented in [API route](/docs/ai/api-route).

@@ -1,0 +1,23 @@
+---
+title: "Colors"
+description: "Semantic tokens shared by components, overlays and charts."
+---
+
+## Semantic roles
+
+Use `--panel-background`, `--panel-foreground`, `--panel-primary`, `--panel-primary-foreground`, `--panel-muted`, `--panel-border` and status roles instead of literal colors in reusable components. The six built-in themes define their values.
+
+```tsx
+import { useThemeToken } from "panelui-taro/theme";
+const primary = useThemeToken("primary");
+```
+
+Use hooks inside a React component or custom hook. JavaScript-drawn graphics read these resolved tokens too. Register shared token changes with `registerTheme` so WXSS and graphics agree.
+
+## Custom palettes
+
+A definition extends a built-in theme, validates token names and literal colors, and derives opacity aliases. See [Theming](/docs/customization/theming) to register light/dark variants and a family.
+
+## Try it in WeChat
+
+Open `/customization/colors/index` in the example. Switch families and modes, inspect the palette and copy a token. This route renders actual Taro controls and shared theme values.

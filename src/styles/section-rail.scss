@@ -1,0 +1,50 @@
+.panelui-sectionrail-root > * {
+  pointer-events: auto;
+}
+.panelui-sectionrail-item-active {
+  background-color: var(--panel-accent);
+}
+@keyframes panel-sectionrail-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes panel-sectionrail-exit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes panel-sectionrail-slide-right {
+  from {
+    transform: translateX(32rpx);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes panel-sectionrail-slide-left {
+  from {
+    transform: translateX(-32rpx);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.panelui-sectionrail-enter {
+  animation: panel-sectionrail-enter 140ms ease-out;
+}
+.panelui-sectionrail-exit {
+  animation: panel-sectionrail-exit 120ms ease-out forwards;
+}
+.panelui-sectionrail-slide-right {
+  animation: panel-sectionrail-slide-right 180ms ease-in-out;
+}
+.panelui-sectionrail-slide-left {
+  animation: panel-sectionrail-slide-left 180ms ease-in-out;
+}

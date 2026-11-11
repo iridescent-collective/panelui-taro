@@ -1,0 +1,5715 @@
+{
+  "domains": [
+    {
+      "data": [],
+      "expected": 1,
+      "keys": []
+    },
+    {
+      "data": [],
+      "expected": 73,
+      "keys": [],
+      "maxValue": 73
+    },
+    {
+      "data": [],
+      "expected": 1,
+      "keys": ["a"]
+    },
+    {
+      "data": [],
+      "expected": 73,
+      "keys": ["a"],
+      "maxValue": 73
+    },
+    {
+      "data": [],
+      "expected": 1,
+      "keys": ["a", "b"]
+    },
+    {
+      "data": [],
+      "expected": 73,
+      "keys": ["a", "b"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 1,
+      "keys": []
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": [],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 20,
+      "keys": ["a"]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": ["a"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 40,
+      "keys": ["a", "b"]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": ["a", "b"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 1,
+      "keys": []
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": [],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 1,
+      "keys": ["a"]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": ["a"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 40,
+      "keys": ["a", "b"]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "expected": 73,
+      "keys": ["a", "b"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 1,
+      "keys": []
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 73,
+      "keys": [],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 1,
+      "keys": ["a"]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 73,
+      "keys": ["a"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 1,
+      "keys": ["a", "b"]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "expected": 73,
+      "keys": ["a", "b"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 1,
+      "keys": []
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 73,
+      "keys": [],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 1,
+      "keys": ["a"]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 73,
+      "keys": ["a"],
+      "maxValue": 73
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 8,
+      "keys": ["a", "b"]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "expected": 73,
+      "keys": ["a", "b"],
+      "maxValue": 73
+    }
+  ],
+  "frames": [
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L150.8068181818182,33.125Q147.4318181818182,33.125 147.4318181818182,36.5L147.4318181818182,36.5Q147.4318181818182,39.875 150.8068181818182,39.875L167,39.875ZM167,62.125L143.8181818181818,62.125Q140.4431818181818,62.125 140.4431818181818,65.5L140.4431818181818,65.5Q140.4431818181818,68.875 143.8181818181818,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L150.8068181818182,33.125Q147.4318181818182,33.125 147.4318181818182,36.5L147.4318181818182,36.5Q147.4318181818182,39.875 150.8068181818182,39.875L167,39.875Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,62.125L143.8181818181818,62.125Q140.4431818181818,62.125 140.4431818181818,65.5L140.4431818181818,65.5Q140.4431818181818,68.875 143.8181818181818,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L139.625,33.125Q136.25,33.125 136.25,36.5L136.25,36.5Q136.25,39.875 139.625,39.875L167,39.875ZM167,62.125L108.875,62.125Q105.5,62.125 105.5,65.5L105.5,65.5Q105.5,68.875 108.875,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L139.625,33.125Q136.25,33.125 136.25,36.5L136.25,36.5Q136.25,39.875 139.625,39.875L167,39.875Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,62.125L108.875,62.125Q105.5,62.125 105.5,65.5L105.5,65.5Q105.5,68.875 108.875,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,20.5L121.1590909090909,20.5Q117.1590909090909,20.5 117.1590909090909,24.5L117.1590909090909,28.5Q117.1590909090909,32.5 121.1590909090909,32.5L131,32.5ZM131,49.5L116.2159090909091,49.5Q112.2159090909091,49.5 112.2159090909091,53.5L112.2159090909091,57.5Q112.2159090909091,61.5 116.2159090909091,61.5L131,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,20.5L121.1590909090909,20.5Q117.1590909090909,20.5 117.1590909090909,24.5L117.1590909090909,28.5Q117.1590909090909,32.5 121.1590909090909,32.5L131,32.5Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,49.5L116.2159090909091,49.5Q112.2159090909091,49.5 112.2159090909091,53.5L112.2159090909091,57.5Q112.2159090909091,61.5 116.2159090909091,61.5L131,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,20.5L113.25,20.5Q109.25,20.5 109.25,24.5L109.25,28.5Q109.25,32.5 113.25,32.5L131,32.5ZM131,49.5L91.5,49.5Q87.5,49.5 87.5,53.5L87.5,57.5Q87.5,61.5 91.5,61.5L131,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,20.5L113.25,20.5Q109.25,20.5 109.25,24.5L109.25,28.5Q109.25,32.5 113.25,32.5L131,32.5Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,49.5L91.5,49.5Q87.5,49.5 87.5,53.5L87.5,57.5Q87.5,61.5 91.5,61.5L131,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L183.1931818181818,33.125Q186.5681818181818,33.125 186.5681818181818,36.5L186.5681818181818,36.5Q186.5681818181818,39.875 183.1931818181818,39.875L167,39.875ZM167,62.125L190.1818181818182,62.125Q193.5568181818182,62.125 193.5568181818182,65.5L193.5568181818182,65.5Q193.5568181818182,68.875 190.1818181818182,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L183.1931818181818,33.125Q186.5681818181818,33.125 186.5681818181818,36.5L186.5681818181818,36.5Q186.5681818181818,39.875 183.1931818181818,39.875L167,39.875Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,62.125L190.1818181818182,62.125Q193.5568181818182,62.125 193.5568181818182,65.5L193.5568181818182,65.5Q193.5568181818182,68.875 190.1818181818182,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L194.375,33.125Q197.75,33.125 197.75,36.5L197.75,36.5Q197.75,39.875 194.375,39.875L167,39.875ZM167,62.125L225.125,62.125Q228.5,62.125 228.5,65.5L228.5,65.5Q228.5,68.875 225.125,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,33.125L194.375,33.125Q197.75,33.125 197.75,36.5L197.75,36.5Q197.75,39.875 194.375,39.875L167,39.875Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,62.125L225.125,62.125Q228.5,62.125 228.5,65.5L228.5,65.5Q228.5,68.875 225.125,68.875L167,68.875Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,20.5L212.8409090909091,20.5Q216.8409090909091,20.5 216.8409090909091,24.5L216.8409090909091,28.5Q216.8409090909091,32.5 212.8409090909091,32.5L203,32.5ZM203,49.5L217.7840909090909,49.5Q221.7840909090909,49.5 221.7840909090909,53.5L221.7840909090909,57.5Q221.7840909090909,61.5 217.7840909090909,61.5L203,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,20.5L212.8409090909091,20.5Q216.8409090909091,20.5 216.8409090909091,24.5L216.8409090909091,28.5Q216.8409090909091,32.5 212.8409090909091,32.5L203,32.5Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,49.5L217.7840909090909,49.5Q221.7840909090909,49.5 221.7840909090909,53.5L221.7840909090909,57.5Q221.7840909090909,61.5 217.7840909090909,61.5L203,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,20.5L220.75,20.5Q224.75,20.5 224.75,24.5L224.75,28.5Q224.75,32.5 220.75,32.5L203,32.5ZM203,49.5L242.5,49.5Q246.5,49.5 246.5,53.5L246.5,57.5Q246.5,61.5 242.5,61.5L203,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,20.5L220.75,20.5Q224.75,20.5 224.75,24.5L224.75,28.5Q224.75,32.5 220.75,32.5L203,32.5Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,49.5L242.5,49.5Q246.5,49.5 246.5,53.5L246.5,57.5Q246.5,61.5 242.5,61.5L203,61.5Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [10, 20, null, -5],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [0],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L157.30227272727274,74Q153.30227272727274,74 153.30227272727274,78L153.30227272727274,82Q153.30227272727274,86 157.30227272727274,86L167,86Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L157.30227272727274,74Q153.30227272727274,74 153.30227272727274,78L153.30227272727274,82Q153.30227272727274,86 157.30227272727274,86L167,86Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L149.475,74Q145.475,74 145.475,78L145.475,82Q145.475,86 149.475,86L167,86Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L149.475,74Q145.475,74 145.475,78L145.475,82Q145.475,86 149.475,86L167,86Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,64L125.31136363636364,64Q121.31136363636364,64 121.31136363636364,68L121.31136363636364,72Q121.31136363636364,76 125.31136363636364,76L131,76Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,64L125.31136363636364,64Q121.31136363636364,64 121.31136363636364,68L121.31136363636364,72Q121.31136363636364,76 125.31136363636364,76L131,76Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,64L119.775,64Q115.775,64 115.775,68L115.775,72Q115.775,76 119.775,76L131,76Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M131,64L119.775,64Q115.775,64 115.775,68L115.775,72Q115.775,76 119.775,76L131,76Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "start",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L176.69772727272726,74Q180.69772727272726,74 180.69772727272726,78L180.69772727272726,82Q180.69772727272726,86 176.69772727272726,86L167,86Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L176.69772727272726,74Q180.69772727272726,74 180.69772727272726,78L180.69772727272726,82Q180.69772727272726,86 176.69772727272726,86L167,86Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L184.525,74Q188.525,74 188.525,78L188.525,82Q188.525,86 184.525,86L167,86Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M167,74L184.525,74Q188.525,74 188.525,78L188.525,82Q188.525,86 184.525,86L167,86Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 0,
+        "labelInset": 20,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,64L208.68863636363636,64Q212.68863636363636,64 212.68863636363636,68L212.68863636363636,72Q212.68863636363636,76 208.68863636363636,76L203,76Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,64L208.68863636363636,64Q212.68863636363636,64 212.68863636363636,68L212.68863636363636,72Q212.68863636363636,76 208.68863636363636,76L203,76Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 0.35,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,64L214.225,64Q218.225,64 218.225,68L218.225,72Q218.225,76 214.225,76L203,76Z",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": -1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    },
+    {
+      "expected": {
+        "d": "M203,64L214.225,64Q218.225,64 218.225,68L218.225,72Q218.225,76 214.225,76L203,76Z",
+        "opacity": 0.3
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": false
+      }
+    },
+    {
+      "expected": {
+        "d": "",
+        "opacity": 1
+      },
+      "input": {
+        "active": 1,
+        "barGap": 0.25,
+        "barWidth": 12,
+        "gutter": 72,
+        "labelInset": 0,
+        "fadedOpacity": 0.3,
+        "grow": 1,
+        "side": "end",
+        "loading": false,
+        "max": 40,
+        "minBarLength": 3,
+        "plot": {
+          "height": 116,
+          "left": 44,
+          "top": 12,
+          "width": 246
+        },
+        "radius": 4,
+        "values": [7],
+        "wantActive": true
+      }
+    }
+  ]
+}

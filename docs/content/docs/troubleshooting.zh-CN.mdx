@@ -1,0 +1,111 @@
+---
+title: "常见问题"
+description: "排查 Taro 与微信端常见集成问题。"
+---
+
+## 安装与运行
+
+### 样式缺失或字体加载失败
+
+加载主题样式，将包源码加入 Tailwind 扫描，执行 `weapp-tailwindcss` patch，并核对 PostCSS 顺序、主题映射和微信模板。字体使用 HTTPS，检查 CORS、资源域名和字形覆盖；加载失败时保留原字体配置。
+
+### 找不到 app.json 或 AppID 无效
+
+先构建，再用开发者工具打开 `example/dist`。独立消费者的 `project.config.json` 应将 `miniprogramRoot` 指向自己的 `dist/`。`touristappid` 曾触发“AppID 不存在”（error 10），需换成有效测试 AppID。
+
+### 导入失败、重复 runtime 或检查停滞
+
+使用 `panelui-taro/<component>`，不要复制 Native/Web 根导入、Expo 或 RN SVG 依赖。Taro 配套包保持同一版本；独立包检查须解析安装后的包，而非 workspace 源码链接。构建或测试停滞时核对根目录指定的 Node、pnpm 和锁文件，分开运行组件库与业务应用的检查。
+
+## 布局与主题
+
+### 内容未重新测量、被压缩或溢出
+
+启用 `mini.runtime.enableMutationObserver`，折叠内容和装饰插槽依赖此能力。Taro View 不继承 React Native 的默认纵向 flex，组合布局需显式设置。
+
+| 症状 | 原因与处理 |
+| --- | --- |
+| StackCard 内容挤在一起、Sketch 绘图区高度消失 | 卡片使用 `flex flex-col`；flex 画布需要有界的纵向父容器。Panelside 的 Direction 包装层也需传递受限高度，页面内容纵向排列。 |
+| Heatmap 网格被压缩、星期标签偏移 | 网格与 Y 轴保留 `shrink-0` 和横向滚动，标签按缩放后的字体高度定位；`fill` 布局先扣除 Y 轴宽度再计算方形单元格。 |
+| Pagination 裁掉末页 | 根节点保留 `w-full min-w-0`，页码和前后按钮放入横向 ScrollView，内容保持自身宽度。 |
+| FileUpload 横向条目被压缩 | 保留固定缩略图尺寸和来源行宽。 |
+| AnimatedBadge 数字偏移 | 滚动数字容器显式设置 flex 居中。 |
+| 预览结果文本撑出窄屏 | 结果容器允许收缩、换行，并对长字符串断行。 |
+
+### 自定义导航遮挡状态栏或微信胶囊
+
+在 `navigationStyle: "custom"` 页面使用 `<PageHeader navigation variant="page" align="start">`，内部组合 `PageHeader.Row` 和 `PageHeader.Title`。导航按物理像素测量安全区和胶囊，默认固定，并按整个根节点实际高度占位，包含换行标题和自定义内边距。
+
+- `fixed={false}`：放回正常文档流。
+- `placeholder={false}`：关闭占位。
+- `safeAreaInsetTop={false}`：父级已处理状态栏时关闭内部顶部避让。
+
+不要重复添加状态栏占位或在原生导航页面叠加自定义导航。测量在 nextTick 和窗口变化时更新，同窗口无效胶囊读数复用有效值；浮层可用 `readPageHeaderNavigationMetrics()` 读取同一套尺寸。安全区层保留原有 card/page 样式，导航行允许撑高，未开启 navigation 时保持原行为。
+
+### 主题圆角、透明度或交互态不对
+
+Fab、ImageViewer、图表 tooltip、Sortable、StackCard 和 Tour 使用 `--panel-radius-*`，避免硬编码圆角。FileUpload 淡色背景应将主题颜色的 alpha 与目标透明度相乘，并保留按压态；SectionProgress 保留选中背景。MarkdownEditor 和 Tour 操作按钮需保留目标尺寸。排查时同时检查组件 class、主题样式和生产 WXSS。
+
+## 输入与手势
+
+| 症状 | 原因与处理 |
+| --- | --- |
+| 隐藏验证码输入框在真机露出 | `OtpInput` 和 `Input visuallyHidden` 保留位于可见单元格外、1px 大小且文字与光标透明的原生输入框。仅设 opacity 不足以隐藏获得焦点后的原生层；保留 ref 或 `focus` 聚焦入口，隐藏样式优先于调用方样式。 |
+| Textarea 自动增高过多 | `detail.height` 可能已包含 padding。`autoGrow` 用 `lineCount × lineHeight` 计算内容高度，限制在 rows/maxRows 内，并允许删除后缩回；内容尺寸回调仍使用平台测量值。 |
+| AIInput 行内文字不居中或标题挡操作 | 按行数、行高和框高计算上下 padding，统一行高；Sheet 的绝对定位标题装饰层使用 `pointer-events-none`。 |
+| 拖拽、长按或 Toast 滑动中断 | 根据手势激活状态切换 `catchMove` 会替换 Taro 原生触摸宿主。AvatarCropper、ProgressButton、Toast、Slider、ColorPicker、SlideButton、Splitter、SplitView、StackCard 和 Flow 应按禁用、锁定及可交互状态稳定设置捕获，并保留原有滚动放行规则。 |
+| ImageViewer 缩放后意外翻页 | 开始新拖动、双指缩放或关闭时取消旧手势，避免迟到的 touchend 提交旧分页；同时检查 RTL 翻页。 |
+
+## 弹层与动画
+
+| 症状 | 原因与处理 |
+| --- | --- |
+| Accordion 收起时内容突然消失 | 保留原 Body 节点至 Collapse 退出完成，再按 `keepMounted` 隐藏或卸载。快速重开取消卸载，减少动态效果时直接退出。 |
+| Menu/Popover 首次定位跳动 | 先测量可滚动内容，再定位和显示，减少动态效果时也保留此顺序。Popover 弹簧入场、关闭只淡出，重开不倒放缩放。 |
+| Portal 空白区域挡点击、嵌套弹层关闭后页面失效 | 外层透传，实际子层接收交互，退出层停止接收事件。共享隔离 store 在最后一个模态关闭后恢复页面；原生 button/input/canvas 等选择器使用 `:is(...)`，避免被 Taro 生产转换改写。 |
+| Fab 动作不同步或快速重开丢菜单 | Group 统一订阅动画进度，传给触发器和动作，保持节点稳定；取消关闭弹簧后保留动作，完全关闭时禁用动作点击。 |
+
+## Canvas 与 SVG
+
+### 动态更新闪烁或绘图后端判断错误
+
+旧版 LiveLineChart 用 SVG Image 显示曲线、网格和填充，Canvas 只处理触摸。现用 `CanvasGraphics` 描述动态图形、`useCanvasSurface` 管理命令式绘制，避免逐帧序列化 SVG 或替换 `Image.src`。`static-svg` 的 Path/Circle/G 也能描述 Canvas 几何，应追踪最终可见绘图层；触摸或导出 Canvas 无法证明主图由 Canvas 绘制。
+
+静态图标、图例、固定背景和显式 SVG/PNG 导出保留原实现，普通 View/CSS 动画无需迁移。Flow 背景保留固定 SVG 瓦片，在相机层按整格移动；动态连线用 Canvas，节点、分组和连线共享相机坐标与变换，避免重复缩放。
+
+### SVG 图标缺失或不跟随主题
+
+Image 中的 SVG 无法继承页面 CSS 变量和文字颜色，应将具体主题颜色写入 `fill`/`stroke`，避免 `var(...)` 和宿主 `currentColor`；切换主题后重新生成数据源。`StaticSvg` 只接受支持的图形和 Fragment，不支持事件、`href`、`style` 或依赖浏览器 DOM 的组件。
+
+### Canvas 空白、模糊或停止更新
+
+业务绘图面可从 `panelui-taro/weapp-hosts` 导入 `Canvas`。这个原生宿主透传 Canvas 属性、事件与 ref，不增加绘制行为。缺少该导出会在画布挂载前导致消费端类型检查和构建失败。恢复的宿主由消费端类型检查和课程图谱生命周期测试覆盖，设备渲染仍须单独验证。
+
+检查 `<Canvas type="2d">` 是否挂载、宽高是否大于零，以及正确页面作用域内的节点查询和 `getContext("2d")`。复用共享生命周期处理 DPR、窗口缩放、单帧合并和清理；仅尺寸变化时更新位图，逐帧设置 width/height 会清空画面和上下文。位图单边限制为 4096 像素，大画布需检查缩放后的清晰度。
+
+检查 `PanelUI Canvas drawing paused:` 和错误回调；失败采用有界退避，高频更新不得绕过重试间隔。提供兼容快照的组件在 Canvas 不可用时只保留冻结 SVG。恢复后检查同尺寸数据能否继续绘制。
+
+后台或被 Portal 遮挡时暂停绘制，恢复后重新绑定、重绘；卸载时取消帧、重试和监听。签名历史与实时笔迹在同一可见 Canvas 提交，避免切换表面。滚动裁剪、地图 marker/popup 和弹层层级需检查真实合成，不能只看 `z-index`。
+
+### 透明度、渐变或边缘与 SVG 不同
+
+组透明度先离屏绘制整组再合成，逐图形设置 alpha 会使重叠区域变暗。检查裁剪、变换和非正方形渐变的坐标映射；图案使用数值矩阵，避免依赖 `DOMMatrix` 全局。文字、圆弧和圆角可能存在后端栅格化差异。SVG 几何样本不能替代 Canvas 节点、帧调度、恢复与清理测试。
+
+## 示例交互
+
+以下为示例组合修复，真实上传、录音和发送仍由宿主实现。
+
+| 示例 | 处理方式 |
+| --- | --- |
+| AIInput 录音操作缺失或切布局丢状态 | 保留丢弃、确认入口及录音状态，模型选择放在独立入口。 |
+| Select 搜索无效 | 将分组选项交给真实搜索逻辑。 |
+| FileUpload 状态无法复现 | 显式 fixture 演示进度、处理中、失败、重试、完成和取消。 |
+| MessageScroller 露出高度不对 | 按真实量化行高计算虚拟视口和 peek。 |
+| Compare 裁剪层透出底图 | 在半透明 muted 填充下加不透明底色。 |
+| Post 媒体顺序不对 | 媒体组合图片优先，普通信息流标题优先。 |
+
+## Camera 与验证范围
+
+Camera 按本地化标签实际位置更新模式滑块，录制时锁定模式切换；缩放刻度、档位与真实 zoom 联动。快门保留完整外环和停止录制圆盘，权限提示在上下控制区之间居中。
+
+回归测试位于组件库 `test/`，文档、自动化、开发者工具与真机验收分别记录。构建通过不能证明设备表现：目标设备仍需检查字体与主题、短信填充与键盘、摄像头/麦克风权限及录制结果，以及 Canvas 连续更新、滚动、弹层、前后台切换、边缘、内存和帧率。iOS 闪烁消除或性能改善需要对应真机证据。

@@ -1,0 +1,45 @@
+---
+title: "介绍"
+description: "将 PanelUI Native 适配到 Taro 和微信小程序。"
+---
+
+PanelUI Taro 是基于 Taro 和 React 的 TypeScript 微信小程序组件库，沿用 PanelUI Native 的组合式 API、语义化设计变量和六套内置主题。
+
+```tsx
+import { PanelUIProvider } from "panelui-taro/provider";
+import { Button } from "panelui-taro/button";
+import { Card } from "panelui-taro/card";
+
+export function Example() {
+  return (
+    <PanelUIProvider>
+      <Card>
+        <Card.Header>
+          <Card.Title>Create a project</Card.Title>
+        </Card.Header>
+        <Card.Content>
+          <Button>Get started</Button>
+        </Card.Content>
+      </Card>
+    </PanelUIProvider>
+  );
+}
+```
+
+## 提供哪些能力
+
+- 141 个源自 Native 的组件模块，支持按组件导入。
+- Panel、Moon、Grass 三组主题，每组都有浅色与深色。
+- 组合式子组件，按界面结构组织代码。
+- WXSS 安全类名、CSS 与 JavaScript 动效、微信平台适配器。
+- 独立微信示例：784 个上游衍生示例变体、四个 Blocks、七个定制页面。
+
+## 实现范围
+
+版本对齐 Native **1.0.0**，源码基线为 **0.112.0**，另有部分后续修复。Camera 和 ImageViewer RTL 已移植，Camera 的限制见[平台差异](./platform)，Web 集合不在范围内。
+
+目前支持 workspace 与本地 tarball 安装，尚未公开发布到 npm。导出覆盖、自动化检查、模拟器验收和真机验收分别记录。
+
+## 下一步
+
+[安装](/zh-CN/docs/installation) · [组件](/zh-CN/docs/components) · [主题](/zh-CN/docs/customization/theming) · [微信示例](/zh-CN/docs/example)

@@ -1,0 +1,2227 @@
+{
+  "bounds": [
+    {
+      "maxRows": -2,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 80
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": -1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 80
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 0,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 40
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 80
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 1,
+      "result": {
+        "minHeight": 40,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 60
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 60
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 60
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 80
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 60,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 120
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 5,
+      "result": {
+        "minHeight": 120,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 180
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 180
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 180
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 180
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 180
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 8,
+      "result": {
+        "minHeight": 180,
+        "maxHeight": 220
+      },
+      "size": "sm"
+    },
+    {
+      "maxRows": -2,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 90
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": -1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 90
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 0,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 46
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 90
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 1,
+      "result": {
+        "minHeight": 46,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 68
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 68
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 68
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 90
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 68,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 134
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 5,
+      "result": {
+        "minHeight": 134,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 200
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 200
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 200
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 200
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 200
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 8,
+      "result": {
+        "minHeight": 200,
+        "maxHeight": 244
+      },
+      "size": "md"
+    },
+    {
+      "maxRows": -2,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 100
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": -1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 100
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 0,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 52
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 100
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 1,
+      "result": {
+        "minHeight": 52,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 76
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 76
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 76
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 100
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 2.5,
+      "result": {
+        "minHeight": 76,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 148
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 5,
+      "result": {
+        "minHeight": 148,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": -2,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 220
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 0,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 220
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 1,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 220
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 3.8,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 220
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 5,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 220
+      },
+      "size": "lg"
+    },
+    {
+      "maxRows": 10,
+      "minRows": 8,
+      "result": {
+        "minHeight": 220,
+        "maxHeight": 268
+      },
+      "size": "lg"
+    }
+  ],
+  "commit": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "modes": [
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "ready",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": ""
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": "  "
+      },
+      "result": {
+        "mode": "voice",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "recording",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "send",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "submitted",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": ""
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": "  "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": false,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": false,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": false
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": false,
+        "disabled": true,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": false,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    },
+    {
+      "input": {
+        "canStop": true,
+        "canVoice": true,
+        "disabled": true,
+        "status": "streaming",
+        "value": " ask "
+      },
+      "result": {
+        "mode": "stop",
+        "inert": true
+      }
+    }
+  ]
+}

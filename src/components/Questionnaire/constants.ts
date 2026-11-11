@@ -1,0 +1,10 @@
+export const HEIGHT_DURATION = 240;
+export const ENTER_DURATION = 220;
+export const EXIT_DURATION = 140;
+export const PIP_DURATION = 260;
+export const RING_SIZE = 22;
+export const RING_STROKE = 2.5;
+export const SWIPE_FRACTION = 0.25;
+export const SLIDE_FRACTION = 0.35;
+export const DEFAULT_ERROR = "Choose an answer to continue.";
+export const MAX_PIPS = 8;

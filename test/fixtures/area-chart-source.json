@@ -1,0 +1,632 @@
+[
+  {
+    "data": [],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [],
+    "keys": [],
+    "stacked": true,
+    "expected": [0, 1]
+  },
+  {
+    "data": [],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [0, 1]
+  },
+  {
+    "data": [],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [6, 8]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 7.5]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [6, 8]
+  },
+  {
+    "data": [
+      {
+        "a": 7,
+        "b": 2
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [8, 10]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [0, 21]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 43]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [0, 21]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 20,
+        "b": 40
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [0, 63]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [-12.2, 14.2]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [-12.2, 14.2]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [-12.2, 14.2]
+  },
+  {
+    "data": [
+      {
+        "a": -10,
+        "b": 4
+      },
+      {
+        "a": 12,
+        "b": -6
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [-7.2, 7.2]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [9, 11]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 10.7]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [0, 11]
+  },
+  {
+    "data": [
+      {
+        "a": null,
+        "b": 3
+      },
+      {
+        "a": 10,
+        "b": null
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [0, 10.7]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 0,
+        "b": 0
+      },
+      {
+        "a": 0,
+        "b": 0
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "date": "A"
+      },
+      {
+        "date": "B"
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": [],
+    "stacked": false,
+    "expected": [0, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": ["a"],
+    "stacked": false,
+    "expected": [9, 11]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": false,
+    "expected": [0, 21]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": [],
+    "stacked": true,
+    "expected": [-1, 1]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": ["a"],
+    "stacked": true,
+    "expected": [9, 11]
+  },
+  {
+    "data": [
+      {
+        "a": 10,
+        "b": 20
+      },
+      {
+        "a": 10,
+        "b": 20
+      }
+    ],
+    "keys": ["a", "b"],
+    "stacked": true,
+    "expected": [29, 31]
+  }
+]

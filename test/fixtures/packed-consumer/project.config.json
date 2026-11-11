@@ -1,0 +1,12 @@
+{
+  "appid": "touristappid",
+  "projectname": "PanelUI Packed Consumer",
+  "miniprogramRoot": "dist/",
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": false
+  }
+}

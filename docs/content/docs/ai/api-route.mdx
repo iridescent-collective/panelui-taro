@@ -1,0 +1,38 @@
+---
+title: "API route"
+description: "A separate Node development server streams provider results to WeChat."
+---
+
+The implementation lives in `example/server/server.mjs`; `provider.mjs` adapts a compatible Chat Completions API. These files run in Node and never enter the mini program bundle. The library itself does not export a server route.
+
+## Chat request
+
+`POST /api/chat` accepts JSON:
+
+```json
+{"messages":[{"role":"user","content":"Find PanelUI voice documentation"}]}
+```
+
+Only user and assistant roles are accepted. The last turn must be a user turn. History is capped at 64 messages, 16,000 characters per message and 256 KiB per request. Client-provided system prompts, models and tool implementations are not forwarded.
+
+## Streaming contract
+
+The response is `application/x-ndjson; charset=utf-8`, one JSON object per line. HTTP chunks are arbitrary byte boundaries, not event boundaries.
+
+```json
+{"type":"text","delta":"Here is the documentation."}
+{"type":"tool","id":"step-0-0","name":"findPanelUIDocs","state":"input-available","input":"{\"topic\":\"voice\"}"}
+{"type":"tool","id":"step-0-0","name":"findPanelUIDocs","state":"output-available","output":"Official documentation link"}
+{"type":"source","id":"voice","title":"PanelUI Voice","url":"https://panelui.dev/docs/ai/voice"}
+{"type":"finish"}
+```
+
+Text and tool parts retain arrival order. Optional `reasoning` events carry a `delta` only when the provider explicitly supplies the compatible `reasoning_content` extension. Sources come from the allowlisted tool result. `error` carries a displayable `message` and is terminal; a truncated stream without `finish` is a client error. This protocol is intentionally local to the example.
+
+## Cancellation and bounds
+
+Client abort closes the connection and aborts provider fetch. The server applies a 110-second deadline, four concurrent requests, bounded output and a five-step tool limit. Backpressure waits for the response drain. Provider failures use a generic error and never return provider credentials or raw error bodies. An upstream token limit or filtered response is reported as incomplete.
+
+## Audio routes
+
+`POST /api/transcribe` accepts a multipart `file` uploaded by Taro `uploadFile`, capped at 5 MiB. It returns `{ text }`. `POST /api/speech` accepts `{ text }` up to 4,000 characters and returns MP3 bytes capped at 5 MiB. Both use the server's model and voice settings; unconfigured audio models return 503. No audio is stored on the server.

@@ -1,0 +1,4901 @@
+{
+  "frames": [
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 200,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 210,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -150,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -140,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -560,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -87.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": -60,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -80,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 0,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -20,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -60,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 20,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -92.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -82.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 20,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 100,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 100,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": -650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 0
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -192.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": -182.5,
+        "fire": true,
+        "side": null,
+        "target": 0
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": -1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": false,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 242.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 252.5,
+        "fire": false,
+        "side": "start",
+        "target": 160
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 160,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": -80,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    },
+    {
+      "expected": {
+        "dragged": 0,
+        "fire": false,
+        "side": "end",
+        "target": -80
+      },
+      "input": {
+        "end": 80,
+        "full": true,
+        "origin": 0,
+        "sign": 1,
+        "start": 0,
+        "translation": 900,
+        "velocity": 650
+      }
+    }
+  ],
+  "sourceCommit": "b0aec40f8674dbe7f467be377bc3544359711ab0"
+}

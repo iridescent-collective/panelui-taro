@@ -1,0 +1,50 @@
+import { TimelineList } from "./list";
+import {
+  TimelineItem,
+  TimelineAside,
+  TimelineMasthead,
+  TimelineIndicator,
+  TimelineContent,
+  TimelineHeader,
+  TimelineHeading,
+  TimelineDate,
+  TimelineLabel,
+  TimelineMeta,
+  TimelineTitle,
+  TimelineTrailing,
+  TimelineDescription,
+  TimelineStats,
+  TimelineStat,
+} from "./parts";
+import { TimelineRoot } from "./root";
+
+export type {
+  TimelineVariant,
+  TimelineTone,
+  TimelineOrientation,
+  TimelineProps,
+  TimelineListProps,
+  TimelineListRenderItemInfo,
+  TimelineItemProps,
+  TimelineIndicatorProps,
+  TimelineStatProps,
+  TimelineMastheadProps,
+} from "./types";
+export const Timeline = Object.assign(TimelineRoot, {
+  Aside: TimelineAside,
+  Content: TimelineContent,
+  Date: TimelineDate,
+  Description: TimelineDescription,
+  Header: TimelineHeader,
+  Heading: TimelineHeading,
+  Indicator: TimelineIndicator,
+  Item: TimelineItem,
+  Label: TimelineLabel,
+  List: TimelineList,
+  Masthead: TimelineMasthead,
+  Meta: TimelineMeta,
+  Stat: TimelineStat,
+  Stats: TimelineStats,
+  Title: TimelineTitle,
+  Trailing: TimelineTrailing,
+});

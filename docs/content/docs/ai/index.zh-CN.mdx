@@ -1,0 +1,19 @@
+---
+title: "AI"
+description: "在 Taro 中构建 AI 界面，保持 UI 组件与模型服务解耦。"
+---
+
+上游 Native 的 AI beta 专区提供应用接入模式。UI 组件接收普通属性，不依赖 AI SDK；Taro 适配保留同样的边界。
+
+| 层次 | 位置 | 职责 |
+| --- | --- | --- |
+| UI 组件库 | `panelui-taro/src/components` | AIInput、Message、Response、Reasoning、Sources、Task、Soundwave |
+| 可运行客户端 | `panelui-taro/example/src/components/AIChatTemplate` | 会话状态、有序消息片段、传输、录音和音频播放 |
+| 开发示例服务端 | `panelui-taro/example/server` | 模型密钥、流式输出、白名单工具、转写和语音合成 |
+| 接入指南 | `docs/content/docs/ai` | 配置、服务端契约、界面组合及平台限制 |
+
+在 example 目录中打开 **AI Assistant**，或进入 `/showcases/ai/index`。未配置服务时可以使用本地预置演示；配置后，在助手选项中选择 **Connected service**。切换模式会创建新会话，旧会话仍保留在内存中。
+
+先阅读[配置](/docs/ai/setup)，再阅读[服务端路由](/docs/ai/api-route)和[聊天界面](/docs/ai/chat-ui)。[语音](/docs/ai/voice)、[流式性能](/docs/ai/streaming-performance)和[工具调用](/docs/ai/tools)说明其他接入路径。
+
+示例不导入业务认证、状态或服务。服务端是本地开发参考；自动化检查、微信开发者工具观察和物理设备验收分别记录。

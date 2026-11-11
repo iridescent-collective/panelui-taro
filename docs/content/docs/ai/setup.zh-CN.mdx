@@ -1,0 +1,33 @@
+---
+title: "配置"
+description: "配置独立的小程序示例与服务端。"
+---
+
+## 服务端配置
+
+在仓库根目录执行：
+
+```sh
+cp panelui-taro/example/server/.env.example panelui-taro/example/server/.env.local
+pnpm --filter panelui-example dev:ai
+```
+
+发送真实消息前，在服务端配置文件中填写 `AI_BASE_URL`、`AI_API_KEY` 和 `AI_MODEL`。供应商需要支持流式 Chat Completions 和函数工具。`AI_BASE_URL` 填写到 `/v1` 这样的版本前缀，适配器追加 `/chat/completions`。不新增运行时或供应商 SDK 依赖。
+
+可选音频功能需要填写 `AI_TRANSCRIPTION_MODEL` 和 `AI_SPEECH_MODEL`。`AI_SPEECH_VOICE` 默认 `alloy`，请按供应商支持的音色配置；音频能力不保证所有兼容接口都支持。
+
+## 小程序配置
+
+```sh
+TARO_APP_PANELUI_AI_API_URL=http://127.0.0.1:3101 pnpm dev:weapp:panelui
+```
+
+公开服务地址在构建时注入，修改后需重启构建。供应商密钥不能放进任何 `TARO_APP_*` 变量。打开助手选项并选择 **Connected service**。真实模型由服务端控制；本地演示中的 Balanced/Reasoning/Fast 不会切换真实模型。
+
+手机上的 `127.0.0.1` 指向手机本身。真机调试时，将 `AI_DEMO_HOST` 绑定到开发机局域网地址，并用该地址构建。开发者工具本地调试可关闭域名校验；分发的小程序需要可访问的 HTTPS 服务及对应的微信 request/upload 合法域名。录音还需为测试 AppID 在微信后台配置隐私声明。
+
+## 与 Native 的传输差异
+
+不使用 Native 的 `expo/fetch`、Reanimated 或 Expo Router 路由。`services/transport.ts` 通过 Taro `request` 的 `enableChunked` 和 `onChunkReceived` 接收流。客户端使用[服务端路由](/docs/ai/api-route)中说明的 NDJSON 契约，不是 AI SDK UIMessage 协议。独立 UTF-8 解码器处理被网络分块切开的中文与 emoji，不假设小程序存在 `TextDecoder`。
+
+`GET /health` 返回配置就绪情况，不暴露密钥。默认只监听本机回环地址，浏览器来源需要通过 `AI_ALLOWED_ORIGINS` 显式放行。迁移成共享服务前，在服务边界接入应用认证、用户级限额和业务授权。

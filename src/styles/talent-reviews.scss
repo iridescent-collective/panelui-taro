@@ -1,0 +1,15 @@
+@keyframes panelui-talent-reviews {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.panelui-talent-review-track {
+  animation-name: panelui-talent-reviews;
+  animation-duration: 98s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}

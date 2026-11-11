@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "---指南---",
+    "index",
+    "[组件](/zh-CN/docs/components)",
+    "installation",
+    "example",
+    "platform",
+    "troubleshooting",
+    "upgrading",
+    "---定制---",
+    "...customization",
+    "---AI（测试版）---",
+    "...ai",
+    "---组件---",
+    "...components"
+  ],
+  "title": "文档"
+}

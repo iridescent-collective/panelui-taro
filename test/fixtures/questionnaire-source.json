@@ -1,0 +1,683 @@
+{
+  "answers": [
+    {
+      "input": "",
+      "result": false
+    },
+    {
+      "input": "  ",
+      "result": false
+    },
+    {
+      "input": "one",
+      "result": true
+    },
+    {
+      "input": [],
+      "result": false
+    },
+    {
+      "input": [""],
+      "result": true
+    },
+    {
+      "input": ["one"],
+      "result": true
+    },
+    {
+      "input": ["one", "two"],
+      "result": true
+    }
+  ],
+  "commit": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "gestures": [
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -60,
+      "translation": -300,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -60,
+      "translation": -300,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -300,
+      "translation": -300,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -300,
+      "translation": -300,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -20,
+      "translation": -100,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -20,
+      "translation": -100,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -100,
+      "translation": -100,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -100,
+      "translation": -100,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -15,
+      "translation": -75,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -15,
+      "translation": -75,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -75,
+      "translation": -75,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -75,
+      "translation": -75,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -14.8,
+      "translation": -74,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -14.8,
+      "translation": -74,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -74,
+      "translation": -74,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -74,
+      "translation": -74,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 0,
+      "translation": 0,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": 0,
+      "translation": 0,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 0,
+      "translation": 0,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": 0,
+      "translation": 0,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 14.8,
+      "translation": 74,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 74,
+      "translation": 74,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 14.8,
+      "translation": 74,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 74,
+      "translation": 74,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 15,
+      "translation": 75,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 75,
+      "translation": 75,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 15,
+      "translation": 75,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 75,
+      "translation": 75,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 20,
+      "translation": 100,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 100,
+      "translation": 100,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 20,
+      "translation": 100,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 100,
+      "translation": 100,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 60,
+      "translation": 300,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 300,
+      "translation": 300,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 60,
+      "translation": 300,
+      "width": 0
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 300,
+      "translation": 300,
+      "width": 0
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -60,
+      "translation": -300,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -60,
+      "translation": -300,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -300,
+      "translation": -300,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -300,
+      "translation": -300,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -20,
+      "translation": -100,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -20,
+      "translation": -100,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 1,
+      "forward": true,
+      "offset": -100,
+      "translation": -100,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 1,
+      "forward": true,
+      "offset": -100,
+      "translation": -100,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -15,
+      "translation": -75,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -15,
+      "translation": -75,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": -75,
+      "translation": -75,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": -75,
+      "translation": -75,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": -14.8,
+      "translation": -74,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": -14.8,
+      "translation": -74,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": -74,
+      "translation": -74,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": -74,
+      "translation": -74,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 0,
+      "translation": 0,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": 0,
+      "translation": 0,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 0,
+      "translation": 0,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": 0,
+      "translation": 0,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 14.8,
+      "translation": 74,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": 74,
+      "translation": 74,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 14.8,
+      "translation": 74,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": 74,
+      "translation": 74,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 15,
+      "translation": 75,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": false,
+      "offset": 75,
+      "translation": 75,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 15,
+      "translation": 75,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": 0,
+      "forward": true,
+      "offset": 75,
+      "translation": 75,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 20,
+      "translation": 100,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 100,
+      "translation": 100,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 20,
+      "translation": 100,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 100,
+      "translation": 100,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": false,
+      "offset": 60,
+      "translation": 300,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": false,
+      "offset": 300,
+      "translation": 300,
+      "width": 300
+    },
+    {
+      "back": false,
+      "delta": 0,
+      "forward": true,
+      "offset": 60,
+      "translation": 300,
+      "width": 300
+    },
+    {
+      "back": true,
+      "delta": -1,
+      "forward": true,
+      "offset": 300,
+      "translation": 300,
+      "width": 300
+    }
+  ],
+  "shortcuts": [
+    {
+      "index": 0,
+      "mode": "letters",
+      "result": "A"
+    },
+    {
+      "index": 1,
+      "mode": "letters",
+      "result": "B"
+    },
+    {
+      "index": 8,
+      "mode": "letters",
+      "result": "I"
+    },
+    {
+      "index": 9,
+      "mode": "letters",
+      "result": "J"
+    },
+    {
+      "index": 25,
+      "mode": "letters",
+      "result": "Z"
+    },
+    {
+      "index": 26,
+      "mode": "letters",
+      "result": null
+    },
+    {
+      "index": 30,
+      "mode": "letters",
+      "result": null
+    },
+    {
+      "index": 0,
+      "mode": "numbers",
+      "result": "1"
+    },
+    {
+      "index": 1,
+      "mode": "numbers",
+      "result": "2"
+    },
+    {
+      "index": 8,
+      "mode": "numbers",
+      "result": "9"
+    },
+    {
+      "index": 9,
+      "mode": "numbers",
+      "result": null
+    },
+    {
+      "index": 25,
+      "mode": "numbers",
+      "result": null
+    },
+    {
+      "index": 26,
+      "mode": "numbers",
+      "result": null
+    },
+    {
+      "index": 30,
+      "mode": "numbers",
+      "result": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+---
+title: "Introduction"
+description: "PanelUI Native, adapted to Taro and WeChat mini programs."
+---
+
+PanelUI Taro is a TypeScript component library for WeChat mini programs built with Taro and React. It follows PanelUI Native’s compound APIs, semantic design tokens and six built-in themes.
+
+```tsx
+import { PanelUIProvider } from "panelui-taro/provider";
+import { Button } from "panelui-taro/button";
+import { Card } from "panelui-taro/card";
+
+export function Example() {
+  return (
+    <PanelUIProvider>
+      <Card>
+        <Card.Header>
+          <Card.Title>Create a project</Card.Title>
+        </Card.Header>
+        <Card.Content>
+          <Button>Get started</Button>
+        </Card.Content>
+      </Card>
+    </PanelUIProvider>
+  );
+}
+```
+
+## Why PanelUI Taro
+
+- **141 Native-derived modules** with per-component imports.
+- **Six themes**: Panel, Moon and Grass, each in light and dark.
+- **Compound parts** to compose interfaces without recreating their internals.
+- **WXSS-safe styling**, CSS and JavaScript motion, and WeChat platform adapters.
+- **An independent example** with 784 upstream-derived variants, four Blocks and seven customization pages.
+
+## Scope
+
+The aligned Native version is **1.0.0**. The source coverage baseline is Native **0.112.0**, plus selected later fixes. Camera and ImageViewer RTL are ported; Camera limits are documented in [Platform differences](./platform). The upstream Web collection is outside the port.
+
+The package is currently a workspace dependency. A public npm release is pending. Export coverage, automated checks, simulator acceptance and physical-device acceptance are separate records.
+
+## Next steps
+
+[Installation](/docs/installation) · [Components](/docs/components) · [Customization](/docs/customization/theming) · [WeChat example](/docs/example)

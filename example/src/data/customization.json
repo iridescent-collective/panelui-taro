@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "colors",
+    "name": "Colors",
+    "summary": "Semantic colors, surfaces and readable foreground pairs.",
+    "route": "/customization/colors/index"
+  },
+  {
+    "slug": "theming",
+    "name": "Theming",
+    "summary": "Three built-in theme families, light and dark modes, and a custom family.",
+    "route": "/customization/theming/index"
+  },
+  {
+    "slug": "charts",
+    "name": "Charts",
+    "summary": "Five series colors shared by every chart, with per-series overrides.",
+    "route": "/customization/charts/index"
+  },
+  {
+    "slug": "fonts",
+    "name": "Fonts",
+    "summary": "Load font faces with WeChat and assign the five Native font tokens.",
+    "route": "/customization/fonts/index"
+  },
+  {
+    "slug": "icons",
+    "name": "Icons",
+    "summary": "Search the ported Native icons and inspect size, weight, fill and direction.",
+    "route": "/customization/icons/index"
+  },
+  {
+    "slug": "styling",
+    "name": "Styling",
+    "summary": "Merge className overrides, style individual parts, and use explicit styles.",
+    "route": "/customization/styling/index"
+  },
+  {
+    "slug": "sizing",
+    "name": "Sizing",
+    "summary": "The five control sizes, their separate scales and touch-target limits.",
+    "route": "/customization/sizing/index"
+  }
+]

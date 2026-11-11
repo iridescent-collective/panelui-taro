@@ -1,0 +1,111 @@
+---
+title: "Troubleshooting"
+description: "Resolve common Taro and WeChat integration issues."
+---
+
+## Installation and runtime
+
+### Styles are missing or fonts fail to load
+
+Import the theme stylesheet, include library sources in Tailwind scanning, run the `weapp-tailwindcss` patch and check PostCSS order, theme mappings and WeChat templates. For fonts, use HTTPS and check CORS, resource domains and glyph coverage. Preserve the previous font configuration if loading fails.
+
+### app.json is missing or the AppID is invalid
+
+Build before opening `example/dist` in Developer Tools. Independent consumers must point `miniprogramRoot` in their own `project.config.json` to their `dist/`. The placeholder `touristappid` previously caused “AppID does not exist” (error 10); use a valid test AppID.
+
+### Imports fail, runtimes duplicate or checks stall
+
+Use `panelui-taro/<component>` instead of Native/Web root imports, Expo or RN SVG dependencies. Keep Taro companion packages on the same version. Packed-consumer checks must resolve the installed package rather than workspace sources. For stalled builds or tests, check the root Node/pnpm requirements and lockfile, and run library checks separately from business-app checks.
+
+## Layout and themes
+
+### Content does not remeasure, shrinks or overflows
+
+Enable `mini.runtime.enableMutationObserver` for collapsible content and decorative slots. Taro View does not inherit React Native's default column flex layout; declare it when composing layouts.
+
+| Symptom | Cause and remedy |
+| --- | --- |
+| StackCard contents bunch together or Sketch loses its drawing height | Use `flex flex-col` for cards and a bounded column parent for a flex canvas. Carry bounded height through Panelside's Direction wrapper and stack page content vertically. |
+| Heatmap cells shrink or weekday labels shift | Keep `shrink-0` on the grid and Y axis, allow horizontal scrolling and position labels using scaled font height. In `fill` layout, subtract the Y-axis gutter before deriving square cells. |
+| Pagination clips the last page | Keep `w-full min-w-0` on the root and place page targets and navigation buttons in a horizontal ScrollView with intrinsic content width. |
+| FileUpload horizontal items shrink | Retain fixed tile dimensions and source row widths. |
+| AnimatedBadge numbers drift | Declare flex centering on the rolling-number container. |
+| Preview results overflow narrow screens | Allow the result container to shrink and wrap, including long strings. |
+
+### Custom navigation overlaps the status bar or capsule
+
+On `navigationStyle: "custom"` routes, use `<PageHeader navigation variant="page" align="start">` with `PageHeader.Row` and `PageHeader.Title`. Navigation measures safe areas and the capsule in physical CSS pixels. By default, it fixes the header and reserves the complete root's measured height, including wrapped titles and custom padding.
+
+- `fixed={false}`: keep the header in normal flow.
+- `placeholder={false}`: disable the spacer.
+- `safeAreaInsetTop={false}`: skip internal top clearance when the parent handles it.
+
+Avoid duplicate status-bar spacing or custom navigation on native-navigation routes. Measurements update on nextTick and window changes; invalid capsule reads reuse valid values for the same window. Overlays can share dimensions through `readPageHeaderNavigationMetrics()`. Safe-area layers retain card/page styling, navigation rows can grow, and headers without navigation retain their existing behavior.
+
+### Theme radii, opacity or interaction states look wrong
+
+Use `--panel-radius-*` for Fab, ImageViewer, chart tooltips, Sortable, StackCard and Tour instead of fixed radii. FileUpload muted fills multiply the theme color's alpha by the target opacity and retain pressed states; SectionProgress retains its selected background. MarkdownEditor and Tour controls retain explicit target dimensions. Check component classes, theme styles and production WXSS together.
+
+## Input and gestures
+
+| Symptom | Cause and remedy |
+| --- | --- |
+| The hidden OTP editor appears on a device | `OtpInput` and `Input visuallyHidden` keep a 1px native editor outside visible cells, with transparent text and caret. Opacity alone cannot hide the focused native layer. Preserve a ref or `focus` trigger; hiding styles take precedence over caller styles. |
+| Textarea grows too tall | `detail.height` may include padding. With `autoGrow`, derive text height from `lineCount × lineHeight`, bounded by rows/maxRows, and allow shrinking after deletion. Content-size callbacks retain platform measurements. |
+| AIInput text is off center or its title blocks controls | Derive vertical padding from line count, line height and field height, use consistent line height and apply `pointer-events-none` to the absolute Sheet title decoration. |
+| Drag, hold or Toast swipe stops responding | Switching `catchMove` with gesture activation can replace Taro's native touch host. Keep capture stable according to disabled, locked and interactive state in AvatarCropper, ProgressButton, Toast, Slider, ColorPicker, SlideButton, Splitter, SplitView, StackCard and Flow, while retaining existing scroll-yield rules. |
+| ImageViewer changes pages after a pinch | Cancel the previous gesture before a new drag, pinch or close so a late touchend cannot commit old paging state. Also check RTL paging. |
+
+## Overlays and animation
+
+| Symptom | Cause and remedy |
+| --- | --- |
+| Accordion content disappears before collapse finishes | Retain the same Body until Collapse exits, then hide or unmount according to `keepMounted`. Rapid reopening cancels unmounting; reduced motion exits without animation. |
+| Menu/Popover jumps on first open | Measure scroll content before placing and revealing the panel, including with reduced motion. Popover springs in and only fades out; reopening does not reverse the entry scale. |
+| Empty Portal regions block taps or nested modals leave the page disabled | Pass events through the outer host and enable actual child layers; exiting layers stop receiving events. Restore page input after the last modal releases shared isolation. Use `:is(...)` for native button/input/canvas selectors to survive Taro's production transform. |
+| Fab actions animate out of sync or disappear on reopening | Group subscribes once and shares progress with stable trigger/action nodes. Retain actions when cancelling a closing spring and disable action taps when closed. |
+
+## Canvas and SVG
+
+### Dynamic updates flicker or the drawing backend is unclear
+
+Earlier LiveLineChart versions displayed curves, grids and fills through SVG Images; Canvas handled touch input. Dynamic graphics now use `CanvasGraphics` for declarative geometry and `useCanvasSurface` for imperative drawing, avoiding per-frame SVG serialization or `Image.src` replacement. Path/Circle/G from `static-svg` can describe Canvas geometry: trace the final visible surface rather than inferring the backend from a touch or export Canvas.
+
+Keep static icons, legends, fixed backgrounds and explicit SVG/PNG exports in their existing implementation. Ordinary View/CSS animations do not need migration. Flow retains fixed SVG background tiles that follow its camera in whole-cell increments; dynamic edges use Canvas. Nodes, groups and edges share camera coordinates and transforms to avoid double scaling.
+
+### SVG icons are missing or ignore the theme
+
+SVG Images cannot inherit page CSS variables or text color. Write resolved theme colors into `fill`/`stroke`, avoid `var(...)` and host `currentColor`, and regenerate the source on theme changes. `StaticSvg` accepts supported shapes and fragments, excluding events, `href`, `style` and browser-DOM-dependent components.
+
+### Canvas is blank, blurry or stops updating
+
+Business drawing surfaces can import `Canvas` from `panelui-taro/weapp-hosts`. This native host forwards Canvas properties, events and refs without adding rendering behavior. An unavailable export causes consumer typechecks and builds to fail before a drawing surface mounts. The restored host is covered by consumer typechecks and the course graph lifecycle tests; device rendering remains a separate check.
+
+Check that `<Canvas type="2d">` is mounted with positive dimensions and that node queries and `getContext("2d")` use the correct page scope. Reuse the shared lifecycle for DPR, window scaling, frame coalescing and cleanup. Resize the bitmap only when dimensions change: setting width/height each frame clears its pixels and context. Each bitmap dimension is capped at 4096 pixels; check large surfaces after scaling.
+
+Check `PanelUI Canvas drawing paused:` logs and error callbacks. Failures use bounded backoff; frequent updates must respect retry delays. Components with compatibility snapshots retain a frozen SVG while Canvas is unavailable. Verify that same-size data resumes drawing after recovery.
+
+Pause while backgrounded or Portal-occluded, rebind and redraw on recovery, and cancel frames, retries and listeners on unmount. Commit historical and live signature strokes on the same visible Canvas. Check actual compositing for scroll clipping, map marker/popup and overlay stacking; `z-index` alone is insufficient.
+
+### Opacity, gradients or edges differ from SVG
+
+Draw a group offscreen before compositing its opacity; per-shape alpha darkens overlaps. Check coordinate mapping for clips, transforms and non-square gradients. Use numeric pattern matrices rather than a `DOMMatrix` global. Text, arcs and rounded corners may differ between rasterizers. SVG geometry fixtures cannot replace Canvas binding, scheduling, recovery and cleanup tests.
+
+## Demo interactions
+
+These fixes concern demo compositions. Hosts still provide real uploads, recording and message delivery.
+
+| Demo | Remedy |
+| --- | --- |
+| AIInput omits recording controls or loses state on layout changes | Retain discard/confirm controls and recording state; expose model selection separately. |
+| Select search does not work | Pass grouped options to the actual search logic. |
+| FileUpload states cannot be reproduced | Use explicit fixtures for progress, processing, failure, retry, completion and cancellation. |
+| MessageScroller shows the wrong peek height | Calculate the virtual viewport and peek using actual quantized row heights. |
+| Compare reveals the underlying image | Add an opaque backdrop beneath the translucent muted fill. |
+| Post media order is wrong | Keep image-first media compositions and header-first feeds. |
+
+## Camera and verification scope
+
+Camera measures localized labels to position the mode thumb and locks mode selection during recording. Zoom scale and selected stops track actual zoom. The shutter retains its full outer ring and stopped-recording disc, with permission messaging centered between camera controls.
+
+Regression tests live in the library's `test/` directory. Record documentation, automated, Developer Tools and device checks separately. A successful build does not establish device behavior: check fonts/themes, SMS autofill/keyboard, camera/microphone permissions and recording output on target devices. For Canvas, also check continuous updates, scrolling, overlays, background/foreground transitions, edges, memory and frame rate. Claims of eliminated iOS flicker or improved performance require device evidence.

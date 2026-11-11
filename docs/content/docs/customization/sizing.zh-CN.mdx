@@ -1,0 +1,53 @@
+---
+title: "尺寸"
+description: "五档组件尺寸与 750 设计边界。"
+---
+
+控件支持 `xs`、`sm`、`md`、`lg`、`xl`，默认 `md`。
+
+```tsx
+<Button size="sm">Save</Button>
+<Input size="lg" placeholder="Search" />
+<Select size="sm" value={value} onValueChange={setValue} placeholder="Status">
+  <Select.Item value="open" label="Open" />
+</Select>
+<Badge size="xs">Active</Badge>
+<Checkbox size="md" checked={done} onCheckedChange={setDone} label="Done" />
+<Tabs size="lg" defaultValue="day">…</Tabs>
+```
+
+## 选择尺寸
+
+`xs` 用于密集表格与工具栏，`sm` 用于次级控件，`md` 适合大多数表单，`lg` 适合拇指操作，`xl` 用于页面核心操作。
+
+以下为上游逻辑点数，在 Taro 750 边界转换为两倍数值的 rpx；物理大小由宿主视口决定。
+
+| 组件 | `xs` | `sm` | `md` | `lg` | `xl` | 度量 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Button](/zh-CN/docs/components/button) | 28 | 36 | 44 | 48 | 56 | 最小高度 |
+| [Toggle button](/zh-CN/docs/components/toggle-button) | 28 | 36 | 44 | 48 | 56 | 高度 |
+| [Input](/zh-CN/docs/components/input) | 32 | 40 | 48 | 56 | 64 | 高度 |
+| [Textarea](/zh-CN/docs/components/textarea) | 13 | 14 | 16 | 16 | 18 | 字号 |
+| [Select](/zh-CN/docs/components/select) | 13 | 14 | 16 | 18 | 18 | 触发器字号 |
+| [Chip](/zh-CN/docs/components/chip) | 20 | 24 | 28 | 36 | 44 | 高度 |
+| [Badge](/zh-CN/docs/components/badge) | 10 | 11 | 12 | 14 | 16 | 字号 |
+| [Checkbox](/zh-CN/docs/components/checkbox) | 14 | 16 | 20 | 24 | 28 | 方框 |
+| [Radio group](/zh-CN/docs/components/radio-group) | 14 | 16 | 20 | 24 | 28 | 圆点 |
+| [Switch](/zh-CN/docs/components/switch) | 20 | 24 | 28 | 32 | 36 | 轨道高度 |
+| [Tabs](/zh-CN/docs/components/tabs) | 12 | 13 | 14 | 16 | 18 | 标签字号 |
+
+各组件有各自尺度，`sm` Button 与 `sm` Input 不等高。确需对齐时可用该部件支持的 `className` 覆盖。
+
+## 分组与触摸区域
+
+`ButtonGroup`、`ToggleButton.Group`、`RadioGroup`、`Tabs` 可统一设置 size；内部按钮显式 size 优先。
+
+Button、Switch 会扩展触摸区域；不在组内的 xs ToggleButton、xs/sm Tabs、xs Select 也有相应扩展。Checkbox 与 RadioGroup 行高保持 48 逻辑点，尺寸只影响图形和文字。Chip、Input 的触摸范围取决于绘制大小。
+
+紧邻控件的扩展区域可能重叠，小尺寸控件之间应留足间距，并检查真实点击结果。Native 的 Android 父级触摸限制不应直接视为微信端已验收的行为。
+
+## 特殊尺寸与平台边界
+
+BottomSheet 与 Select 的 sheet size 使用 `auto`、`half`、`full`；图表尺寸和 Avatar 等以各自参考页为准。Native 平台控件的系统尺寸规则不能作为微信行为保证。
+
+打开 `/customization/sizing/index`，在目标设备上检查小触摸区域及密集布局。模拟器效果不等于真机验收。

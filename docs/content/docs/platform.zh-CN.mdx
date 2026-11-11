@@ -1,0 +1,45 @@
+---
+title: "平台差异"
+description: "理解 Native 能力在微信端的适配方式。"
+---
+
+## 渲染与动效
+
+组件使用 Taro 宿主、WXSS、CSS 过渡和 JavaScript 动效，不运行 React Native、Expo、Uniwind 或 Reanimated worklet。Provider 支持 `reducedMotion`，宿主负责提供偏好。
+
+## 平台适配
+
+| 能力 | 微信实现 |
+| --- | --- |
+| 图表 | 原生 Canvas 2D 绘制图形并捕获触摸；静态图标、图例色块保留 SVG；JavaScript 驱动动画 |
+| 地图 | 微信原生 map；WGS84 转 GCJ02；组件本身不申请定位权限 |
+| 文件上传 | 调用方提供 `upload`；支持会话文件、相册与相机，不能任意遍历文件系统 |
+| 字体 | HTTPS 字体资源；宿主负责 CORS、域名、授权和 Canvas 兼容性 |
+| 签名与绘图 | 原生 Canvas 与微信图片、文件导出 |
+| ContextMenu | 微信触摸仲裁与宿主适配，RN 键盘及命名无障碍动作不能直接传递 |
+| Liquid Glass / 平台按钮 | 使用 Taro 样式表现，不运行 iOS 原生渲染 |
+| AI 界面 | 展示与交互组件；示例不包含生产 AI 服务或 Studio 后端 |
+
+## 已支持的 Native API
+
+Camera、ImageViewer RTL、断点与章节滚动 hook、骨架交接、Glass 回退、Portal/Scrim 和图表无障碍原语均已移植。公共入口和用法见[升级说明](./upgrading)。微信不运行 iOS 原生材质或 RN worklet；可用 API 以实际包导出和生成的组件参考为准。
+
+## Camera 的微信限制
+
+需要前台相机权限；只在开始录像时请求麦克风权限。拒绝后展示 Open Settings。卸载时停止录像、取消倒计时，同一页只应保留一个原生预览。
+
+照片返回地址、宽高，可选 base64；0–1 质量映射为微信的低／中／高档。0–1 变焦映射到设备上报的 1–maxZoom。录像按调用方时长上限或微信 30 秒上限停止。相册入口只调用传入的处理函数。
+
+微信不能保证 EXIF、静音录像、镜像输出、跳过处理、快门静音、指定镜头、精确视频规格或防抖。请求不支持的能力会通过 `onError` 明确报告；`cameraProps` 支持 resolution、frameSize。原生 view 句柄是 Taro 适配器，不是 Expo 模块。模拟器不能证明手机传感器或麦克风表现。
+
+独立示例包含三种上游 Camera 构图；Platform hooks acceptance 进入 `/showcases/native-sync/index`，检查断点、章节滚动、骨架和 Glass 回退。ImageViewer 的 Right to left 使用本地 SVG，避免网络图片影响验收。
+
+## 地图投影与绘图导出
+
+Map 在设备上使用原生投影 API。开发者工具未返回 `Map.toScreenLocation` 时使用 Mercator 回退，仅支持零旋转与零倾斜。每层最多投影 2,048 个坐标，并发数为 6；失败或过期批次结束后才开始下一批。
+
+Sketch 的 PNG 导出包含当前可见笔画，SVG 导出包含已提交图形。透明 PNG 不含背景；实时橡皮预览使用表面颜色，提交后使用透明合成擦除。
+
+## 验收
+
+源码清单记录 API 与来源。`pending` 表示尚待验收，类型、构建及渲染测试不能证明全部交互或真机能力。

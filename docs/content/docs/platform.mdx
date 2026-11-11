@@ -1,0 +1,45 @@
+---
+title: "Platform differences"
+description: "Understand the WeChat equivalents of Native capabilities."
+---
+
+## Rendering and motion
+
+Components use Taro hosts, WXSS, CSS transitions and JavaScript motion. They do not run React Native, Expo, Uniwind or Reanimated worklets. The provider accepts `reducedMotion`; the host must supply the preference.
+
+## Platform adapters
+
+| Area | WeChat implementation |
+| --- | --- |
+| Charts | Native Canvas 2D for plot geometry and touch capture; static icons and legend swatches remain SVG; JavaScript-driven animation |
+| Map | Native WeChat map; WGS84 input converts to GCJ02; the component does not request location |
+| FileUpload | Caller supplies `upload`; media comes from session files, photo library or camera; arbitrary filesystem browsing is unavailable |
+| Fonts | HTTPS resources through WeChat font loading; CORS, domain configuration, licensing and Canvas behavior belong to the host |
+| Signature and Sketch | Native Canvas with platform-specific image and file export |
+| ContextMenu | Touch arbitration and host adapters; RN keyboard and named accessibility actions are not WeChat View events |
+| Liquid Glass / platform buttons | Styled Taro surfaces; iOS-native rendering does not run in WeChat |
+| AI UI | Presentation and interaction components; examples do not provide a production AI service or Studio backend |
+
+## Supported Native APIs
+
+Camera and ImageViewer RTL are ported, together with breakpoint and scroll-section hooks, skeleton handoff, Glass fallback, Portal/Scrim and chart-accessibility primitives. See [Upgrading](./upgrading) for public subpaths and usage. Native iOS materials and RN worklets do not run in WeChat. Use the package exports and generated component references as the available API.
+
+## Camera limits
+
+Camera requires foreground device permission. Microphone permission is requested only when recording begins. A permission refusal exposes Open Settings; unmounting stops recording and cancels the self-timer. Only one native camera preview should be active on a page.
+
+Photos expose URI, width and height, with optional base64. WeChat maps the upstream 0–1 quality setting to low/normal/high. Zoom maps the normalized 0–1 range to the device's reported 1–maxZoom range. Recording ends at the app cap or the platform's 30-second limit. `Camera.Library` delegates its action to the supplied handler.
+
+WeChat cannot honor EXIF output, silent/mirrored recording, mirroring guarantees, skipProcessing, shutter-sound control, selected lenses, exact video codecs/quality or stabilization. Unsupported requests fail explicitly through `onError`; `cameraProps` supports resolution and frameSize. The raw view handle is a Taro adapter, not an Expo module. Simulator capture support does not establish sensor or microphone acceptance on a phone.
+
+The isolated Camera page contains Photo and video, Profile photo and Short clip. Its Platform hooks acceptance action opens `/showcases/native-sync/index` for breakpoint, scroll-section, skeleton and Glass fallback checks. ImageViewer includes Right to left, using local SVG images to avoid depending on image-host connectivity.
+
+## Map projection and drawing exports
+
+Map uses the native projection API on devices. If Developer Tools does not return `Map.toScreenLocation`, its Mercator fallback supports zero rotation and tilt. Each layer permits up to 2,048 projected coordinates with concurrency 6; failed or stale batches finish before the next batch starts.
+
+Sketch PNG export includes the visible live stroke; SVG export includes committed shapes. Transparent PNGs omit the background. Live eraser preview uses the surface color; committed erasing uses transparent compositing.
+
+## Acceptance
+
+The source manifest tracks each module’s API and source provenance. A recorded `pending` acceptance status is deliberately visible. Type declarations, passing builds and render tests cannot establish every interaction or physical-device behavior.

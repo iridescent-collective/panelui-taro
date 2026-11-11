@@ -1,0 +1,31 @@
+---
+title: "Icons"
+description: "Existing Native-derived exports with size, stroke and directional behavior."
+---
+
+## Import an icon
+
+```tsx
+import { HeartIcon, ChevronRightIcon } from "panelui-taro/icons";
+
+<HeartIcon size={24} strokeWidth={2} filled />
+<ChevronRightIcon size={24} />
+```
+
+The current icon gallery contains **123 exported names, including aliases**. Filled state is available only where supported. Directional icons can mirror for RTL.
+
+## Try it in WeChat
+
+Open `/customization/icons/index`. Search by exported name, change size and stroke, toggle a supported fill and copy the JSX tag. The gallery includes the four Camera icons. The directional preview uses a custom glyph created through the public factory.
+
+## Add a glyph
+
+`icon()` and `createIcon()` are the same factory. Import a glyph from your own declared dependency; the resulting component accepts the same size, color, stroke, fill and host props as built-in icons. Explicit color wins over provider color, then the default. `flip: true` enables RTL mirroring; `fillable: true` enables the filled toggle.
+
+```tsx
+import ArrowGlyph from "@hugeicons/core-free-icons/ArrowRight01Icon";
+import { icon, type IconDefaults } from "panelui-taro/icons";
+
+const defaults: IconDefaults = { size: 24, color: "#737373", flip: true };
+export const CustomArrowIcon = icon(ArrowGlyph, defaults);
+```

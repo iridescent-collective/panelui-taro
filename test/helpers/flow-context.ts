@@ -1,0 +1,25 @@
+import { vi } from "vitest";
+
+export const createFlowContext = () => ({
+  setTransform: vi.fn(),
+  clearRect: vi.fn(),
+  save: vi.fn(),
+  restore: vi.fn(),
+  translate: vi.fn(),
+  scale: vi.fn(),
+  beginPath: vi.fn(),
+  moveTo: vi.fn(),
+  lineTo: vi.fn(),
+  quadraticCurveTo: vi.fn(),
+  bezierCurveTo: vi.fn(),
+  closePath: vi.fn(),
+  stroke: vi.fn(),
+  fill: vi.fn(),
+  setLineDash: vi.fn(),
+  lineDashOffset: 0,
+  lineWidth: 0,
+  strokeStyle: "",
+  fillStyle: "",
+  lineCap: "round" as const,
+  lineJoin: "round" as const,
+});

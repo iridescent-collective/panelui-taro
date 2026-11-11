@@ -1,0 +1,15 @@
+@keyframes panelui-sectionprogress-list {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.panelui-sectionprogress-list {
+  animation: panelui-sectionprogress-list 160ms linear both;
+}
+
+.panelui-theme .panelui-sectionprogress-item-active {
+  background-color: var(--panel-accent);
+}

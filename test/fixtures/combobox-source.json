@@ -1,0 +1,315 @@
+{
+  "pinned": "b0aec40f8674dbe7f467be377bc3544359711ab0",
+  "submissions": [
+    {
+      "input": {
+        "custom": false,
+        "multiple": false,
+        "query": "red",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "red"
+        },
+        {
+          "kind": "query",
+          "value": "Red"
+        },
+        {
+          "kind": "close"
+        },
+        {
+          "kind": "blur"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": false,
+        "query": " Red ",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "red"
+        },
+        {
+          "kind": "query",
+          "value": "Red"
+        },
+        {
+          "kind": "close"
+        },
+        {
+          "kind": "blur"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": false,
+        "query": "Novel",
+        "selection": "green"
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": false,
+        "query": "Grey",
+        "selection": "green"
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": false,
+        "query": " ",
+        "selection": "green"
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": false,
+        "query": "red",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "red"
+        },
+        {
+          "kind": "query",
+          "value": "Red"
+        },
+        {
+          "kind": "close"
+        },
+        {
+          "kind": "blur"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": false,
+        "query": " Red ",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "red"
+        },
+        {
+          "kind": "query",
+          "value": "Red"
+        },
+        {
+          "kind": "close"
+        },
+        {
+          "kind": "blur"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": false,
+        "query": "Novel",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "Novel"
+        },
+        {
+          "kind": "close"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": false,
+        "query": "Grey",
+        "selection": "green"
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": "Grey"
+        },
+        {
+          "kind": "close"
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": false,
+        "query": " ",
+        "selection": "green"
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": true,
+        "query": "red",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "red"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": true,
+        "query": " Red ",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "red"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": true,
+        "query": "Novel",
+        "selection": ["green"]
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": true,
+        "query": "Grey",
+        "selection": ["green"]
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": false,
+        "multiple": true,
+        "query": " ",
+        "selection": ["green"]
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": true,
+        "query": "red",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "red"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": true,
+        "query": " Red ",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "red"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": true,
+        "query": "Novel",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "Novel"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": true,
+        "query": "Grey",
+        "selection": ["green"]
+      },
+      "output": [
+        {
+          "kind": "commit",
+          "value": ["green", "Grey"]
+        },
+        {
+          "kind": "query",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "input": {
+        "custom": true,
+        "multiple": true,
+        "query": " ",
+        "selection": ["green"]
+      },
+      "output": []
+    }
+  ]
+}

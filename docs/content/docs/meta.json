@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "---Sections---",
+    "index",
+    "[Components](/en/docs/components)",
+    "installation",
+    "example",
+    "platform",
+    "troubleshooting",
+    "upgrading",
+    "---Customization---",
+    "...customization",
+    "---AI (beta)---",
+    "...ai",
+    "---Components---",
+    "...components"
+  ],
+  "title": "Documentation"
+}

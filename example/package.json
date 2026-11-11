@@ -1,0 +1,62 @@
+{
+  "name": "panelui-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:weapp": "bunx --no-install taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp && node scripts/weapp-dist-fixups.mjs && node scripts/verify-build.mjs",
+    "generate:customization": "bun run scripts/generate-customization-icons.mjs && bunx --no-install oxfmt --write src/customization/data/icons.ts",
+    "test": "pnpm --filter panelui-taro test:example",
+    "typecheck": "bunx --no-install tsc --noEmit",
+    "postinstall": "weapp-tw patch",
+    "dev:ai": "node --env-file-if-exists=server/.env.local server/index.mjs",
+    "test:ai-server": "node --test server/*.test.mjs"
+  },
+  "dependencies": {
+    "@babel/runtime": "catalog:panelui-weapp-build",
+    "@hugeicons/core-free-icons": "catalog:panelui-icons",
+    "@tarojs/components": "catalog:panelui-weapp",
+    "@tarojs/helper": "catalog:panelui-weapp",
+    "@tarojs/plugin-framework-react": "catalog:panelui-weapp",
+    "@tarojs/plugin-platform-weapp": "catalog:panelui-weapp",
+    "@tarojs/react": "catalog:panelui-weapp",
+    "@tarojs/runtime": "catalog:panelui-weapp",
+    "@tarojs/shared": "catalog:panelui-weapp",
+    "@tarojs/taro": "catalog:panelui-weapp",
+    "clsx": "catalog:panelui-styles",
+    "lucide-react-taro": "catalog:panelui-weapp-build",
+    "panelui-taro": "workspace:*",
+    "react": "catalog:panelui-react18",
+    "react-dom": "catalog:panelui-react18"
+  },
+  "devDependencies": {
+    "@babel/core": "catalog:panelui-weapp-build",
+    "@babel/plugin-proposal-decorators": "catalog:panelui-weapp-build",
+    "@babel/plugin-transform-class-properties": "catalog:panelui-weapp-build",
+    "@babel/preset-react": "catalog:panelui-weapp-build",
+    "@tailwindcss/postcss": "catalog:panelui-styles",
+    "@tarojs/cli": "catalog:panelui-weapp",
+    "@tarojs/plugin-generator": "catalog:panelui-weapp",
+    "@tarojs/vite-runner": "catalog:panelui-weapp",
+    "@testing-library/dom": "catalog:panelui-testing",
+    "@testing-library/react": "catalog:panelui-testing",
+    "@types/node": "catalog:panelui-tooling",
+    "@types/react": "catalog:panelui-react18",
+    "@vitejs/plugin-react": "catalog:panelui-weapp-build",
+    "babel-preset-taro": "catalog:panelui-weapp",
+    "happy-dom": "catalog:panelui-testing",
+    "oxfmt": "catalog:panelui-tooling",
+    "postcss": "catalog:panelui-weapp-build",
+    "react-refresh": "catalog:panelui-weapp-build",
+    "sass": "catalog:panelui-weapp-build",
+    "tailwindcss": "catalog:panelui-styles",
+    "terser": "catalog:panelui-weapp-build",
+    "typescript": "catalog:panelui-tooling",
+    "vite": "catalog:panelui-weapp-build",
+    "weapp-tailwindcss": "catalog:panelui-weapp-build"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
+}

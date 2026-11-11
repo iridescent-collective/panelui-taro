@@ -1,0 +1,27 @@
+---
+title: "Streaming performance"
+description: "Bound UI update frequency and distinguish automated checks from device measurements."
+---
+
+The connected driver coalesces events into one React update per 50 ms, rather than rendering once per network fragment. Completion, failure and stop flush pending changes immediately. Cleanup clears the pending timer. The deterministic demo retains its separate 100 ms prepared-reply timer.
+
+ChatTurn is memoized. Immutable updates preserve other turn objects; only the last turn receives busy state. Text adjacent in the stream merges into one part, while tool calls retain their original position. Source collection is separate from text rendering.
+
+MessageScroller remains the existing Taro scroll implementation. Native's inverted FlatList, off-screen row recycling and Reanimated UI-thread execution cannot be copied into WeChat by changing component names. Long histories still need device measurements; there is no claim of constant memory or proven frame-rate improvement.
+
+## Bounds and failure behavior
+
+The client limits a response to 1 MiB and an individual event line to 256 KiB. The server bounds requests, provider events, tool arguments, concurrent requests and response size. Truncated UTF-8, malformed events and EOF without a terminal event fail explicitly. Chinese and emoji are decoded across arbitrary chunk boundaries.
+
+## Verification
+
+From the repository root:
+
+```sh
+pnpm test:panelui-example
+pnpm --filter panelui-example test:ai-server
+pnpm --filter panelui-example typecheck
+pnpm build:weapp:panelui
+```
+
+Automated tests cover byte boundaries, buffered fallback, truncation, cancellation, late callbacks and batched updates. The server suite uses a local fake provider, never a billable model. For device acceptance, record a long conversation, continuous streaming, keyboard visibility, user scroll position, stop/retry, overlays, page hide/show and iOS/Android frame behavior separately.

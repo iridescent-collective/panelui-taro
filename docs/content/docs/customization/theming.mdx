@@ -1,0 +1,45 @@
+---
+title: "Theming"
+description: "Built-in families, custom tokens and shared provider/Portal values."
+---
+
+Register definitions before selecting a saved custom theme. A definition extends one of the six built-in themes. Token names and literal color values are validated; radii use Native logical `px` values and convert to twice that value in `rpx` at the WeChat boundary.
+
+```tsx
+import {
+  registerTheme,
+  registerThemeFamily,
+  useTheme,
+} from "panelui-taro/theme";
+
+registerTheme("brand", {
+  extends: "light",
+  tokens: {
+    primary: "#c2410c",
+    "primary-foreground": "#ffffff",
+    "chart-1": "#c2410c",
+    "radius-xl": "18px",
+  },
+});
+registerTheme("brand-dark", {
+  extends: "dark",
+  tokens: { primary: "#fb923c", "chart-1": "#fb923c" },
+});
+registerThemeFamily({
+  id: "brand",
+  name: "Brand",
+  light: "brand",
+  dark: "brand-dark",
+  swatch: ["#c2410c", "#fb923c"],
+});
+```
+
+Call `useTheme().setTheme("brand")` to select it. `useThemeMode()` retains the family when toggling modes; `useThemeFamilies()` includes registered families. `useThemeToken()` and `useThemeTokens()` read the same values used by SVG, canvas adapters, provider WXSS variables and Portals. Updating an existing definition rerenders consumers without a theme-name change. The generated opacity aliases update with their base colors. A standalone theme derives its mode from its built-in base; mode setters retain that theme until a light/dark family is registered. Variants belong to one family so reverse lookup remains unambiguous.
+
+This is the WeChat equivalent of Native's Uniwind theme configuration. Arbitrary host CSS overrides are not read back into JavaScript chart colors. Use the registry for shared token changes; use `className` and `style` for individual parts.
+
+## Built-in themes
+
+Panel, Moon and Grass each provide light and dark variants. The provider, Portals, charts and Canvas adapters resolve tokens from the same registry.
+
+`system` selects the built-in Panel pair. Register custom definitions before restoring a saved custom selection.

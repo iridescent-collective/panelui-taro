@@ -1,0 +1,6402 @@
+{
+  "frames": [
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M81.05,104.8L81.05,94.03636363636363Q81.05,90.03636363636363 85.05,90.03636363636363L89.05,90.03636363636363Q93.05,90.03636363636363 93.05,94.03636363636363L93.05,104.8ZM142.55,104.8L142.55,88.76363636363637Q142.55,84.76363636363637 146.55,84.76363636363637L150.55,84.76363636363637Q154.55,84.76363636363637 154.55,88.76363636363637L154.55,104.8ZM265.55,104.8L265.55,106.3Q265.55,107.8 267.05,107.8L276.05,107.8Q277.55,107.8 277.55,106.3L277.55,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M81.05,104.8L81.05,94.03636363636363Q81.05,90.03636363636363 85.05,90.03636363636363L89.05,90.03636363636363Q93.05,90.03636363636363 93.05,94.03636363636363L93.05,104.8ZM265.55,104.8L265.55,106.3Q265.55,107.8 267.05,107.8L276.05,107.8Q277.55,107.8 277.55,106.3L277.55,104.8Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M142.55,104.8L142.55,88.76363636363637Q142.55,84.76363636363637 146.55,84.76363636363637L150.55,84.76363636363637Q154.55,84.76363636363637 154.55,88.76363636363637L154.55,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M81.05,104.8L81.05,85.6Q81.05,81.6 85.05,81.6L89.05,81.6Q93.05,81.6 93.05,85.6L93.05,104.8ZM142.55,104.8L142.55,62.400000000000006Q142.55,58.400000000000006 146.55,58.400000000000006L150.55,58.400000000000006Q154.55,58.400000000000006 154.55,62.400000000000006L154.55,104.8ZM265.55,104.8L265.55,112.4Q265.55,116.4 269.55,116.4L273.55,116.4Q277.55,116.4 277.55,112.4L277.55,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M81.05,104.8L81.05,85.6Q81.05,81.6 85.05,81.6L89.05,81.6Q93.05,81.6 93.05,85.6L93.05,104.8ZM265.55,104.8L265.55,112.4Q265.55,116.4 269.55,116.4L273.55,116.4Q277.55,116.4 277.55,112.4L277.55,104.8Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M142.55,104.8L142.55,62.400000000000006Q142.55,58.400000000000006 146.55,58.400000000000006L150.55,58.400000000000006Q154.55,58.400000000000006 154.55,62.400000000000006L154.55,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M68.75,97.84L68.75,89.07636363636364Q68.75,85.07636363636364 72.75,85.07636363636364L76.75,85.07636363636364Q80.75,85.07636363636364 80.75,89.07636363636364L80.75,97.84ZM130.25,97.84L130.25,83.80363636363637Q130.25,79.80363636363637 134.25,79.80363636363637L138.25,79.80363636363637Q142.25,79.80363636363637 142.25,83.80363636363637L142.25,97.84ZM253.25,97.84L253.25,99.34Q253.25,100.84 254.75,100.84L263.75,100.84Q265.25,100.84 265.25,99.34L265.25,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M68.75,97.84L68.75,89.07636363636364Q68.75,85.07636363636364 72.75,85.07636363636364L76.75,85.07636363636364Q80.75,85.07636363636364 80.75,89.07636363636364L80.75,97.84ZM253.25,97.84L253.25,99.34Q253.25,100.84 254.75,100.84L263.75,100.84Q265.25,100.84 265.25,99.34L265.25,97.84Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M130.25,97.84L130.25,83.80363636363637Q130.25,79.80363636363637 134.25,79.80363636363637L138.25,79.80363636363637Q142.25,79.80363636363637 142.25,83.80363636363637L142.25,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M68.75,97.84L68.75,80.64Q68.75,76.64 72.75,76.64L76.75,76.64Q80.75,76.64 80.75,80.64L80.75,97.84ZM130.25,97.84L130.25,57.44Q130.25,53.44 134.25,53.44L138.25,53.44Q142.25,53.44 142.25,57.44L142.25,97.84ZM253.25,97.84L253.25,103.44Q253.25,107.44 257.25,107.44L261.25,107.44Q265.25,107.44 265.25,103.44L265.25,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M68.75,97.84L68.75,80.64Q68.75,76.64 72.75,76.64L76.75,76.64Q80.75,76.64 80.75,80.64L80.75,97.84ZM253.25,97.84L253.25,103.44Q253.25,107.44 257.25,107.44L261.25,107.44Q265.25,107.44 265.25,103.44L265.25,97.84Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M130.25,97.84L130.25,57.44Q130.25,53.44 134.25,53.44L138.25,53.44Q142.25,53.44 142.25,57.44L142.25,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,26.5L120.50909090909092,26.5Q124.50909090909092,26.5 124.50909090909092,30.5L124.50909090909092,34.1Q124.50909090909092,38.1 120.50909090909092,38.1L93.2,38.1ZM93.2,55.5L131.6909090909091,55.5Q135.6909090909091,55.5 135.6909090909091,59.5L135.6909090909091,63.099999999999994Q135.6909090909091,67.1 131.6909090909091,67.1L93.2,67.1ZM93.2,113.5L91.7,113.5Q90.2,113.5 90.2,115L90.2,123.6Q90.2,125.1 91.7,125.1L93.2,125.1Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,26.5L120.50909090909092,26.5Q124.50909090909092,26.5 124.50909090909092,30.5L124.50909090909092,34.1Q124.50909090909092,38.1 120.50909090909092,38.1L93.2,38.1ZM93.2,113.5L91.7,113.5Q90.2,113.5 90.2,115L90.2,123.6Q90.2,125.1 91.7,125.1L93.2,125.1Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M93.2,55.5L131.6909090909091,55.5Q135.6909090909091,55.5 135.6909090909091,59.5L135.6909090909091,63.099999999999994Q135.6909090909091,67.1 131.6909090909091,67.1L93.2,67.1Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,26.5L138.4,26.5Q142.4,26.5 142.4,30.5L142.4,34.1Q142.4,38.1 138.4,38.1L93.2,38.1ZM93.2,55.5L187.6,55.5Q191.6,55.5 191.6,59.5L191.6,63.099999999999994Q191.6,67.1 187.6,67.1L93.2,67.1ZM93.2,113.5L72.6,113.5Q68.6,113.5 68.6,117.5L68.6,121.1Q68.6,125.1 72.6,125.1L93.2,125.1Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,26.5L138.4,26.5Q142.4,26.5 142.4,30.5L142.4,34.1Q142.4,38.1 138.4,38.1L93.2,38.1ZM93.2,113.5L72.6,113.5Q68.6,113.5 68.6,117.5L68.6,121.1Q68.6,125.1 72.6,125.1L93.2,125.1Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M93.2,55.5L187.6,55.5Q191.6,55.5 191.6,59.5L191.6,63.099999999999994Q191.6,67.1 187.6,67.1L93.2,67.1Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,20.5L133.2690909090909,20.5Q137.2690909090909,20.5 137.2690909090909,24.5L137.2690909090909,28.5Q137.2690909090909,32.5 133.2690909090909,32.5L107.96000000000001,32.5ZM107.96000000000001,49.5L144.45090909090908,49.5Q148.45090909090908,49.5 148.45090909090908,53.5L148.45090909090908,57.5Q148.45090909090908,61.5 144.45090909090908,61.5L107.96000000000001,61.5ZM107.96000000000001,107.5L106.46000000000001,107.5Q104.96000000000001,107.5 104.96000000000001,109L104.96000000000001,118Q104.96000000000001,119.5 106.46000000000001,119.5L107.96000000000001,119.5Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,20.5L133.2690909090909,20.5Q137.2690909090909,20.5 137.2690909090909,24.5L137.2690909090909,28.5Q137.2690909090909,32.5 133.2690909090909,32.5L107.96000000000001,32.5ZM107.96000000000001,107.5L106.46000000000001,107.5Q104.96000000000001,107.5 104.96000000000001,109L104.96000000000001,118Q104.96000000000001,119.5 106.46000000000001,119.5L107.96000000000001,119.5Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M107.96000000000001,49.5L144.45090909090908,49.5Q148.45090909090908,49.5 148.45090909090908,53.5L148.45090909090908,57.5Q148.45090909090908,61.5 144.45090909090908,61.5L107.96000000000001,61.5Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,20.5L151.16000000000003,20.5Q155.16000000000003,20.5 155.16000000000003,24.5L155.16000000000003,28.5Q155.16000000000003,32.5 151.16000000000003,32.5L107.96000000000001,32.5ZM107.96000000000001,49.5L200.36,49.5Q204.36,49.5 204.36,53.5L204.36,57.5Q204.36,61.5 200.36,61.5L107.96000000000001,61.5ZM107.96000000000001,107.5L89.36,107.5Q85.36,107.5 85.36,111.5L85.36,115.5Q85.36,119.5 89.36,119.5L107.96000000000001,119.5Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,20.5L151.16000000000003,20.5Q155.16000000000003,20.5 155.16000000000003,24.5L155.16000000000003,28.5Q155.16000000000003,32.5 151.16000000000003,32.5L107.96000000000001,32.5ZM107.96000000000001,107.5L89.36,107.5Q85.36,107.5 85.36,111.5L85.36,115.5Q85.36,119.5 89.36,119.5L107.96000000000001,119.5Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [10, 20, null, -5],
+        "baselines": [3, 3, 3, 3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "M107.96000000000001,49.5L200.36,49.5Q204.36,49.5 204.36,53.5L204.36,57.5Q204.36,61.5 200.36,61.5L107.96000000000001,61.5Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [],
+        "baselines": [],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [0],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M210.2,104.8L210.2,98.46545454545455Q210.2,94.46545454545455 214.2,94.46545454545455L218.2,94.46545454545455Q222.2,94.46545454545455 222.2,98.46545454545455L222.2,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M210.2,104.8L210.2,98.46545454545455Q210.2,94.46545454545455 214.2,94.46545454545455L218.2,94.46545454545455Q222.2,94.46545454545455 222.2,98.46545454545455L222.2,104.8Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M210.2,104.8L210.2,92.56Q210.2,88.56 214.2,88.56L218.2,88.56Q222.2,88.56 222.2,92.56L222.2,104.8Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M210.2,104.8L210.2,92.56Q210.2,88.56 214.2,88.56L218.2,88.56Q222.2,88.56 222.2,92.56L222.2,104.8Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M161,97.84L161,93.50545454545454Q161,89.50545454545454 165,89.50545454545454L169,89.50545454545454Q173,89.50545454545454 173,93.50545454545454L173,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M161,97.84L161,93.50545454545454Q161,89.50545454545454 165,89.50545454545454L169,89.50545454545454Q173,89.50545454545454 173,93.50545454545454L173,97.84Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M161,97.84L161,87.6Q161,83.6 165,83.6L169,83.6Q173,83.6 173,87.6L173,97.84Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M161,97.84L161,87.6Q161,83.6 165,83.6L169,83.6Q173,83.6 173,87.6L173,97.84Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": false,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,87.2L111.11636363636363,87.2Q115.11636363636363,87.2 115.11636363636363,91.2L115.11636363636363,95.2Q115.11636363636363,99.2 111.11636363636363,99.2L93.2,99.2Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,87.2L111.11636363636363,87.2Q115.11636363636363,87.2 115.11636363636363,91.2L115.11636363636363,95.2Q115.11636363636363,99.2 111.11636363636363,99.2L93.2,99.2Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,87.2L123.64,87.2Q127.64,87.2 127.64,91.2L127.64,95.2Q127.64,99.2 123.64,99.2L93.2,99.2Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M93.2,87.2L123.64,87.2Q127.64,87.2 127.64,91.2L127.64,95.2Q127.64,99.2 123.64,99.2L93.2,99.2Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": false,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,64L123.87636363636364,64Q127.87636363636364,64 127.87636363636364,68L127.87636363636364,72Q127.87636363636364,76 123.87636363636364,76L107.96000000000001,76Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,64L123.87636363636364,64Q127.87636363636364,64 127.87636363636364,68L127.87636363636364,72Q127.87636363636364,76 123.87636363636364,76L107.96000000000001,76Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 0.35,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,64L136.4,64Q140.4,64 140.4,68L140.4,72Q140.4,76 136.4,76L107.96000000000001,76Z",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": -1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": false
+      },
+      "expected": {
+        "d": "M107.96000000000001,64L136.4,64Q140.4,64 140.4,68L140.4,72Q140.4,76 136.4,76L107.96000000000001,76Z",
+        "opacity": 0.3
+      }
+    },
+    {
+      "input": {
+        "values": [7],
+        "baselines": [3],
+        "plot": {
+          "left": 44,
+          "top": 12,
+          "width": 246,
+          "height": 116
+        },
+        "horizontal": true,
+        "stacked": true,
+        "barGap": 0.2,
+        "barWidth": 12,
+        "stackGap": 2,
+        "radius": 4,
+        "minBarLength": 3,
+        "fadedOpacity": 0.3,
+        "seriesIndex": 1,
+        "seriesCount": 2,
+        "min": -10,
+        "max": 40,
+        "grow": 1,
+        "active": 1,
+        "loading": false,
+        "wantActive": true
+      },
+      "expected": {
+        "d": "",
+        "opacity": 1
+      }
+    }
+  ],
+  "domains": [
+    {
+      "data": [],
+      "keys": [],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "keys": [],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "keys": ["a"],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "keys": ["a"],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "keys": ["a", "b"],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [],
+      "keys": ["a", "b"],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": [],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": [],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": ["a"],
+      "stacked": false,
+      "expected": [0, 22]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": ["a"],
+      "stacked": true,
+      "expected": [0, 22]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": false,
+      "expected": [0, 44]
+    },
+    {
+      "data": [
+        {
+          "a": 10,
+          "b": 20
+        },
+        {
+          "a": 20,
+          "b": 40
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": true,
+      "expected": [0, 66]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": [],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": [],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": ["a"],
+      "stacked": false,
+      "expected": [-11, 0]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": ["a"],
+      "stacked": true,
+      "expected": [-11, 0]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": false,
+      "expected": [-11, 44]
+    },
+    {
+      "data": [
+        {
+          "a": -5,
+          "b": 20
+        },
+        {
+          "a": -10,
+          "b": 40
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": true,
+      "expected": [-11, 44]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": [],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": [],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": ["a"],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": ["a"],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": 0,
+          "b": 0
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": [],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": [],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": ["a"],
+      "stacked": false,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": ["a"],
+      "stacked": true,
+      "expected": [0, 1]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": false,
+      "expected": [0, 7.700000000000001]
+    },
+    {
+      "data": [
+        {
+          "a": null,
+          "b": 7
+        }
+      ],
+      "keys": ["a", "b"],
+      "stacked": true,
+      "expected": [0, 7.700000000000001]
+    }
+  ]
+}

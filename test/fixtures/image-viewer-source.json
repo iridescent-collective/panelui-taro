@@ -1,0 +1,1612 @@
+{
+  "fits": [
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 0,
+        "height": 0
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 343,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 50,
+          "width": 343,
+          "height": 712
+        },
+        "focal": 65,
+        "hit": true,
+        "rubber": 0.742690058479532
+      },
+      "scale": 0.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 0,
+        "height": 0
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 343,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 50,
+          "width": 343,
+          "height": 712
+        },
+        "focal": 55,
+        "hit": true,
+        "rubber": 1
+      },
+      "scale": 1
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 0,
+        "height": 0
+      },
+      "output": {
+        "boundX": 241.25,
+        "cover": {
+          "width": 343,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 50,
+          "width": 343,
+          "height": 712
+        },
+        "focal": 25,
+        "hit": true,
+        "rubber": 2.5
+      },
+      "scale": 2.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 0,
+        "height": 0
+      },
+      "output": {
+        "boundX": 498.5,
+        "cover": {
+          "width": 343,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 50,
+          "width": 343,
+          "height": 712
+        },
+        "focal": -5,
+        "hit": true,
+        "rubber": 4
+      },
+      "scale": 4
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 0,
+        "height": 0
+      },
+      "output": {
+        "boundX": 670,
+        "cover": {
+          "width": 343,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 50,
+          "width": 343,
+          "height": 712
+        },
+        "focal": -25,
+        "hit": true,
+        "rubber": 4.483516483516484
+      },
+      "scale": 5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 1000,
+        "height": 800
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 890,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 268.79999999999995,
+          "width": 343,
+          "height": 274.40000000000003
+        },
+        "focal": 65,
+        "hit": false,
+        "rubber": 0.742690058479532
+      },
+      "scale": 0.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 1000,
+        "height": 800
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 890,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 268.79999999999995,
+          "width": 343,
+          "height": 274.40000000000003
+        },
+        "focal": 55,
+        "hit": true,
+        "rubber": 1
+      },
+      "scale": 1
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 1000,
+        "height": 800
+      },
+      "output": {
+        "boundX": 241.25,
+        "cover": {
+          "width": 890,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 268.79999999999995,
+          "width": 343,
+          "height": 274.40000000000003
+        },
+        "focal": 25,
+        "hit": true,
+        "rubber": 2.5
+      },
+      "scale": 2.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 1000,
+        "height": 800
+      },
+      "output": {
+        "boundX": 498.5,
+        "cover": {
+          "width": 890,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 268.79999999999995,
+          "width": 343,
+          "height": 274.40000000000003
+        },
+        "focal": -5,
+        "hit": true,
+        "rubber": 4
+      },
+      "scale": 4
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 1000,
+        "height": 800
+      },
+      "output": {
+        "boundX": 670,
+        "cover": {
+          "width": 890,
+          "height": 712
+        },
+        "fit": {
+          "x": 16,
+          "y": 268.79999999999995,
+          "width": 343,
+          "height": 274.40000000000003
+        },
+        "focal": -25,
+        "hit": true,
+        "rubber": 4.483516483516484
+      },
+      "scale": 5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 300,
+        "height": 900
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 343,
+          "height": 1029
+        },
+        "fit": {
+          "x": 68.83333333333333,
+          "y": 50,
+          "width": 237.33333333333334,
+          "height": 712
+        },
+        "focal": 65,
+        "hit": true,
+        "rubber": 0.742690058479532
+      },
+      "scale": 0.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 300,
+        "height": 900
+      },
+      "output": {
+        "boundX": 0,
+        "cover": {
+          "width": 343,
+          "height": 1029
+        },
+        "fit": {
+          "x": 68.83333333333333,
+          "y": 50,
+          "width": 237.33333333333334,
+          "height": 712
+        },
+        "focal": 55,
+        "hit": true,
+        "rubber": 1
+      },
+      "scale": 1
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 300,
+        "height": 900
+      },
+      "output": {
+        "boundX": 109.16666666666669,
+        "cover": {
+          "width": 343,
+          "height": 1029
+        },
+        "fit": {
+          "x": 68.83333333333333,
+          "y": 50,
+          "width": 237.33333333333334,
+          "height": 712
+        },
+        "focal": 25,
+        "hit": true,
+        "rubber": 2.5
+      },
+      "scale": 2.5
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 300,
+        "height": 900
+      },
+      "output": {
+        "boundX": 287.1666666666667,
+        "cover": {
+          "width": 343,
+          "height": 1029
+        },
+        "fit": {
+          "x": 68.83333333333333,
+          "y": 50,
+          "width": 237.33333333333334,
+          "height": 712
+        },
+        "focal": -5,
+        "hit": true,
+        "rubber": 4
+      },
+      "scale": 4
+    },
+    {
+      "box": {
+        "x": 16,
+        "y": 50,
+        "width": 343,
+        "height": 712
+      },
+      "image": {
+        "width": 300,
+        "height": 900
+      },
+      "output": {
+        "boundX": 405.83333333333337,
+        "cover": {
+          "width": 343,
+          "height": 1029
+        },
+        "fit": {
+          "x": 68.83333333333333,
+          "y": 50,
+          "width": 237.33333333333334,
+          "height": 712
+        },
+        "focal": -25,
+        "hit": true,
+        "rubber": 4.483516483516484
+      },
+      "scale": 5
+    }
+  ],
+  "frames": [
+    {
+      "input": {
+        "offset": -1600,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -1600,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 3
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -800,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.15000000000000002,
+        "scale": 0.8029556650246306,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": -120,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6859605911330049,
+        "scale": 0.9704433497536946,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 1
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 1,
+        "scale": 1,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 0,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 1,
+        "scale": 1,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 40,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.895320197044335,
+        "scale": 0.9901477832512315,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 0,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 1,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 3,
+        "velocity": -800
+      },
+      "output": {
+        "dismiss": false,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 0,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 1,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 3,
+        "velocity": -100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 0,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 1,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 3,
+        "velocity": 0
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 0,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 1,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 3,
+        "velocity": 100
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 2
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 0,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 1,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 0
+      }
+    },
+    {
+      "input": {
+        "offset": 150,
+        "page": 3,
+        "velocity": 800
+      },
+      "output": {
+        "dismiss": true,
+        "fade": 0.6074507389162562,
+        "scale": 0.9630541871921182,
+        "snap": 2
+      }
+    }
+  ],
+  "pinned": "b0aec40f8674dbe7f467be377bc3544359711ab0"
+}
