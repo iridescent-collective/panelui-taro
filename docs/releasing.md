@@ -17,7 +17,7 @@ In the npm package's Settings → Trusted Publisher, configure:
 | Environment | Leave empty |
 | Allowed action | Allow direct publication with `npm publish` |
 
-No `NPM_TOKEN` or GitHub App is required. Only the publish job has `id-token: write`; it downloads the checked tarball and never checks out source or runs package lifecycle scripts. The build uses `.mise.toml`; the publish job uses the matching Node version and npm 11.21.0. Provenance is disabled because the source repository is private.
+No `NPM_TOKEN` or GitHub App is required. Only the publish job has `id-token: write`; it downloads the checked tarball and never checks out source or runs package lifecycle scripts. The build uses `.mise.toml` and `TZ=Asia/Shanghai` to match the captured local-midnight calendar fixtures; the publish job uses the matching Node version and npm 11.21.0. Provenance is disabled because the source repository is private.
 
 See [npm Trusted Publishing](https://docs.npmjs.com/trusted-publishers/) and [npm trust prerequisites](https://docs.npmjs.com/cli/v11/commands/npm-trust/). npm currently requires a new trust configuration to complete its first successful publication within two days; configure it close to the next release.
 

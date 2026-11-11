@@ -27,7 +27,12 @@ it.each(FIXTURES.results)("matches upstream geometry %#", (example) => {
   const { state, frame, source } = example;
   const bounds = example.bounds as CropBounds;
   expect(baseSize(source, frame.mask)).toEqual(frame.image);
-  expect(present(state, bounds, frame)).toEqual(example.present);
+  expect(present(state, bounds, frame)).toEqual({
+    ...example.present,
+    // Trigonometric rounding varies between macOS and Linux runtimes.
+    x: expect.closeTo(example.present.x, 10),
+    y: expect.closeTo(example.present.y, 10),
+  });
   const settled = settle(state, bounds, frame);
   expect({
     ...settled,

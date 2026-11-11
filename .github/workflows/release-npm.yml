@@ -25,6 +25,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # Calendar source fixtures were captured at Shanghai local midnight.
+      TZ: Asia/Shanghai
     outputs:
       name: ${{ steps.pack.outputs.name }}
       version: ${{ steps.pack.outputs.version }}
