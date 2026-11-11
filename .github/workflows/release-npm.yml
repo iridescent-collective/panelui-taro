@@ -47,6 +47,9 @@ jobs:
               const { data: commit } = await github.rest.repos.getCommit({
                 ...context.repo, ref: `tags/${release.tag_name}`,
               });
+              if (commit.sha !== context.sha) {
+                throw new Error('Release tag moved from the original event SHA');
+              }
               sha = commit.sha;
               if (/^[0-9a-f]{40}$/.test(release.target_commitish) && release.target_commitish !== sha) {
                 throw new Error('Release target SHA differs from tag');

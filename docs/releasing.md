@@ -29,7 +29,7 @@ Open Actions → Publish npm Package → Run workflow. Select the intended branc
 
 Commit the intended version in the root `package.json`; keep its version relationship with the Native source inventory explicit. Version changes remain a separate maintenance decision.
 
-Either publish a GitHub Release with a tag matching `v<package.json version>`, or run the workflow manually at the intended branch/tag with that exact version and **dry_run** disabled. Release events resolve the tag to a full SHA; manual runs use the selected ref's SHA. Stable versions use `latest`; `-canary.N` and `-beta.N` use the corresponding npm channel. Mark prerelease GitHub Releases accordingly.
+Either publish a GitHub Release with a tag matching `v<package.json version>`, or run the workflow manually at the intended branch/tag with that exact version and **dry_run** disabled. Release events resolve the tag to a full SHA and reject tags moved from the original event SHA; manual runs use the selected ref's SHA. Stable versions use `latest`; `-canary.N` and `-beta.N` use the corresponding npm channel. Mark prerelease GitHub Releases accordingly.
 
 The publish job verifies the downloaded archive's SHA-512, checks whether the npm version exists, and publishes the checked file through OIDC. It then verifies the registry version, integrity and channel. Build success and saved artifacts are reported separately from verified npm delivery.
 
